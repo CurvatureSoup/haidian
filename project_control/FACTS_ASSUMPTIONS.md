@@ -7,7 +7,7 @@
 | F-001 | CONFIRMED | 官方仓库为 `open-city-ai/haidian`，默认分支为 `main`。 | GitHub repository metadata | 所有规则同步以官方 main 为准。 | orchestrator | 2026-08-09 |
 | F-002 | CONFIRMED | 项目级自定义 Codex Agent 使用 `.codex/agents/*.toml`，每个文件至少包含 name、description、developer_instructions。 | OpenAI Docs: Subagents | 本项目按正式 schema 建立 Agent。 | qa_worker | 2026-08-09 |
 | F-003 | CONFIRMED | 正式投稿 PR 只允许修改本人 `submissions/<login>/<slug>/`。 | 最新项目 Skill / formal guide | Agent 架构使用独立分支，不能混入未来投稿 PR。 | orchestrator | 2026-08-09 |
-| F-004 | CONFIRMED | 当前阶段仅搭系统，不开始城市设计。 | 用户任务 | 任何规划生产任务保持冻结。 | orchestrator | 2026-08-09 |
+| F-004 | CONFIRMED | 当前阶段已启动 G1 资料、空间与现状数据基线，但不开始城市设计。 | 用户任务 / D-020 | 只允许盘点、来源治理、缺口登记和经人类确认的数据基线工作；`DESIGN-START` 保持冻结。 | orchestrator | 2026-08-10 |
 | A-001 | ASSUMPTION | `AI-Ready, AI-Optional` 是后续方案的候选总原则。 | 用户提供的两篇深度调研 | 进入规划阶段前由总控结合正式证据决定是否冻结。 | evidence_planner | 2026-08-09 |
 | A-002 | ASSUMPTION | 调研中的大规模专业 Agent 清单适合分阶段扩展，而不适合初始化时一次建立。 | 用户调研 + 当前第一批范围 | 第一阶段只保留六个 Agent。 | orchestrator | 2026-08-09 |
 | F-005 | CONFIRMED | librarian、researcher、evidence_planner 和 orchestrator 均完成了指定微型任务与共享文件交接。 | `project_control/smoke/` | 角色行为与总控读取能力已验证。 | orchestrator | 2026-08-09 |
@@ -26,6 +26,9 @@
 | F-018 | CONFIRMED | 最新 validator 拒绝投稿包符号链接；若存在 `simulation.json`，任务数量、聚合指标、可视化声明和基线必须可复算且一致。 | validator / formal guide @ 9051ca77 | 未来确定性 QA 必须执行这些检查；当前 smoke 不含投稿包，不受影响。 | qa_worker | 2026-08-09 |
 | F-019 | CONFIRMED | 在规则复核校验点 `main@f05026c028b2b68700c986f2ff3a29aef75a4bf4`，`9051ca77..f05026c0` 没有非 `submissions/` 路径变化。 | GitHub compare API | 当前规则影响复核以 `9051ca77` 为稳定基线；后续会话仍须重新 fetch 检查。 | librarian | 2026-08-09 |
 | F-020 | CONFIRMED | 在规则复核校验点 `main@1a40a99daba7228aabf81b97e51ab3ddbbe7c911`，相对 `9051ca77` 的顶层 Git tree 唯一变化为 `submissions/`。 | GitHub commits / Git trees API | `9051ca77` 继续作为当前规则基线；无需因其他投稿更新而重跑 smoke 或改写 Agent 规则。 | librarian | 2026-08-10 |
+| F-021 | CONFIRMED | 在 G1 启动校验点 `main@c4765c8baff68794dca212f2f57167769f809efe`，相对 `9051ca77` 的顶层 Git tree 唯一变化仍为 `submissions/`。 | GitHub commits / Git trees API | 不合并纯投稿更新；当前规则基线和 smoke 结论保持不变。 | librarian | 2026-08-10 |
+| F-022 | CONFIRMED | 首轮 G1 仓库内盘点得到：中央 registry 共 6 条记录（5 条 approved+formal yes、1 条 provisional only）；6 个公告面积值可用；6 个 provisional 几何要素元数据齐全；9 类关键资料缺口仍未关闭。 | source registry / planning limits / provisional GeoJSON / missing data checklist | 可以建立缺口和来源计划，但不能据此生成官方边界、项目控规或现状专业结论。 | orchestrator | 2026-08-10 |
+| F-023 | CONFIRMED | Issue #846 仍为 OPEN；维护者最后结论是不修改 `PROV-SITE-001`，不把 OSM 加入中央 registry，继续等待官方 polygon 裁决。 | GitHub Issue #846 / merged background note `5b5e9901` | 使用 provisional 范围开展空间提取前必须由人类选择 G1 工作策略，并保留整体重算义务。 | orchestrator | 2026-08-10 |
 | M-001 | MISSING | 当前子线程接口未暴露可独立核实的运行时模型元数据。 | `project_control/smoke/orchestrator_summary.md` / Codex Subagents 文档 | 配置和行为验证通过；遥测记为 NOT OBSERVABLE，不阻断 G0，也不得声称已取得实际模型审计证据。 | qa_worker | 2026-08-09 |
 | M-002 | MISSING | 项目特定容积率、高度、建筑密度、绿地率、退线、道路红线等正式控规条件未提供。 | planning_limits / missing-data | 不得自行推定；进入专业设计前继续作为缺口。 | evidence_planner | 2026-08-09 |
 | M-003 | MISSING | `建筑工程设计文件编制深度规定（2016年版）` 在标准登记中仍为 `needs_official_file`。 | standards.json | 不能仅凭 URL 当作本地正式专业标准证据。 | evidence_planner | 2026-08-09 |
