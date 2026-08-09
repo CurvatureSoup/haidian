@@ -14,4 +14,8 @@
 | D-010 | 2026-08-09 | 临时边界可支撑内容生成、展示和 intake，但不能支撑正式专业评分、精确面积或法定结论。 | Skill、formal guide、source registry 与 allowed design space 的适用范围一致。 | 把“内容评分不阻断”解释为临时边界可替代官方红线。 | FROZEN | evidence_planner + gis_analyst |
 | D-011 | 2026-08-09 | Agent 配置与行为验收记为 `CONFIG_VALIDATED`，运行时模型审计记为 `NOT OBSERVABLE`，不再阻断 G0。 | 项目配置已加载并完成角色任务；Codex 当前未提供独立模型遥测。 | 声称已取得实际模型证明，或无限重复同一 smoke test。 | FROZEN | orchestrator + qa_worker |
 | D-012 | 2026-08-09 | G0 完成不自动解除 G1 和 `DESIGN-START`。 | 官方精确 polygon、控规条件、现状专业底数和部分标准文件仍缺失；用户只授权 G0。 | 借规则冻结直接开始城市诊断或方案生产。 | FROZEN | human + orchestrator |
-| D-013 | 2026-08-09 | 将操作时核实的官方 `main@9051ca77` 合并到远端 Agent 架构分支，并重新打开 G0 规则复核。 | 用户授权合并与推送；上游相对历史 G0 修改了 10 个非投稿路径。 | 继续把 `d28c1400` 的冻结结论冒充最新规则状态，或借合并启动城市设计。 | FROZEN | human + orchestrator |
+| D-013 | 2026-08-09 | 将官方 `main@9051ca77` 合并到远端 Agent 架构分支并复核 10 个非投稿变化路径。 | 用户授权合并、推送和修正受影响成果。 | 继续把 `d28c1400` 冒充当前规则状态，或借同步启动城市设计。 | FROZEN | human + orchestrator |
+| D-014 | 2026-08-09 | 当前规则基线更新为 `9051ca77`；`d28c1400` 降格为历史审计基线。 | 来源治理、Schema、校验脚本和边界依据发生实质变化；安装 Skill 已同步校验。 | 删除历史记录，或在未复核时声称新规则已冻结。 | FROZEN | orchestrator + qa_worker |
+| D-015 | 2026-08-09 | 中央 registry 与投稿包来源分开治理；OSM 背景核对不改变 provisional 的法律或精度等级。 | data workflow、formal guide、provisional basis 与 Issue #846。 | 强制把全部自采源写中央表，或把 OSM/provisional 任一方升级成官方边界。 | FROZEN | evidence_planner + gis_analyst |
+| D-016 | 2026-08-09 | 投稿包 `model_family` / `model_detail` 只作为参赛者机器可读声明，不改写 Codex Agent TOML，也不充当实际运行模型证据。 | manifest schema、scaffold、validator 与 smoke 遥测限制。 | 用投稿声明字段冒充运行时模型审计。 | FROZEN | orchestrator + qa_worker |
+| D-017 | 2026-08-09 | D-011 仅解除模型遥测对项目 G0 Gate 的阻断，不推翻 D-007“三级实际模型路由未验证”的结论。 | 配置与行为可验收，平台遥测仍不可观察。 | 把 `CONFIG_VALIDATED` 写成实际 Luna/Terra/Sol 已获证明。 | FROZEN | orchestrator |

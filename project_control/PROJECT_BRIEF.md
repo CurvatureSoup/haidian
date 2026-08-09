@@ -2,18 +2,19 @@
 
 ## 当前目标
 
-维护多 Agent 架构并跟随官方规则。G0 曾冻结到 `d28c1400`；架构分支现已合并更新的官方 `main`，因此必须先复核变化后的规则路径，才能建立新的冻结基线。当前仍不开展正式城市设计、不生成投稿方案、不进行大规模数据下载。
+完成 `d28c1400..9051ca77` 新规则路径的影响复核，修正 Agent 职责、SSOT 和 smoke 总控结论。当前仍不开展正式城市设计、不生成投稿方案、不进行大规模数据下载。
 
 ## 项目与仓库
 
 - 官方仓库：`open-city-ai/haidian`
 - 工作 fork：`CurvatureSoup/haidian`
 - Agent 架构分支：`codex/agent-architecture`
-- 历史 G0 冻结基线：官方 `main` commit `d28c14002a77d19221888ffe8ac447876aca3165`
-- 最新上游快照：官方 `main` commit `9051ca77fe1a15657bc3abf0513c402561afae0f`
-- 同步状态：GitHub 远端 `codex/agent-architecture` 已通过合并提交 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 包含该上游快照
-- 规则状态：相对历史 G0 有 10 个非 `submissions/` 路径发生变化，新的 G0 尚未复核冻结
-- 本机 Skill：仅确认与历史 G0 提交一致；与最新上游快照的一致性待复核
+- 历史 G0 基线：官方 `main@d28c14002a77d19221888ffe8ac447876aca3165`
+- 当前规则基线：官方 `main@9051ca77fe1a15657bc3abf0513c402561afae0f`
+- 最新观察：官方 `main@17e8eadaa66b2faef2981282c44008047b510b1d`；`9051ca77..17e8eada` 没有非 `submissions/` 路径变化
+- 远端同步：`codex/agent-architecture` 已通过 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 合并当前规则基线，并通过 `b3d9666ba6ca2e110bbff7ea3295f95cda53afbb` 回写同步状态
+- 本机 Skill：七个文件已与当前规则基线逐一校验一致
+- 本地 Git：HTTPS 仍无法连接 `github.com:443`，工作树尚未补拉远端提交；后续阶段不得从本地旧规则树启动
 - 正式规则入口：`skills/urban-design-ai-submission/SKILL.md`
 
 ## 第一批 Agent
@@ -34,11 +35,13 @@
 - 用户提供的工作原则 `AI-Ready, AI-Optional` 作为后续待总控冻结的项目方法，不是官方事实。
 - 未来正式投稿必须遵守官方 package、证据、几何、版权与 PR 范围要求。
 - 新投稿采用 `proposal_format_version="2"` 与 `bilingual_contract_version="1"`，中英文及所有文字型交付物必须成对一致。
+- 中央 `data/source_registry.json` 只管理共享和统一复核资料；投稿自采源、字体及工具链依赖写入包内 `sources.json` 或版权说明，不得擅自修改中央表。
+- 未来投稿可使用成对的 `model_family` / `model_detail` 进行机器可读模型披露；它们不等于当前 Codex 子代理的运行时模型证据。
 - 临时边界不阻断内容评分，但不得作为官方红线、精确面积、法定判断或正式专业评分依据。
 
 ## G0 冻结条件
 
-1. 当前分支与安装 Skill 指向同一官方提交。
+1. 远端架构分支与安装 Skill 指向同一规则快照；本地工作树在进入下一阶段前完成 fetch。
 2. 必读规则、9 个 JSON Schema、数据准入规则和关键验证脚本均有固定 Git blob 基线。
 3. 已知资料缺口、用途边界和计分口径写入 SSOT。
 4. 总控确认 G0 是否可冻结以及后续仍被阻断的阶段。
@@ -46,8 +49,9 @@
 
 ## 当前验证结论
 
-- 历史 G0 规则树在 `d28c1400` 的复核结论仍作为审计记录保留，但不代表最新上游状态。
-- 最新上游已修改 formal guide、Skill 参考、Schema、数据工作流和校验脚本等非投稿路径；新 G0 状态为 `BLOCKED`，等待独立规则复核。
-- 六个 Agent 配置可解析，微型任务的行为边界与文件交接通过；运行时模型遥测为 `NOT OBSERVABLE`，不得冒充实际模型证据，但不再阻断 G0。
+- `d28c1400..9051ca77` 的 10 个非投稿路径已完成影响复核：来源登记职责、模型披露、仿真一致性、符号链接拒绝和 provisional 背景核对均已回写；gallery 自动维护与生成快照不影响 Agent 架构。
+- OSM 背景核对暴露了 provisional 总体范围的不确定性，但不能证明临时范围错误，也不能把 OSM 升级为官方边界；仍等待官方 polygon 裁决。
+- 六个 Agent 配置可解析，三项 smoke 原始产物结论仍有效；项目配置验收为 `CONFIG_VALIDATED`，运行时模型审计为 `NOT OBSERVABLE`，不得声称三级实际模型路由通过。
+- 当前规则影响复核为 `PASS`；本地 Git 同步仍为 `BLOCKED`，因此 G1 与任何规划生产继续冻结。
 - 官方精确范围 polygon、项目控规指标、现状专业底数和一份需官方文件补齐的设计深度标准仍缺失。
 - `DESIGN-START` 与 G1 资料/空间基线阶段仍保持 `BLOCKED`，需要人类另行授权。

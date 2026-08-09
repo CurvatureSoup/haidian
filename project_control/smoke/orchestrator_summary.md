@@ -2,7 +2,8 @@
 
 - task_id: `SMOKE-ORCH`
 - producer_agent: `orchestrator`
-- upstream_sync: `PASS` — GitHub 远端 `codex/agent-architecture` 已通过 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 合并操作时核实的官方 `main@9051ca77fe1a15657bc3abf0513c402561afae0f`。本 smoke 产物仍是历史 G0 快照；涉及变更规则的 L3 结论在新 G0 复核前不得作为最新验收结果。
+- upstream_sync: `PASS` — GitHub 远端 `codex/agent-architecture` 已通过 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 合并当前规则基线 `main@9051ca77fe1a15657bc3abf0513c402561afae0f`。
+- rule_postcheck: `PASS` — 已后置复核 `d28c1400..9051ca77` 的 10 个非投稿变化路径。L1/L2 输入未变；L3 的 provisional 判断未被新规则推翻，因此保留三份原始运行产物，不把它们改写成当时已在新基线上执行。
 - scope: 仅执行 `SMOKE-L1`、`SMOKE-L2`、`SMOKE-L3`；未启动城市设计、正式研究或外部检索。
 
 | Task | Agent | Configured model | Independently verifiable runtime model | Artifact | Artifact result | Route status | Limitation |
@@ -13,8 +14,8 @@
 
 ## 总控结论
 
-三个角色均完成了限定的微型产物，文件交接与行为边界通过。实际运行模型均无可验证证据，因此不得声称 Luna / Terra / Sol 三级路由已通过；总体状态为 `BLOCKED`，仅阻塞于运行时模型元数据不可见。
+三个角色均完成了限定的微型产物，文件交接与行为边界通过。当前项目配置状态为 `CONFIG_VALIDATED`；实际运行模型仍无可验证证据，模型路由审计状态为 `BLOCKED / NOT OBSERVABLE`，不得声称 Luna / Terra / Sol 三级实际模型已获证明。按 D-011/D-017，这一遥测限制不再阻断 G0，但也没有被“通过”。
 
 ## 后续条件
 
-在 Codex UI 或运行日志可显示每个子代理的实际模型标识后，可复跑相同三项 smoke task 并更新本文件。无需，也不得为此启动城市设计或新增研究。
+在 Codex UI 或运行日志可显示每个子代理的实际模型标识后，可复跑相同三项 smoke task 并更新本文件。未来正式投稿还须在 `manifest.json`/`agent.json` 中成对填写 `model_family` 与 `model_detail` 并替换 scaffold 占位符；这类参赛者声明不替代运行时遥测。无需，也不得为此启动城市设计或新增研究。
