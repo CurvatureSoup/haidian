@@ -19,3 +19,5 @@
 | D-015 | 2026-08-09 | 中央 registry 与投稿包来源分开治理；OSM 背景核对不改变 provisional 的法律或精度等级。 | data workflow、formal guide、provisional basis 与 Issue #846。 | 强制把全部自采源写中央表，或把 OSM/provisional 任一方升级成官方边界。 | FROZEN | evidence_planner + gis_analyst |
 | D-016 | 2026-08-09 | 投稿包 `model_family` / `model_detail` 只作为参赛者机器可读声明，不改写 Codex Agent TOML，也不充当实际运行模型证据。 | manifest schema、scaffold、validator 与 smoke 遥测限制。 | 用投稿声明字段冒充运行时模型审计。 | FROZEN | orchestrator + qa_worker |
 | D-017 | 2026-08-09 | D-011 仅解除模型遥测对项目 G0 Gate 的阻断，不推翻 D-007“三级实际模型路由未验证”的结论。 | 配置与行为可验收，平台遥测仍不可观察。 | 把 `CONFIG_VALIDATED` 写成实际 Luna/Terra/Sol 已获证明。 | FROZEN | orchestrator |
+| D-018 | 2026-08-10 | 本地 Agent 架构分支完成安全快进；最新官方校验点为 `main@1a40a99d`，当前规则基线继续保持 `9051ca77`。 | 本地与远端 HEAD 已核对；`9051ca77..1a40a99d` 顶层 Git tree 唯一变化为 `submissions/`。 | 为追逐其他投稿提交而改写规则基线、重跑 smoke 或批量物化投稿媒体。 | FROZEN | human + orchestrator |
+| D-019 | 2026-08-10 | 完成同步与校验点登记后暂不进入 G1，`DESIGN-START` 继续保持阻断。 | 用户明确授权只执行本地同步与规则校验点更新，并明确暂不进入 G1。 | 把 Git 同步完成解释为资料研究或规划生产授权。 | FROZEN | human + orchestrator |

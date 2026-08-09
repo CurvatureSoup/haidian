@@ -25,8 +25,9 @@
 | F-017 | CONFIRMED | 投稿包 `manifest.json`/`agent.json` 可选使用成对的 `model_family` 和 `model_detail`；占位符或只填一项会校验失败，旧包两项均缺省仍兼容。 | manifest schema / scaffold / validator @ 9051ca77 | 这是参赛者声明字段，不是 `.codex/agents/*.toml` 字段，也不是运行时模型遥测。 | qa_worker | 2026-08-09 |
 | F-018 | CONFIRMED | 最新 validator 拒绝投稿包符号链接；若存在 `simulation.json`，任务数量、聚合指标、可视化声明和基线必须可复算且一致。 | validator / formal guide @ 9051ca77 | 未来确定性 QA 必须执行这些检查；当前 smoke 不含投稿包，不受影响。 | qa_worker | 2026-08-09 |
 | F-019 | CONFIRMED | 在规则复核校验点 `main@f05026c028b2b68700c986f2ff3a29aef75a4bf4`，`9051ca77..f05026c0` 没有非 `submissions/` 路径变化。 | GitHub compare API | 当前规则影响复核以 `9051ca77` 为稳定基线；后续会话仍须重新 fetch 检查。 | librarian | 2026-08-09 |
+| F-020 | CONFIRMED | 在规则复核校验点 `main@1a40a99daba7228aabf81b97e51ab3ddbbe7c911`，相对 `9051ca77` 的顶层 Git tree 唯一变化为 `submissions/`。 | GitHub commits / Git trees API | `9051ca77` 继续作为当前规则基线；无需因其他投稿更新而重跑 smoke 或改写 Agent 规则。 | librarian | 2026-08-10 |
 | M-001 | MISSING | 当前子线程接口未暴露可独立核实的运行时模型元数据。 | `project_control/smoke/orchestrator_summary.md` / Codex Subagents 文档 | 配置和行为验证通过；遥测记为 NOT OBSERVABLE，不阻断 G0，也不得声称已取得实际模型审计证据。 | qa_worker | 2026-08-09 |
 | M-002 | MISSING | 项目特定容积率、高度、建筑密度、绿地率、退线、道路红线等正式控规条件未提供。 | planning_limits / missing-data | 不得自行推定；进入专业设计前继续作为缺口。 | evidence_planner | 2026-08-09 |
 | M-003 | MISSING | `建筑工程设计文件编制深度规定（2016年版）` 在标准登记中仍为 `needs_official_file`。 | standards.json | 不能仅凭 URL 当作本地正式专业标准证据。 | evidence_planner | 2026-08-09 |
 | M-004 | MISSING | 现状地块、建筑、交通、市政、公服、文保和权属等专业底数尚未补齐。 | `brief/site-package/missing-data.md` | G1 数据基线不得自动判定完成。 | orchestrator | 2026-08-09 |
-| M-005 | MISSING | 本机 Git HTTPS 当前无法连接 `github.com:443`，本地对象库尚未补拉远端合并后的上游历史。 | `git fetch` / GitHub commits API | 网络恢复后先 fetch 并核对本地与远端 SHA；在此之前不从本地旧规则树开展后续阶段。 | librarian | 2026-08-09 |
+| M-005 | CONFIRMED | 2026-08-09 记录的 Git HTTPS 阻断已解除；本地 `codex/agent-architecture` 已安全快进至远端 `de301b91a8e9a33701d64d7a7679f66648d23c5a`，同步前 10 个本地修改文件与该远端提交逐一同哈希。 | `git fetch --filter` / `git merge --ff-only` / GitHub contents API | 本地旧历史不再阻断后续工作；用户仍明确暂不进入 G1。 | orchestrator | 2026-08-10 |

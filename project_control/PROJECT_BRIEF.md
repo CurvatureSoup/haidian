@@ -2,7 +2,7 @@
 
 ## 当前目标
 
-完成 `d28c1400..9051ca77` 新规则路径的影响复核，修正 Agent 职责、SSOT 和 smoke 总控结论。当前仍不开展正式城市设计、不生成投稿方案、不进行大规模数据下载。
+完成 `d28c1400..9051ca77` 新规则路径的影响复核、本地与远端 Agent 架构同步及最新规则校验点登记。当前仍不进入 G1，不开展正式城市设计、不生成投稿方案、不进行大规模数据下载。
 
 ## 项目与仓库
 
@@ -11,10 +11,10 @@
 - Agent 架构分支：`codex/agent-architecture`
 - 历史 G0 基线：官方 `main@d28c14002a77d19221888ffe8ac447876aca3165`
 - 当前规则基线：官方 `main@9051ca77fe1a15657bc3abf0513c402561afae0f`
-- 规则复核校验点：官方 `main@f05026c028b2b68700c986f2ff3a29aef75a4bf4`；`9051ca77..f05026c0` 没有非 `submissions/` 路径变化
-- 远端同步：`codex/agent-architecture` 已通过 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 合并当前规则基线，并通过 `b3d9666ba6ca2e110bbff7ea3295f95cda53afbb` 回写同步状态
+- 规则复核校验点：官方 `main@1a40a99daba7228aabf81b97e51ab3ddbbe7c911`；相对当前规则基线，顶层 Git tree 唯一变化为 `submissions/`
+- 远端同步：`codex/agent-architecture` 已通过 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 合并当前规则基线，并在 `de301b91a8e9a33701d64d7a7679f66648d23c5a` 完成规则后置复核记录
 - 本机 Skill：七个文件已与当前规则基线逐一校验一致
-- 本地 Git：HTTPS 仍无法连接 `github.com:443`，工作树尚未补拉远端提交；后续阶段不得从本地旧规则树启动
+- 本地 Git：已于 2026-08-10 使用 blobless sparse fetch 安全快进至远端 `de301b91`；工作树与远端一致，旧规则树阻断已解除
 - 正式规则入口：`skills/urban-design-ai-submission/SKILL.md`
 
 ## 第一批 Agent
@@ -41,7 +41,7 @@
 
 ## G0 冻结条件
 
-1. 远端架构分支与安装 Skill 指向同一规则快照；本地工作树在进入下一阶段前完成 fetch。
+1. 远端架构分支、安装 Skill 与本地工作树指向同一规则快照；后续 return pass 仍须先执行轻量更新检查。
 2. 必读规则、9 个 JSON Schema、数据准入规则和关键验证脚本均有固定 Git blob 基线。
 3. 已知资料缺口、用途边界和计分口径写入 SSOT。
 4. 总控确认 G0 是否可冻结以及后续仍被阻断的阶段。
@@ -52,6 +52,6 @@
 - `d28c1400..9051ca77` 的 10 个非投稿路径已完成影响复核：来源登记职责、模型披露、仿真一致性、符号链接拒绝和 provisional 背景核对均已回写；gallery 自动维护与生成快照不影响 Agent 架构。
 - OSM 背景核对暴露了 provisional 总体范围的不确定性，但不能证明临时范围错误，也不能把 OSM 升级为官方边界；仍等待官方 polygon 裁决。
 - 六个 Agent 配置可解析，三项 smoke 原始产物结论仍有效；项目配置验收为 `CONFIG_VALIDATED`，运行时模型审计为 `NOT OBSERVABLE`，不得声称三级实际模型路由通过。
-- 当前规则影响复核为 `PASS`；本地 Git 同步仍为 `BLOCKED`，因此 G1 与任何规划生产继续冻结。
+- 当前规则影响复核与本地 Git 同步均为 `PASS`；用户明确暂不进入 G1，任何规划生产继续冻结。
 - 官方精确范围 polygon、项目控规指标、现状专业底数和一份需官方文件补齐的设计深度标准仍缺失。
 - `DESIGN-START` 与 G1 资料/空间基线阶段仍保持 `BLOCKED`，需要人类另行授权。
