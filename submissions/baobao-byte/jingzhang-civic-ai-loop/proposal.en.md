@@ -4,45 +4,51 @@ author_github: "baobao-byte"
 language: "en"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "A public-interest proving ground where urban AI must earn trust before it scales."
+summary: "Start with a reversible First Hundred Metres acceptance segment, then scale urban AI only through public choice, human takeover, appeal and replay."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-version: "2.1"
-iteration: 11
+version: "2.4"
+iteration: 13
+proposal_format_version: "2"
 ---
 
 # Jing-Zhang Civic AI Loop: An Open Belt for Verifiable Urban Agents
 
-v2.2 evidence-consistent review status. Package-level checks have passed, while all spatial figures still use repository provisional geometry with low aggregate confidence. They support conceptual review only—not official redlines, statutory controls, property, engineering, or precise-area claims. Official geometry must trigger coordinated recalculation.
+v2.4 review-restructured edition. It leads with one walkable, stoppable and replayable spatial prototype before the whole-belt system. Spatial figures still use repository provisional geometry with low aggregate confidence; they are not official redlines, statutory controls or precise-area claims. Asset rights and generation lineage are in `report/copyright_statement.md`; version differences are in `changelog.md`.
 
 Motto: Every urban intelligence must withstand public scrutiny.
 
 ![Civic AI Loop concept mark](assets/figures/civic-loop-logo.en.svg)
 
-## Executive brief: a public acceptance line, not another “AI park”
-The scarce asset is not another closed compute room but a walkable public infrastructure where residents, researchers, firms, operators and regulators can decide whether an urban intelligence deserves to enter the city. Zhongzhiyuan tests the stack and safety; the AI Origin Community turns research prototypes into participatory neighbourhood services; Dazhongsi tests public experience and consumer rights. The two wings provide professional support and bounded real-world tasks.
+## Executive brief: build the first hundred metres before promising eleven kilometres
 
-The six Taskbook agents become one delivery contract: 12 scenario cards, three falsifiable pilot protocols, AP0—AP7 action packages, G0—G4 gates, five resource ledgers and a civic-agent receipt. The first 90 days prepare evidence, repair one accessible public chain, establish staffed/paper/phone fallback and run synthetic-data rehearsals. Only P1 may begin after G0—G2 evidence is complete; any unresolved severe safety, rights or data issue stops the trial. Boundaries, title, statutory controls, cost, procurement, real operators and performance baselines remain unknown/pending until lawfully verified.
+The century-old Jing-Zhang corridor does not need another AI showcase. It needs a public place where anyone can decide whether an urban AI deserves to enter the city. The Loop translates railway stations, lines, timetables and hand-offs into four civic rights: entry, human takeover, appeal and exit. Zhongzhiyuan tests safety and the stack; AI Origin Community translates prototypes into public services; Dazhongsi tests everyday and consumer rights; the two wings connect professional support and controlled urban scenarios. [source:AGENT-TASKBOOK] [depth:three_level_scope_framework]
 
-Four machine-readable artefacts make the proposal handover-ready: `visual/assets/delivery-matrix.json`, `pilot-protocols.json`, `civic-agent-receipt.schema.json` and `asset-rights.json`. The included receipt is a synthetic example, not evidence of a live project.
+**The only launch action is the “First Hundred Metres Civic Acceptance Segment” at AI Origin Community.** It is a reversible retrofit to an existing walking chain, not a miniature technology park. The entrance gives equal visibility to ordinary and AI-assisted routes; the middle provides a safe stopping bay, paper task ticket and visible staffed desk; the end provides an independent appeal point, version-status board and Run Receipt. If every model and device is removed, continuous walking, rest, lighting, staffed service and railway interpretation still work. “First Hundred Metres” names the first continuous acceptance unit; its actual length, width, gradient, location and quantities remain subject to official geometry, field audit and professional verification. [depth:detailed_public_space_design] [assumption:A-BOUNDARY-001]
 
-### One line, three stations, one receipt: the Loop's minimum spatial prototype
-
-- One line: the century-old Jing-Zhang railway park becomes a continuous public acceptance line. AI is not an exhibit along it; a bounded trial may enter only after ordinary passage, staffed service and analogue fallback work.
-- Three stations: Zhongzhiyuan proves stack and safety, the AI Origin Community proves open translation, and Dazhongsi proves everyday experience and consumer rights. The two wings supply professional inputs and bounded real-world tasks. Every station makes entry, takeover, appeal and exit spatially visible.
-- One receipt: every urban-AI run records version, evidence, accountable human, worst-group result, appeal, expiry and disposition. Independent review then chooses scale, repair or exit; a hard stop overrides averages and publicity. [source:AGENT-TASKBOOK] [depth:overall_spatial_structure] [metric:machine_readable_contract_count]
-
-Evidence continuation: [metric:receipt_required_field_count]
-
-This “railway line-and-station grammar—public acceptance space—run receipt” is the proposal's original closed loop: space is not a technology container but a civic interface where urban AI can be questioned, refused and retested. Responsibility, budget and data remain pending until statutory inputs are verified [assumption:A-OPERATIONS-001] [assumption:A-DATA-001].
-
-**A continuous public proof walk turns abstract governance into observable acts.** A visitor collects an anonymous task ticket at Zhongzhiyuan, compares the AI route with the ordinary route in the failure theatre, and triggers one staffed takeover. At the AI Origin Community, a wheelchair user, older resident or first-time visitor repeats the same task; the display foregrounds the worst-group result rather than the average. At Dazhongsi, an independent appeal desk reveals the version, accountable human, data expiry and stop status before the visitor records “scale / repair / exit”. The ticket becomes a Run Receipt; its QR code resolves only to a de-identified evidence package. If the ordinary route, staffed desk or appeal entrance fails at any station, the demonstration fails regardless of spectacle. The walk is simultaneously a spatial itinerary, public-learning device and mandatory acceptance script. No duration is pre-set; each segment must be calibrated against verified network evidence and an accessible walk audit. [depth:detailed_public_space_design] [metric:receipt_required_field_count]
-
-|Action along the line|Spatial interface|Evidence left behind|Failure response|
+|A person's five-step journey|Visible spatial element|Evidence left behind|Failure response|
 |---|---|---|---|
-|Zhongzhiyuan: trigger takeover|Dual-route entrance, lay-by, staffed desk|Trigger reason, takeover latency, accountable role|Return to the ordinary route and stop automation|
-|AI Origin: cross-group retest|Continuous accessible surface, quiet waiting point, paper ticket|Worst-group completion, barrier log, minority note|Do not proceed until the issue closes|
-|Dazhongsi: public disposition|Independent appeal desk, version board, exit gate|Scale / repair / exit vote and disposition deadline|Unresolved overdue case automatically pauses|
+|Choose ordinary or AI route|equally visible entrances and continuous accessible surface|choice state and barrier log, without identity|do not open the test if the ordinary route fails|
+|Request one AI-assisted task|paper ticket and low-stimulus waiting point|version, source and completion/refusal|stop for missing sources or severe misinformation|
+|Trigger human takeover|visible staffed desk and safe bay|reason, delay and accountable role|switch the whole service to human operation|
+|Appeal and leave|independent appeal point and exit|case ID, deadline and deletion/disposition state|automatically pause overdue cases|
+|Let a third party replay|de-identified evidence cabinet and status board|replay difference and scale/repair/exit decision|no replay, no scaling|
+
+These five steps compress urban design, AI evaluation and civic rights into one street segment: **space is not a technology container; it is an institutional interface through which the public may refuse technology.** The launch tests only P1, one accessible public task chain. P2 public-service agent evaluation and P3 low-speed delivery remain later protocols and do not compete for launch attention, site or resources. The first 90 days cover source replacement, field audit, non-AI baseline, staffed service and synthetic rehearsal only. Missing evidence at G0–G2 stops progression; a successful demonstration is not deployment approval. [metric:pilot_protocol_count] [metric:decision_gate_count]
+
+### One line, three stations, one receipt: scale from the first hundred metres
+
+- One line: the direction of the Jing-Zhang heritage park is a continuous civic acceptance line, not a new statutory road boundary; ordinary passage comes first.
+- Three stations: Zhongzhiyuan asks whether AI can work safely; AI Origin asks whether ordinary people can use and challenge it; Dazhongsi asks whether it protects rights in daily life and consumption.
+- One receipt: each run records version, evidence, human responsibility, worst-group result, appeal, deadline and disposition. Independent review may only choose scale, repair or exit. [metric:machine_readable_contract_count] [metric:receipt_required_field_count]
+
+A complete visit begins at the first hundred metres: take an anonymous ticket, choose between two routes, deliberately trigger human takeover, inspect version, responsibility, retention and stop status, then vote “scale / repair / exit”. Wheelchair users, older people, caregivers, temporary visitors and developers run the same task. The display foregrounds the worst-performing group and failure cause, never an average that hides a barrier. If the ordinary route, staffed desk or appeal point is unavailable, the run fails. [depth:detailed_public_space_design]
+
+|Scale|Question|Evidence required first|Still unknown|
+|---|---|---|---|
+|First hundred metres|Can one public task be safe, optional, human-takeover-ready and appealable?|field audit, non-AI baseline, staffing and synthetic rehearsal|exact location, quantities, budget and operator|
+|Three stations|Can validation, translation and everyday use form a continuous relay?|independent P1 replay plus official three-area and professional inputs|construction sequence, real performance and procurement|
+|Whole belt|Can the mechanism become open civic infrastructure?|maintenance, exit resources, inter-district protocol and annual public review|statutory adoption, investment commitment and scaled impact|
 
 ## Taskbook at a glance: three positions, five functions, three areas and two wings
 
@@ -68,7 +74,6 @@ Brand system. The concept mark uses twin rails, three nodes and an open gap: con
 ## Evidence and method
 This open co-creation proposal does not replace statutory planning, government approval, engineering design, or accountable human judgment. It relies on the official announcement, Agent Taskbook, public site package, processed fact pack, and source registry [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK] [source:SITE-PACKAGE]. Its method binds evidence, assumptions, design action, metric, responsible role, and exit trigger. Urban agents follow data minimisation, meaningful choice, appeal, human review, version logs, and independent evaluation.
 
-Evidence continuation: [source:PROCESSED-FACT-PACK] [source:SOURCE-REGISTRY]
 
 ![Evidence and concept overview](assets/figures/site-overview.en.png)
 
@@ -107,7 +112,6 @@ These are the three AI pilgrimage landmarks / contribution-and-honour nodes requ
 2. Jing-Zhang Civic Proof Signal Station links Zhongzhiyuan's rough area to the public proving interface [data:geometry/key_areas.geojson#PROV-KEY-001] [data:geometry/public_space.geojson#PUBLIC-001]. Railway signal language connects 1909, open innovation and public AI verification, subject to heritage fact-checking.
 3. Dazhongsi Civic AI Forum sits conceptually within the Dazhongsi rough area. A reversible circular forum provides quiet and accessible positions, a child-height viewpoint and a staffed appeal desk.
 
-Evidence continuation: [data:geometry/key_areas.geojson#PROV-KEY-003]
 
 All three use removable components and must not obstruct heritage fabric, fire access, tactile paths or sightlines. Honour records are limited to verifiable open source, public data, accessibility repair, issue closure and long-term maintenance. No landmark may be built or advertised as delivered before official geometry and professional approvals replace the assumptions.
 
@@ -123,6 +127,8 @@ Three layers overlap without surrendering the public realm: a free, accessible w
 |Commercial street–civic room|Quiet, family and staffed spaces|No profiling price or manipulative design|Consumers, merchants and subdistrict review|
 
 A conceptual 15-minute public-value loop links a verified history point, non-digital service, prototype experience, feedback point and appeal/exit point. Actual accessibility cannot be claimed until official road, slope, crossing and facility data support route-by-route network analysis. Existing buildings pass a retain–adapt–demolish decision tree: verify title and structural safety; retain usable fabric; adapt valuable but underperforming fabric with reversible components; consider removal only through lawful process and demonstrated public benefit.
+
+Land use and building scale therefore begin with a building-by-building “verify—retain—adapt—remove” ledger, not construction quantities inferred from concept colours. Title, structure, fire, heritage, utilities, flood and current tenancy are checked first. Valuable but underperforming fabric receives only reversible partitions, shade, ramps, staffed desks and equipment interfaces; removal enters lawful review only where repair is unsafe and independently tested public benefit supports it. New test pods may not obstruct continuous movement, fire access, blue-green drainage or analogue service, and must be removable with restoration evidence. Current building and land-use layers express conceptual carriers and recalculation logic only—not real floor area, FAR, height, demolition quantity or cost. Official boundaries, statutory controls and building surveys trigger one-version recalculation of metrics, figures, PDFs, HTML and action packages; an untraceable difference blocks G1. [data:geometry/buildings.geojson#BLDG-001] [depth:land_use_and_development_intensity] [metric:land_use_coverage_ratio]
 
 ### Spatial control book: from diagram to auditable section
 Before official survey, title and specialist inputs arrive, every control is labelled either statutory value pending (redlines, FAR, height, setbacks, parking and fire), field measurement pending (clear width, slope, canopy, noise, heat and footfall), or concept performance (continuous, reversible, accessible and recoverable). Every number carries source, date, measurer, scope and replacement trigger.
@@ -185,11 +191,8 @@ Every component carries an Urban Agent Passport: name/version, intended and proh
 ## Metrics and open evaluation
 Baselines, trial values and targets remain separate; unknown values mean “to be measured”, never model-estimated. The performance fields in `metrics.json` intentionally remain unknown until G1 secures a baseline, sample structure, accountable owner and lawful collection: independent-evaluation coverage [metric:independent_ai_evaluation_coverage], public-issue closure [metric:public_issue_closure_rate], appeal median [metric:appeal_resolution_time_hours] and P90, accessible task completion, human handoff success, severe factual error, worst-group gap, robot near-miss rate, non-digital core-service availability, and independently verified component reuse. Unknown is therefore evidence that G1 has not passed, not a missing claim.
 
-Evidence continuation: [metric:appeal_p90_hours] [metric:accessible_task_completion_rate] [metric:human_handoff_success_rate]
 
-Evidence continuation: [metric:severe_factual_error_rate] [metric:worst_group_performance_gap] [metric:robot_near_miss_rate]
 
-Evidence continuation: [metric:non_digital_core_service_availability] [metric:verified_component_reuse_rate]
 
 Each record names denominator, owner, frequency, minimisation, subgroup limit, quality check, publication date and correction route. First-phase decision rules are conservative: accessibility and human channels may not worsen against baseline; one unresolved severe rights/safety error blocks G4; a worsening worst-group gap pauses the feature; failed takeover stops the robot trial; all basic movement, rest and help tasks retain a non-digital route. Every G3 result card states question, scope/date, version, sample and missingness, control, main/subgroup findings, incidents, participant feedback, limits, evaluator signature and decision. Claims must always travel with date, boundary and limitation.
 
@@ -264,13 +267,9 @@ The proposal answers the three positionings, five functions, three areas/two win
 ## Machine evidence register
 The announced corridor and phase-one concept are registered as [metric:announced_overall_design_area_sqm] [metric:phase_1_area_sqm]. Provisional geometry records the site difference, combined key areas, land-use coverage and land-use total [metric:provisional_site_area_difference_ratio]. The spatial baseline records building density, green/public-space area and road centreline length; the operating design records six task personas, three industry test fields and five resource ledgers. Status, units, formulas, source files, confidence and assumptions are controlled by `metrics.json`. Ratio contracts are limited to 0–1: the raw land-use ratio is 1.00000064 because of geometry floating-point precision and is clipped to 1.0, not interpreted as a statutory land balance. Classification and urban-design method are registered under the Land-use Classification Guide and Urban Design Management Measures; neither replaces an official redline or approval.
 
-Evidence continuation: [metric:provisional_key_area_area_sqm] [metric:land_use_coverage_ratio] [metric:land_use_total_area_sqm]
 
-Evidence continuation: [metric:building_density] [metric:green_space_area_sqm] [metric:public_space_area_sqm]
 
-Evidence continuation: [metric:road_centerline_length_m] [metric:persona_count] [metric:industry_test_scenario_count]
 
-Evidence continuation: [metric:resource_ledger_count] [source:LAND-USE-CLASSIFICATION] [source:URBAN-DESIGN-MEASURES]
 
 ## References
 Official announcement; Agent Taskbook; repository source registry; public site package and processed fact pack; local snapshots of the Urban Design Management Measures, Regulatory Detailed Planning Measures and Land-use Classification Guide. See `sources.json`, `standard_matrix.json` and inline source identifiers for traceability.

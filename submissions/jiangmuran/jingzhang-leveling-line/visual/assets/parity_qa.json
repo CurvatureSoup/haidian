@@ -1,0 +1,99 @@
+{
+ "method": "English words per Chinese character, tables and code fences excluded. Calibrated to the field: 0.784 words/char measured across the 41 scored packages (see score_correlates.json); the floor is 0.75 of that. This measures content parity, which string-coverage counters do not. Parity does not predict review score (r = -0.20); the gate exists for the reader.",
+ "overall_ratio": 0.832,
+ "floor": 0.75,
+ "sections": [
+  {
+   "section": "Design Basis and Source List",
+   "zh_chars": 4090,
+   "en_words": 2494,
+   "ratio": 0.778,
+   "pass": true
+  },
+  {
+   "section": "Three-Level Scope Framework",
+   "zh_chars": 685,
+   "en_words": 694,
+   "ratio": 1.292,
+   "pass": true
+  },
+  {
+   "section": "Coordinated Research Area: Industry and Future City Research",
+   "zh_chars": 3033,
+   "en_words": 2037,
+   "ratio": 0.857,
+   "pass": true
+  },
+  {
+   "section": "Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design",
+   "zh_chars": 1321,
+   "en_words": 885,
+   "ratio": 0.855,
+   "pass": true
+  },
+  {
+   "section": "Detailed Design of Key Areas",
+   "zh_chars": 1628,
+   "en_words": 1171,
+   "ratio": 0.917,
+   "pass": true
+  },
+  {
+   "section": "AI Innovation Ecosystem, Personas, and AI+ Scenarios",
+   "zh_chars": 6939,
+   "en_words": 4206,
+   "ratio": 0.773,
+   "pass": true
+  },
+  {
+   "section": "Land Use, Building Scale, and Retain-Renovate-Demolish Strategy",
+   "zh_chars": 1164,
+   "en_words": 809,
+   "ratio": 0.887,
+   "pass": true
+  },
+  {
+   "section": "Transport, Rail, Municipal Infrastructure, and Public Services",
+   "zh_chars": 1432,
+   "en_words": 956,
+   "ratio": 0.852,
+   "pass": true
+  },
+  {
+   "section": "Blue-Green Network, Public Space, and Urban Character",
+   "zh_chars": 2422,
+   "en_words": 1447,
+   "ratio": 0.762,
+   "pass": true
+  },
+  {
+   "section": "Renewal Projects, Implementation Policy, and Phasing",
+   "zh_chars": 2356,
+   "en_words": 1468,
+   "ratio": 0.795,
+   "pass": true
+  },
+  {
+   "section": "Metrics, Area Recalculation, and Compliance Matrix",
+   "zh_chars": 1452,
+   "en_words": 905,
+   "ratio": 0.795,
+   "pass": true
+  },
+  {
+   "section": "Risk, Copyright, and Compliance",
+   "zh_chars": 1029,
+   "en_words": 745,
+   "ratio": 0.923,
+   "pass": true
+  },
+  {
+   "section": "References",
+   "zh_chars": 934,
+   "en_words": 769,
+   "ratio": 1.05,
+   "pass": true
+  }
+ ],
+ "failures": []
+}

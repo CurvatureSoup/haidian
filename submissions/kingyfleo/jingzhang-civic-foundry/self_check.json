@@ -37,11 +37,11 @@
       "message": "面积与长度使用EPSG:4548复算，known指标含公式和来源。"
     },
     {
-      "check_id": "ADOPTION_FRAMEWORK",
+      "check_id": "CONVERSION_FRAMEWORK",
       "result": "pass",
       "severity": "major",
       "target": "proposal.md",
-      "message": "一核一链三区三品五账在正文、图件、网页与图纸中使用同一命名。"
+      "message": "一线三场九室、三处五分钟人本序列和一委托一公共样机一年采用/退出在正文、图件、网页与图纸中使用同一命名。"
     },
     {
       "check_id": "AI_SCENE_COUNT",
@@ -135,11 +135,11 @@
       "message": "采用、复用、信任、收益和运维指标待第一年度采集基线。"
     },
     {
-      "check_id": "ADOPTION_PASSPORT_SCHEMA",
+      "check_id": "CONVERSION_ACCOUNTABILITY_CHAIN_SCHEMA",
       "result": "pass",
       "severity": "major",
-      "target": "visual/assets/civic-adoption-passport.schema.json",
-      "message": "城市采用护照明确五联账本、五道门、空间许可、交付责任、公共底线、采用证据和回滚；合成示例保持concept_only。"
+      "target": "visual/assets/jingzhang-civic-conversion-accountability-chain.schema.json",
+      "message": "京张转化责任链明确五联账本、五道门、空间许可、交付责任、公共底线、采用证据和回滚；合成示例保持concept_only。"
     },
     {
       "check_id": "SPATIAL_ACCESS_CODE",
@@ -175,6 +175,20 @@
       "severity": "major",
       "target": "drawings/",
       "message": "A3与A0均为非空多页PDF并纳入逐页渲染检查。"
+    },
+    {
+      "check_id": "BILINGUAL_CONTRACT",
+      "result": "pass",
+      "severity": "major",
+      "target": "proposal.md",
+      "message": "中英文正文、离线HTML、视觉页、A3/A0与五张含文字图件逐一配对，采用bilingual_contract_version=1。"
+    },
+    {
+      "check_id": "LEGACY_NAME_RESIDUE",
+      "result": "pass",
+      "severity": "major",
+      "target": "submissions/kingyfleo/jingzhang-civic-foundry/",
+      "message": "文本、结构化文件、图件OCR与PDF文本层均未检出旧有护照命名或旧文件路径。"
     }
   ]
 }

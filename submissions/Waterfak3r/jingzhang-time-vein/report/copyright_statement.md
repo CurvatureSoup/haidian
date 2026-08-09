@@ -15,6 +15,7 @@ All submitted text, geometry, diagrams, PDFs, and static HTML assets are generat
 | Visual style (colours, logo concept "two rails into a vein") | Original | Original design; does not reproduce the Jing-Zhang railway logo, corporate marks, or any uncleared marks. |
 | Global case references (Stanford, King's Cross, one-north, Sarona, Yunqi, Silicon Alley) | Public source | Mechanism transfer from public sources; no case images, drawings, or proprietary materials reproduced; usage boundary `background_only` per `sources.json`. |
 | Standard clauses (MOHURD orders, land-use classification guide) | Public regulation | Cited as clause references only; full texts are public regulations. |
+| Generative-AI Interim Measures, Barrier-Free Environment Law | Public regulation | Added per #902/#908 source-registry channel; cited as compliance-baseline anchors only, no clause reproduction. |
 | Fonts used in PDFs | System fonts | Microsoft YaHei / SimHei / SimSun from the local Windows installation; the PDFs embed glyph subsets per reportlab embedding. No redistribution of font files is implied. |
 
 ## Boundaries

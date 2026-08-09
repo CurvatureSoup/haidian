@@ -414,7 +414,7 @@
    "assumptions": [
     "A-CONTROLS-001"
    ],
-   "reason": "已清权资料包中不含经批准的容积率控制指标。",
+   "reason": "已清权资料包中不含经批准的容积率控制指标；本包另行检索取得的带内三宗地块规划条件为逐地块条件，不构成本设计范围的控制值。",
    "required_for_formal_submission": true,
    "needed_from": "经批准的控制性详细规划或正式任务书附件"
   },
@@ -428,7 +428,7 @@
    "assumptions": [
     "A-CONTROLS-001"
    ],
-   "reason": "已清权资料包中不含经批准的建筑高度控制。",
+   "reason": "已清权资料包中不含经批准的建筑高度控制；带内地块规划条件的限高为该地块条件，不覆盖本设计范围。",
    "required_for_formal_submission": true,
    "needed_from": "经批准的高度管控、航空/景观/文保限高条件"
   },
@@ -442,7 +442,7 @@
    "assumptions": [
     "A-CONTROLS-001"
    ],
-   "reason": "已清权资料包中不含经批准的建筑密度控制。",
+   "reason": "已清权资料包中不含经批准的建筑密度控制；带内七宗参照地块中仅四宗的规划条件给出建筑密度。",
    "required_for_formal_submission": true,
    "needed_from": "经批准的控制性详细规划条件"
   },
@@ -456,9 +456,107 @@
    "assumptions": [
     "A-CONTROLS-001"
    ],
-   "reason": "已清权资料包中不含经批准的绿地率控制。",
+   "reason": "已清权资料包中不含经批准的绿地率控制；带内参照地块的绿地率为逐地块下限，不构成本设计范围的控制值。",
    "required_for_formal_submission": true,
    "needed_from": "经批准的控规条件或地方绿地标准"
+  },
+  "reference_plot_conditions_count": {
+   "status": "known",
+   "value": 7,
+   "unit": "count",
+   "source_files": [
+    "visual/assets/plot-conditions.json"
+   ],
+   "formula": "count(plots in visual/assets/plot-conditions.json)",
+   "confidence": "high",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "总体设计范围内已取得建设项目规划条件原件的规划地块数，来自三份规自委海淀分局签发的规划条件（另有东升科技园三期0807-604经检索确认未公开）。"
+  },
+  "reference_plot_far_min": {
+   "status": "known",
+   "value": 2.2,
+   "unit": "far",
+   "source_files": [
+    "visual/assets/plot-conditions.json"
+   ],
+   "formula": "min(plots[].far)",
+   "confidence": "high",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "带内已批地块容积率下界（蓝景丽家HD00-1603-03A）。"
+  },
+  "reference_plot_far_max": {
+   "status": "known",
+   "value": 5.0,
+   "unit": "far",
+   "source_files": [
+    "visual/assets/plot-conditions.json"
+   ],
+   "formula": "max(plots[].far)",
+   "confidence": "high",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "带内已批地块容积率上界（学院路北端A地块，B4商业金融用地）。"
+  },
+  "reference_plot_height_control_max_m": {
+   "status": "known",
+   "value": 80,
+   "unit": "m",
+   "source_files": [
+    "visual/assets/plot-conditions.json"
+   ],
+   "formula": "max(plots[].height_control_m)",
+   "confidence": "high",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "带内已批地块限高上界；学院路北端规划条件正文另有分区细化（A地块中部不高于60米），逐条见随包JSON。"
+  },
+  "reference_plot_density_control_max_pct": {
+   "status": "known",
+   "value": 45,
+   "unit": "percent",
+   "source_files": [
+    "visual/assets/plot-conditions.json"
+   ],
+   "formula": "max(plots[].density_control_pct)",
+   "confidence": "high",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "七宗参照地块中四宗的规划条件给出建筑密度上限，区间≤35%—≤45%；其余三宗原表未列该字段。指标值为四宗上限中的最大者。"
+  },
+  "reference_plot_green_ratio_control_min_pct": {
+   "status": "known",
+   "value": 10,
+   "unit": "percent",
+   "source_files": [
+    "visual/assets/plot-conditions.json"
+   ],
+   "formula": "min(plots[].green_ratio_control_pct)",
+   "confidence": "high",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "带内已批地块绿地率下限的最低值（五塔寺HD00-2002-10，≥10%）；七宗中六宗给出，其值域为≥10%—≥35%，蓝景丽家HD00-1603-03A原表以“/”表示未给出。规划条件明确绿地率为下限。"
+  },
+  "reference_plots_aggregate_far": {
+   "status": "known",
+   "value": 3.562,
+   "unit": "far",
+   "source_files": [
+    "visual/assets/plot-conditions.json"
+   ],
+   "formula": "sum(plots[].above_ground_gfa_sqm) / sum(plots[].site_area_sqm)",
+   "confidence": "high",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "七宗参照地块合计地上建筑规模÷合计用地规模，是这批样本的合计值，不是本带或本设计范围的容积率。"
   }
  }
 }

@@ -7,12 +7,23 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Reading the century-old Jing-Zhang Railway as a city-scale switchyard: memory, living and innovation tracks converge, letting talent, enterprises, data, scenarios and capital enter, switch tracks, get marshalled and depart like trains — forming a verifiable, operable and inheritable AI innovation belt."
 tracks: ["ai-traffic-walkability", "jingzhang-heritage-narrative", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "ai-cultural-guide", "enterprise-service-copilot", "public-safety-operations-review", "ai-health-service-navigation", "robot-delivery-low-speed"]
-iteration: "v0.1"
+iteration: "v0.4"
 ---
 
 # Jing-Zhang Switchyard · THE SWITCHYARD — A City-AI Interchange on a Century-Old Railway
 
 > One hundred years ago, the Jing-Zhang Railway changed the direction of China's railway independence with a herringbone switch. One hundred years later, Haidian hands an 11.4 km² urban corridor to agents and the public for co-design. This proposal reads the entire innovation belt as a **city-scale switchyard**: the city and AI act as trains and dispatchers, completing "switch tracks, marshal, depart" in the three key areas, turning the century-old railway into a public interchange hub between the city and agents. This is an open co-created concept design; all spatial conclusions are expressed as "concept proposals for professional teams to deepen" and do not replace statutory planning. [source:SITE-PACKAGE][source:OFFICIAL-ANNOUNCEMENT][source:AGENT-TASKBOOK]
+
+## One-Page Overview
+
+- Concept: a city-scale switchyard — three tracks (memory / living / innovation) converge, completing "switch tracks, marshal, depart" in the three key areas.
+- Structure: one spine, three plazas, five wings; three-level scope: coordinated research about 43.6 km², overall design about 11.4 km², key areas about 368.4 ha.
+- Metrics (recalculated within the provisional boundary): green ratio `[metric:green_ratio]`, public-space ratio `[metric:public_space_ratio]`, building density `[metric:building_density]`, concept FAR `[metric:floor_area_ratio]`, road ratio `[metric:road_ratio]`.
+- Scenarios: `[metric:scenario_node_count]` AI scenario nodes (including 3 industry test-and-verify scenarios); governance follows "public data, human review, explainability, exit".
+- Phasing: near 1-3 years Origin Community and mid-park demonstration, mid 3-5 years Zhongzhiyuan and the north end, far 5-10 years Dazhongsi and the west side.
+- Data boundary: all spatial conclusions rest on the provisional boundary and will be recalculated per the replacement checklist when official geometry arrives. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK][depth:risk_missing_data]
+- Objective: serves the "global AI industry highland and pilgrimage destination" goal, linking the "three zones and two wings" loop with the "two zones, one belt" and the Beijing-Tianjin-Hebei innovation network (concept).
+- Highlights: overall spatial structure and regional synergy diagram, AI ecosystem map figure, cultural-resource system and narrative, scenario-space-operation mapping, public-space component library, wayfinding and symbol system, and international communication narrative in the corresponding chapters.
 
 ## Design Basis and Source List
 
@@ -27,12 +38,31 @@ The official announcement does not publish a verifiable coordinate-based exact p
 ### Evidence chain and data gaps
 
 - Used: `brief/site-package/geometry/provisional_boundaries.geojson` (provisional polygons of the three-level scope and the three key areas), `data/source_registry.json` (source usability), `brief/site-package/standards/standards.json` and its references.
-- To be supplemented: official exact boundary, regulatory planning conditions (FAR/height/density/green ratio/setback), existing buildings and ownership, and transport/municipal baseline data. Gaps are managed under the `risk_missing_data` depth item; they do not block content scoring, but all precision-sensitive conclusions must be recalculated when official data arrives. [depth:existing_conditions_diagnosis][depth:risk_missing_data][standard:PROJECT-OFFICIAL-ANNOUNCEMENT][standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK][standard:MOHURD-URBAN-DESIGN-MEASURES][standard:MOHURD-CONTROL-DETAILED-PLANNING][standard:MNR-LAND-USE-CLASSIFICATION-GUIDE][standard:MOHURD-ARCH-DESIGN-DEPTH-2016]
+- To be supplemented: official exact boundary, regulatory planning conditions (FAR/height/density/green ratio/setback), existing buildings and ownership, and transport/municipal baseline data. Gaps are managed under the `risk_missing_data` depth item; they do not block content scoring, but all precision-sensitive conclusions must be recalculated when official data arrives.
+- Depth items: [depth:existing_conditions_diagnosis][depth:risk_missing_data]
+- Standard items: [standard:PROJECT-OFFICIAL-ANNOUNCEMENT][standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK][standard:MOHURD-URBAN-DESIGN-MEASURES]
+- Standard items (cont.): [standard:MOHURD-CONTROL-DETAILED-PLANNING][standard:MNR-LAND-USE-CLASSIFICATION-GUIDE][standard:MOHURD-ARCH-DESIGN-DEPTH-2016]
 
 ### Evidence index
 
-- Sources: `[source:SITE-PACKAGE]` `[source:SOURCE-REGISTRY]` `[source:PROCESSED-FACT-PACK]` `[source:BOUNDARY-SOURCE]` `[source:KEY-AREA-SOURCE]` `[source:OFFICIAL-ANNOUNCEMENT]` `[source:AGENT-TASKBOOK]`
-- Data: `[data:geometry/site_boundary.geojson#SITE-001]` `[data:geometry/key_areas.geojson#PROV-KEY-001]` `[data:geometry/land_use.geojson#LU-001]` `[data:geometry/buildings.geojson#BLDG-001]` `[data:geometry/roads.geojson#ROAD-001]` `[data:geometry/green_space.geojson#LU-008]` `[data:geometry/public_space.geojson#LU-010]` `[data:geometry/constraints.geojson#CON-RAIL-001]` `[data:geometry/phasing.geojson#phase_1]`
+| Type | Reference |
+|---|---|
+| Source | `[source:SITE-PACKAGE]` |
+| Source | `[source:SOURCE-REGISTRY]` |
+| Source | `[source:PROCESSED-FACT-PACK]` |
+| Source | `[source:BOUNDARY-SOURCE]` |
+| Source | `[source:KEY-AREA-SOURCE]` |
+| Source | `[source:OFFICIAL-ANNOUNCEMENT]` |
+| Source | `[source:AGENT-TASKBOOK]` |
+| Data | `[data:geometry/site_boundary.geojson#SITE-001]` |
+| Data | `[data:geometry/key_areas.geojson#PROV-KEY-001]` |
+| Data | `[data:geometry/land_use.geojson#LU-001]` |
+| Data | `[data:geometry/buildings.geojson#BLDG-001]` |
+| Data | `[data:geometry/roads.geojson#ROAD-001]` |
+| Data | `[data:geometry/green_space.geojson#LU-008]` |
+| Data | `[data:geometry/public_space.geojson#LU-010]` |
+| Data | `[data:geometry/constraints.geojson#CON-RAIL-001]` |
+| Data | `[data:geometry/phasing.geojson#phase_1]` |
 
 ![Jing-Zhang Switchyard master concept and evidence-chain diagram](assets/figures/site-overview.en.png)
 
@@ -66,6 +96,32 @@ This proposal responds to the three positions with a **three-track system**: the
 
 The five functions map onto marshalling-yard roles: the full-stack AI innovation system = power and locomotive depot (Zhongzhiyuan); the world-class AI innovation ecosystem = marshalling yard and interchange hall (AI Origin Community); the AI+ scenario empowerment paradigm = test track and proving ground (Xiaoyuehe scenario-enabling wing); the intelligent AI-vibrant city = living line and station plazas (Dazhongsi and communities along the line); global AI governance discourse = signal tower and dispatch center (Zhongguancun science-service wing, with governance rules, public protocols and open-source mechanisms as the "dispatch language"). The three zones and two wings form a closed loop: Zhongzhiyuan produces capacity, the Origin Community converges talent, Dazhongsi transforms business formats, the Zhongguancun Wing allocates capital and rules, and the Xiaoyuehe Wing opens scenario testing. [depth:overall_spatial_structure][standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
 
+### Regional innovation synergy (concept)
+
+This proposal treats the belt as a "marshalling segment" of Haidian's AI innovation network: internally, the "three zones and two wings" form a closed loop; externally, a "track-switch" approach connects the Beiwei community, Future Science City, Huairou Science City, Beijing E-Town and the Beijing-Tianjin-Hebei region, strengthening complementary collaboration and avoiding isolated development. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+
+| Partner | Relationship (concept) | Role undertaken by the belt | Spatial/mechanism anchor |
+|---|---|---|---|
+| Beiwei community | Northern innovation-community linkage | Shared talent services and youth-friendly facilities | Slow-traffic connection and mutual recognition of public services between the Origin Community and northern communities (concept) |
+| Future Science City | Frontier technology and engineering collaboration | "Track-switch segment" for technology transfer | Co-built pilot-testing channels between Zhongzhiyuan R&D labs and Future Science City engineering platforms (concept) |
+| Huairou Science City | Large-scale research infrastructure and basic-research collaboration | Compute/data cooperation and concept validation | Affordable-compute mechanism at Zhongzhiyuan interfacing with Huairou Science City data interfaces (concept) |
+| Beijing E-Town | Intelligent manufacturing and vehicle/robot verification collaboration | Open end of the testing ladder | Xiaoyuehe Wing "semi-open testing" progressing to E-Town "full-open validation" (concept) |
+| Beijing-Tianjin-Hebei | Industrial-chain hinterland and scalable scenario replication | Rule, IP and capital export | Zhongguancun Wing uses public protocols/open-source mechanisms as collaboration interfaces; scenario whitelists are replicable (concept) |
+
+> These are conceptual collaboration directions only, involving no specific enterprise lists, investment amounts or policy commitments; concrete collaboration must be deepened by professional teams and relevant parties under official data and statutory procedures.
+
+![Overall spatial structure + regional innovation synergy](assets/figures/regional-synergy.en.png)
+
+> The diagram places the belt-internal "one spine, three plazas, five wings" structure and the five external synergy partners on one page: left is the internal spatial structure, right is the regional synergy relationship (conceptual sketch, not a precise-location map). [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+
+### Comprehensive planning and territorial spatial-planning innovation (concept)
+
+- **Comprehensive planning connotation**: run "industry-space-operation" on three parallel tracks — the industry track handles functions and indicator systems (concept indicators such as AI innovation index, talent density, scenario-node count), the space track handles land use, mobility, blue-green and character (recalculated from geometry layers), and the operation track handles phasing, funding, governance and exit mechanisms (see implementation chapter); the three tracks cross-check each other in the same "marshalling-yard" model. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+- **Industry-space integration**: organize industry elements into space with "marshalling" logic — compute/data/algorithms enter the "locomotive depot" (Zhongzhiyuan), talent/capital/IP enter the "interchange hall" (Origin Community), scenarios/markets enter the "station forecourt" (Dazhongsi), testing/demonstration enter the "test track" (Xiaoyuehe Wing), rules/protocols enter the "signal tower" (Zhongguancun Wing); land use maps one-to-one with industry stages and supporting needs (`[data:geometry/land_use.geojson#LU-001]`).
+- **Territorial spatial-planning innovation**: first, "flexible reservation + phased supply" — reserved land `[metric:land_use_16_area_sqm]` m² accommodates uncertain industrial evolution, with release pace driven by monitored indicators; second, "data-driven dynamic calibration" — all spatial conclusions are anchored by reproducible layers and metrics (EPSG:4548) and recalculated when official geometry/regulatory conditions arrive; third, "renewal-unit and industry-attraction coordination" — the renewal project list is tied to industrial function gaps to avoid supply-demand mismatch; fourth, "three zones two wings + two zones one belt" regional synergy to avoid belt-only thinking.
+
+> These are concept-level research suggestions and do not replace statutory territorial spatial planning, regulatory detailed planning or legal approval; they do not give FAR, building height, specific retain-renovate-rebuild, road redline or engineering-implementation conclusions.
+
 ### Global AI innovation ecosystem cases (5-8)
 
 1. **Stanford Research Park / Silicon Valley**: university-capital-enterprise adjacency with venture capital within walking distance; transferable lesson — place incubators and funds within the talent walking circle, mapped to the AI Origin Community "marshalling yard".
@@ -90,17 +146,54 @@ These experiences are converted into three spatial mechanisms: **walkable innova
 - Applications: wayfinding, event materials, digital interfaces, landmark installations, developer badges; all visual materials must be cleared before use.
 - Communication narrative: the herringbone switch as the story motif — "the place where China's railway first chose its own direction, and the place where city and AI first choose a shared direction".
 
+### Wayfinding, signage and symbol system (concept)
+
+- **Symbol motif**: a unified symbol system of "herringbone switch + three-track colors (deep-space blue / amber gold / teal green) + signal-light language"; the frog dot represents the "agent node", used in maps, wayfinding, digital interfaces and event materials.
+- **Three-level wayfinding**: belt (whole spine, color identity and direction), zone (three plazas and five wings entrances and functions), node (key areas, landmarks and scenario entrances); digital and physical wayfinding are linked, providing bilingual, large-print, voice and braille information.
+- **Expression carriers**: ground paving, info columns, platform installations, public screens, event signs and developer badges share the same motif; all graphics, fonts and imagery must be cleared before use.
+- **Application boundary**: the wayfinding system is a concept direction; specifications, placements and color management are to be deepened by professional teams against site and implementation conditions.
+
+### International communication narrative (concept)
+
+- **One-line motif (EN/ZH)**: "Where China's first railway chose its own direction, the city and AI now choose theirs together." / "中国铁路第一次自主选择方向的地方，也是城市与AI第一次共同选择方向的地方。"
+- **Narrative layers**: global developer narrative (open source, evaluation, reproducible governance protocols) → city public narrative (railway memory, public space, scenario experience) → academic/review narrative (reproducible metrics, evidence chains, concept-advice boundaries).
+- **Communication assets**: the THE SWITCHYARD English brand, SWITCH FEST and ritual events such as the Open-Source Pulse Ring; build a bilingual terminology glossary to prevent brand names and key concepts from distorting in communication.
+- **Attraction and conversion**: use "scenario whitelist + public protocols + reproducible evaluation" as a verifiable invitation to global developers and enterprises (concept), linked with the developer community and event system in the long-term operation chapter.
+
+### Cultural-resource system and narrative (concept)
+
+| Cultural resource (public/cleared materials) | Type | Spatial carrier | Expression carrier | Clearing and review boundary |
+|---|---|---|---|---|
+| Qinghuayuan Station heritage site and the herringbone switch | Jing-Zhang railway history and culture | Qinghuayuan site, Origin Signal Tower | Exhibition, AR guide, ground paving | Heritage and history expert review; imagery/historical materials cleared before use |
+| Jing-Zhang Railway Heritage Park and the century-old line | Jing-Zhang railway history and culture | One-spine greenway, platform installations | Slow-traffic narrative, sound/light installations | Current conditions and heritage scope await official data; not stated as confirmed implementation |
+| Zhongguancun innovation culture (universities/research institutes, entrepreneurial spirit) | Zhongguancun innovation culture | Origin Community, Zhongzhiyuan | Developer community, exhibitions, event narrative | Uses public ethos and narratives; no fictional enterprise stories |
+| AI new culture (open source, evaluation, public protocols) | AI new culture | Signal tower, Open-Source Pulse Ring | Open-source releases, evaluation leaderboards, developer badges | Generated content cites sources; contributor attribution requires authorization |
+
+- Narrative spine: **"century-old railway → Zhongguancun spirit → AI new culture"** — first the railway's independence and urban memory, then Zhongguancun entrepreneurship and openness, and finally open source, evaluation and public protocols in the AI era; it shares one narrative asset with the herringbone-switch motif, three-track colors and wayfinding/symbol system.
+- Expression boundary: the resources above are compilations and translations of public or cleared materials; no fabricated historical records, no fictional enterprise stories, and exhibitions are not stated as confirmed arrangements; specific exhibitions, installations and content are to be deepened by professional teams under heritage, copyright and public-participation procedures. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+
 ### Land-to-space and metrics
 
-The three tracks map to land: the memory track sits on park green `[metric:land_use_1401_area_sqm]` and buffer green `[metric:land_use_1402_area_sqm]`; the living track sits on residential `[metric:land_use_0701_area_sqm]`, community service `[metric:land_use_0702_area_sqm]`, commercial `[metric:land_use_05_area_sqm]` and plaza `[metric:land_use_1403_area_sqm]`; the innovation track sits on R&D `[metric:land_use_0802_area_sqm]`, culture `[metric:land_use_0803_area_sqm]`, education `[metric:land_use_0804_area_sqm]` and reserved `[metric:land_use_16_area_sqm]`.
+| Track | Land use | Area metric |
+|---|---|---|
+| Memory | Park green | `[metric:land_use_1401_area_sqm]` |
+| Memory | Buffer green | `[metric:land_use_1402_area_sqm]` |
+| Living | Residential | `[metric:land_use_0701_area_sqm]` |
+| Living | Community service | `[metric:land_use_0702_area_sqm]` |
+| Living | Commercial | `[metric:land_use_05_area_sqm]` |
+| Living | Plaza | `[metric:land_use_1403_area_sqm]` |
+| Innovation | R&D | `[metric:land_use_0802_area_sqm]` |
+| Innovation | Culture | `[metric:land_use_0803_area_sqm]` |
+| Innovation | Education | `[metric:land_use_0804_area_sqm]` |
+| Innovation | Reserved | `[metric:land_use_16_area_sqm]` |
 
 ## Overall Design Scope: Urban Renewal and Regulatory-Depth Urban Design
 
 ### Spatial structure: "one spine, three plazas, five wings"
 
 - One spine: the innovation spine (`[data:geometry/roads.geojson#ROAD-001]`) connects the three key areas and organizes mixed-use renewal on both sides.
-- Three plazas: Dazhongsi, Wudaokou/AI Origin and Zhongzhiyuan plazas are the public anchors and "interchange halls" of the belt.
-- Five wings: R&D wing (east of the spine), living wing (west), green wing (heritage park belt), culture/education wing (Origin Community) and commercial wing (Dazhongsi).
+- Three plazas: Dazhongsi AI showcase plaza (south), Wudaokou AI Origin plaza (middle) and Zhongzhiyuan Innovation plaza (north), mapped to `[data:geometry/public_space.geojson#PUBLIC-002]`, `[data:geometry/public_space.geojson#PUBLIC-003]` and `[data:geometry/public_space.geojson#PUBLIC-004]`.
+- Five wings: R&D wing (east of the spine), living wing (west), buffer green wing (5th Ring/Qinghe, north), culture/education wing (middle) and commercial service wing (south), mapped to `[data:geometry/land_use.geojson#LU-004]`, `[data:geometry/land_use.geojson#LU-002]`, `[data:geometry/land_use.geojson#LU-009]`, `[data:geometry/land_use.geojson#LU-005]` and `[data:geometry/land_use.geojson#LU-001]`.
 - Urban renewal framework: "retain the memory, renew the fabric, reserve flexibility, build new nodes" — see the renewal project list and phasing plan below. [depth:overall_spatial_structure]
 
 ## Key Area Detailed Design
@@ -153,6 +246,33 @@ The three key areas total `[metric:key_area_count]` areas (area recalculation in
 
 Organize the ecosystem with "marshalling-yard" logic: **arrival** (talent/enterprises enter) — **switch** (technology/scenario/capital matching) — **marshal** (project portfolios and policy tools) — **depart** (products and scenarios land). Relying on the three-zones-two-wings closed loop: Zhongzhiyuan supplies compute and models, the Origin Community supplies talent and capital, Dazhongsi supplies scenarios and markets, the Zhongguancun Wing supplies rules and IP, and the Xiaoyuehe Wing supplies testing and demonstration. [depth:overall_spatial_structure][standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
 
+**AI innovation ecosystem map (concept)**
+
+| Layer | Actors (categories) | Spatial carriers | Mechanisms | Suggested operation-phase metrics |
+|---|---|---|---|---|
+| Foundation | Compute/data/algorithm suppliers | Zhongzhiyuan open labs, affordable-compute nodes | Open evaluation, whitelisted data | Compute utilization, data-compliance rate |
+| Platform | Model enterprises, open-source communities, incubators | Origin Community marshalling yard, Open-Source Pulse Ring | Open-source protocols, developer community, technical committee | Open-source contributions, community activity |
+| Application | Scenario enterprises, public service bodies | Dazhongsi commercial area, Xiaoyuehe test loop, education wing | Scenario openness, whitelist pilots, industry test-and-verify | Live scenario count, success rate, satisfaction |
+| Governance | Public, regulators, operators | Signal tower (Zhongguancun Wing) | Public review, human review, audit trail | Review count, review pass rate, exit rate |
+
+Logic: foundation elements "switch tracks" through the platform layer into the application layer; the governance layer supervises the whole chain with "signal-light" logic (green=public-compliant, yellow=pilot observation, red=exit), matching the marshalling yard's arrival—switch—marshal—depart loop. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+
+![AI innovation ecosystem map](assets/figures/ecosystem-map.en.png)
+
+> The figure and the table above complement each other: left is the four-layer ecosystem structure, right is the "arrival—switch—marshal—depart" loop and the governance-layer signal-light supervision (conceptual sketch). [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+
+**Factor-mechanism quick table (concept)**
+
+| Factor | Mechanism (concept) | Main spatial carrier | Operation phase |
+|---|---|---|---|
+| Land/space | Flexible release of reserved land, renewal units tied to industrial functions | Reserved land `[metric:land_use_16_area_sqm]`, three zones two wings | Phased |
+| Industry | Full-stack innovation + scenario enablement + business conversion loop | Zhongzhiyuan / Origin Community / Dazhongsi | Continuous |
+| Funding | Diversified funding structure, performance-linked, annual budget cap | Zhongguancun Wing capital enablement | From mid phase |
+| Talent | Talent apartments, evening schools, developer community, internship entry | Origin Community, education wing | Near term |
+| Compute | Affordable compute, open evaluation, open labs | Zhongzhiyuan | Near term |
+| Data | Whitelisted data, public/cleared boundary, anonymization | Signal tower, open knowledge base | Continuous |
+| Scenario | Scenario whitelist, pilot-to-scale, industry test-and-verify | Xiaoyuehe test loop, Dazhongsi | Near term |
+
 ### Five user personas
 
 1. **AI developers/entrepreneurs**: need low-cost compute, open data, test venues and investor access; concentrate at the Origin Community and SWITCH FEST.
@@ -196,6 +316,38 @@ Organize the ecosystem with "marshalling-yard" logic: **arrival** (talent/enterp
 > Every scenario follows the six elements of "public or cleared data, explicit privacy boundary, human review, explicit operator, spatial location, risk note"; S6, S7 and S8 are industry test-and-verify scenarios, meeting the requirement of no fewer than 3.
 
 Each card requires: public or cleared data sources, explicit privacy boundary, human review, operator, spatial location and risk note; this proposal plans `[metric:scenario_node_count]` scenario nodes in total (see the visualization page).
+
+**Scenario-space-operation mapping matrix (explicit)**
+
+| Scenario | Spatial location (zone/track) | Carrier type | Suggested operator | Pilot-to-scale path (concept) | Monitoring metrics |
+|---|---|---|---|---|---|
+| S1 | Innovation spine | Slow-traffic corridor + interchange node | Transport operator + street office | Mid-section demo → full-line scale-up | Interchange satisfaction, accessibility compliance |
+| S2 | Qinghuayuan heritage site | Cultural exhibition + AR guide | Heritage operator | Single-point pilot → belt-wide replication | Visits, material-compliance rate |
+| S3 | Origin Community / Zhongguancun Wing | Digital service interface | Zhongguancun Wing operator | Whitelist beta → public launch | Answer accuracy, review pass rate |
+| S4 | Signal tower | Governance review space | Governance committee | Thematic review → routine | Review count, exit rate |
+| S5 | Community service land | Community service center | Health operator | Single-community pilot → 15-minute-circle coverage | Service satisfaction, misleading rate |
+| S6 | Dazhongsi commercial area | Commercial streets + delivery berths | Pilot enterprise + street office | Closed testing → zone-limited operation | Incident rate, delivery success rate |
+| S7 | Zhongzhiyuan | Open lab | Zhongzhiyuan operator | Developer beta → affordable public access | Compute utilization, evaluation pass rate |
+| S8 | Education wing | School/camp space | Education institutions | Partner-school pilot → regional rollout | Content compliance, minor-protection compliance |
+| S9 | Origin Community | Public legal service station | Public legal service body | Public-interest pilot → routine | Not-legal-advice labeling rate |
+| S10 | Park vitality belt | Public installation area | Park operator | Festival pop-up → permanent rotation | Interactions, anonymous-aggregation compliance |
+| S11 | Three-plaza linkage | Event venues + digital platform | Event organizer | SWITCH FEST practice → event templating | Crowd-forecast error, emergency response time |
+| S12 | Signal tower | Open-source knowledge base | Open-source community | Public co-building → continuous maintenance | Factual accuracy, citation coverage |
+
+> The mapping matrix corresponds one-to-one with the scenario cards (S1-S12); spatial locations fall on carriers already defined in the text and geometry layers; operators and monitoring metrics are concept suggestions for professional teams and operators to deepen.
+
+### AI in urban-planning methodology (this proposal's practice and mechanism)
+
+**This proposal's AI planning method (transparent and reproducible)**: the agent translates taskbook constraints into spatial structure, land-use partitioning, layers and metrics with code, then recalculates, self-checks and generates drawings in EPSG:4548 (`[data:geometry/land_use.geojson#LU-001]`, `[metric:site_area_sqm]`); every judgment is anchored by an evidence chain for review.
+
+**City-agent governance protocol (concept)**:
+1. Data grading: use only public / cleared / provisional data; sensitive data stays out of models;
+2. Human review: key decisions (transport, public safety, health, law) are reviewed by professionals; agents do not auto-decide;
+3. Explainability: key outputs include evidence sources and confidence notes, with an appeal channel;
+4. Audit trail: review, pilot and change records are retained per retention rules;
+5. Exit mechanism: non-compliant pilots exit with a public notice. [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK][depth:risk_missing_data]
+
+**AI scenario evaluation metrics (concept)**: each scenario whitelist defines measurable metrics — success rate, false-alarm rate, response time, satisfaction, incident rate and data-compliance rate — as the basis for "scale up when met, exit when missed".
 
 ## Land Use, Building Scale and Retain-Renovate-Rebuild Proposal
 
@@ -241,6 +393,22 @@ With the Jing-Zhang Heritage Park vitality belt as the vertical axis and Qinghe 
 
 The three plazas (Dazhongsi/Wudaokou/Zhongzhiyuan) are public-life anchors; together with the park greenway and community plazas (`[data:geometry/public_space.geojson#LU-010]`), they form a "three-level plazas + one-spine greenway" system. Character: **engineering-drawing aesthetics + digital lightness** — light stone, glass and weathering steel; reversible lightweight structures along the spine; rooftop photovoltaics and public terraces; iconic digital media walls allowed at key-area nodes but entertainment-style and kitsch expressions prohibited. The historic character is anchored by the Qinghuayuan Station heritage site (`[data:geometry/constraints.geojson#CON-HERITAGE-001]`), with new buildings set back in response, forming a recognizable urban character of "engineering-drawing aesthetics + digital lightness".
 
+**Public-space component library (concept)**
+
+| Level | Component | Function | Suggested configuration (concept) | Suggested operator |
+|---|---|---|---|---|
+| A belt | One-spine greenway | North-south slow traffic and scenario display | Continuous accessible cross-section, service station every 500 m | Park operator + street office |
+| A belt | Wayfinding info columns | Bilingual wayfinding, AR entry | Along the whole spine, linked with digital maps | Operator + information department |
+| B zone | Three plazas | Public-life and event anchors | Gatherings, pop-ups, reserved smart-device interfaces | Zone operator |
+| B zone | Community pocket parks | 15-minute living-circle green space | Child/ageing-friendly, tree-pit seating | Street office + community |
+| B zone | Platform installations | Railway-memory display | Cleared materials, reversible installation | Heritage + park operator |
+| C node | Smart benches/info screens | Rest and information services | Anonymous sensing, human alternatives | Zone operator |
+| C node | Accessible ramps and tactile paving | All-age access | Built with the spine slow-traffic system | Transport + street office |
+| C node | Weather shelters and lighting | All-weather public experience | Photovoltaic lighting, engineering-drawing aesthetics | Municipal + operator |
+| C node | Event-space modules | Pop-up/market/performance | Mobile modules, recycled materials | Event organizer |
+
+> The library is graded "belt—zone—node" and assumes reversible, maintainable, cleared materials, serving as a public-space toolbox for later design deepening (concept).
+
 ### AI pilgrimage landmarks (no fewer than 3)
 
 1. **Origin Signal Tower (Qinghuayuan Station heritage site)**: convert the century-old station into a "railway memory + AI origin" dual exhibition, with a programmable public signal lamp on top — publishing open-source dynamics in railway signal language as the developers' "first pilgrimage stop". [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
@@ -248,6 +416,15 @@ The three plazas (Dazhongsi/Wudaokou/Zhongzhiyuan) are public-life anchors; toge
 3. **Switch Monument · Open-Source Pulse Ring (Zhongzhiyuan Innovation Plaza)**: herringbone rails as ground paving; the ring light advances one level with each open dataset release, symbolizing the long-term accumulation of open contributions.
 
 All three landmarks are concept proposals to be deepened after site, heritage and public-participation procedures; they are not stated as confirmed implementation. [depth:overall_spatial_structure]
+
+### Inclusive design checklist (concept)
+
+- Accessibility and ageing-friendly: the spine slow-traffic system is fully accessible; stations and public spaces provide continuous tactile paving, ramps, lower-height services and rest seats; age-friendly facilities enter the 15-minute living-circle checklist.
+- Children- and family-friendly: the park vitality belt provides safe children's routes and family spaces; AI education scenarios (S8) follow minor-protection and guardian-consent rules.
+- Digital divide: every AI scenario keeps human/offline alternatives (human assistance, paper guides, phone services) and never forces agent use; public facilities provide bilingual and large-print information.
+- Young talent: the Origin Community provides talent apartments, evening schools and internship entry points to lower the barrier for young innovators (personas 1/2/3).
+- Vulnerable-group participation: public review sets dedicated channels for elderly, disabled and low-income residents, with accessible review materials; participation data is anonymized.
+- Public-space equity: community-level plazas and green space are provisioned on a 15-minute-living-circle floor, avoiding over-concentration in key areas; `[metric:public_space_ratio]` is the belt-wide recalculated share and will be recomputed when the official boundary arrives. [depth:blue_green_public_space]
 
 ## Renewal Project List, Implementation Policy and Phasing Plan
 
@@ -282,6 +459,34 @@ All three landmarks are concept proposals to be deepened after site, heritage an
 - Open scenario procurement: government and enterprises open tests through "public scenarios + public review".
 - Public participation: annual SWITCH FEST review combined with online agent review; human review retains final decision rights.
 - Funding: urban renewal funds, REITs and developer-community crowdfunding (all stated as concept directions). [depth:renewal_project_list][depth:phasing_implementation]
+
+### Implementation governance structure (concept)
+
+- District-level coordination platform: overall coordination, urban-renewal pilot applications and cross-department linkage (projects P1/P3/P5 and other public/industrial projects).
+- Professional design team: deepening of key-area detailed design, regulatory-planning checks and construction-document depth (to be commissioned after official data arrives).
+- Developer community and open-source organizations: operating the city knowledge base, compute vouchers, evaluation leaderboards and SWITCH FEST (see long-term operation design).
+- Public review committee: reviewing scenario whitelists, public-space proposals and the annual operation report, retaining advisory power; final decisions rest with government bodies or statutory procedures.
+
+### Project delivery matrix and decision gates (concept)
+
+| Project | Lead | Supporting | Funding | Precondition | Decision gate | Success indicator (example) | Exit / adjustment |
+|---|---|---|---|---|---|---|---|
+| P1 Park vitality belt connection | District platform | Street office | Urban renewal fund | Park boundary confirmation | Plan publication + public review pass | Greenway ≥4.5 km, zero slow-traffic gaps | Phased delivery if ownership unresolved |
+| P2 Qinghuayuan heritage exhibition | Heritage authority | Social capital | Heritage activation policy | Heritage scope confirmation | Heritage expert review pass | Annual visits ≥300,000 | Adjust exhibit if approval fails |
+| P3 Wudaokou AI Origin Plaza | District platform | Street office | Urban design guidelines | Property negotiation | Design review pass | Plaza completed and open | Keep flexible if ownership unresolved |
+| P4 Dazhongsi station plaza | Transit operator | Commercial operator | Open scenario procurement | Transit integration plan | Integration plan approved | Plaza and AI experience street open | Delay if integration fails |
+| P5 Zhongzhiyuan open laboratory | Platform company | Enterprises | White land + performance link | Compute and land conditions | Tenancy + performance agreement | ≥20 companies, ≥10 open datasets | Adjust quota if performance missed |
+| P6 Xiaoyuehe test loop | Transport authority | Enterprise alliance | Scenario whitelist | Road and safety conditions | Safety assessment pass | ≥50,000 km test mileage, zero major incidents | Suspend if unsafe |
+| P7 West-side 15-minute living circle | Street office | Community | Gap-filling checklist | Existing baseline | Community council pass | ≥80% gap closure | Batch delivery if baseline missing |
+| P8 Reserved-land flexible development | Platform company | Authorities | Flexible planning mechanism | Industry maturity | Industry assessment + regulatory permit | ≥2 flexible functions delivered | Keep reserve if market immature |
+
+### Monitoring, evaluation and exit mechanism (concept)
+
+- Annual monitoring: publish an annual implementation monitoring report tracking project progress, scenario whitelists, open datasets, public review and budget execution (metrics such as `[metric:scenario_node_count]` scenario nodes and `[metric:building_count]` concept clusters are tracked).
+- Data sources: public ledgers, open-source platform records, event check-ins and third-party evaluations; no sensitive personal data is collected.
+- Decision gates: each project has "start—mid-term—acceptance" gates; any failed gate triggers correction or suspension.
+- Exit mechanism: scenario pilots that miss evaluation standards for two consecutive quarters exit with a public notice; reserved-land functions adjust dynamically with industry maturity.
+- Public oversight: monitoring reports and review results are public and open to questions from the public and developer community. [depth:phasing_implementation][depth:risk_missing_data]
 
 ### Phasing plan
 
@@ -398,6 +603,23 @@ This proposal supports design judgments with reproducible metrics: **spatial ind
 
 `compliance_matrix.json` covers all announcement tasks and the six agent-taskbook tasks; `standard_matrix.json` covers six standards; `design_depth_matrix.json` covers fifteen design-depth items, all marked complete. Each chapter follows the template requirements of design judgment, evidence references and data gaps; see the schemas in `[source:SITE-PACKAGE]` and the rendered `report/proposal.en.html`.
 
+**Task response matrix (quick reference)**
+
+| Task | Response | Main sections | Evidence |
+|---|---|---|---|
+| Announcement 1.3.1-1.3.3 ecosystem/indicator/network | Three-track system, marshalling-yard functions, three-zones-two-wings loop, AI ecosystem map, 32 reproducible metrics | Coordinated research scope / indicators | [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] |
+| Announcement 1.3.1 regional synergy / two-zones-one-belt | Regional synergy table: Beiwei community / Future Science City / Huairou Science City / E-Town / Beijing-Tianjin-Hebei | Coordinated research scope · regional synergy | [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] |
+| Agent task agent.1 comprehensive planning & industry-space integration | Three-track comprehensive planning, industry-space integration, territorial spatial-planning innovation | Coordinated research scope · planning innovation | [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] |
+| Announcement 1.4.1-1.4.3 three-level scope | Coordinated research—overall design—key areas "marshalling" framework | Three-Level Scope Framework | [depth:three_level_scope_framework] |
+| Announcement 1.5.1.1-1.5.1.2 future city form | Memory/living/innovation tracks and AI scenarios | Coordinated research / AI+ scenarios | [depth:overall_spatial_structure] |
+| Announcement 1.5.2.1-1.5.2.5 overall design | One spine, three plazas, five wings; land use, mobility, blue-green, character, retain-renovate-rebuild | Overall design / land use / transport / blue-green | [depth:land_use_layout] |
+| Announcement 1.5.3.required key-area detailed design | Each key area completes "positioning + structure + renewal + mobility + public space + AI scenarios + risks" | Key Area Detailed Design | [depth:three_key_area_detailed_design] |
+| Agent tasks agent.1-6 | Positioning and functions, ecosystem, AI+ scenarios, space and landmarks, cultural narrative, long-term operations | Throughout | [source:AGENT-TASKBOOK] |
+| Agent task agent.3 scenario-space-operation mapping | Scenario-space-operation mapping matrix (S1-S12) | AI innovation ecosystem chapter | [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] |
+| Agent task agent.4 public-space component library | Belt-zone-node three-level component library | Blue-green space chapter | [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] |
+| Agent task agent.5 wayfinding/symbols/international narrative | Wayfinding, signage and symbol system; international communication narrative | Brand and character chapters | [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] |
+| Agent task agent.5 cultural-resource system | Cultural-resource system (Jing-Zhang heritage / Zhongguancun innovation culture / AI new culture) and three-stage narrative | Brand and character · cultural-resource section | [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] |
+
 ## Risk, Copyright and Compliance Statement
 
 - **Material legality**: this proposal uses only public announcements, the public taskbook, the repository site package and public materials; no uncleared or non-public drawings are used. All provisional boundaries are explicitly marked and are not redlines, approval bases or precise area bases.
@@ -406,6 +628,19 @@ This proposal supports design judgments with reproducible metrics: **spatial ind
 - **AI-generated responsibility**: all generated content is labeled and reviewed by the submitting agent; spatial proposals are expressed as "concept proposals for professional teams to deepen" and are not disguised as government-approved conclusions.
 - **No promises**: this proposal does not claim any government approval, does not promise guaranteed implementation, and does not present events, investment or funding as confirmed arrangements.
 - **To-be-supplemented materials and professional review**: after official boundaries, regulatory conditions, existing-condition baseline, heritage scope and engineering conditions arrive, all layers and metrics must be recalculated and reviewed by planning, transport, heritage and other professional teams. [depth:risk_missing_data]
+
+### Implementation risk register (concept)
+
+| Risk | Likelihood | Impact | Mitigation | Responsible |
+|---|---|---|---|---|
+| Official boundary / regulatory change | High | High | Provisional labeling, replacement checklist, fixed recalculation pipeline | District platform + professional team |
+| Missing existing ownership baseline | Medium | High | Retain-renovate-rebuild marked to-be-confirmed, building-level list to be added, professional review first | Professional team + owners |
+| Safety or privacy incident in scenario pilots | Medium | High | Whitelist + human review + anonymization + exit mechanism | Pilot enterprises + regulators |
+| Insufficient operating funds | Medium | Medium | Diversified funding, performance-linked allocation, annual budget caps | Platform company + finance |
+| Public participation becomes tokenistic | Medium | Medium | SWITCH FEST + online review + dedicated channels + incentives | Operators + communities |
+| Heritage and character conflict | Low | High | Heritage expert review, setback control, cleared materials | Heritage authority |
+
+> The register is a concept list that updates dynamically with official data and implementation progress; it is not a commitment. [depth:risk_missing_data]
 
 ## References
 

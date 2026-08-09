@@ -18,7 +18,7 @@ iteration: "v0.2"
 
 本方案以北京市规划和自然资源委员会海淀分局 2026 年 5 月 9 日发布的《百年京张AI创新带城市设计国际方案征集资格预审公告》为第一依据 [source:OFFICIAL-ANNOUNCEMENT]，以仓库维护者登记的 `brief/site-package/`（设计简报、面向智能体任务书、允许设计空间、临时粗略边界、枚举与规划限额）为机器可读依据 [source:SITE-PACKAGE]。来源用途边界以 `data/source_registry.json` 登记为准：公告与任务书属于 formal-ready 资料，临时边界属于 provisional-only 资料，未清权或未公开资料一律排除 [source:SOURCE-REGISTRY]。
 
-**边界前提（必须全文遵守）**：组织方尚未发布官方红线与官方重点区 polygon。本方案使用 `brief/site-package/geometry/provisional_boundaries.geojson` 中的临时粗略边界生成全部图层，几何特征在提交包内标记为 `geometry_role=provisional_constraint`、`official_boundary=false` [source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]。临时边界只能用于方案生成、自检、可视化和设计讨论，不能作为官方红线、审批依据、精确面积依据或法定控制结论；官方 polygon 发布后，site boundary、key areas、land use、roads、green space、public space、buildings、phasing 与全部面积类指标必须整体重算 [data:geometry/site_boundary.geojson#SITE-001] [data:geometry/key_areas.geojson#PROV-KEY-001]。
+**边界前提（必须全文遵守）**：组织方尚未发布官方红线与官方重点区 polygon。本方案使用 `brief/site-package/geometry/provisional_boundaries.geojson` 中的临时粗略边界生成全部图层，几何特征在提交包内标记为 `geometry_role=provisional_constraint`、`official_boundary=false` [source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]。临时边界只能用于方案生成、自检、可视化和设计讨论，不能作为官方红线、审批依据、精确面积依据或法定控制结论；官方 polygon 发布后，site boundary、key areas、land use、roads、green space、public space、buildings、phasing 与全部面积类指标必须整体重算 [data:geometry/site_boundary.geojson#SITE-001] [data:geometry/key_areas.geojson#PROV-KEY-001]。 边界交叉核对：以 OpenStreetMap（ODbL 1.0，仅作背景参照）复核，OSM 测绘的京张铁路遗址公园已建段与总体设计范围临时多边形不相交（最近距离约 412.5 m），与统筹研究范围完全吻合；该差异可复算，本方案按仓库 provisional 边界出图，结论以官方 polygon 为准（核对记录见 #846）[source:SITE-PACKAGE]。
 
 **资料清单与用途边界**。本方案实际使用的资料分为四类：第一类是公告与任务书等 formal-ready 资料，可用于全部设计判断；第二类是临时粗略边界等 provisional-only 资料，仅用于方案生成与展示，标注 `provisional_constraint`；第三类是背景性公开资料（全球案例、标准条文），用于机制转译；第四类是未清权或未公开资料，一律不进入本方案。`data/source_registry.json` 登记了每份资料的用途边界，本方案严格遵守：凡声明 provisional-only 的几何资料，本方案从未以"官方"或"精确"口径表述 [source:SOURCE-REGISTRY] [source:PROCESSED-FACT-PACK]。
 
@@ -154,7 +154,7 @@ iteration: "v0.2"
 
 03 算力驿站依托枢纽节点建筑 [data:geometry/buildings.geojson#BLDG-001]，09 样板街依托东翼商业界面 [data:geometry/land_use.geojson#LU-001]。空间落位全部以特征 ID 标注，评审者可逐卡打开对应图层核对位置、面积与邻近关系；场景卡的任何空间描述若无法映射到图层特征，即视为设计缺陷，由 [depth:overall_spatial_structure] 深度项负责纠正 [metric:public_space_ratio] [metric:road_length_m]。
 
-每张场景卡在 `compliance_matrix.json` 与 `visual/index.html` 中映射到空间位置、运营主体、数据来源、隐私边界与风险；所有 AI 治理建议遵守数据最小化、公开来源、可解释与人工复核原则，城市智能体不得替代规划审批、不得输出未经授权的个人画像 [data:geometry/public_space.geojson#PUBLIC-001] [data:geometry/roads.geojson#ROAD-001] [metric:public_space_ratio]。
+每张场景卡在 `compliance_matrix.json` 与 `visual/index.html` 中映射到空间位置、运营主体、数据来源、隐私边界与风险；所有 AI 治理建议遵守数据最小化、公开来源、可解释与人工复核原则，并对照《生成式人工智能服务管理暂行办法》设置停用、投诉与安全评估义务的合规基线 [source:GENERATIVE-AI-INTERIM-MEASURES]，城市智能体不得替代规划审批、不得输出未经授权的个人画像 [data:geometry/public_space.geojson#PUBLIC-001] [data:geometry/roads.geojson#ROAD-001] [metric:public_space_ratio]。
 
 **AI 场景的治理边界设计**。十张场景卡均明确四层边界：**数据边界**——场景运行数据只做聚合统计（人次、时段、使用频次），不识别个人，不采集行为轨迹 [source:AGENT-TASKBOOK]；**功能边界**——城市智能体提供导航、问询、导视等公共服务，不替代规划审批、不输出个人画像、不作出影响公民权利的决策 [source:PROCESSED-FACT-PACK]；**时间边界**——测试类场景占用公共空间特定时段，其余时间恢复公共活动 [data:geometry/public_space.geojson#PUBLIC-001]；**责任边界**——每个场景登记运营主体与人工复核环节（红队测试人工批准、发布内容人工审核、安全预案人工审查）[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]。治理边界不是合规装饰，而是公共空间可运营的前提：无治理边界的场景会引发公众信任风险，进而破坏"公共空间先行"的更新顺序 [depth:blue_green_public_space]。这些边界在 `compliance_matrix.json` 的场景列逐卡登记，评审者可逐卡核对空间设计与治理设计的一致性。
 
@@ -186,7 +186,7 @@ iteration: "v0.2"
 
 **慢行断点与缝合机制**。遗址公园活力带沿线的慢行断点主要发生在道路交叉口与环路节点：方案提出五处东西缝合道口，分别在六段边界处设置慢行过街与景观连接，缝合遗址公园两侧的科研与商业功能 [data:geometry/roads.geojson#ROAD-001] [metric:road_length_m]。五道口、大钟寺等轨道站周边组织"最后一公里"接驳：站点至枢纽节点之间设置步行优先廊道与共享单车停放点，非机动车停放集中于枢纽外围，避免侵占公共空间 [depth:traffic_rail_slow_parking]。道路微循环建议采用"绿廊内部禁机动车、外围疏解、节点人车分流"的总体组织，具体道路红线与断面待控规确认 [source:SITE-PACKAGE]。
 
-**市政与新型基础设施**：概念性提出端侧算力驿站（与公共服务设施和分布式能源结合）、低碳能源廊（沿绿廊布置光伏与储能点位）、AI 公共服务界面（问询、导视、无障碍辅助）三类新型基础设施原型，均列为"待深化原型"而非实施方案 [depth:municipal_new_infrastructure]。停车与非机动车组织：枢纽节点设集中非机动车停放与共享出行落客点，四象限步行连通纳入大钟寺站一体化设计。道路红线、管线、消防与市政工程资料缺失，全部登记为正式深化前置条件 [source:SITE-PACKAGE] [data:geometry/roads.geojson#ROAD-001]。
+**市政与新型基础设施**：概念性提出端侧算力驿站（与公共服务设施和分布式能源结合）、低碳能源廊（沿绿廊布置光伏与储能点位）、AI 公共服务界面（问询、导视、无障碍辅助，并保留人工服务通道，落实《无障碍环境建设法》关于公共服务场所保留人工办理的法定要求）三类新型基础设施原型 [source:BARRIER-FREE-ENVIRONMENT-LAW]，均列为"待深化原型"而非实施方案 [depth:municipal_new_infrastructure]。停车与非机动车组织：枢纽节点设集中非机动车停放与共享出行落客点，四象限步行连通纳入大钟寺站一体化设计。道路红线、管线、消防与市政工程资料缺失，全部登记为正式深化前置条件 [source:SITE-PACKAGE] [data:geometry/roads.geojson#ROAD-001]。
 
 **公共服务设施配置**。创新服务平台（孵化、路演、测试、发布）按"节点集聚+街巷分布"配置：重设施集聚于三处重点区，轻服务沿智脉绿廊与两翼街巷分布，服务半径控制在 500 米步行圈内 [data:geometry/public_space.geojson#PUBLIC-001] [metric:public_space_ratio]。人才生活服务（人才公寓、社区服务、文体设施）依托两翼地块与重点区更新项目配置，具体规模待人口与就业预测数据确认后校准 [depth:development_intensity_controls]。所有设施配置均标注为建议口径，正式配置标准待控规与专项规划发布后替换 [standard:MOHURD-CONTROL-DETAILED-PLANNING]。
 

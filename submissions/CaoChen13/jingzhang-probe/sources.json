@@ -1,0 +1,181 @@
+{
+  "schema_version": "0.1.0",
+  "sources": [
+    {
+      "id": "SITE-PACKAGE",
+      "path": "brief/site-package/",
+      "source_type": "official_public",
+      "usage": "Project brief, enums, allowed design space, ranges, and schemas."
+    },
+    {
+      "id": "SOURCE-REGISTRY",
+      "path": "data/source_registry.json",
+      "source_type": "repository_public_registry",
+      "usage": "Public/cleared/provisional source usability registry; distinguishes formal-ready, background-only, provisional-only, and needs-review materials."
+    },
+    {
+      "id": "PROCESSED-FACT-PACK",
+      "path": "data/processed/agent_fact_pack.md",
+      "source_type": "repository_processed_reference",
+      "usage": "Agent-readable navigation layer for scopes, required tasks, source-use boundaries, and missing-data checklist; not a new authority source."
+    },
+    {
+      "id": "BOUNDARY-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Submitted site boundary geometry source (provisional)."
+    },
+    {
+      "id": "KEY-AREA-SOURCE",
+      "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Three required detailed-design key area boundaries (provisional)."
+    },
+    {
+      "id": "OFFICIAL-ANNOUNCEMENT",
+      "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+      "source_type": "official_public",
+      "usage": "Official announcement tasks, scope levels, key areas, language, and deliverable context."
+    },
+    {
+      "id": "AGENT-TASKBOOK",
+      "path": "brief/site-package/agent_taskbook.json",
+      "source_type": "user_provided_cleared",
+      "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "OSM-CONTEXT",
+      "source_type": "osm",
+      "publisher": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org/",
+      "access_endpoint": "Overpass API (overpass-api.de / overpass.private.coffee)",
+      "license": "ODbL 1.0",
+      "attribution": "© OpenStreetMap contributors (ODbL 1.0)",
+      "data_timestamp": "2026-05-06T03:25:00Z",
+      "retrieved_date": "2026-08-09",
+      "collection_method": "Overpass QL query over bbox (S,W,N,E) 39.9545,116.3105,40.0380,116.5215; way/relation geometry for building, highway, railway, waterway, leisure, landuse",
+      "spatial_coverage": "bbox 39.9545,116.3105,40.0380,116.5215 (WGS84)",
+      "transformations": "EPSG:4326 -> EPSG:4548 (pyproj); residential ways are selected only when landuse=residential and their boundary lines intersect the fixed design screening envelope; emitted lines are clipped to that envelope; no OSM polygon area or line length is calculated or published",
+      "usage": "Background urban context and lead-finding only. Used to render figure assets/figures/typical-section-AA.png and to emit low-confidence residential-interface verification leads in geometry/constraints.geojson.",
+      "usage_limits": "NOT used for boundaries, declared areas, lengths, ratios, road right-of-way, statutory control, households, tenure, vulnerability, ownership, loss, causation, compensation, or responsibility assignment. Every OSM feature in constraints.geojson is an analysis_helper line and is excluded from metrics.",
+      "known_limitations": "Crowd-sourced completeness varies; building levels and ground-floor use are largely absent; two distinct polygons share the name '京张铁路遗址公园' (way 122348403 / 1190723117), so any single-polygon measurement is unstable and is deliberately not published.",
+      "derived_artifacts": [
+        "assets/figures/typical-section-AA.png",
+        "geometry/constraints.geojson"
+      ],
+      "cross_check_status": "not_cross_checked - awaiting official survey / regulatory plan data"
+    },
+    {
+      "id": "CASE-AISG-100E",
+      "source_type": "official_organization_webpage",
+      "publisher": "AI Singapore",
+      "url": "https://aisingapore.org/innovation/100e/",
+      "publication_date": "unknown (living programme webpage)",
+      "retrieved_date": "2026-08-09",
+      "collection_method": "Manual review of the official programme webpage; factual mechanism summary only",
+      "temporal_coverage": "programme description visible on retrieval date",
+      "spatial_coverage": "Singapore programme context; not a site geometry source",
+      "license": "Website copyright retained by publisher; no image or long-form text reused",
+      "transformations": "Paraphrased assessment/scoping, implementation, handover, engineering and apprenticeship mechanisms; all funding, duration and outcome figures omitted from the proposal",
+      "usage": "Global AI ecosystem case table and process precedent",
+      "usage_limits": "Does not evidence local funding, eligibility, participants, delivery time, performance, or suitability for Jing-Zhang",
+      "known_limitations": "Living webpage may change; publisher self-description; important local decisions require independent evidence"
+    },
+    {
+      "id": "CASE-MILA-PARTNERSHIPS",
+      "source_type": "official_organization_webpage",
+      "publisher": "Mila - Quebec Artificial Intelligence Institute",
+      "url": "https://mila.quebec/en/industry/partnerships",
+      "publication_date": "unknown (living programme webpage)",
+      "retrieved_date": "2026-08-09",
+      "collection_method": "Manual review of the official partnerships webpage; factual mechanism summary only",
+      "temporal_coverage": "partnership description visible on retrieval date",
+      "spatial_coverage": "Montreal/Quebec ecosystem context; not a site geometry source",
+      "license": "Website copyright retained by publisher; no image, logo or long-form text reused",
+      "transformations": "Paraphrased research collaboration, talent, workspace and event mechanisms; organization names and counts omitted",
+      "usage": "Global AI ecosystem case table and research-industry-space precedent",
+      "usage_limits": "Does not evidence local partners, recruitment, investment, access rights, or performance",
+      "known_limitations": "Publisher self-description; figures and partner roster are time-sensitive and are not imported"
+    },
+    {
+      "id": "CASE-VECTOR-INSTITUTE",
+      "source_type": "official_organization_webpage",
+      "publisher": "Vector Institute",
+      "url": "https://vectorinstitute.ai/about/",
+      "publication_date": "unknown (living institutional webpage)",
+      "retrieved_date": "2026-08-09",
+      "collection_method": "Manual review of the official institutional webpage; factual mechanism summary only",
+      "temporal_coverage": "institutional description visible on retrieval date",
+      "spatial_coverage": "Toronto/Ontario ecosystem context; not a site geometry source",
+      "license": "Website copyright retained by publisher; no image, logo or long-form text reused",
+      "transformations": "Paraphrased research/talent, AI adoption, engineering support and responsible implementation roles; metrics omitted",
+      "usage": "Global AI ecosystem case table and research-to-adoption precedent",
+      "usage_limits": "Does not imply public access to research space or local institutional participation",
+      "known_limitations": "Publisher self-description; programme scale and outcomes are not independently cross-checked"
+    },
+    {
+      "id": "CASE-STATIONF-FAI",
+      "source_type": "official_organization_webpage",
+      "publisher": "STATION F",
+      "url": "https://stationf.co/news/f-ai",
+      "publication_date": "2026-02-11",
+      "retrieved_date": "2026-08-09",
+      "collection_method": "Manual review of the official programme announcement; factual mechanism summary only",
+      "temporal_coverage": "programme announcement dated 2026-02-11",
+      "spatial_coverage": "Paris campus context; not a site geometry source",
+      "license": "Website copyright retained by publisher; no image, logo, quotation or partner list reused",
+      "transformations": "Paraphrased the single-program connection among early-stage founders and multiple technical/finance resource types; rankings, company names, cohort and target figures omitted",
+      "usage": "Global AI ecosystem case table and curated-resource programme precedent",
+      "usage_limits": "Does not evidence a local cohort, partner, investment, commercialization result, or programme approval",
+      "known_limitations": "Press-style self-description; no independent outcome evaluation used"
+    },
+    {
+      "id": "CASE-TUM-VENTURE-LABS",
+      "source_type": "official_organization_webpage",
+      "publisher": "TUM Venture Labs",
+      "url": "https://www.tum-venture-labs.de/",
+      "publication_date": "unknown (living institutional webpage)",
+      "retrieved_date": "2026-08-09",
+      "collection_method": "Manual review of the official institutional webpage; factual mechanism summary only",
+      "temporal_coverage": "institutional description visible on retrieval date",
+      "spatial_coverage": "Munich ecosystem context; not a site geometry source",
+      "license": "Website copyright retained by publisher; no image, logo or long-form text reused",
+      "transformations": "Paraphrased university-entrepreneurship-center cooperation, domain incubators and early-lifecycle support; targets and partner logos omitted",
+      "usage": "Global AI ecosystem case table and domain-lab network precedent",
+      "usage_limits": "Does not evidence local capital, incubator operators, infrastructure, spin-offs, or institutional commitments",
+      "known_limitations": "Publisher self-description; programme outcomes not independently evaluated"
+    },
+    {
+      "id": "JINGZHANG-HERITAGE-BEIJING",
+      "source_type": "official_public",
+      "publisher": "北京市人民政府门户网站（来源：北京日报）",
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202110/t20211021_2517509.html",
+      "publication_date": "2021-10-14",
+      "retrieved_date": "2026-08-09",
+      "collection_method": "Manual review of official-government republished public information",
+      "temporal_coverage": "historical facts and 2021 project context",
+      "spatial_coverage": "Jing-Zhang Railway heritage park context in Beijing",
+      "license": "Government website terms apply; factual summary only; no image or long quotation reused",
+      "transformations": "Paraphrased the 1909 completion, independently designed/built national trunk railway status, and heritage-interpretation direction",
+      "usage": "Agent.4 landmark premise and agent.5 cultural narrative",
+      "usage_limits": "Does not establish current heritage boundaries, protected-object inventory, construction status, site ownership, or approval for proposed elements",
+      "known_limitations": "Project-status statements are dated; only stable historical facts and stated interpretation intent are used"
+    },
+    {
+      "id": "ZHONGGUANCUN-INNOVATION-CULTURE",
+      "source_type": "official_public",
+      "publisher": "北京市科学技术委员会、中关村科技园区管理委员会",
+      "url": "https://kw.beijing.gov.cn/ztzl/rdzt/zgcsfq/index.html",
+      "publication_date": "unknown (living government topic webpage)",
+      "retrieved_date": "2026-08-09",
+      "collection_method": "Manual review of official government topic webpage",
+      "temporal_coverage": "institutional description visible on retrieval date",
+      "spatial_coverage": "Zhongguancun demonstration zone and Haidian Park context",
+      "license": "Government website terms apply; factual summary only; no image, logo or long quotation reused",
+      "transformations": "Paraphrased Haidian Park as the origin area and core area; all enterprise examples and industry statistics omitted",
+      "usage": "Agent.5 Zhongguancun innovation-culture narrative",
+      "usage_limits": "Does not evidence participation by any institution or enterprise in this proposal and does not authorize local spatial or investment conclusions",
+      "known_limitations": "Living topic page combines materials from different dates; only the stable institutional description is used"
+    }
+  ]
+}

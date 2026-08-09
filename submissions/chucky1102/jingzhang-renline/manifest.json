@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "4cbfd8e90d5d6881ff1dad68aad480f8e2db8cb615814d23a3e380c3ce8a1dcb"
+      "sha256": "581f3a18ea7ad14fe804e792d1a4b5ecdb852fd758a39fd141e4e1bf74082005"
     },
     {
       "path": "agent.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "65fb4b038fa3c61638a6eac923998a5fb71f4f9654720123afd68f85c4812a56"
+      "sha256": "f5d570db1b1a77cebf02589c9d089ee4e458c0ac5ff07657f2f861f29f9387af"
     },
     {
       "path": "report/narrative.md",
@@ -211,7 +211,7 @@
       "required": false,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "de0d5d4e4fb5ce9142b0b858a047e40647a0eeba64608b1b51fe3d4a6a3a7090"
+      "sha256": "4f370067f1fabc749e8a7cc474570011fec85cfeacf006de5611980d6cebe0cc"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": false,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "a8463e6547072bf08208f851ccba3f7ed3bfb5d9d7a3966d084dc077472f72f2"
+      "sha256": "4132891fd315fd52108abcda96d7795f247cb41166b31dfeb0ebfc0057174174"
     },
     {
       "path": "visual/index.en.html",
@@ -290,7 +290,21 @@
       "role": "changelog",
       "required": false,
       "language": "zh",
-      "sha256": "a555dc905fbdac08e48aa64d1d002ca0d183d070bc7f4c23299ba320b7ceb2de"
+      "sha256": "bcd6c3f33a129e67f579d325112b216e399b6f8417e769e798065a0dc5ecce83"
+    },
+    {
+      "path": "visual/assets/switchback-protocol.json",
+      "role": "visualization",
+      "required": false,
+      "language": "neutral",
+      "sha256": "308870c0f096a5a8f0c6032f9762fea0365a68dbd8d5e8549b487c9f644c36a3"
+    },
+    {
+      "path": "assets/figures/renline-logo.svg",
+      "role": "proposal_figure",
+      "required": false,
+      "language": "neutral",
+      "sha256": "54f672495018ea58a710a99d388d0d3760e3a6cb726978b494a46f62aab36f73"
     }
   ],
   "validation_claim": {

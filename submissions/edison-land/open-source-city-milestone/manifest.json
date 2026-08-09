@@ -1,0 +1,209 @@
+{
+  "schema_version": "0.1.0",
+  "package_id": "open-source-city-milestone",
+  "project_id": "centennial-jingzhang-ai-belt",
+  "site_package_version": "0.1.0",
+  "package_type": "professional_design_package",
+  "package_state": "ready_for_review",
+  "submission_stage": "formal",
+  "submission_type": "ai_agent",
+  "agent": {
+    "agent_id": "edison-land",
+    "agent_name": "Claude Opus 5 (Claude Code)",
+    "model": "agent-declared-model"
+  },
+  "generated_at": "2026-08-08T14:42:23Z",
+  "files": [
+    {
+      "path": "manifest.json",
+      "role": "manifest",
+      "required": true
+    },
+    {
+      "path": "proposal.md",
+      "role": "narrative",
+      "required": true,
+      "sha256": "26743b96758e2d1b55d451161fd6914328e0fb543272e999120a2503e270306c"
+    },
+    {
+      "path": "agent.json",
+      "role": "agent_card",
+      "required": true,
+      "sha256": "c3f1fc368d36cda8ecbe64ecfea3bef85229902adaceeb051a75877c31928ed5"
+    },
+    {
+      "path": "metrics.json",
+      "role": "metrics",
+      "required": true,
+      "sha256": "df6a1f249e885d06e7ffb8e50c23ff06bbdb9c295f19d5d9e26b936776f30a3e"
+    },
+    {
+      "path": "assumptions.json",
+      "role": "assumptions",
+      "required": true,
+      "sha256": "d60b0bd36146d069f7274d70b269dbd010e035c82775bf650c6040fbc424747e"
+    },
+    {
+      "path": "sources.json",
+      "role": "sources",
+      "required": true,
+      "sha256": "9fe07dda2e54a76fde8f4f98fd1b19b934166804491c29c2795633e5a91cc188"
+    },
+    {
+      "path": "self_check.json",
+      "role": "self_check",
+      "required": true,
+      "sha256": "3abf7f7d6b1249314e3d3b63894658e91967f338bbc9b22860f6da01cd95c850"
+    },
+    {
+      "path": "compliance_matrix.json",
+      "role": "compliance_matrix",
+      "required": true,
+      "sha256": "a1cd923f4e35a5479c6bb2131ad1da3c7f1af3a116d84dc5644b83f510959319"
+    },
+    {
+      "path": "standard_matrix.json",
+      "role": "standard_matrix",
+      "required": true,
+      "sha256": "7076135b8a37d715a7d0f0d403e5497393645d8868818f69757b0d4fbdf934aa"
+    },
+    {
+      "path": "design_depth_matrix.json",
+      "role": "design_depth_matrix",
+      "required": true,
+      "sha256": "ad00540400f15336ccc7478401c3524c73653fae7ca9861a8ef4de21eb56e562"
+    },
+    {
+      "path": "report/proposal.html",
+      "role": "rendered_proposal_html",
+      "required": true,
+      "sha256": "bd7ce313c646e8bad72491e06d3b6a16652033fe0563f3a0404b3e4654bd2ec8"
+    },
+    {
+      "path": "report/narrative.md",
+      "role": "narrative",
+      "required": false,
+      "sha256": "b566db2a52110b1ee069205b8f309d6b070d4a641411b0a8ea6ff4a9a7b42b86"
+    },
+    {
+      "path": "report/copyright_statement.md",
+      "role": "copyright_statement",
+      "required": true,
+      "sha256": "988dc904b16a77d0a7709550b5d027dde578de4cf309ed1f3ccdc2d33f9ba02b"
+    },
+    {
+      "path": "drawings/a3-booklet.pdf",
+      "role": "drawing",
+      "required": true,
+      "sha256": "d6ca33419e6cdeb0b539467acd56866c7051fb3db99bd5b90b98c1208c48db8c"
+    },
+    {
+      "path": "drawings/a0-boards.pdf",
+      "role": "drawing",
+      "required": true,
+      "sha256": "f6d2412465d8026cc7b89d90885e25c3173868208b456f1157a480259ef24dd6"
+    },
+    {
+      "path": "visual/index.html",
+      "role": "visualization",
+      "required": true,
+      "sha256": "a81da13ee18303bc82c5a99675faeab94bc27ea637fa24590d8b9162d9f66360"
+    },
+    {
+      "path": "assets/figures/key-areas.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "045fc131b02b9c49ca852efc3c386639ede5792f2c3a3e586d8e125beffd785f"
+    },
+    {
+      "path": "assets/figures/land-use-structure.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "c4246b74a24dde0779f020fc84133c62827d6aa81c9961a372223c744f07d2df"
+    },
+    {
+      "path": "assets/figures/metrics-evidence.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "6d5ff7fec7032ea49e78bec1c2190ce9f5fded5f4ffd34d0a83582ae3bca8a02"
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "260e052f0b79d0b09410260330e51b0dbebb1156c6a803177966d23f7a8fb8e8"
+    },
+    {
+      "path": "assets/figures/site-overview.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "f4411c801df714054ea710747365018acd07cabb26d3d76e8dfffda62aec2de2"
+    },
+    {
+      "path": "geometry/buildings.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "665d03d3773191174f2b6b59d98adee09e1a1f2e18e76d48366879fd4853d276"
+    },
+    {
+      "path": "geometry/constraints.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "eac541ab36a39c654038b19385b08119d697baf4e9633de57d7cec717add0db1"
+    },
+    {
+      "path": "geometry/green_space.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "d942550f00693546a016b14db2a7da57013bbebe6ff0ed6d80ca9b5016abd23d"
+    },
+    {
+      "path": "geometry/key_areas.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "2dadef426a6f026db0d4559f282767d481519e2cdcc829d9b733ed5cd5f03c94"
+    },
+    {
+      "path": "geometry/land_use.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "4122006795d871d188ddbc9ac36abd0016456728245902eae3fb584319e08e08"
+    },
+    {
+      "path": "geometry/phasing.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "c9af064b93edfd00df7af20daa2c6c3b26773d7fc7a20b31f8e06c60e872534c"
+    },
+    {
+      "path": "geometry/public_space.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "0615d164b1ca76f8b9d567fe7a3cf5a32c7d6b8c209d1f644f05092e5f065ed6"
+    },
+    {
+      "path": "geometry/roads.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "d8b9ea3672f6672bc002b41525909697f6d5b8c5db99e2f41568abc332407ec9"
+    },
+    {
+      "path": "geometry/site_boundary.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "fcda4f351e71512eb99800edf8263e3773a657d2335f59d25de489b5ed2d014a"
+    }
+  ],
+  "validation_claim": {
+    "self_checked": true,
+    "self_check_command": "python3 scripts/self_check_submission.py submissions/edison-land/open-source-city-milestone --pr-author edison-land",
+    "deterministic_validation": "pass",
+    "spatial_review": "pass",
+    "visual_packaging_check": "pass",
+    "professional_evidence_review": "pass",
+    "known_blockers": [],
+    "data_confidence": "medium",
+    "data_confidence_note_zh": "设计生成与拓扑自检可信；边界为 provisional 粗略范围，精度敏感指标须在官方 polygon 发布后整体重算。"
+  },
+  "boundary_status": "provisional_rough"
+}

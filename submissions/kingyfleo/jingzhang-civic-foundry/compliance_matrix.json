@@ -54,11 +54,11 @@
         "PROFESSIONAL_EVIDENCE"
       ],
       "machine_readable_refs": [
-        "visual/assets/civic-adoption-passport.schema.json",
-        "visual/assets/example-civic-adoption-passport.json",
+        "visual/assets/jingzhang-civic-conversion-accountability-chain.schema.json",
+        "visual/assets/example-jingzhang-civic-conversion-accountability-chain.json",
         "visual/assets/review-evidence-index.json"
       ],
-      "evidence_summary_zh": "以城市采用护照把公共必要性、文化与权利、受控试用、城市首发和采用/退出变成可审计制度，补齐AI技术成果进入真实城市的转化基础设施；正文、GeoJSON、指标、图纸和离线展示使用同一证据链。"
+      "evidence_summary_zh": "以京张转化责任链把公共必要性、文化与权利、受控试用、城市首发和采用/退出变成可审计制度，补齐AI技术成果进入真实城市的转化基础设施；正文、GeoJSON、指标、图纸和离线展示使用同一证据链。"
     },
     {
       "requirement_id": "1.3.2",
@@ -114,7 +114,7 @@
       ],
       "machine_readable_refs": [
         "visual/assets/urban-room-control-code.json",
-        "visual/assets/civic-adoption-passport.schema.json"
+        "visual/assets/jingzhang-civic-conversion-accountability-chain.schema.json"
       ],
       "evidence_summary_zh": "以四种时间层、横向城市房和S1永久公共基线—S2可逆城市接口—S3限时AI服务空间控制码形成适配AI且可恢复的新城市形态；正文、GeoJSON、指标、图纸和离线展示使用同一证据链。"
     },
@@ -948,7 +948,7 @@
       ],
       "metrics": [
         "workflow_stage_count",
-        "adoption_passport_schema_count",
+        "conversion_accountability_chain_schema_count",
         "spatial_layer_count",
         "site_area_sqm",
         "green_ratio"
@@ -985,11 +985,11 @@
         "PROFESSIONAL_EVIDENCE"
       ],
       "machine_readable_refs": [
-        "visual/assets/civic-adoption-passport.schema.json",
+        "visual/assets/jingzhang-civic-conversion-accountability-chain.schema.json",
         "visual/assets/urban-room-control-code.json",
         "visual/assets/delivery-program.json"
       ],
-      "evidence_summary_zh": "以‘AI城市采用基础设施原型’统领空间、制度和运营：城市采用护照管全生命周期，空间准入控制码管AI占用城市空间，六交付包管政府实施；正文、GeoJSON、指标、图纸和离线展示使用同一证据链。"
+      "evidence_summary_zh": "以‘AI城市价值转化基础设施原型’统领空间、制度和运营：三重转化管成果、使用与价值闭环，京张转化责任链管全生命周期，空间准入控制码管AI占用城市空间，六交付包管政府实施；正文、GeoJSON、指标、图纸和离线展示使用同一证据链。"
     },
     {
       "requirement_id": "agent.2",
@@ -1048,8 +1048,8 @@
         "PROFESSIONAL_EVIDENCE"
       ],
       "machine_readable_refs": [
-        "visual/assets/civic-adoption-passport.schema.json",
-        "visual/assets/example-civic-adoption-passport.json"
+        "visual/assets/jingzhang-civic-conversion-accountability-chain.schema.json",
+        "visual/assets/example-jingzhang-civic-conversion-accountability-chain.json"
       ],
       "evidence_summary_zh": "文化不作为装饰，而作为AI社会采用的权利来源、意义校准和公共信任基础设施；五道门与五联账本形成可机读、可复核、可退出的全栈城市采用机制。"
     },
@@ -1108,11 +1108,11 @@
         "PROFESSIONAL_EVIDENCE"
       ],
       "machine_readable_refs": [
-        "visual/assets/civic-adoption-passport.schema.json",
-        "visual/assets/example-civic-adoption-passport.json",
+        "visual/assets/jingzhang-civic-conversion-accountability-chain.schema.json",
+        "visual/assets/example-jingzhang-civic-conversion-accountability-chain.json",
         "visual/assets/urban-room-control-code.json"
       ],
-      "evidence_summary_zh": "十二份城市委托均有使用者、空间准入级别、公众保障、证据门槛和退出条件；AI服务须经护照五道门后才能从验证场进入公共首发与常态采用。"
+      "evidence_summary_zh": "十二份城市委托均有使用者、空间准入级别、公众保障、证据门槛和退出条件；AI服务须经责任链五道门后才能从验证场进入公共首发与常态采用。"
     },
     {
       "requirement_id": "agent.4",
@@ -1278,7 +1278,7 @@
       ],
       "machine_readable_refs": [
         "visual/assets/delivery-program.json",
-        "visual/assets/civic-adoption-passport.schema.json"
+        "visual/assets/jingzhang-civic-conversion-accountability-chain.schema.json"
       ],
       "evidence_summary_zh": "首100天五项动作、六交付包、五类财政通道、年度运维和退出准备金构成实施程序；五节拍运营、公共回投与有界品牌合作构成长效机制，且不虚构预算、采购或政府批准。"
     }

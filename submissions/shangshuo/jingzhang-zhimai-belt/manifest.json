@@ -61,26 +61,26 @@
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "3408a9f28202f861235ef545067173285da51dfd1b7e27b7473329847b4ca493"
+      "sha256": "bad235add1a234caf5c4da08ec19ce2a4f5027daf8d256e820b3db44e43cd96a"
     },
     {
       "path": "standard_matrix.json",
       "role": "standard_matrix",
       "required": true,
-      "sha256": "f16122ea863936c52f56b54773f08451dce4336c7da44d008b6a47bcb5901ba4"
+      "sha256": "a287c2d4643932829886d01406058cb4b969591e3b481b80ca512608c75faf18"
     },
     {
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "dc2c62f1d1ab8d673bec8b5dc34fbc1e1cacf4ed04038193dc92b142f26df021"
+      "sha256": "f2c2af6d5173e5e423ed3f0fe34cea5baf6e619e6f463dadf9ec71801864aef8"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "ea98d3a769982f5e6a05c223a40b351fd93fd380a4051570a0559976fe09e27f"
+      "sha256": "61cb03a19843cfd560f3867932e6336b9bc393c8de2c25a9debcc2d61f7d9c5d"
     },
     {
       "path": "report/narrative.md",
@@ -101,14 +101,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "22e1ccd9999401859d7ab22c16f3403e690f61c46ec84d5004e17ccc46455696"
+      "sha256": "39be63aafe458bb567cae046909b7e9bee967421dfbc341e433c194a736f17dc"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "fbd0af855c6bbeade8cc88f25b3ee2f3a1ce6fc616ec288eea184bccef8f8b53"
+      "sha256": "9f3b9f87bf907717fb29410bd42a623388dabff1a95fbbe5e26439faf604d403"
     },
     {
       "path": "visual/index.html",
@@ -210,21 +210,21 @@
       "path": "assets/figures/logo-full.png",
       "role": "supporting",
       "required": false,
-      "sha256": "3dc194853cb530f01b15e2786030ba536715dc63f571df010b663fc15373a35b",
+      "sha256": "9cb4427d3ecf5c716452093b140683ff7d5625a2075d702eee5cfcbdcacf5b90",
       "language": "zh"
     },
     {
       "path": "assets/figures/logo-icon.png",
       "role": "supporting",
       "required": false,
-      "sha256": "8be4d66adc6a5eb1c26fd69b2dbdb31311f16dae1c19e6b514818608989d1d7a",
+      "sha256": "9d3fa4db1263f3045a55d51444de320e692f7ea3c8a113a7ad13f4b1facef653",
       "language": "zh"
     },
     {
       "path": "assets/figures/logo-wordmark.png",
       "role": "supporting",
       "required": false,
-      "sha256": "e73a0969d82a7961a41bde0a6c43efd5f446e67dae58367f95baffbaa0cb6b71",
+      "sha256": "7026e474a3433fbf1f889dfaae7fe47b4d1de6fd1530fc7083e6deee9ed69bb9",
       "language": "zh"
     },
     {
@@ -404,7 +404,7 @@
       "path": "assets/figures/logo-full.en.png",
       "role": "supporting",
       "required": false,
-      "sha256": "3dc194853cb530f01b15e2786030ba536715dc63f571df010b663fc15373a35b",
+      "sha256": "9cb4427d3ecf5c716452093b140683ff7d5625a2075d702eee5cfcbdcacf5b90",
       "translation_of": "assets/figures/logo-full.png",
       "language": "en"
     },
@@ -412,7 +412,7 @@
       "path": "assets/figures/logo-icon.en.png",
       "role": "supporting",
       "required": false,
-      "sha256": "8be4d66adc6a5eb1c26fd69b2dbdb31311f16dae1c19e6b514818608989d1d7a",
+      "sha256": "9d3fa4db1263f3045a55d51444de320e692f7ea3c8a113a7ad13f4b1facef653",
       "translation_of": "assets/figures/logo-icon.png",
       "language": "en"
     },
@@ -420,7 +420,7 @@
       "path": "assets/figures/logo-wordmark.en.png",
       "role": "supporting",
       "required": false,
-      "sha256": "e73a0969d82a7961a41bde0a6c43efd5f446e67dae58367f95baffbaa0cb6b71",
+      "sha256": "7026e474a3433fbf1f889dfaae7fe47b4d1de6fd1530fc7083e6deee9ed69bb9",
       "translation_of": "assets/figures/logo-wordmark.png",
       "language": "en"
     },
@@ -468,9 +468,51 @@
       "path": "report/proposal.en.html",
       "role": "supporting",
       "required": false,
-      "sha256": "ea98d3a769982f5e6a05c223a40b351fd93fd380a4051570a0559976fe09e27f",
+      "sha256": "fccad4ae792c88ebfd17f436a0382044d9662819849966894f8ca32a9ae75de4",
       "translation_of": "report/proposal.html",
       "language": "en"
+    },
+    {
+      "path": "assets/renderings/logo-concept-A-renziglu.png",
+      "role": "concept_alternative",
+      "required": false,
+      "sha256": "7693dedf50b67a2a0ce74b5407e9bf77165aaa4ad6d94b652fcc352ea6d03be9"
+    },
+    {
+      "path": "assets/renderings/logo-concept-B-wheel-circuit.png",
+      "role": "concept_alternative",
+      "required": false,
+      "sha256": "8a3b9042781970b9b568caaf3a6e8317d5deeba93a68989ec7723a2a9f0f2195"
+    },
+    {
+      "path": "assets/renderings/logo-concept-C-wordmark.png",
+      "role": "concept_alternative",
+      "required": false,
+      "sha256": "071d8f8bafd85e25567c349f0f3d731ed29a94875d5e243112a14fb7c4a60344"
+    },
+    {
+      "path": "assets/renderings/logo-concept-D-combined.png",
+      "role": "concept_alternative",
+      "required": false,
+      "sha256": "c317eec212bfdf6baacf6d910e97d248fd74ad1e017839bcc6cff68ffc750a43"
+    },
+    {
+      "path": "assets/renderings/logo-final-icon.png",
+      "role": "concept_alternative",
+      "required": false,
+      "sha256": "9d3fa4db1263f3045a55d51444de320e692f7ea3c8a113a7ad13f4b1facef653"
+    },
+    {
+      "path": "assets/renderings/logo-final-wordmark.png",
+      "role": "concept_alternative",
+      "required": false,
+      "sha256": "7026e474a3433fbf1f889dfaae7fe47b4d1de6fd1530fc7083e6deee9ed69bb9"
+    },
+    {
+      "path": "assets/renderings/logo-final-full.png",
+      "role": "concept_alternative",
+      "required": false,
+      "sha256": "9cb4427d3ecf5c716452093b140683ff7d5625a2075d702eee5cfcbdcacf5b90"
     }
   ],
   "validation_claim": {

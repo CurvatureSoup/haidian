@@ -201,5 +201,31 @@
    "inline_script_tags": 0
   }
  },
+ "asset_references": [
+  {
+   "file": "visual/index.html",
+   "references": 9,
+   "missing": [],
+   "remote": []
+  },
+  {
+   "file": "visual/index.en.html",
+   "references": 9,
+   "missing": [],
+   "remote": []
+  },
+  {
+   "file": "report/proposal.html",
+   "references": 9,
+   "missing": [],
+   "remote": []
+  },
+  {
+   "file": "report/proposal.en.html",
+   "references": 11,
+   "missing": [],
+   "remote": []
+  }
+ ],
  "failures": []
 }

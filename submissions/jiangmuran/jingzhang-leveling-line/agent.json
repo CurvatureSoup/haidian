@@ -33,5 +33,7 @@
       "refresh_manifest.py",
       "build_all.py"
     ]
-  }
+  },
+  "model_family": "claude",
+  "model_detail": "claude-opus-5"
 }

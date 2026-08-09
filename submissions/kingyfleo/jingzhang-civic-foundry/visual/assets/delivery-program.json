@@ -1,11 +1,11 @@
 {
   "schema_version": "0.1.0",
   "programme_status": "concept_only_not_government_commitment",
-  "strategic_proposition_zh": "把京张建设为面向真实城市的AI采用基础设施原型：公共底座由城市守住，AI项目通过分级空间、五道门和十二个月证据决定续期、扩大或退出。",
+  "strategic_proposition_zh": "把京张建设为AI城市价值转化基础设施原型：以技术转化、社会转化、价值转化把AI成果推进为可部署城市产品、真实公众使用与可持续公共价值；公共底座由城市守住，项目通过分级空间、五道门和十二个月证据决定续期、扩大或退出。",
   "government_decisions_requested_as_design_recommendations": [
     {
       "decision_id": "D1",
-      "decision_zh": "把城市采用能力而非技术展示数量确定为京张的核心竞争力。",
+      "decision_zh": "把城市价值转化能力而非技术展示数量确定为京张的核心竞争力。",
       "evidence_needed_before_action": ["official brief confirmation", "programme-owner confirmation"]
     },
     {
@@ -15,7 +15,7 @@
     },
     {
       "decision_id": "D3",
-      "decision_zh": "试行城市采用护照与三类空间准入，不以一次展示或技术测试替代采用决定。",
+      "decision_zh": "试行京张转化责任链与三类空间准入，不以一次展示或技术测试替代采用决定。",
       "evidence_needed_before_action": ["legal review", "data governance review", "operator and maintenance responsibility"]
     },
     {
@@ -34,7 +34,7 @@
     },
     {
       "action_id": "A100-02",
-      "action_zh": "发布城市采用护照0.1草案、五道门、投诉纠错与退出模板，组织法律、文化、技术、无障碍和运维复核。",
+      "action_zh": "发布京张转化责任链1.0草案、五道门、投诉纠错与退出模板，组织法律、文化、技术、无障碍和运维复核。",
       "lead_function": "programme governance and professional review",
       "deliverable": "reviewed concept protocol and synthetic test records",
       "stop_condition": "human accountability or non-AI fallback cannot be specified"
@@ -84,7 +84,7 @@
     },
     {
       "package_id": "PKG-03",
-      "name_zh": "城市采用护照与公开状态台",
+      "name_zh": "京张转化责任链与公开状态台",
       "lead_function": "joint programme governance",
       "delivery_route": "open_source_common",
       "capital_channel": "research_and_innovation_funding or public-interest funding",
