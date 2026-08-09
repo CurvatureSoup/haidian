@@ -14,3 +14,4 @@
 | D-010 | 2026-08-09 | 临时边界可支撑内容生成、展示和 intake，但不能支撑正式专业评分、精确面积或法定结论。 | Skill、formal guide、source registry 与 allowed design space 的适用范围一致。 | 把“内容评分不阻断”解释为临时边界可替代官方红线。 | FROZEN | evidence_planner + gis_analyst |
 | D-011 | 2026-08-09 | Agent 配置与行为验收记为 `CONFIG_VALIDATED`，运行时模型审计记为 `NOT OBSERVABLE`，不再阻断 G0。 | 项目配置已加载并完成角色任务；Codex 当前未提供独立模型遥测。 | 声称已取得实际模型证明，或无限重复同一 smoke test。 | FROZEN | orchestrator + qa_worker |
 | D-012 | 2026-08-09 | G0 完成不自动解除 G1 和 `DESIGN-START`。 | 官方精确 polygon、控规条件、现状专业底数和部分标准文件仍缺失；用户只授权 G0。 | 借规则冻结直接开始城市诊断或方案生产。 | FROZEN | human + orchestrator |
+| D-013 | 2026-08-09 | 将操作时核实的官方 `main@9051ca77` 合并到远端 Agent 架构分支，并重新打开 G0 规则复核。 | 用户授权合并与推送；上游相对历史 G0 修改了 10 个非投稿路径。 | 继续把 `d28c1400` 的冻结结论冒充最新规则状态，或借合并启动城市设计。 | FROZEN | human + orchestrator |

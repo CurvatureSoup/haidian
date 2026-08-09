@@ -2,7 +2,7 @@
 
 - task_id: `SMOKE-ORCH`
 - producer_agent: `orchestrator`
-- upstream_sync: `PASS` — `upstream/main` 已更新至 `059243dfdb2956a7552fc8ef75924f1d580e87fc`（2026-08-09）。当前 `codex/agent-architecture` 未包含该提交；未执行 merge。
+- upstream_sync: `PASS` — GitHub 远端 `codex/agent-architecture` 已通过 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 合并操作时核实的官方 `main@9051ca77fe1a15657bc3abf0513c402561afae0f`。本 smoke 产物仍是历史 G0 快照；涉及变更规则的 L3 结论在新 G0 复核前不得作为最新验收结果。
 - scope: 仅执行 `SMOKE-L1`、`SMOKE-L2`、`SMOKE-L3`；未启动城市设计、正式研究或外部检索。
 
 | Task | Agent | Configured model | Independently verifiable runtime model | Artifact | Artifact result | Route status | Limitation |

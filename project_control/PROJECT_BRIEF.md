@@ -2,16 +2,18 @@
 
 ## 当前目标
 
-完成 G0 规则基线冻结：把项目分支、安装 Skill、任务书、数据规则、Schema、验证脚本和 SSOT 锁定到同一官方提交。当前仍不开展正式城市设计、不生成投稿方案、不进行大规模数据下载。
+维护多 Agent 架构并跟随官方规则。G0 曾冻结到 `d28c1400`；架构分支现已合并更新的官方 `main`，因此必须先复核变化后的规则路径，才能建立新的冻结基线。当前仍不开展正式城市设计、不生成投稿方案、不进行大规模数据下载。
 
 ## 项目与仓库
 
 - 官方仓库：`open-city-ai/haidian`
 - 工作 fork：`CurvatureSoup/haidian`
 - Agent 架构分支：`codex/agent-architecture`
-- G0 冻结基线：官方 `main` commit `d28c14002a77d19221888ffe8ac447876aca3165`
-- 同步状态：`codex/agent-architecture` 已纯快进到该提交；相对旧基线的 487 个文件变化全部位于 `submissions/`，规则路径内容未变化
-- 本机 Skill：已与上述提交的 `skills/urban-design-ai-submission/` 七个文件逐一校验一致
+- 历史 G0 冻结基线：官方 `main` commit `d28c14002a77d19221888ffe8ac447876aca3165`
+- 最新上游快照：官方 `main` commit `9051ca77fe1a15657bc3abf0513c402561afae0f`
+- 同步状态：GitHub 远端 `codex/agent-architecture` 已通过合并提交 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 包含该上游快照
+- 规则状态：相对历史 G0 有 10 个非 `submissions/` 路径发生变化，新的 G0 尚未复核冻结
+- 本机 Skill：仅确认与历史 G0 提交一致；与最新上游快照的一致性待复核
 - 正式规则入口：`skills/urban-design-ai-submission/SKILL.md`
 
 ## 第一批 Agent
@@ -44,7 +46,8 @@
 
 ## 当前验证结论
 
-- G0 规则树已冻结到 `d28c1400`；规则与安装 Skill 一致，总控只读复核为 `PASS`，当前没有未解决的规则文本冲突。
+- 历史 G0 规则树在 `d28c1400` 的复核结论仍作为审计记录保留，但不代表最新上游状态。
+- 最新上游已修改 formal guide、Skill 参考、Schema、数据工作流和校验脚本等非投稿路径；新 G0 状态为 `BLOCKED`，等待独立规则复核。
 - 六个 Agent 配置可解析，微型任务的行为边界与文件交接通过；运行时模型遥测为 `NOT OBSERVABLE`，不得冒充实际模型证据，但不再阻断 G0。
 - 官方精确范围 polygon、项目控规指标、现状专业底数和一份需官方文件补齐的设计深度标准仍缺失。
 - `DESIGN-START` 与 G1 资料/空间基线阶段仍保持 `BLOCKED`，需要人类另行授权。
