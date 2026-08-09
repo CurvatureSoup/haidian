@@ -1,0 +1,15 @@
+data_id,title,path_or_url,source_type,authority_level,status,license_or_access,spatial_scope,temporal_scope,confidence,owner,notes,updated_at
+SRC-REPO-SKILL,Urban Design AI Submission Skill,skills/urban-design-ai-submission/SKILL.md,official_repository,E1,available,public,project,d28c1400,high,evidence_planner,G0正式工作流与硬规则入口；本机安装副本已校验一致,2026-08-09
+SRC-PUBLIC-BRIEF,公开任务书,brief/public-brief.md,official_repository,E1,available,public,project,d28c1400,high,researcher,公开项目目标与边界,2026-08-09
+SRC-AGENT-TASKBOOK,Agent Taskbook,brief/site-package/agent_taskbook.json,cleared_repository_document,E1,available,public-cleared,project,d28c1400,high,evidence_planner,六项必答任务及禁止声明；不能替代官方空间或控规条件,2026-08-09
+SRC-FORMAL-GUIDE,Formal Submission Guide,docs/formal-submission-guide.md,official_repository,E1,available,public,project,d28c1400,high,qa_worker,proposal v2双语制包和校验要求,2026-08-09
+SRC-DESIGN-BRIEF,Site Package Design Brief,brief/site-package/design_brief.json,official_repository,E1,available,public,project,d28c1400,high,evidence_planner,三层范围与专业任务；精确polygon仍缺失,2026-08-09
+SRC-ALLOWED-SPACE,Allowed Design Space,brief/site-package/allowed_design_space.json,official_repository,E1,available,public,project,d28c1400,high,evidence_planner,可编辑图层锁定图层与禁止声明,2026-08-09
+SRC-SOURCE-REGISTRY,Public Source Registry,data/source_registry.json,official_repository,E1,available,public,project,d28c1400,high,librarian,6项登记；5项formal yes；1项provisional only,2026-08-09
+SRC-PLANNING-LIMITS,Planning Limits,brief/site-package/ranges/planning_limits.json,official_repository,E1,available,public,project,d28c1400,high,evidence_planner,已有官方约面积；项目控规指标仍missing,2026-08-09
+SRC-STANDARDS,Professional Standards Registry,brief/site-package/standards/standards.json,official_repository,E1,available,public,project,d28c1400,high,evidence_planner,6项标准；建筑设计深度规定仍needs_official_file,2026-08-09
+SRC-SCHEMAS,Submission JSON Schemas,brief/site-package/schemas/,official_repository,E1,available,public,project,d28c1400,high,qa_worker,9个JSON Schema draft 2020-12,2026-08-09
+SRC-PROVISIONAL-GEOMETRY,Provisional Boundaries,brief/site-package/geometry/provisional_boundaries.geojson,provisional_repository_data,E3,available,public-provisional,three_scope_levels,d28c1400,medium,gis_analyst,仅用于临时生成展示和intake；禁止官方或精确用途,2026-08-09
+SRC-VALIDATION-SCRIPTS,Submission Validation Scripts,scripts/,official_repository_tool,E1,available,public,project,d28c1400,high,qa_worker,scaffold render finalize self_check preflight与registry校验脚本基线,2026-08-09
+SRC-USER-RESEARCH-01,规划补盲项目流程与多Agent组织设计,C:/Users/xyh/Desktop/新建文件夹 (3)/百年京张 AI 创新带：规划补盲、项目流程与多 Agent 组织设计.docx,user_provided_cleared,E4,available,user-provided,project,2026-08-09,medium,librarian,工作方法输入；引用事实需重新核验；当前未复制入仓库,2026-08-09
+SRC-USER-RESEARCH-02,规划全要素基础设施时间线与协作规范,C:/Users/xyh/Desktop/新建文件夹 (3)/百年京张AI创新带：规划全要素补充、AI时代基础设施体系、项目时间线与多Agent协作规范.docx,user_provided_cleared,E4,available,user-provided,project,2026-08-09,medium,librarian,工作方法输入；引用事实需重新核验；当前未复制入仓库,2026-08-09

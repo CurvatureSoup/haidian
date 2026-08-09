@@ -1,0 +1,22 @@
+{
+  "task_id": "SMOKE-L1",
+  "producer_agent": "librarian",
+  "configured_model": "gpt-5.6-luna",
+  "runtime_model_evidence": "UNVERIFIED: this subagent runtime exposes no independently verifiable model metadata. The configured value is read from .codex/agents/librarian.toml and is not runtime evidence.",
+  "records": [
+    {
+      "source_id": "SRC-A",
+      "title": "Public Brief v2",
+      "status": "available",
+      "updated_at": "2026-08-09"
+    },
+    {
+      "source_id": "SRC-B",
+      "title": "Taskbook",
+      "status": "available",
+      "updated_at": "2026-08-09"
+    }
+  ],
+  "duplicates_removed": 1,
+  "escalation_required": false
+}

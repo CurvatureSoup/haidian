@@ -1,0 +1,10 @@
+# 项目主线程作为 Sol Max 总控；各自定义 Agent 在独立 TOML 中固定模型。
+model = "gpt-5.6-sol"
+model_reasoning_effort = "max"
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3
+default_subagent_model = "gpt-5.6-luna"
+default_subagent_reasoning_effort = "low"
+interrupt_message = true
