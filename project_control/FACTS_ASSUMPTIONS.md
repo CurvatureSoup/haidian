@@ -24,7 +24,7 @@
 | F-016 | CONFLICT | OSM 背景核对显示已测公园与 `PROV-SITE-001` 相交 0%、最近 412.5 m，但双方都不足以裁决官方总体范围。 | provisional boundaries basis / Issue #846 | 只登记为空间不确定性；不得把 OSM 或 provisional 任一方升级为官方边界，等待官方 polygon。 | gis_analyst | 2026-08-09 |
 | F-017 | CONFIRMED | 投稿包 `manifest.json`/`agent.json` 可选使用成对的 `model_family` 和 `model_detail`；占位符或只填一项会校验失败，旧包两项均缺省仍兼容。 | manifest schema / scaffold / validator @ 9051ca77 | 这是参赛者声明字段，不是 `.codex/agents/*.toml` 字段，也不是运行时模型遥测。 | qa_worker | 2026-08-09 |
 | F-018 | CONFIRMED | 最新 validator 拒绝投稿包符号链接；若存在 `simulation.json`，任务数量、聚合指标、可视化声明和基线必须可复算且一致。 | validator / formal guide @ 9051ca77 | 未来确定性 QA 必须执行这些检查；当前 smoke 不含投稿包，不受影响。 | qa_worker | 2026-08-09 |
-| F-019 | CONFIRMED | 最新观察的官方 `main@17e8eadaa66b2faef2981282c44008047b510b1d` 相对 `9051ca77` 没有非 `submissions/` 路径变化。 | GitHub compare API | 当前规则影响复核仍以 `9051ca77` 为稳定基线。 | librarian | 2026-08-09 |
+| F-019 | CONFIRMED | 在规则复核校验点 `main@f05026c028b2b68700c986f2ff3a29aef75a4bf4`，`9051ca77..f05026c0` 没有非 `submissions/` 路径变化。 | GitHub compare API | 当前规则影响复核以 `9051ca77` 为稳定基线；后续会话仍须重新 fetch 检查。 | librarian | 2026-08-09 |
 | M-001 | MISSING | 当前子线程接口未暴露可独立核实的运行时模型元数据。 | `project_control/smoke/orchestrator_summary.md` / Codex Subagents 文档 | 配置和行为验证通过；遥测记为 NOT OBSERVABLE，不阻断 G0，也不得声称已取得实际模型审计证据。 | qa_worker | 2026-08-09 |
 | M-002 | MISSING | 项目特定容积率、高度、建筑密度、绿地率、退线、道路红线等正式控规条件未提供。 | planning_limits / missing-data | 不得自行推定；进入专业设计前继续作为缺口。 | evidence_planner | 2026-08-09 |
 | M-003 | MISSING | `建筑工程设计文件编制深度规定（2016年版）` 在标准登记中仍为 `needs_official_file`。 | standards.json | 不能仅凭 URL 当作本地正式专业标准证据。 | evidence_planner | 2026-08-09 |

@@ -11,7 +11,7 @@
 - Agent 架构分支：`codex/agent-architecture`
 - 历史 G0 基线：官方 `main@d28c14002a77d19221888ffe8ac447876aca3165`
 - 当前规则基线：官方 `main@9051ca77fe1a15657bc3abf0513c402561afae0f`
-- 最新观察：官方 `main@17e8eadaa66b2faef2981282c44008047b510b1d`；`9051ca77..17e8eada` 没有非 `submissions/` 路径变化
+- 规则复核校验点：官方 `main@f05026c028b2b68700c986f2ff3a29aef75a4bf4`；`9051ca77..f05026c0` 没有非 `submissions/` 路径变化
 - 远端同步：`codex/agent-architecture` 已通过 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 合并当前规则基线，并通过 `b3d9666ba6ca2e110bbff7ea3295f95cda53afbb` 回写同步状态
 - 本机 Skill：七个文件已与当前规则基线逐一校验一致
 - 本地 Git：HTTPS 仍无法连接 `github.com:443`，工作树尚未补拉远端提交；后续阶段不得从本地旧规则树启动
