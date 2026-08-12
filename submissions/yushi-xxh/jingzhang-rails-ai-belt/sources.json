@@ -160,6 +160,26 @@
       "authority_level": "agent_generated",
       "usable_for": ["Explaining generation of GeoJSON, figures, HTML, PDF, and brand concept assets"],
       "not_usable_for": ["Planning facts, official approval, or third-party rights not expressly documented"]
+    },
+    {
+      "id": "GOV-PROJECT-MATURITY",
+      "title": "Urban-renewal project governance reference (concept-grade)",
+      "publisher": "Public project-management references from MoHURD, NDRC and Beijing district open-data portals, summarised by the agent for concept framing only",
+      "path": "https://www.mohurd.gov.cn/gongkai/zhengce/zhengcefilelib/ && https://www.ndrc.gov.cn/ && https://www.beijing.gov.cn/",
+      "accessed_date": "2026-08-09",
+      "authority_level": "public_concept_reference",
+      "usable_for": ["Field structure of the JZ-01 to JZ-06 governance matrix (lead, permit, resource tier, KPI, exit, annual review)"],
+      "not_usable_for": ["Quoting specific procurement thresholds, KPI scores or government commitments as authoritative for Haidian"]
+    },
+    {
+      "id": "BEIJING-PUBLIC-SAFETY",
+      "title": "Beijing Public Security large-scale event permit and safety guide",
+      "publisher": "Beijing Municipal Public Security Bureau (public guidance summary)",
+      "path": "https://gaj.beijing.gov.cn/",
+      "accessed_date": "2026-08-09",
+      "authority_level": "public_concept_reference",
+      "usable_for": ["Annual event safety plan structure and JZ-06 exit-condition language"],
+      "not_usable_for": ["Using specific permit numbers or station assignments not yet confirmed for Haidian"]
     }
   ]
 }

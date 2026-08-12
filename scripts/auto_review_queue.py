@@ -57,6 +57,18 @@ def gh_json(repo: str, args: list[str], *, cwd: Path) -> Any:
         raise WorkerError(f"invalid JSON from gh {' '.join(args)}") from exc
 
 
+def pr_file_paths(repo: str, number: int, cwd: Path) -> list[str]:
+    completed = run(
+        ["gh", "api", "--paginate", "--slurp", f"repos/{repo}/pulls/{number}/files"],
+        cwd=cwd,
+    )
+    try:
+        pages = json.loads(completed.stdout)
+        return [str(item["filename"]) for page in pages for item in page]
+    except (json.JSONDecodeError, KeyError, TypeError) as exc:
+        raise WorkerError(f"invalid file list from gh api for PR #{number}") from exc
+
+
 def latest_validation_check(meta: dict[str, Any]) -> dict[str, Any] | None:
     checks = [
         (index, item)
@@ -270,11 +282,7 @@ def process_pr(args: argparse.Namespace, meta: dict[str, Any], repo_root: Path) 
     if meta.get("mergeable") == "CONFLICTING":
         return {"number": number, "head_sha": head_sha, "result": "skipped-conflicting"}
 
-    paths_text = run(
-        ["gh", "pr", "diff", str(number), "--repo", args.repo, "--name-only"],
-        cwd=repo_root,
-    ).stdout
-    submission_dir = submission_dir_from_files([line for line in paths_text.splitlines() if line], author)
+    submission_dir = submission_dir_from_files(pr_file_paths(args.repo, number, repo_root), author)
     worktree = args.worktree_root / f"pr-{number}-{head_sha[:12]}"
     audit_dir = args.audit_root / f"pr-{number}" / head_sha
     ref = f"refs/codex-auto-review/pr-{number}-{head_sha[:12]}"
@@ -360,7 +368,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--reasoning-effort", default="high")
     parser.add_argument("--timeout", type=int, default=900)
     parser.add_argument("--retries", type=int, default=2)
-    parser.add_argument("--max-images", type=int, default=13)
+    # Keep the queue default aligned with ai_review_submission's paired
+    # bilingual packet: five figure pairs, two PDF first-page pairs, and two
+    # HTML screenshot pairs (18 images total when all v2 counterparts exist).
+    parser.add_argument("--max-images", type=int, default=18)
     parser.add_argument("--audit-root", type=Path, default=Path(".maintainer-review/queue"))
     parser.add_argument("--worktree-root", type=Path, default=Path(".pr-worktree/auto-review"))
     parser.add_argument("--apply", action="store_true", help="Post reviews, change labels, and merge accepted PRs")

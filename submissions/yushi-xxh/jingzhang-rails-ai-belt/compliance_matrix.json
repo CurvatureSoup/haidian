@@ -486,7 +486,10 @@
         "三层范围工作框架",
         "统筹研究范围产业与未来城市研究",
         "总体设计范围城市更新与控规深度城市设计",
-        "重点区域详细设计"
+        "重点区域详细设计",
+        "更新项目清单、实施政策与分期计划",
+        "项目治理与可实施性矩阵（JZ-01 至 JZ-06）",
+        "三处重点片区空间特异性矩阵（K1 / K2 / K3）"
       ],
       "geojson_layers": [
         "geometry/site_boundary.geojson",
@@ -501,7 +504,13 @@
         "site_area_sqm",
         "green_ratio",
         "public_space_ratio",
-        "key_area_count"
+        "key_area_count",
+        "renewal_project_count",
+        "project_governance_field_count",
+        "project_exit_clause_count",
+        "project_annual_review_count",
+        "project_trigger_threshold_count",
+        "spatial_specificity_block_count"
       ],
       "drawings": [
         "drawings/a3-booklet.pdf",
@@ -510,7 +519,8 @@
       "visual_sections": [
         "总览地图",
         "任务覆盖",
-        "核心指标"
+        "核心指标",
+        "项目治理与可实施性矩阵"
       ],
       "source_ids": [
         "SITE-PACKAGE",
@@ -519,16 +529,20 @@
         "OFFICIAL-ANNOUNCEMENT",
         "AGENT-TASKBOOK",
         "BOUNDARY-SOURCE",
-        "KEY-AREA-SOURCE"
+        "KEY-AREA-SOURCE",
+        "GOV-PROJECT-MATURITY"
       ],
       "assumption_ids": [
-        "A-CONTROLS-001"
+        "A-CONTROLS-001",
+        "A-PROJ-001",
+        "A-PARK-002"
       ],
       "self_check_ids": [
         "BOUNDARY_TRUST",
         "KEY_AREAS_TRUST",
         "LAND_USE_TOPOLOGY",
-        "VISUAL_STATIC"
+        "VISUAL_STATIC",
+        "PROFESSIONAL_EVIDENCE"
       ]
     },
     {

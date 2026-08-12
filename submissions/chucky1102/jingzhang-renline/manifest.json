@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "581f3a18ea7ad14fe804e792d1a4b5ecdb852fd758a39fd141e4e1bf74082005"
+      "sha256": "a8974ea785760775296153ebd82ed71a39e0e40adfecb1b4b4358144a759a887"
     },
     {
       "path": "agent.json",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "80b71cb78d2c1581fc679eb561959ac515bc8a3ff6f76c74dcc2c4e20d49b72f"
+      "sha256": "3e6d57e84e84cdf020ba60c9fa632455cb558170ee82c2e97c43e5e007161d98"
     },
     {
       "path": "compliance_matrix.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "f5d570db1b1a77cebf02589c9d089ee4e458c0ac5ff07657f2f861f29f9387af"
+      "sha256": "ac46c19549d39e6e4e8b9a32264cdeb5edb79a3f5dfb3de69315b0f596fc921e"
     },
     {
       "path": "report/narrative.md",
@@ -93,7 +93,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "ac8929a08516047380c241994c18f3ba107e198ab2ffdc74a24c7ee427b8a095"
+      "sha256": "8305610ddad9d2bf84375fda3c35af361fb69a2d02daf72cc4ef49b37781bf54"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -114,7 +114,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "4f7a4f821a4448cbde925b6a894b71315bc2786004ff6b002007e2afc6bab7a4"
+      "sha256": "2fd2a409a7c62a6199fbeb15b32eee6f876d267850457d3582f1f6ac3484b401"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -179,7 +179,7 @@
       "path": "geometry/land_use.geojson",
       "role": "geometry",
       "required": true,
-      "sha256": "8608883f3dd4f2f8e424a7b5085aa76c222ac9a6162f187264f1b7a2b3a261d9"
+      "sha256": "ff24ba8d4ef660521157b8b68109e57523df1c1896f6f23997bd7162c23f22f8"
     },
     {
       "path": "geometry/phasing.geojson",
@@ -191,7 +191,7 @@
       "path": "geometry/public_space.geojson",
       "role": "geometry",
       "required": true,
-      "sha256": "ac018025a36d6b859bdf86282828264131abde1c5da525bed23a0d570c2f0a06"
+      "sha256": "b7f965a6f1260f7af5388ff44683dd66197239542de94468c7407eafacb15004"
     },
     {
       "path": "geometry/roads.geojson",
@@ -211,7 +211,7 @@
       "required": false,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "4f370067f1fabc749e8a7cc474570011fec85cfeacf006de5611980d6cebe0cc"
+      "sha256": "240661735b89f3398a904486154dc2740a260f4212144580db2dbc6d10bb27b8"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": false,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "4132891fd315fd52108abcda96d7795f247cb41166b31dfeb0ebfc0057174174"
+      "sha256": "61b89681fbe0d01ff1065c13298cdd3a26784b4fa030b641609bdda163e2b6b4"
     },
     {
       "path": "visual/index.en.html",
@@ -227,7 +227,7 @@
       "required": false,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "6b4692f1dd1e2724b1c02954fd0ca10a50974bb0510126b8e16564b84218ab2a"
+      "sha256": "cc3d39ebf85eee588d44ecdc520b4201cc0bb0d8d565f75072ce6b8ca708fe05"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -290,14 +290,14 @@
       "role": "changelog",
       "required": false,
       "language": "zh",
-      "sha256": "bcd6c3f33a129e67f579d325112b216e399b6f8417e769e798065a0dc5ecce83"
+      "sha256": "5c860eda2b17842453726bb814dccc8b89d19f8a63d43bea993225a34db89a72"
     },
     {
       "path": "visual/assets/switchback-protocol.json",
       "role": "visualization",
       "required": false,
       "language": "neutral",
-      "sha256": "308870c0f096a5a8f0c6032f9762fea0365a68dbd8d5e8549b487c9f644c36a3"
+      "sha256": "429e757b29b707804dc1515fce79d4977d5ed041212b7b8a6822bffa4d654101"
     },
     {
       "path": "assets/figures/renline-logo.svg",
@@ -305,11 +305,47 @@
       "required": false,
       "language": "neutral",
       "sha256": "54f672495018ea58a710a99d388d0d3760e3a6cb726978b494a46f62aab36f73"
+    },
+    {
+      "path": "assets/media/cover.webp",
+      "role": "media_poster",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "人字线展厅封面(概念示意)",
+      "title_en": "RENLINE gallery cover (conceptual)",
+      "description_zh": "代码绘制的概念封面:人字双轨与K5零公里信号节点;非官方效果图。",
+      "description_en": "Code-drawn conceptual cover of the twin ren-rails and the K5 kilometre-zero node; not an official rendering.",
+      "sha256": "c87f879529d36081705ff6dfb8060692994fb9c6f4c8c69ce95af5dc615c7e5a"
+    },
+    {
+      "path": "visual/assets/renline-explorer.js",
+      "role": "visualization",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "人字线漫游交互脚本(内嵌于中英展示页)",
+      "title_en": "RENLINE Explorer interactive script (embedded in both visual pages)",
+      "description_zh": "十驿折返爬升交互示意:点选/键盘浏览各驿与场景卡,零外部依赖,含静态兜底与 reduced-motion。",
+      "description_en": "Interactive switchback-climb schematic of the ten waypoints; zero external dependencies, static fallback and reduced-motion support.",
+      "sha256": "0bfe6a6009f8e6bb902b0e5e74d17fa09bd279cf4ebd71610b3e531de94afc84"
+    },
+    {
+      "path": "visual/assets/renline-explorer-fallback.png",
+      "role": "visualization",
+      "required": false,
+      "language": "neutral",
+      "title_zh": "人字线漫游静态兜底图",
+      "title_en": "RENLINE Explorer static fallback",
+      "sha256": "21e48fcc099119bc562eb17a28245be03187e60c764a91d4b354fdcb2683c8d1"
     }
   ],
   "validation_claim": {
-    "self_checked": false,
+    "self_checked": true,
     "known_blockers": [],
-    "data_confidence": "high"
-  }
+    "data_confidence": "high",
+    "self_check_command": "python scripts/self_check_submission.py submissions/chucky1102/jingzhang-renline --pr-author chucky1102",
+    "self_check_result": "PASS",
+    "checked_at": "2026-08-11T02:30:00Z",
+    "readiness_contract": "persisted-self-check-v1"
+  },
+  "cover_image": "assets/media/cover.webp"
 }

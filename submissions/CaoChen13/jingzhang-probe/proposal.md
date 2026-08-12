@@ -3,6 +3,8 @@ title: "京张探针 Probe"
 author_github: "CaoChen13"
 language: "zh"
 translation_file: "proposal.en.md"
+proposal_format_version: "2"
+bilingual_contract_version: "1"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "以日常公共带串联创新、社区与遗址空间，并用受益—成本—责任台账把每项更新转化为可复算、可核验、可否决的行动。"
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
@@ -80,6 +82,10 @@ Logo 方向采用一个自绘的“**开口 P + 轨枕刻度 + 人工复核点**
 
 视觉系统只保留一组主色：深轨蓝 `#172235`、证据金 `#C79838`、公共绿 `#15803D` 与纸白；状态颜色永远同时配文字和形状，不能只靠红绿区分。动效仅用于“问题出现—证据补齐—人工签认”的三步展开，并提供静态替代。文化导视另有符号系统，见 agent.5；它不能与母品牌 Logo 混用。
 
+![京张探针原创开口 P 图形标识](assets/figures/probe-logo.svg)
+
+![京张探针标识在尺寸、单色、深浅底与导视牌中的应用校验](assets/figures/probe-logo-usage.svg)
+
 ### 三大定位 × 五大功能
 
 | 三大定位 | 对应功能 | 在本方案中的空间兑现 | 验收问题 |
@@ -136,6 +142,8 @@ Logo 方向采用一个自绘的“**开口 P + 轨枕刻度 + 人工复核点**
 
 每层输出都必须能交给下一层：问题层交付带受益与风险边界的 brief；研究层交付可复现方法；底座层交付权限、成本、能耗与服务窗口；工程层交付版本和测试记录；治理层交付人工复核与停用条件；场景层交付使用、影响和责任证据。缺任一交接件，项目留在 `evidence_pending`，不得用活动曝光替代转化[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK][metric:approved_scenario_count]。
 
+![五个公开案例到可迁移机制及本地对应系统的生态图](assets/figures/agent2-ecosystem.svg)
+
 ### 众智园全栈、AI原点社区与中关村科技服务翼
 
 | 系统 | 概念角色 | 空间载体 | 进入条件 | 当前状态 |
@@ -157,7 +165,15 @@ Logo 方向采用一个自绘的“**开口 P + 轨枕刻度 + 人工复核点**
 | 数据 | 合成/公开/授权数据分级，最小权限与到期删除 | 数据室与审计终端 | 数据清单、权利基础、字段字典、保留期 |
 | 场景 | 小范围、可撤、有人复核的测试窗口 | 小月河场景翼与公共体验路径 | 场地、运营、安全、隐私、可达性与停用批准 |
 
-这张映射不产生招商名单。`[metric:ecosystem_partner_count]` 维持 `status: unknown`，需要“可公开身份＋签署角色＋有效期限＋披露许可”四项齐备的合作台账；`[metric:compute_capacity]` 同样为 unknown，需要供应商中立的容量单位、时窗、分配规则、费用与能耗记录。五个案例只校准机制语言，不填这些本地空值。
+这张映射不产生招商名单。`[metric:ecosystem_partner_count]` 维持 `status: unknown`，需要“可公开身份＋签署角色＋有效期限＋披露许可”四项齐备的合作台账；`[metric:compute_capacity]` 同样为 unknown，需要供应商中立的容量单位、时窗、分配规则、费用与能耗记录。五个案例只校准机制语言，不填这些本地 `unknown`。
+
+### 区域协同接口：只接公开机制，不预写合作结果
+
+本方案不掌握跨区协同的实际数据，仅提出接口与验证条件。中关村 AI 北纬社区的公开征求意见公告只支持一项可核事实：其方案意在与 AI 原点社区形成南北呼应[source:AI-LATITUDE-PUBLIC-DRAFT]。因此本方案只建议两端使用兼容的 `problem_brief`、准入状态、许可、版本、退出与交接字段；是否已有共同运营者、项目、算力、资金、企业或人员往来全部 `unknown`，须以双方有效协议和同一观察窗口内的交接记录核验。
+
+海淀区“十四五”规划曾写明与未来科学城探索创新生态链共建、与怀柔科学城探索大科学装置共享、与北京经济技术开发区加强创新链产业链衔接[source:HAIDIAN-14FIVE-COORDINATION]。本方案不把规划表述写成已经发生的协同，只保留三种机器接口：向未来科学城交付带权利边界的问题 brief 与可复用评测件；向怀柔科学城提交能力需求、资格、预约、批准、使用和归还证据；向经开区提交版本、测试、合规、移交和退出材料。具体机构、设施可用性、项目、资金、企业、指标与服务时窗均为 `unknown`，须由有权限的参与方逐项确认。
+
+京津冀层面，北京市人大常委会决定公开了供需对接清单、概念验证、成果孵化、中试基地和应用场景等协同机制[source:JINGJINJI-COLLABORATIVE-INNOVATION]；2025 年三地科技部门措施进一步提出常态化成果对接、概念验证、中试熟化与跨区域服务链条[source:JINGJINJI-TRANSFER-MEASURES]。本方案可输出与这些机制兼容的“问题—权利—版本—测试—影响—责任—退出”交接包，但不声称本项目已进入任何清单、平台或专项。对接主体、资格、成果权利、承接地、资金、合同、绩效与区域贡献全部 `unknown`；只有有效登记、双方签认和可核验交接证据齐备后，才允许从“接口建议”升级为“协同记录”。
 
 ## 总体设计范围城市更新与控规深度城市设计
 
@@ -203,6 +219,8 @@ Logo 方向采用一个自绘的“**开口 P + 轨枕刻度 + 人工复核点**
 每个空间动作先回答三问。受益：是否改善公共通行、日常停留、服务可达或社区与学研之间的资源共享，证据由何种匿名、可复核方式取得。成本：施工、绕行、噪声、经营、维护、能源、隐私或空间排他成本落到哪个界面，是否有经专业确认的影响范围。责任：何种阈值触发行动，由谁提出、谁出资、谁复核、以什么证据结案。未完成三问的动作可以留在方案备选库，但不得进入先行项目。
 
 核查带 `COST-SCREEN-001` 是方案生成的分析包络，不是现状影响区或监管控制线[data:geometry/constraints.geojson#COST-SCREEN-001]。它只负责提醒：落入带内的干预必须检查相邻界面。正式影响范围仍须由交通、声环境、施工组织、商业与社会影响等专业方法确定。这样“代价”成为设计过滤器，而不是事后附上的态度声明。
+
+按人群重算及其未覆盖对象见“公共利益、人群归属与包容性”一节；此处不重复维护。
 
 ## 重点区域详细设计
 
@@ -374,6 +392,8 @@ Logo 方向采用一个自绘的“**开口 P + 轨枕刻度 + 人工复核点**
 
 `[metric:public_space_component_type_count]=8` 是组件**类型**数量，不是已采购或建设数量。尺寸、材料、单价、数量、供应商与安装位置全部 unknown，需要现场测绘、人体工学与无障碍复核、耐久/消防/结构测试、运维能力和清权采购后填写。
 
+![三个朝圣地标概念与八类公共空间组件库](assets/figures/agent4-landmarks-components.svg)
+
 ## 京张—中关村—AI文化叙事与标识（agent.5）
 
 ### 文化主线：自主工程不是装饰，而是一种工作方法
@@ -399,6 +419,8 @@ Logo 方向采用一个自绘的“**开口 P + 轨枕刻度 + 人工复核点**
 文化导视采用“**双线＋刻度＋版本戳**”的自绘符号：双线分别代表历史证据与当代公共使用，交汇刻度标识一个可停留/可解释节点，版本戳显示内容生效时间。它是空间信息语法，不是 agent.1 的开口 P 母品牌 Logo。导视分 `[metric:signage_information_level_count]=4` 级：`LINE` 连续方向、`NODE` 节点功能、`STORY` 经审校叙事、`STATUS` 开放/暂停/unknown；这是概念信息层级而非已安装标识数量。每级同时使用中文、英文、图形和高对比触觉/声音替代，不靠颜色单独编码。
 
 正式设计前须补：全线实测寻路决策点、无障碍审计、双语/多语译审、文保审查、夜间眩光测试、材料与维护样本、字体和图像许可。任何二维码都必须有同等纸本内容与短网址；位置数据不作为阅读前提。历史照片、人物、商标、论文图和企业标识未经授权不进入系统[source:AGENT-TASKBOOK]。
+
+![四级信息架构与五幕空间故事线](assets/figures/agent5-signage-story.svg)
 
 ### 国际传播文案（概念稿，待译审）
 
@@ -450,11 +472,45 @@ Logo 方向采用一个自绘的“**开口 P + 轨枕刻度 + 人工复核点**
 
 `[metric:developer_to_pilot_conversion_ratio]` 维持 `status: unknown`：分子须是进入**人工批准有限试点**的开发者，分母须是同一批次内符合公开资格且自愿登记的开发者；当前缺批次、资格、批准台账和共同观察窗口。国际招引同理，只有有效协议才进入合作记录。公共地标和体验空间的运营优先保证开放时段、人工解释、基本维护和故障降级；品牌曝光不得改变公共可达性。
 
+![四类年度项目、场景开放门与转化证据要求](assets/figures/agent6-operations-conversion.svg)
+
 ### 典型界面与公共空间网络容量
 
 典型段落 A–A′ 不只描述“遗址公园—居住界面”现状线索，而固定一条设计次序：从居住侧向公共带依次处理安静门前、可维护的服务边、连续无障碍通行、骑行与日常停留、遗址绿荫界面；装卸、扩声、强光和设备检修口放到远离居住的一侧。若正式红线、消防或树木调查证明界面不足，先删除展示、可租活动和技术装置，再压缩停留，不能切断基本通行。剖面不标正式尺寸，因为当前图仅为设计议题且 OSM 不得生成米制判断[source:OSM-CONTEXT]；深化时以实测断面逐段替换[data:geometry/roads.geojson#ROAD-003]。
 
 网络容量用当前方案要素而非人口臆测复算：`count(PUBLIC_SPACE)=8`，即一条连续公共带加七个节点；`count(ROAD_CENTERLINE)=9`，即三条南北线加六条东西联络[data:geometry/public_space.geojson#PUBLIC-001][data:geometry/roads.geojson#ROAD-009]。以“两个道路要素几何相交即连边”建立要素图，当前九条序列化概念线形成 **1 个要素图连通分量**；复算式为 `components(intersects(ROAD-001…009))`。这里不报告“图形断点”：该词容易与悬挂端点、过街缺口或工程断点混淆，而本包没有定义或计算它。面积覆盖正文只显示 `[metric:public_space_ratio]` **约 0.03**，分母为 provisional `overall_design_area` **约 11.4 km²**，不是约 43.6 km²。要素图连通不证明可过街或可施工；工程核验断点、服务半径覆盖和人群容量仍为 unknown，需要正式出入口、障碍、客流、人口与开放时段资料。与 **0/6 已确认联络**并读，图形相交不等于真实连通。
+
+## 公共利益、人群归属与包容性
+
+### 一、把受益—成本—责任换一个轴：按人群重算
+
+这一节不新增道德口号，也不新增指标。它把 `visual/assets/duty-ledger.json` 中既有的受益域、代价域和指标引用，按 `group_id` 重新归属到 `visual/assets/inclusion-ledger.json`；`benefit_items` 与 `cost_items` 只是待核验关系，不表示已经受益或已经受损。每个组用可复核资料定义归入规则，再列出 `blind_spots`、可核验中间量、转为可算所需资料和建议的程序位置。同一人可以进入多个组，缺少经授权、去重且同一时间窗的资料时不得合计人数；人群维度不做净额相抵，总体受益不能取消任何一组的权利、法定程序、最低服务或未解决代价。
+
+![九类人群受益、代价与盲区归属矩阵](assets/figures/inclusion-incidence.svg)
+
+### 二、九类人群的受益、代价与已知盲区
+
+| group_id / 可核验归入标准 | benefit_items（非实绩） | cost_items（非实绩） | blind_spots / 可核验中间量 |
+|---|---|---|---|
+| `resident_long_term` 长期居民：授权且去重的常住或居住记录落在确认范围与观察窗内，不以产权推断 | 公共通行、日常停留、服务可达、社区—学研共享 | 施工、绕行、噪声、维护、隐私、空间排他；受影响户数与缓解预算 | 人数、实际使用与组内差异均 `unknown`；可核夜间常用路线照明覆盖长度 `resident_night_route_covered_length_m` |
+| `tenant` 租户：有效租约、使用协议或复核后的实际租住记录，不从所有权反推 | 公共通行、日常停留、服务可达 | 施工、绕行、噪声、经营、隐私、空间排他；受影响户数与缓解预算 | 租户数、租期、租金与搬迁暴露均 `unknown`；可核参与复核的临时绕行长度 `tenant_detour_length_m` |
+| `older_adult` 老年人：按截止日与记录版本核验年龄阈值，不凭外观判断 | 公共通行、日常停留、服务可达 | 绕行、噪声、维护、隐私、空间排他；受影响户数 | 人数、出行链、照护与数字排除均 `unknown`；可核具备连续休息支持的路线长度 `older_adult_rest_supported_length_m` |
+| `child_youth` 儿童与青少年：经监护授权的出生日期显示未成年，在读状态不替代年龄口径 | 公共通行、日常停留、服务可达、社区—学研共享 | 施工、绕行、噪声、隐私、空间排他；受影响户数 | 人数、接送路线与独立表达均 `unknown`；可核儿童友好审计通过的保护性过街点 `child_youth_protected_crossing_count` |
+| `mobility_impaired` 行动不便者：本人自愿说明特定任务需要无台阶通行、辅具、陪护或额外休息，不用医学标签 | 公共通行、日常停留、服务可达 | 施工、绕行、维护、空间排他；受影响户数 | 人数、障碍位置与支持需求均 `unknown`；可核无障碍连续段落数 `accessible_continuous_segment_count` |
+| `low_income_informal_work` 低收入与非正规就业者：有效救助或低收入资格，或权利审查后的自愿就业形态调查；两种子口径分记 | 公共通行、日常停留、服务可达、社区—学研共享 | 施工、绕行、经营、维护、隐私、空间排他；受影响户数与缓解预算 | 人数、资格、工作形态与成本分布均 `unknown`；可核免费且无需账号的服务点 `free_accountless_service_point_count` |
+| `young_talent` 青年人才：声明年龄区间并有经核在学、研究、就业或创业任务；“人才”不作能力评价 | 公共通行、日常停留、服务可达、社区—学研共享 | 经营、维护、能源、隐私、空间排他 | 人数、职业阶段、照护与服务可用性均 `unknown`；可核无需机构身份的开放时窗 `young_talent_public_access_window_count` |
+| `enterprise_university` 企业与高校：法人登记有效，且有经确认的场所、项目或服务接口；公开名称不等于参与 | 公共通行、服务可达、社区—学研共享 | 施工、经营、维护、能源、隐私、空间排他；缓解预算 | 参与、容量、开放承诺与退出责任均 `unknown`；可核具备有效开放协议的公共接口 `signed_public_access_interface_count` |
+| `visitor` 游客与访客：观察窗内自愿匿名计数或访问记录，且不归入经核居住、工作、经营或在学身份；不持续跟踪设备 | 公共通行、日常停留、服务可达 | 绕行、隐私、空间排他 | 访客量、路线与语言需求均 `unknown`；可核多语且无需账号的导视节点 `multilingual_accountless_wayfinding_node_count` |
+
+中间量也不冒充覆盖效果。现有公开几何没有无障碍、照明、租住、年龄、收入、开放协议或实际使用属性，所以表中中间量当前仍留空；JSON 已固定公式、单位、来源接口和缺项，资料到位后才可复算。
+
+### 三、程序性包容：谁能在哪一道门说不
+
+以下是本方案建议的异议位置，不是现存制度，也不改变原门的空间阈值。`gates/01` 接收居民、老年人、儿童与行动不便者对连续通行证据的反证，未回应的断点继续为 `unknown`；`gates/02` 接收租户、低收入与非正规就业者、青年人才、企业和高校对使用权、容量、开放协议或排除条件的异议，触发重新核定；`gates/03` 让经核影响对象对漏计、绕行、停业、搬迁、资金或验收缺口提出异议，缺口未关闭就维持界面施工禁令。`reversibility-r1-r3` 把这些未关闭异议接到升级门：允许低扰动 R1 核查，不因大量 R1 抵消一个 R2 或 R3 决定。短期访客目前没有稳定代表或可触发门槛的位置，因此其 `procedural_standing` 为 `null`；反馈渠道不能冒充否决权。
+
+### 四、这一节不能证明什么
+
+第一，人群划分来自公开口径推断，没有一手人口、人口普查、街道户籍或无障碍设施普查数据，不能证明任何组的人数、覆盖率或实际净受益。第二，`procedural_standing` 只是本方案建议的机制，不是已经存在的制度安排、已确定决策或实施承诺。第三，盲区清单本身也可能有盲区，未穷尽交叉身份、临时状态、照护关系和未登记使用者。第四，本节不能证明本方案的包容性优于任何其他方案；它只把什么是 `unknown`、怎样核验以及谁还没有程序位置公开出来。
 
 ## 更新项目清单、实施政策与分期计划
 
@@ -511,7 +567,7 @@ Logo 方向采用一个自绘的“**开口 P + 轨枕刻度 + 人工复核点**
 
 ### 二、正文级指标：精度服从证据
 
-正文只显示可被当前证据支持的约值：总体设计范围约 11.4 km²，方案绿地比例约 0.11、公共空间比例约 0.03，参数化示意建筑基底约 1.49 ha（14 个概念模块，confidence=low）。这些量用于方案内部复核，不是现实测量、法定指标或工程规模。[metric:site_area_sqm][metric:green_ratio][metric:public_space_ratio][metric:building_footprint_area_sqm]
+正文只显示可被当前证据支持的约值：总体设计范围约 11.4 km²，方案绿地比例约 0.11、公共空间比例约 0.03，参数化示意建筑基底约 1.49 ha（14 个概念模块，confidence=low）。这些量用于方案内部复核，不是现实测量、法定指标或工程规模。[metric:site_area_sqm][metric:green_ratio]公共空间与建筑基底的相同约束见[metric:public_space_ratio][metric:building_footprint_area_sqm]。
 
 ### 三、机器复算附录（完整位数不代表现实精度）
 
@@ -638,9 +694,10 @@ AI 生成不构成事实豁免。每项生成内容应保留提示输入、数�
 - 处理事实包：三层范围、任务与缺资料的阅读导航，不是新权威来源[source:PROCESSED-FACT-PACK]。
 - provisional 总体边界与重点片区几何来源[source:BOUNDARY-SOURCE][source:KEY-AREA-SOURCE]。
 - OpenStreetMap 背景语境与外业线索，按 ODbL 登记[source:OSM-CONTEXT]。
-- 全球生态案例：AI Singapore 100E、Mila、Vector Institute、STATION F F/ai 与 TUM Venture Labs 的官方网页[source:CASE-AISG-100E][source:CASE-MILA-PARTNERSHIPS][source:CASE-VECTOR-INSTITUTE][source:CASE-STATIONF-FAI][source:CASE-TUM-VENTURE-LABS]。
+- 全球生态案例：AI Singapore 100E、Mila、Vector Institute、STATION F F/ai 与 TUM Venture Labs 的官方网页[source:CASE-AISG-100E][source:CASE-MILA-PARTNERSHIPS][source:CASE-VECTOR-INSTITUTE]；其余两项案例见[source:CASE-STATIONF-FAI][source:CASE-TUM-VENTURE-LABS]。
 - 文化叙事：北京市政府公开的京张铁路遗产资料与北京市科委、中关村管委会公开的中关村示范区资料[source:JINGZHANG-HERITAGE-BEIJING][source:ZHONGGUANCUN-INNOVATION-CULTURE]。
+- 区域协同接口：北纬社区公开征求意见公告、海淀区“十四五”规划、京津冀协同创新决定及三地成果转化措施；只用于确认公开机制，不证明本项目已有合作[source:AI-LATITUDE-PUBLIC-DRAFT][source:HAIDIAN-14FIVE-COORDINATION][source:JINGJINJI-COLLABORATIVE-INNOVATION]；成果转化措施另见[source:JINGJINJI-TRANSFER-MEASURES]。
 
-机器可读成果入口为 `standard_matrix.json`、`design_depth_matrix.json`、`compliance_matrix.json`、`metrics.json`、`assumptions.json`、`sources.json` 与 `self_check.json`；审计输出随包交付于 `visual/assets/boundary_sensitivity.json` 与 `visual/assets/run_record.json`，生成脚本因包格式不接受 `.py` 而未随包交付（见“复跑链”一节）。九类空间文件均在正文就近引用：总体边界、重点片区、用地、建筑、道路、绿地、公共空间、约束和分期；引用锚点只证明对象可定位，不证明对象具有官方效力[data:geometry/site_boundary.geojson#SITE-001][data:geometry/key_areas.geojson#PROV-KEY-001][data:geometry/land_use.geojson#LU-001]。
+机器可读成果入口为 `standard_matrix.json`、`design_depth_matrix.json`、`compliance_matrix.json`、`metrics.json`、`assumptions.json`、`sources.json` 与 `self_check.json`；审计输出随包交付于 `visual/assets/boundary_sensitivity.json`、`visual/assets/run_record.json`、三道门 JSON、`reversibility-r1-r3.json`、`duty-ledger.json` 及 `validation-report.json`。生成脚本因包格式不接受 `.py` 而未随包交付（见“复跑链”一节）。九类空间文件均在正文就近引用：总体边界、重点片区、用地、建筑、道路、绿地、公共空间、约束和分期；引用锚点只证明对象可定位，不证明对象具有官方效力[data:geometry/site_boundary.geojson#SITE-001][data:geometry/key_areas.geojson#PROV-KEY-001][data:geometry/land_use.geojson#LU-001]。
 
 本方案对应的专业标准索引为征集公告、智能体任务书、城市设计管理、控规深度、用地分类与建筑设计深度[standard:PROJECT-OFFICIAL-ANNOUNCEMENT][standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK][standard:MOHURD-URBAN-DESIGN-MEASURES]。具体适用性、响应状态与证据文件以 `standard_matrix.json` 为准；若正文与结构化文件冲突，先暂停结论并按版本记录查明，而不是选择更有利的一份。

@@ -1,6 +1,6 @@
 {
   "schema_version": "0.2.0",
-  "package_iteration": "v0.2",
+  "package_iteration": "v0.5",
   "status": "conceptual_governance_protocol_not_implementation",
   "purpose_zh": "把“城市版本化治理”从叙述转成可逐项核验、可暂停、可回滚的发布门。它不表示任何项目已获准、已运营或已达到绩效。",
   "spatial_basis": "geometry/phasing.geojson 的三处概念治理责任面；坐标与面积仍受临时边界限制。",

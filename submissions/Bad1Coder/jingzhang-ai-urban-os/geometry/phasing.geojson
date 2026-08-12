@@ -197,16 +197,16 @@
         "overlap_allowed": true,
       "area_basis": "projected_polygon_area_epsg4548"
       ,"delivery_register": {
-        "candidate_asset_owner": "station-front/commercial or park-interface asset holder (to be named after title check)",
-        "candidate_operator": "station and public-realm interface operator with repair desk (conceptual role)",
-        "independent_reviewer": "mobility, heritage and public-safety reviewer independent of terminal supplier",
-        "funding_type": "conceptual reversible-public-realm pilot allocation; no capital or procurement commitment",
-        "permit_gate": "official boundary, station/rail interface, pedestrian safety, heritage, fire, utilities and traffic review",
-        "stop_signal": "conflict at station frontage, blocked accessible route, heritage rights complaint, or manual service capacity below baseline",
-        "maintenance_owner": "frontage steward plus repair/reuse lead; supplier exit handover required",
-        "minimum_spatial_parameters": "step-free interchange, unobstructed service edge, staffed repair point and removable fixing grid",
-        "capacity_basis": "arrival, queue, maintenance and event capacity to be observed before any permanent work",
-        "delivery_evidence": ["station-interface walk", "heritage rights clearance", "manual-equivalent drill", "de-installation rehearsal"],
+        "candidate_asset_owner": "Zhongzhiyuan innovation/park asset holder (to be named after title, river and flood-interface checks)",
+        "candidate_operator": "prototype-yard operator with public-observation and repair/reuse responsibilities (conceptual role)",
+        "independent_reviewer": "structural, accessibility, AI/cyber-safety and material-reuse reviewer independent of prototype supplier",
+        "funding_type": "conceptual reversible prototype/testing and small-repair allocation; no capital, procurement or funding commitment",
+        "permit_gate": "official boundary, title, river/flood interface, fire, structure, public access, cyber/data safety and utility review",
+        "stop_signal": "structural instability, unsafe AI output, safety/privacy/accessibility threshold exceeded, ordinary route unavailable, or unresolved red-team finding",
+        "maintenance_owner": "prototype-yard steward plus repair/reuse lead; named people, rota and supplier-exit handover pending confirmation",
+        "minimum_spatial_parameters": "controlled test edge, continuous accessible bypass, visible ordinary route, material-passport wall and tool-accessible reversible fixings; dimensions to be field measured",
+        "capacity_basis": "test occupancy, structural load, observation group and maintenance capacity to be field-observed before public use, not inferred from the phase envelope",
+        "delivery_evidence": ["signed title/river/flood and utility checklist", "independent structure/access/material review", "AI-safety red-team and N0 stop-drill log", "public-access and ordinary-route walk", "de-installation and material-transfer rehearsal", "versioned open-source replication package with stated limits"],
         "rights_protocol_ref": "RIGHTS-03"
       }
       },

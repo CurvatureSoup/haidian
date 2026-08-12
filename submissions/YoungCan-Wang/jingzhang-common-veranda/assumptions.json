@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-BOUNDARY-001",
+      "status": "pending_official_data",
+      "statement": "The submitted site and three key-area polygons are repository provisional constraints, not official redlines.",
+      "impact": "All spatial layers, areas, ratios, figures and drawings must be regenerated when official polygons arrive.",
+      "trigger": "Organizer supplies rights-cleared official CAD/GIS/PDF with verifiable CRS."
+    },
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Approved FAR, height, density, setbacks, road redlines, ownership, municipal, fire and heritage controls are absent.",
+      "impact": "The proposal keeps these values unknown and limits building/renewal content to method and prototype suggestions."
+    },
+    {
+      "id": "A-BUILDING-001",
+      "status": "conceptual_design_only",
+      "statement": "Building footprints are schematic veranda-space prototypes rather than a current-building survey.",
+      "impact": "They cannot support demolition, ownership, total floor area or engineering conclusions."
+    },
+    {
+      "id": "A-TRANSPORT-001",
+      "status": "conceptual_design_only",
+      "statement": "East-west links and the slow-mobility spine express desired connectivity, not approved engineering alignments.",
+      "impact": "Transport, accessibility and utility professionals must verify every crossing and interface."
+    },
+    {
+      "id": "A-CLIMATE-001",
+      "status": "pending_site_measurement",
+      "statement": "Shade, wind, heat and rain-garden performance have not been simulated with official microclimate and utility data.",
+      "impact": "The veranda kit remains a design direction pending seasonal measurement and professional modelling."
+    },
+    {
+      "id": "A-OSM-001",
+      "status": "public_context_only",
+      "statement": "OSM features are used only to understand urban context and support legible diagrams.",
+      "impact": "Road, building, facility and heritage completeness cannot be assumed; no statutory or engineering conclusion is derived.",
+      "trigger": "Replace or reconcile with rights-cleared official survey, planning and facility data when supplied."
+    },
+    {
+      "id": "A-RENDER-001",
+      "status": "conceptual_visualization",
+      "statement": "The three perspective images are AI-generated spatial narratives based on the v0.2 design language.",
+      "impact": "Materials, planting, users, buildings and spatial dimensions are illustrative and require professional site verification.",
+      "trigger": "Replace with survey-based professional visualization after the official base and design development are available."
+    },
+    {
+      "id": "A-PILOT-001",
+      "status": "tabletop_only",
+      "statement": "The Veranda Receipt is a synthetic, offline tabletop and has not been authorized or run in public space.",
+      "impact": "Results show only decision-logic completeness; they do not establish safety, performance, acceptance or implementation feasibility.",
+      "trigger": "A real host, rights holder and professional team must complete G0-G6 before any physical or live-data trial."
+    },
+    {
+      "id": "A-REGION-001",
+      "status": "proposed_interface",
+      "statement": "Regional nodes are proposed evidence interfaces rather than confirmed institutional partnerships.",
+      "impact": "No named institution is represented as committed, participating or endorsing.",
+      "trigger": "Replace owner_type with a named, consenting interface only after written authorization."
+    },
+    {
+      "id": "A-OWNER-001",
+      "status": "unassigned",
+      "statement": "Accountable roles are defined by function, while actual organizations and people remain unassigned.",
+      "impact": "No pilot or work package may open while sponsor, site steward and professional reviewers are unassigned.",
+      "trigger": "Record signed responsibility, service funding, insurance and exit acceptance before implementation."
+    },
+    {
+      "id": "A-CONTROL-PLAN-DRAFT-001",
+      "status": "official_public_draft_context",
+      "statement": "The 2024 HD00-1601 and related street-block control-plan infographic is an official public-consultation draft, but no rights-cleared vector or final approved plan package is available in the submission source set.",
+      "impact": "Its spatial structure, facility counts and transport directions support alignment review only; they do not replace the provisional submission boundary, key areas, geometry or metrics.",
+      "trigger": "Obtain the final approved plan text plus rights-cleared GIS/CAD from the competent authority, reconcile scope and identifiers, then regenerate all geometry, metrics and bilingual deliverables."
+    }
+  ]
+}

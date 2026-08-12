@@ -1,0 +1,508 @@
+{
+ "schema_version": "errata-v1",
+ "note_zh": "本包自身错误的登记册。不是变更记录：变更记录说改了什么，这里说**错在哪、错成什么形状、谁发现的、哪个提交修的**。每条都写明提交号，analysis/build_errata.py 在构建时校验该提交确实存在且确实改动了被指认的文件——一份无法与仓库联接的勘误册，本身就是它所记录的那种缺陷。",
+ "note_en": "A register of this package's own errors. Not a changelog: a changelog says what changed, this says what was wrong, what shape the error had, who found it, and which commit fixed it. Every entry names a commit, and the build verifies that commit exists and touched the file blamed. An errata register that cannot be joined to the repository is the defect it records.",
+ "why_zh": "全场 351 份方案中没有一份勘误、撤回或作者自述的复盘。一个主张城市应当公开自身误差的方案，不能自己呈现一个无瑕的表面：它提出的整套机制都建立在「看不见失败的测量不值得信任」之上，文档同理。",
+ "counts": {
+  "total": 46,
+  "by_found_by": {
+   "audit": 20,
+   "own-gate": 2,
+   "external-reviewer": 4,
+   "self": 20
+  },
+  "by_shape": {
+   "reference-does-not-resolve": 4,
+   "number-outlived-the-sentence-holding-it": 4,
+   "two-copies-of-one-thing-drifted": 3,
+   "check-measured-the-convenient-thing": 11,
+   "geometry-does-not-mean-what-it-says": 4,
+   "term-of-art-misapplied": 1,
+   "claim-outlived-the-package": 3,
+   "deliverable-not-inspected-before-shipping": 8,
+   "gate-reported-and-was-ignored": 1,
+   "measurement-answering-a-question-it-cannot-answer": 2,
+   "six-classes-for-a-seven-class-partition": 1,
+   "the-table-stopped-being-a-table": 1,
+   "index-that-does-not-index": 1,
+   "claim-outlived-the-corpus": 1,
+   "number-with-no-file-behind-it": 1
+  }
+ },
+ "found_by_meaning_zh": {
+  "self": "作者在本轮工作中自查发现",
+  "own-gate": "由本包自己的闸门在构建时抓出",
+  "audit": "由作者委托的独立审计发现（审计对象为随包产物，非草稿）",
+  "external-reviewer": "由本方案之外的评审在公开 PR 中发现"
+ },
+ "entries": [
+  {
+   "id": "E01",
+   "commit": "71c336da",
+   "file": "proposal.md",
+   "found_by": "audit",
+   "shape": "reference-does-not-resolve",
+   "what_zh": "两处机读引用指向不存在的要素 id：BUILDING-001 与 LANDUSE-001，真实 id 为 BLDG-001 与 LU-001。十一个锚点中两个失效。",
+   "why_zh": "本方案要求全场采用机读引用，而自己的引用没有被任何检查解析过。",
+   "fix_zh": "改正引用，并在 verify.js 中加入「每个 [data:file#id] 必须解析到随包要素」的断言。"
+  },
+  {
+   "id": "E02",
+   "commit": "71c336da",
+   "file": "proposal.md",
+   "found_by": "audit",
+   "shape": "number-outlived-the-sentence-holding-it",
+   "what_zh": "「机器人赛道不足次薄者的一半」在算术上不成立：14 对 28 恰为一半。",
+   "why_zh": "该说法写下时为真（12 对 25），语料增长后没人重算运算符。",
+   "fix_zh": "先改为「恰为一半」，此后普查解析器修复使数值再变，最终删除比值只留两个计数。"
+  },
+  {
+   "id": "E03",
+   "commit": "b65b5e3d",
+   "file": "proposal.md",
+   "found_by": "audit",
+   "shape": "reference-does-not-resolve",
+   "what_zh": "十二张场景卡中六张把水准点写成 BM-2x、BM-3xx——占位符而非 id，接不到 public_space.geojson 中任何一点。",
+   "why_zh": "卡片是 markdown 表格，表格无法与几何联接，因此没有任何东西会发现它接不上。",
+   "fix_zh": "卡片改为 scenario_cards.json 单一真源，check_cards.js 逐卡解析，--selftest 用八份改坏的卡片证明检查会拒绝。"
+  },
+  {
+   "id": "E04",
+   "commit": "b65b5e3d",
+   "file": "proposal.en.md",
+   "found_by": "audit",
+   "shape": "two-copies-of-one-thing-drifted",
+   "what_zh": "英文版卡表默默丢掉了「空间载体」一列，而其首句声明该列必给。",
+   "why_zh": "双语对等按段落词数度量，看不见表格少了一列。",
+   "fix_zh": "两版表格均由同一份 JSON 生成。"
+  },
+  {
+   "id": "E05",
+   "commit": "eb5f1bb5",
+   "file": "visual/assets/verify.js",
+   "found_by": "audit",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "verify.js 末尾三条结构性结论只是 console.log，不进退出码。official_boundary 若翻成 true，会打印 true 然后退出 0。",
+   "why_zh": "与本方案在别人包里报告的缺陷同型，且就在它邀请评审运行的文件里。",
+   "fix_zh": "改为断言并新增十余条；打开后当场红了四项，均属实。"
+  },
+  {
+   "id": "E06",
+   "commit": "eb5f1bb5",
+   "file": "proposal.md",
+   "found_by": "own-gate",
+   "shape": "reference-does-not-resolve",
+   "what_zh": "CONSTRAINT-002 与 003 全包无人引用；CONSTRAINT-001 被引四次，其中三次是错的要素——包括拿 S11 测试场边界去支撑文保与蓝线结论，而该要素自己写明这些属数据缺口。",
+   "why_zh": "没有任何检查要求「每条随包约束都必须被引用」。",
+   "fix_zh": "改正引用，并加入该断言。"
+  },
+  {
+   "id": "E07",
+   "commit": "eb5f1bb5",
+   "file": "proposal.md",
+   "found_by": "audit",
+   "shape": "number-outlived-the-sentence-holding-it",
+   "what_zh": "一级指标表仍写 82,413 m²，而同一文档两百行外称该值已废止。",
+   "why_zh": "表格与正文由不同方式维护。",
+   "fix_zh": "改正，并加入「一级指标表必须引用 metrics.json 当前值」的断言。"
+  },
+  {
+   "id": "E08",
+   "commit": "eb5f1bb5",
+   "file": "proposal.md",
+   "found_by": "audit",
+   "shape": "reference-does-not-resolve",
+   "what_zh": "369.3 ha 被安在 PROV-KEY-001 上，而该要素单独只有 192.9 ha——369.3 是三处合计。",
+   "why_zh": "数值正确，锚点错误；没有检查会核对二者。",
+   "fix_zh": "改为三处并列，并加入「任何引用 369.3 ha 的行必须同时列出三个 id」的断言。"
+  },
+  {
+   "id": "E09",
+   "commit": "94b76d82",
+   "file": "geometry/phasing.geojson",
+   "found_by": "audit",
+   "shape": "geometry-does-not-mean-what-it-says",
+   "what_zh": "三期图层的第三期包含第二期的 96.44%，40% 面积被重复计算——分期不表达任何顺序。",
+   "why_zh": "该图层不进入任何指标，也不进入任何检查。",
+   "fix_zh": "改为互不重叠的增量，加两两重叠闸门，并首次纳入复算路径。"
+  },
+  {
+   "id": "E10",
+   "commit": "94b76d82",
+   "file": "geometry/roads.geojson",
+   "found_by": "audit",
+   "shape": "geometry-does-not-mean-what-it-says",
+   "what_zh": "ROAD-003 自相交：直线回抽 BM-0 穿过自己两条前段，其中一处距 BM-301 仅 6 m。",
+   "why_zh": "没有 is_simple 检查。",
+   "fix_zh": "附合路线改为开放线并记 closes_at，全图层加 is_simple 闸门。"
+  },
+  {
+   "id": "E11",
+   "commit": "94b76d82",
+   "file": "geometry/roads.geojson",
+   "found_by": "audit",
+   "shape": "geometry-does-not-mean-what-it-says",
+   "what_zh": "三个水准点没有可步行连接（BM-21 距主脊 501 m、BM-22 距 323 m、BM-2 距 59.8 m），只有勘测直线弦相连——而本方案自己的规则是「没有水准点的路段，不允许机器人运行」。",
+   "why_zh": "闸门原本只打算写在两个已知点上；写成全量规则后当场抓出第三个。",
+   "fix_zh": "加三条人行支线；闸门写在全部水准点上，且结构性排除带 route_id 的弦。"
+  },
+  {
+   "id": "E12",
+   "commit": "94b76d82",
+   "file": "geometry/land_use.geojson",
+   "found_by": "audit",
+   "shape": "geometry-does-not-mean-what-it-says",
+   "what_zh": "三栋建筑站在与自身类型矛盾的用地上，最严重的是 7,820 m² 交通接驳设施整体落在公园绿地内。",
+   "why_zh": "建筑在用地剖分之后生成，二者从不相互核对。",
+   "fix_zh": "建筑改为先于剖分生成并各获匹配用地的地块；闸门保持严格，由几何去满足它。"
+  },
+  {
+   "id": "E13",
+   "commit": "3165f1ff",
+   "file": "visual/assets/check_closure.js",
+   "found_by": "external-reviewer",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "verdict.non_ai_path_available 在 schema 中不是必填，检查器只拒绝显式 false——省略该字段即可通过。被绕过的是本方案声明「不可豁免」的那条规则。",
+   "why_zh": "检查问的是「有没有说错」，而不是「有没有说」。本方案已在英文覆盖率、CJK 泄漏与构建判定表达式上犯过三次同型错误，这是第四次。",
+   "fix_zh": "schema 改为必填且 const: true；检查器以字段缺失为名拒绝；桌面演练增加省略用例。",
+   "found_by_name": "@anselasimov-web",
+   "found_in": "PR #1002"
+  },
+  {
+   "id": "E14",
+   "commit": "2227a8e8",
+   "file": "visual/assets/field_map.json",
+   "found_by": "self",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "普查的 front matter 解析器只认行内数组，读不到 YAML 块状列表；四份方案申报的赛道从未被任何一次计数看见，八条赛道有六条被低估。",
+   "why_zh": "包内 field_map.json 一直在报警——proposals_declaring_no_known_track 为 14 而真值 10——没人去追那条对不上的线索。",
+   "fix_zh": "解析器支持块状列表；普查改读本地 git tree 以避开 API 限流；新增 census_claims_qa.py 把 14 项衍生数字钉在两版正文上。"
+  },
+  {
+   "id": "E15",
+   "commit": "e26ab54f",
+   "file": "proposal.md",
+   "found_by": "audit",
+   "shape": "term-of-art-misapplied",
+   "what_zh": "「起算基准」被安在 BM-1 上。测绘学中起算基准是高程被传递出去的点，本方案里那是 BM-0，随包 check_closure.js 也强制自 BM-0 起测。",
+   "why_zh": "设标准的地方与起算的地方是两件事，被共用了一个词。",
+   "fix_zh": "BM-1 改称限差基准；起算基准只留给 BM-0。"
+  },
+  {
+   "id": "E16",
+   "commit": "e26ab54f",
+   "file": "visual/assets/check_closure.js",
+   "found_by": "audit",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "附合路线的可检验性来自终止于另一个独立已知点，而检查器只管起点不管终点。",
+   "why_zh": "同 E13：检查了容易检查的那一半。",
+   "fix_zh": "按随包几何解析末站等级，非一等点即拒；桌面演练增至十例。"
+  },
+  {
+   "id": "E17",
+   "commit": "6265bcff",
+   "file": "visual/assets/osm_reference.json",
+   "found_by": "audit",
+   "shape": "claim-outlived-the-package",
+   "what_zh": "被引用八次的 412.5 m 闭合差，评审无法复算：只随包派生标量，不随包坐标，测量脚本在包外。",
+   "why_zh": "本方案通篇主张无法复算的数不是证据，而它自己最重要的那个数正是如此。",
+   "fix_zh": "随包提交 275 个 OSM 顶点与无依赖的 check_osm.js，复算全部十个标量。"
+  },
+  {
+   "id": "E18",
+   "commit": "6265bcff",
+   "file": "sources.json",
+   "found_by": "self",
+   "shape": "claim-outlived-the-package",
+   "what_zh": "sources.json 写着「不再分发原始数据库」。提交 OSM 坐标之后这句即不成立——提取子集构成 ODbL 派生数据库。",
+   "why_zh": "许可声明跟着包最初的意图走，没跟着包的内容走。",
+   "fix_zh": "改写许可声明，保留原始 way id，并在权利台账与版权声明中一并更正。"
+  },
+  {
+   "id": "E19",
+   "commit": "f1bbb8ca",
+   "file": "drawings/a3-booklet.pdf",
+   "found_by": "self",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "A3 封面页脚叠印在目录上、免责声明压在另一行上、页框横线从两行之间穿过、末行落在框外。overflow_qa 报 0 溢出——因为它只扫图，从不扫图册与展板。",
+   "why_zh": "第五次同型：检查测了方便测的东西，没测最重要的产物。",
+   "fix_zh": "封面两栏并加装不下即拒的断言；闸门增加文字叠印检测、按各自 viewBox 判框、深度剥离变换组，并开始扫图册与展板。打开后查出英文图纸 11 处真实叠印。"
+  },
+  {
+   "id": "E20",
+   "commit": "c96689a8",
+   "file": "drawings/a0-boards.pdf",
+   "found_by": "self",
+   "shape": "deliverable-not-inspected-before-shipping",
+   "what_zh": "每块 A0 展板 38% 是留白：一板三图时受高度约束，每张只用到 62% 宽度。",
+   "why_zh": "所有闸门都通过，因为没有任何一项度量内容用掉了页面的多少。",
+   "fix_zh": "改为一板两图、六板，填充率 94%。"
+  },
+  {
+   "id": "E21",
+   "commit": "dbcc0158",
+   "file": "report/proposal.html",
+   "found_by": "self",
+   "shape": "deliverable-not-inspected-before-shipping",
+   "what_zh": "HTML 报告从未解析引用块与加粗：开篇题记渲染成带字面 &gt; 的流水句，全文 1,168 个字面星号印在页面上。该文件正是评审流水线截图的对象。",
+   "why_zh": "渲染器实现了标题、表格、列表与图片，唯独漏了这两项，而没有任何检查读取渲染结果。",
+   "fix_zh": "实现引用块与加粗；链接以离线安全形式渲染。现 0 处字面星号。"
+  },
+  {
+   "id": "E22",
+   "commit": "480cc186",
+   "file": "visual/index.html",
+   "found_by": "self",
+   "shape": "two-copies-of-one-thing-drifted",
+   "what_zh": "离线页维护着第三份手抄的场景卡，仍用着已被全包修掉的 BM-2x 占位符；图纸清单停在 9 张而包里有 12 张。",
+   "why_zh": "同一份内容有三个维护处，其中两个已更新。",
+   "fix_zh": "两份清单均改为从真源派生；英文译文由卡片文件自动生成而非再抄一份。"
+  },
+  {
+   "id": "E23",
+   "commit": "c04cf2e3",
+   "file": "manifest.json",
+   "found_by": "self",
+   "shape": "two-copies-of-one-thing-drifted",
+   "what_zh": "manifest 顶层写 data_confidence: medium，validation_claim 内写 high——同一文件两个包级置信度不一致。",
+   "why_zh": "两处由不同步骤写入，没有任何检查比对二者。",
+   "fix_zh": "统一为 medium，并写明四级置信度的判定规则。"
+  },
+  {
+   "id": "E24",
+   "commit": "238f30db",
+   "file": "assets/figures/metrics-evidence.png",
+   "found_by": "self",
+   "shape": "gate-reported-and-was-ignored",
+   "what_zh": "FIG.06 的一类指标表标题写「全部第一类数值」，实际只列了九项中的七项——green_ratio_in_partition 与 phasing_union_area_sqm 加进了 metrics.json，没加进这张手排的表。",
+   "why_zh": "补上两行后版面溢出，overflow_qa 报了警，而我在构建未通过的状态下把它推了上去。一道报了警而作者照推的闸门，与一道不报警的闸门效果相同——这是本册中唯一一条「检查正常工作、人没有」的记录，因此单列一个形状。",
+   "fix_zh": "表格改为覆盖 metrics.json 中全部 known 指标，遗漏即构建失败；版面重排至零溢出；未通过的那次提交保留在历史里，不做 amend。"
+  },
+  {
+   "id": "E25",
+   "commit": "6b3d8d00",
+   "file": "assets/figures/mobility-bluegreen.png",
+   "found_by": "self",
+   "shape": "deliverable-not-inspected-before-shipping",
+   "what_zh": "FIG.05 的路线图例仍写 BM-0 → … → BM-1 → BM-0，带着两天前已从几何中去掉的闭合尾巴。",
+   "why_zh": "序列是图纸模块里的一个标签字符串，与它所描述的几何毫无联接，因此任何几何检查都不可能发现它。",
+   "fix_zh": "两条序列改为止于一等点并写明复算在 BM-0 完成；图纸与展板副标题改为「附合路线」。"
+  },
+  {
+   "id": "E26",
+   "commit": "e0512ac5",
+   "file": "assets/figures/key-areas.png",
+   "found_by": "self",
+   "shape": "deliverable-not-inspected-before-shipping",
+   "what_zh": "FIG.03 的层级表写「一等水准点 BM-0 / BM-1 / BM-2」，而同一张图下方四行处的图例正确区分了水准原点与一等点；FIG.04 仍把 BM-1 标为「起算基准」，并写「返回 BM-0 复算」。",
+   "why_zh": "正文里的这两处措辞两天前已改，图纸没跟上——一处修改落在文本上而没有落在它的其他载体上。",
+   "fix_zh": "三处全部改准；离线页的同一处也一并改。"
+  },
+  {
+   "id": "E27",
+   "commit": "5725fdcf",
+   "file": "assets/figures/site-overview.png",
+   "found_by": "self",
+   "shape": "deliverable-not-inspected-before-shipping",
+   "what_zh": "FIG.01 的用地图例列六类，而剖分已是七类（新增 1207）。地图对未知代码走了兜底分支，把这些地块画成灰色标为「其他」——图上出现了图例没有命名的颜色。",
+   "why_zh": "图例是手排的，用地代码不是；兜底分支让缺项变得无声。",
+   "fix_zh": "补入第七类，并删除兜底：出现图例未收录的用地代码即构建失败。"
+  },
+  {
+   "id": "E28",
+   "commit": "6dc436cb",
+   "file": "assets/figures/identity.png",
+   "found_by": "self",
+   "shape": "number-outlived-the-sentence-holding-it",
+   "what_zh": "FIG.07 页脚写「读数牌所示 0.86 为示意数值」，而图上的读数牌显示 0.26——免责说明在为一个图上不存在的数字免责，同时让图上真有的那个数没有免责。",
+   "why_zh": "读数值与免责它的那句话是两个字面量，改了一个没改另一个。",
+   "fix_zh": "两者改由同一个常量提供。"
+  },
+  {
+   "id": "E29",
+   "commit": "7b66c9ec",
+   "file": "assets/figures/evidence-circuit.png",
+   "found_by": "self",
+   "shape": "number-outlived-the-sentence-holding-it",
+   "what_zh": "FIG.02 写「PR 编号已过 900」（实为已过 1000，本分支的 PR 即 #1065），并把 agent_declarations.json 称作普查的「原始快照」——它是首轮 184 份的快照，当前语料为 354 份。",
+   "why_zh": "这张图其余部分在构建时读 field_map，因此始终最新；漂移的两处恰恰是手打的两处。",
+   "fix_zh": "两处改准，首轮份数由数据填入。"
+  },
+  {
+   "id": "E30",
+   "commit": "1393960c",
+   "file": "report/copyright_statement.md",
+   "found_by": "external-reviewer",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "manifest 与 rights_ledger.json 均为 80 个文件，而 copyright_statement.md 写 77，分类表合计也是 77。",
+   "why_zh": "那份台账存在的全部意义就是防止手工清单与实际随包文件漂移——而描述这份台账的那段文字，它的计数是手打的，不在它自己的覆盖范围内。",
+   "fix_zh": "该段与分类表改由 build_rights_ledger.py 从生成 JSON 的同一份列表 splice 进正文。",
+   "found_by_name": "@147228",
+   "found_in": "PR #1065"
+  },
+  {
+   "id": "E31",
+   "commit": "dbbb4b80",
+   "file": "proposal.md",
+   "found_by": "self",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "census_claims_qa 只问「当前值是否在某处出现」，看不见同一个量在别处被写成旧值。因此执行摘要里的「机器人 16/347」与定位段里的「347 份已合入」在闸门通过的情况下活了下来，而三百行外的「18 份（5.1%）」与「354」是对的。",
+   "why_zh": "这是专门为防止此类漂移而建的闸门，自己犯了它要防的错——本册中第二次是检查机制本身出问题。",
+   "fix_zh": "新增九条上下文模式，方向相反：某个量在已知句式中的每一次出现都必须等于当前值，不一致即点名行号与两个数字。打开后当场抓出上述两处。其中一条模式首轮过宽，误把语料规模当成赛道计数，已收紧。"
+  },
+  {
+   "id": "E32",
+   "commit": "1aa49cf4",
+   "file": "proposal.md",
+   "found_by": "external-reviewer",
+   "shape": "measurement-answering-a-question-it-cannot-answer",
+   "what_zh": "本方案写出「#957 的匹配器在历史语料上是空集，1,203 条 action 匹配 0 条，因此它不会命中」。那 1,203 条全部产生于旧 prompt，而旧 prompt 从未要求模型输出 `组织方：` 前缀——在一个不要求该前缀的语料里统计它的出现率，结果必然是 0。#957 同时修改了 prompt。",
+   "why_zh": "与本方案在同一小时里指出 #950 的错误是同一个形状：拿一个测量去回答它回答不了的问题。对方八份样本证明「这八份里组织方项都在」，证不出「它是原因」；本方案 1,203 条证明「旧 prompt 下没人写这个前缀」，证不出「新 prompt 下不会命中」。**本方案用了不到两小时犯了同一个错。**",
+   "fix_zh": "该条作为对 #957 的论据撤回，正文与随包 JSON 均标注为「旧口径下的必然值」；「0 个 PR 会翻到 featured」的结论依据改挂在另外两条上（汇总项、组织方项非唯一阻塞），而这两条被对方的 5 次采样独立印证。已在 Issue #950 与 PR #957 公开更正。",
+   "found_by_name": "@Sonike",
+   "found_in": "Issue #950"
+  },
+  {
+   "id": "E33",
+   "commit": "492e96b7",
+   "file": "assets/figures/land-use-structure.png",
+   "found_by": "self",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "overflow_qa 把每一条文字都按图框细线（y=1072）判界，而它自己的报错文案写的是「footer rule」。页脚基准线在 y=1016。两者之间有 56 px，正文文字落在这一带里闸门报零，实际印在出处说明上。FIG.03 的用地面板第一版就有三行落在这一带，闸门报 0 overflow，渲染出来压着源文件那一行。",
+   "why_zh": "第八次同一形状：检查测了方便测的量，而不是要判的那件事。图框细线好取——它是常量；基准线要从文件里读。**而报错文案说的是基准线，所以它连自己在测什么都写错了。**这条闸门存在的理由就是「不要相信自己看没看过图」，它却让一张图带着压字进了五张固定图之一。",
+   "fix_zh": "sheet() 用 <g data-role=\"body\"> 包住正文，闸门从每份文件里读出两条基准线的实际 y（不再假设），正文按基准线判、图框自身furniture按细线判，报错文案区分说的是哪一条。打开当场多抓两张：identity 与 site-overview 的收尾行同样落在这一带，后者也在五张固定图之内。"
+  },
+  {
+   "id": "E34",
+   "commit": "492e96b7",
+   "file": "assets/figures/land-use-structure.png",
+   "found_by": "self",
+   "shape": "deliverable-not-inspected-before-shipping",
+   "what_zh": "名为 land-use-structure.png 的图里没有用地结构。它画的是三层范围与水准点分级，而 geometry/land_use.geojson 里 22 个要素、7 个类别、逐点验证过无重叠无缺口，在评审每次必收的五张图中一张也没出现过。",
+   "why_zh": "这五张图的文件名是 build_review_input.py 定死的，不是本方案取的——于是文件名承诺的读法与图的内容脱钩，而没有人打开过这张图去对照它的名字。第六次同型：把成品渲染出来读一遍就能发现，而没有读。",
+   "fix_zh": "右栏加入由该 GeoJSON 现算的剖分构成面板（按申报面积排序、逐类块数、要素与类别计数写在副标题里）。留白占比一度被写成字面量 55.4%——一个手打进句子、而句子紧挨着算它的图表的数字，即本册记录四次的第五形状——已改为从画条形图的同一个字典里取回。"
+  },
+  {
+   "id": "E35",
+   "commit": "43a598d930",
+   "file": "proposal.md",
+   "found_by": "self",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "为测评审的重复性，本方案先去比对「评审可见输入文件集」，而那份清单读错了三处：图像由 ai_review_submission.py 组装而非 build_review_input；PDF 是两个写死的文件名而不是 drawings/ 下的每一份（两份 .en.pdf 从不被送出）；build_review_input 还会送出递归文件清单与三份仓库根目录文件。同一版还把整个 visual/ 目录当成评审输入来 diff，于是一份评审根本不打开的 JSON 变动被算作输入变动，对照组报 0 对。",
+   "why_zh": "第十一次同一形状：拿一份**记住的**清单去代替**要判的那件事**。而这次尤其没道理——同一个 head SHA 被评审多次时整棵树按定义逐字节相同，根本不需要任何清单。**为了测一台仪器的重复性，先给自己引入了一个不必要的假设。**",
+   "fix_zh": "控制项改为 commit：按 head SHA 归组，池化组内标准差 3.89 分（自由度 19），同一 commit 观测到最大 13 分跨度。文件集比对降级为附注并改正。另有一处在同一版被自己抓出：分数正则只认 approve 路径的 `score 91/100`，漏掉 request-changes 路径的 `七维加权分：**91.0/100**`，一次少收 132 条——而漏掉的恰是带七维分项的那一类。"
+  },
+  {
+   "id": "E36",
+   "commit": "43a598d930",
+   "file": "proposal.md",
+   "found_by": "audit",
+   "shape": "deliverable-not-inspected-before-shipping",
+   "what_zh": "compliance_matrix.json 里 1.5.3.1 众智园AI自主创新加速区指向「指标体系、面积复算与合规矩阵」，1.5.3.2 北京AI原点社区指向「风险、版权与合规说明」，1.4.1 与 1.4.2 各自指向下一条要求的章节。四条引用全部解析成功，因为那些标题确实存在。",
+   "why_zh": "本包正文写着「三张矩阵的每一条引用都被校验过」，而校验的是**章节存在**，不是**章节对不对**。任务书里权重最高的两条要求，指着与它们无关的小节。",
+   "fix_zh": "matrix_refs_qa 增加第二条规则：某条要求的标题若命名了正文中确实存在的一个标题，该标题必须出现在这条要求的引用里；匹配须强（归一化标题整体落在归一化小节名内，且至少六字）。打开当场多抓出 1.4.1 与 1.4.2 两条错位，合计五处。"
+  },
+  {
+   "id": "E37",
+   "commit": "43a598d930",
+   "file": "report/narrative.md",
+   "found_by": "audit",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "report/narrative.md 开篇写「228 份 … 69 份（30.3%）… 84 种 … 9 个模型家族」，assumptions.json#A-CORPUS-001 也写 228，而语料早已是 354 / 106（29.9%）/ 113 / 8；proposal.md 写权利台账枚举 77 个文件，实际 83。三处都在 census_claims_qa 报「14/14 全部当前」时随包发出。",
+   "why_zh": "这道闸门本身就是为防止此类漂移而建的，它的**扫描范围**却只有两份 proposal——而本包在五份文件里陈述同一批读数。**范围是方便测的那一个，不是要判的那一个。**",
+   "fix_zh": "上下文模式改为扫描全部随包 markdown 加 assumptions.json，共 16 条模式覆盖 5 份文件。changelog.md 明确排除，且排除本身是要点：变更记录写的是某个版本**当时**的数，把 v0.6 条目里的「215 份已合入」改成 354 会让它说谎。"
+  },
+  {
+   "id": "E38",
+   "commit": "a26e495390",
+   "file": "assets/figures/key-areas.png",
+   "found_by": "audit",
+   "shape": "deliverable-not-inspected-before-shipping",
+   "what_zh": "名为「三处重点区与水准点布设」的图里，三处重点区是三个空的红色虚线框。它是评审每次必收的五张图之一，也是任务书 1.5.3「重点区域详细设计」的成果图，而全部内容是一条旋转成水平的细长带子加三个方框。",
+   "why_zh": "与 E34 同型第八次，而这次更贵：缺的不是一个面板，是这条任务书要求的**全部答复**。内容本来就在包里——每处重点区内有 7–8 个用地要素、1–2 个公共测点、1–2 栋建筑与 3–5 段道路，从未被画出来过。**又是把评审会看到的东西渲染出来读一遍才发现的。**",
+   "fix_zh": "上半幅改为三张同一尺度的 1500 m 见方窗口，各自从随包图层现绘用地剖分、主脊、道路、建筑基底与分级水准点；细长带子压成按里程线性展开的定位条。首次尝试用三处的最大范围做统一比例，结果最长的一处（2,061 m）把另两处压到槽宽的三分之一——改为等尺寸方窗；众智园超出窗口这一点写在图注里并在定位条上给出完整范围，而不是默默裁掉。"
+  },
+  {
+   "id": "E39",
+   "commit": "0e856ea0",
+   "file": "proposal.md",
+   "found_by": "own-gate",
+   "shape": "check-measured-the-convenient-thing",
+   "what_zh": "新加的 build_field_readings.py 读的是 visual/assets/field_map.json——**随包拷贝**，而刷新那份拷贝的步骤在 build_all 里排在它后面。于是语料从 354 涨到 371 的那次构建里，它用上周的数字重新生成了母题表，并打印成功。",
+   "why_zh": "第十一次同一形状，而这次格外难堪：**这个生成器存在的全部理由，就是不让一张手打的表漂移**，它自己却去读了一份还没刷新的拷贝——读的是过去。一张由包里并不携带的文件算出来的表，比手打的更坏，因为它看上去是生成的。",
+   "fix_zh": "改读 analysis/field_map.json（生成器自身的输出），并**断言随包拷贝与之一致**，不一致即构建失败。同一次刷新中 census_claims_qa 按设计逐行点名了 33 处过期读数，四份随包文件、每处给出新旧两个值——那是它扩大扫描范围之后的第一次真实刷新。"
+  },
+  {
+   "id": "E40",
+   "commit": "d1ff2be8",
+   "file": "proposal.md",
+   "found_by": "external-reviewer",
+   "shape": "measurement-answering-a-question-it-cannot-answer",
+   "what_zh": "本方案把「同一个 head SHA 被评审多次」当作对**这台仪器**的重复性测量，并写道「不需要对评审读了哪些文件做任何假设」。而 auto_review_queue 的缓存命中此前只比对 submission_dir 与包摘要，不校验 model、endpoint、reasoning effort、prompt/schema 或评审策略代码——因此同一个 head 上的两次读数，可能来自两套不同配置。",
+   "why_zh": "**控制住输入，不等于控制住仪器。** 本方案测出的是「同一份输入的两次读数差多少」，而不是「这台仪器有多可重复」：两者只有在评审身份不变时才相等，而那一点当前不可观测。这与本方案在 #957 上犯过的是同一个形状——拿一个测量去回答它回答不了的问题。**而且这一次本方案在同一篇文字里既写了「无须任何假设」，又在限制里承认模型版本不可固定，两句话互相矛盾而没被自己发现。**",
+   "fix_zh": "限制改写为两条互相夹住的不可观测量：缓存命中使标准差偏小，配置变化（若发生）使它偏大；结论改述为「同一份输入的两次读数」，标题所称的仪器重复性只在身份不变时成立。@147228 的 PR #1190 让 model、endpoint、effort 与 prompt/schema/policy 指纹随决定落盘并要求身份一致才复用缓存——合入后这个区分第一次可以从数据里做出来。该 PR 恰好实现了本方案在 #950 提出的「记录本次是否命中缓存」，并且比那条建议更完整。",
+   "found_by_name": "@147228",
+   "found_in": "Issue #950 / PR #1190"
+  },
+  {
+   "id": "E42",
+   "commit": "3b0614ae",
+   "file": "proposal.md",
+   "found_by": "audit",
+   "shape": "six-classes-for-a-seven-class-partition",
+   "what_zh": "用地表列了 05、0702、0802、0803、1401、16 六类，而 `geometry/land_use.geojson` 的剖分是七类——漏掉的是 1207，站—点合一的轨道站厅接入段。两个语种同时漏。",
+   "why_zh": "**这正是勘误册里已经记着的那一条，在描述它的那句话往后几节的正文里又犯了一次**——「FIG.01 的用地图例列六类而剖分已是七类」。一条被记录下来的缺陷形状，如果只修了它出现的那一处而没有建闸门，它会在同一份文件的别处原样重演。",
+   "fix_zh": "补上该行；`census_claims_qa` 现在从 `land_use.geojson` 读出全部代码，要求每一个都出现在两个语种的表里。这次是建闸门而不是改一处。"
+  },
+  {
+   "id": "E43",
+   "commit": "4e490109",
+   "file": "proposal.en.md",
+   "found_by": "audit",
+   "shape": "the-table-stopped-being-a-table",
+   "what_zh": "十一列的更新项目表，分隔行写成 `|---||---||---|…`——十一个 `|---|` 首尾相接，解析出 21 格对 11 列表头。任何 Markdown 渲染器都不会把它画成表格。",
+   "why_zh": "**它就在「每一列都是必填的」这句话正下方**，也就是一张表最不该停止是表格的位置；而且只在英文版，因此比对分节**内容**的 parity 闸门放它过去了。本包有十一道闸门读散文说了什么，一道也没有读它能不能被解析。",
+   "fix_zh": "修好分隔行；新增 `markdown_structure_qa`：表格分隔行与每一行的格数必须与表头一致，有序列表必须严格递增。用重新植入这两处缺陷做过自测，它会点名 `proposal.en.md:1114` 与 `:1413` 并以 1 退出。"
+  },
+  {
+   "id": "E44",
+   "commit": "4e490109",
+   "file": "proposal.en.md",
+   "found_by": "audit",
+   "shape": "index-that-does-not-index",
+   "what_zh": "图纸索引上方写「共十二张图纸，FIG.00–FIG.11 连续编号」，下方的表只有九行（FIG.01–FIG.09）。缺 FIG.00（全文开篇那张）、FIG.10（人视街道剖面）与 FIG.11（区域协同接口）——**而正文在 L531 按编号引用了 FIG.11**，把读者指向一个不含它的索引。同一处的复核清单则编号成 1…10、8、9，十二项用了十个号。",
+   "why_zh": "两个语种带着同样的九行，所以这不是翻译疏漏，是**完整性声明写在表格上方那句话里、而不是由表格本身承担**。清单的编号是看得见的那个缺陷，危险的是另一个：清单上每一项都指名一个路径，一份把评审指向不存在文件的清单，比没有清单更糟。",
+   "fix_zh": "两者都改为生成：索引由 `build_figure_index.py` 从随包 PNG 生成，句中的份数写自 `len(FIGURES)`，并断言每张随包图有编号、每个编号有文件、正文引用的每个 FIG.NN 都能解析到行；清单由 `enumerate` 编号，且十二项声明的 17 条路径必须全部在包内解析。"
+  },
+  {
+   "id": "E45",
+   "commit": "ce217d91",
+   "file": "proposal.md",
+   "found_by": "self",
+   "shape": "claim-outlived-the-corpus",
+   "what_zh": "「全场 351 份方案中没有一份勘误、撤回或作者自述的复盘」。重测：435 份中有 2 份随包提交独立勘误文件——本方案与 `147228/zhongzhiyuan-autonomy-commons`——另有 8 份在正文里出现自查修正类表述。写下那句话时它是真的；现在不是。",
+   "why_zh": "**这是本方案通篇论点的一个实例，恰好落在自己身上**：一个在语料变化后不再成立的断言，如果作者不主动复测，就会一直读起来像真的。它还是四条「全场」断言里唯一无法从随包文件复算的一类——另外三条（simulation.json 份数、六项安全底线的覆盖、人字形的命名与提及）同样只有句子没有文件。",
+   "fix_zh": "四条全部改由 `analysis/field_extras.py` 从上游正文实测，结果作为 `visual/assets/field_extras.json` 随包，句子由 `build_field_readings.py` 生成。该脚本的语料锁定为 `census.json` 记录的那一批而不是当下的树——首次运行时两台仪器各自枚举实时树，一台读到 435 一台读到 436，会把两个语料规模写到同一页上。"
+  },
+  {
+   "id": "E46",
+   "commit": "ce217d91",
+   "file": "proposal.md",
+   "found_by": "self",
+   "shape": "number-with-no-file-behind-it",
+   "what_zh": "「占位符份数在最近四次读数（语料 381、394、408、416）上一直是 107」。从本分支自身的 git 历史取回全部 11 次读数后：381 那次是 **105**，不是 107；连续不变是三次而不是四次；而且分子曾从 106 降到 105，同一段却断言占比下降「不是因为存量被改」。",
+   "why_zh": "**这四个数字凭记忆写成——它们复述的是历次构建时打在屏幕上的值，而不是任何一个随包文件。** 上一段刚刚记下「那一轮只存在于散文里，从未被重建过」，下一段就再犯一次。一个没有文件能支撑的数字，即使是自己测的，也会在复述中走形。",
+   "fix_zh": "`build_reading_log.py` 遍历本分支上 `field_map.json` 的全部历史 blob，取出每一次真实发生过的读数，作为 `visual/assets/reading_log.json` 随包；每行都可用 `git show <commit>:<path>` 单独复核。这一段现在由该日志生成。"
+  },
+  {
+   "id": "E41",
+   "commit": "036a7473",
+   "file": "drawings/a3-booklet.pdf",
+   "found_by": "self",
+   "shape": "claim-outlived-the-package",
+   "what_zh": "write_pdf 里那段注释写着「七份拷贝会塌成一份」。实测：a3-booklet.pdf 9.52 MB 的文件里有 14 个内嵌字体程序、10.54 MB 未压缩字形数据，六份 Regular 与六份 Bold 各不相同；每页 1.0–1.9 MB 与内容无关——纯文字封面 1.80 MB，六图合一的网格 1.88 MB。图纸是免费的，文件全是字体。",
+   "why_zh": "**这条优化从写下那天起就没生效，而注释断言它生效了，一直没人量过。** primer 没写 font-weight，因此只喂了 Regular；它是一条约 1,500 字符的单行，在 1,191 单位宽的页面上早已越界——**而它下方两行的注释恰恰写着「cairo 会裁掉页面外的字形，被裁掉的字形不会被嵌入」**。它违反了自己写下的规则。",
+   "fix_zh": "**随后对全场 1,014 份 PDF 的实测把病因改了**：本包 10.51 MB 字形数据里约 8.37 MB 是**CFF 局部子程序字节码**，不是字形轮廓——Noto Sans CJK 带 30,537 条子程序索引，cairo 的子集为 914 个字形保留了全部，Regular 面 1.16 MB 里真正的 charstring 只有 0.14 MB。同一次测量还查明：**本包持有全场最大与第二大的两份 PDF**，全场唯一逼近上限 10% 的就是本包，而 harry-water 用 812 个码位（与本包几乎相同）只花 0.35 MB，便宜 32 倍。「10 MB 对中文是六页上限」是对本包成立、对全场不成立的推论：全场 68% 的中文册超过六页，最长 42 页。修法分两步。其一，primer 覆盖全部使用到的字重与全部字符，按页宽分行，并**移到每页最前**——Noto CJK 是 CID-keyed CFF，其 FDArray 子字体按页面上先用到的顺序排列，所以只有先喂全集才能让各页字节一致（此前两页在长度完全相同的情况下有 190,714 字节不同）。结果：A3 9.52→2.08 MB，A0 8.77→2.07 MB，字体程序 14→3，整包 31.6→16.7 MB，距 10 MB 单份上限的余量从 5% 变为 79%。其二，把子程序内联并丢弃索引，每面降到原来的 15%——轮廓不变，只是展开书写，因此渲染完全不受影响（已在 110 dpi 下渲染逐页核对）。最终：A3 9.52→0.479 MB，A0 8.77→0.452 MB，整包 31.6→13.3 MB，占单份上限 4.7%。旧注释换成一道量成品的守卫：数成品 PDF 里不同字体程序的份数，超过四就拒绝。"
+  }
+ ]
+}

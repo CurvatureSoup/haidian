@@ -15,9 +15,14 @@ HAS_SPATIAL_DEPS = all(
 )
 
 if HAS_SPATIAL_DEPS:
-    from spatial_review import review_submission  # noqa: E402
+    from spatial_review import (  # noqa: E402
+        AREA_TOLERANCE_SQM,
+        SpatialReport,
+        check_land_use_coverage,
+        review_submission,
+    )
     from pyproj import Transformer  # noqa: E402
-    from shapely.geometry import shape  # noqa: E402
+    from shapely.geometry import box, shape  # noqa: E402
     from shapely.ops import transform  # noqa: E402
 
 
@@ -135,7 +140,57 @@ class SpatialReviewTests(unittest.TestCase):
             write_json(root, f"{base}/geometry/land_use.geojson", {"type": "FeatureCollection", "features": [land_a, land_b]})
             report = review_submission(root / base, REPO_ROOT, "formal")
             self.assertFalse(report.ok)
-            self.assertIn("LAND_USE_OVERLAP", {issue.check_id for issue in report.issues})
+            overlap_issues = [issue for issue in report.issues if issue.check_id == "LAND_USE_OVERLAP"]
+            self.assertEqual(len(overlap_issues), 1)
+            self.assertNotIn("projection-chord sliver", overlap_issues[0].message)
+
+    def test_projection_chord_sliver_gets_guidance_without_relaxing_threshold(self) -> None:
+        transformer = Transformer.from_crs("EPSG:4326", "EPSG:4548", always_xy=True)
+        lat = 39.947
+        west, east = 116.3407, 116.3553
+        polygon_a = box(west, lat, (west + east) / 2, lat + 0.001)
+        polygon_b = box(west, lat - 0.001, east, lat)
+        projected_a = transform(transformer.transform, polygon_a)
+        projected_b = transform(transformer.transform, polygon_b)
+        site = transform(
+            transformer.transform,
+            box(west, lat - 0.001, east, lat + 0.001),
+        )
+
+        report = SpatialReport()
+        check_land_use_coverage(
+            report,
+            site,
+            [("LU-A", projected_a, {}), ("LU-B", projected_b, {})],
+        )
+
+        overlap_issues = [issue for issue in report.issues if issue.check_id == "LAND_USE_OVERLAP"]
+        self.assertEqual(len(overlap_issues), 1)
+        self.assertFalse(report.ok)
+        self.assertIn("projection-chord sliver", overlap_issues[0].message)
+        self.assertIn("threshold remains unchanged", overlap_issues[0].message)
+        self.assertAlmostEqual(float(overlap_issues[0].actual), 7.961, places=3)
+
+    def test_projected_first_shared_cut_has_no_overlap_or_gap(self) -> None:
+        transformer = Transformer.from_crs("EPSG:4326", "EPSG:4548", always_xy=True)
+        wgs84_site = box(116.3407, 39.946, 116.3553, 39.948)
+        projected_site = transform(transformer.transform, wgs84_site)
+        min_x, min_y, max_x, max_y = projected_site.bounds
+        cut_x = (min_x + max_x) / 2
+        cut_window = box(min_x - 1, min_y - 1, cut_x, max_y + 1)
+        projected_left = projected_site.intersection(cut_window)
+        projected_right = projected_site.difference(projected_left)
+
+        report = SpatialReport()
+        check_land_use_coverage(
+            report,
+            projected_site,
+            [("LU-LEFT", projected_left, {}), ("LU-RIGHT", projected_right, {})],
+        )
+
+        self.assertTrue(report.ok, [issue.__dict__ for issue in report.issues])
+        self.assertNotIn("LAND_USE_OVERLAP", {issue.check_id for issue in report.issues})
+        self.assertNotIn("LAND_USE_COVERAGE_GAP", {issue.check_id for issue in report.issues})
 
     def test_building_outside_site_fails(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -171,6 +226,58 @@ class SpatialReviewTests(unittest.TestCase):
             report = review_submission(root / base, REPO_ROOT, "formal")
             self.assertFalse(report.ok)
             self.assertIn("KEY_AREA_AREA_MISMATCH", {issue.check_id for issue in report.issues})
+
+    def test_absolute_metric_drift_is_reported_without_blocking_legacy_package(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            base = "submissions/alice/spatial-absolute-metric-drift"
+            write_valid_spatial_package(root, base)
+            green = projected_area(polygon(116.305, 39.905, 116.307, 39.907))
+            metrics = {
+                "schema_version": "0.1.0",
+                "units": {"length": "m", "area": "sqm"},
+                "metrics": {
+                    "green_space_area_sqm": {
+                        "status": "known",
+                        "value": round(green + AREA_TOLERANCE_SQM * 2, 3),
+                        "unit": "sqm",
+                        "source_files": ["geometry/green_space.geojson"],
+                        "formula": "sum(non-overlapping concept green-space polygons)",
+                    }
+                },
+            }
+            write_json(root, f"{base}/metrics.json", metrics)
+
+            report = review_submission(root / base, REPO_ROOT, "formal")
+
+            self.assertTrue(report.ok, [issue.__dict__ for issue in report.issues])
+            self.assertIn("METRIC_RECALC_DRIFT", {issue.check_id for issue in report.issues})
+
+    def test_absolute_metric_mismatch_remains_blocking(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            base = "submissions/alice/spatial-absolute-metric-mismatch"
+            write_valid_spatial_package(root, base)
+            green = projected_area(polygon(116.305, 39.905, 116.307, 39.907))
+            metrics = {
+                "schema_version": "0.1.0",
+                "units": {"length": "m", "area": "sqm"},
+                "metrics": {
+                    "green_space_area_sqm": {
+                        "status": "known",
+                        "value": round(green * 1.02, 3),
+                        "unit": "sqm",
+                        "source_files": ["geometry/green_space.geojson"],
+                        "formula": "sum(non-overlapping concept green-space polygons)",
+                    }
+                },
+            }
+            write_json(root, f"{base}/metrics.json", metrics)
+
+            report = review_submission(root / base, REPO_ROOT, "formal")
+
+            self.assertFalse(report.ok)
+            self.assertIn("METRIC_RECALC_MISMATCH", {issue.check_id for issue in report.issues})
 
 
 if __name__ == "__main__":

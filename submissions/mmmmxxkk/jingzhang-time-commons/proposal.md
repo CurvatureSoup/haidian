@@ -4,7 +4,7 @@ author_github: "mmmmxxkk"
 language: "zh"
 translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "把社区留存而非地产升值设为 AI 创新带的放行条件：一条在地主脊、三座共益场、两翼支持网、六道留根门和十二个场景端口，用真实 OSM 可达基线、四类待补数据契约与禁止个人搬迁风险评分的规则，检验居民、小店、一线劳动者和新人才是否都能留下并分享创新收益。"
+summary: "把社区留存而非地产升值设为 AI 创新带的放行条件：一条在地主脊、三座共益场、两翼支持网、六道留根门和十二个场景端口，用暂定边界内可复跑的 OSM 可达基线、四类待补数据契约与禁止个人搬迁风险评分的规则，检验居民、小店、一线劳动者和新人才是否都能留下并分享创新收益。"
 tracks: ["youth-friendly-public-space", "ai-origin-community", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "ai-health-service-navigation"]
 iteration: "v2.0"
@@ -25,13 +25,15 @@ AI 创新带最容易被忽略的失败，不是模型不够先进，而是创�
 
 这次 v2.0 是对已合并 v1.0“京张时间公地”的实质重构。我们在 upstream commit `1018f25` 上审查 261 份公开 `proposal.md`：公共时间、存量余量、气候公地和人才完整生活都已有高重合方案；新增投稿中也出现小店采用、技能留存、“更新不驱逐”、公共 AI 审计闭环和退出协议等相邻表达，但尚未形成住房、商户、劳动与参与证据共同放行且禁止个人搬迁风险评分的完整系统。因此，本版不再扩写“时间红利”，而把反排挤从风险说明提升为设计骨架。[source:PEER-AUDIT]
 
-![在地京张总体概念、真实 OSM 基线与三座共益场](assets/figures/site-overview.png)
+![在地京张总体概念、暂定边界内 OSM 基线与三座共益场](assets/figures/site-overview.png)
 
 ## 设计依据与资料清单
 
 项目名称、三层范围、三处重点区域、任务类型和公告约面积来自官方资格预审公告；三大定位、五大功能、三区两翼、六项智能体任务及统一边界条款来自面向智能体任务书。[source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]
 
 仓库仍未提供可用于审批的正式总体 polygon、三处重点区红线、控规、逐栋现状、权属、租赁、道路红线、市政、文保和人口住户底数；`site_boundary.geojson` 与 `key_areas.geojson` 因而继续标记为 `provisional_constraint`，只用于概念生成、自检和相对位置表达。官方资料到位后必须整链重算，不得只改数字。[source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]
+
+主线最新边界依据增加了一项 background-only 交叉核对：OSM 已测绘的京张铁路遗址公园与 `PROV-SITE-001` 相交 0%，最近距离约 412.5 米。该结果既不能证明 OSM 完整，也不能证明临时 polygon 错误，因此没有理由擅自移动边界；但它证明当前所有 OSM 指标只描述**当前暂定 polygon 内部**，不得被称为遗址公园周边的正式现状基线。官方 polygon 到位前，这一空间不确定性必须与每个数字同时展示。[source:BOUNDARY-BASIS-AUDIT]
 
 与 v1.0 不同，本版增加了一套可复跑的 OSM 基线。脚本在 WGS84 临时边界内下载步行路网和公开设施标签，得到 [metric:osm_walk_node_count] 个步行节点、[metric:osm_walk_edge_count] 条有向边和 [metric:osm_selected_facility_count] 个筛选设施对象。
 
@@ -40,7 +42,7 @@ AI 创新带最容易被忽略的失败，不是模型不够先进，而是创�
 | 证据层 | 当前状态 | 能支撑什么 | 不能支撑什么 |
 | --- | --- | --- | --- |
 | 官方公告与任务书 | 已登记 | 项目目标、范围文字、任务和边界 | 正式红线、控规、权属、实施承诺 |
-| provisional geometry | 可复算但低置信 | 投稿内部空间关系和拓扑自检 | 审批、征拆、精确面积和工程放线 |
+| provisional geometry | 可复算但低置信；与 OSM 公园背景核对存在约 412.5 米差异 | 投稿内部空间关系和拓扑自检 | 审批、征拆、精确面积、工程放线或公园实际包含关系 |
 | OSM 步行与设施标签 | 已生成、ODbL | 路网可达性候选基线和现场核查清单 | 设施不存在、容量、价格、营业状态 |
 | 住房、租赁、商户与劳动证据 | 缺失 | 只能定义采集契约和人工审查流程 | 租金压力、迁出风险、商户存活率 |
 | 公众参与 | 尚未开展 | 可设计招募、支付、记录分歧的方法 | “居民同意”“公众满意”等结论 |
@@ -208,7 +210,7 @@ AI 只从正式公开入口检索住房、教育、医疗、法律和公共服�
 
 ![已知 OSM 基线、未知留存指标与证据放行链](assets/figures/metrics-evidence.png)
 
-当前 known 指标包括 provisional geometry 的面积/比例、场景和地标数量，以及 OSM 步行网络与标签覆盖。居民留存率、租金负担率和原有商户续存率必须保持 unknown。[metric:resident_retention_rate] [metric:rent_burden_ratio] [metric:local_shop_retention_rate]
+当前 known 指标仅包括**当前 provisional polygon 内部**的面积/比例、场景和地标数量，以及同一 polygon 内的 OSM 步行网络与标签覆盖；它们的位置置信度仍为 low。居民留存率、租金负担率和原有商户续存率必须保持 unknown。[metric:resident_retention_rate] [metric:rent_burden_ratio] [metric:local_shop_retention_rate]
 
 一线劳动者可达公平、住房可负担选择、公众同意和任何经济绩效也必须等待真实证据。[metric:essential_worker_access_equity]
 
@@ -224,7 +226,7 @@ AI 只从正式公开入口检索住房、教育、医疗、法律和公共服�
 
 ## 风险、版权与合规说明
 
-最大风险是把反排挤写成口号，却没有真实住房、租赁、商户和劳动数据；第二是以保护之名采集更敏感的个人信息；第三是把境外住房与土地工具直接移植；第四是把 OSM 缺标签误读为设施不存在；第五是生成图造成“已经建成”或“已有居民同意”的错觉。对应措施是数据契约、聚合最小化、人工与法定判断、明确 unknown、来源和坐标审计、渲染披露及可逆分期。[depth:risk_missing_data]
+最大风险是把临时 polygon 内的可复跑数字误读成正确基地的现状；第二是把反排挤写成口号，却没有真实住房、租赁、商户和劳动数据；第三是以保护之名采集更敏感的个人信息；第四是把境外住房与土地工具直接移植；第五是把 OSM 缺标签误读为设施不存在；第六是生成图造成“已经建成”或“已有居民同意”的错觉。对应措施是边界差异同步披露、官方 polygon 到位后整链重算、数据契约、聚合最小化、人工与法定判断、明确 unknown、来源和坐标审计、渲染披露及可逆分期。[source:BOUNDARY-BASIS-AUDIT] [depth:risk_missing_data]
 
 五张核心图、离线 HTML 和 PDF 从同一 GeoJSON、OSM 派生基线、metrics 和设计文本生成；OSM 派生数据库按 ODbL 1.0 单独署名，原创图形与排版按投稿声明使用。概念氛围图可使用 OpenAI 内置图像生成工具辅助，目的只是在已锁定的空间原型上表达材料、尺度和日常使用；它不用于确定道路、边界、建筑量、居民身份或工程可行性。每张生成图必须保存 prompt、生成方式、编辑边界和“概念渲染”水印；运行时若不暴露精确模型 ID，不得声称确定使用 `gpt-image-2`。[source:IMAGE-GENERATION-DISCLOSURE]
 

@@ -79,6 +79,12 @@ version: "8.0.0"
 
 所有英文传播必须同时带事实状态：`Concept proposal · not an approved plan · provisional spatial relationships · professional verification required.` 本包提供中英 Markdown、HTML、A3/A0 和五张含字图件对照；正式对外传播前仍需双语城市规划编辑、商标检索、字体许可和人类事实复核。
 
+### P0–P1 三重点区空间深化附册
+
+新增双语附册 `drawings/p0-p1-spatial-deepening.pdf`：以真实 OpenStreetMap 公开语境表达三重点区的 30 个候选观察点、9 个候选行动区、6 条候选剖面线和 12 条关系剖面。附册不把开放地图当官方边界或测绘底图，不把候选尺寸当现状或规范结论；交通、生态、遗产、建筑市政消防、公共利益无障碍和 AI 数据治理六类硬门分别关闭，不以综合分平均。[source:OSM-PUBLIC-CONTEXT-20260808] [depth:three_key_area_detailed_design]
+
+现场回填、专业前置条件和 GO/HOLD 规则见 `report/narrative.md`。官方 polygon、现场两人复核、专业签署、真实业主、采购路径和人民币成本未取得前，三处重点区继续保持概念建议状态。
+
 ## 三层范围工作框架
 
 “年度钟—周日钟—小时钟”只保留为传播隐喻，三个空间层级分别回答不同问题：[depth:three_level_scope_framework]

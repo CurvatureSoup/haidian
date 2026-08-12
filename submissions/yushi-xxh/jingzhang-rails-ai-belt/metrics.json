@@ -235,7 +235,75 @@
       "formula": "count(renewal_projects) in proposal.md",
       "confidence": "high",
       "assumptions": [
+        "A-OPS-001",
+        "A-PROJ-001"
+      ]
+    },
+    "project_governance_field_count": {
+      "status": "known",
+      "value": 60,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "6 projects × 10 governance fields (lead, co-lead, permit, resource tier, cost tier, trigger threshold, KPI, failure mode, exit condition, annual review)",
+      "confidence": "high",
+      "assumptions": [
+        "A-PROJ-001"
+      ]
+    },
+    "project_exit_clause_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(project_exit_clause_rows) in proposal.md project-governance matrix",
+      "confidence": "high",
+      "assumptions": [
+        "A-PROJ-001"
+      ]
+    },
+    "project_annual_review_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(project_annual_review_rows) in proposal.md project-governance matrix",
+      "confidence": "high",
+      "assumptions": [
+        "A-PROJ-001",
         "A-OPS-001"
+      ]
+    },
+    "spatial_specificity_block_count": {
+      "status": "known",
+      "value": 9,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(concept_blocks) in proposal.md spatial-specificity matrix (3 key areas × 3 blocks each)",
+      "confidence": "medium",
+      "assumptions": [
+        "A-BOUNDARY-001"
+      ]
+    },
+    "project_trigger_threshold_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "proposal.md"
+      ],
+      "formula": "count(project_trigger_threshold_rows) in proposal.md project-governance matrix",
+      "confidence": "high",
+      "assumptions": [
+        "A-PROJ-001"
       ]
     },
     "high_impact_human_review_ratio": {
@@ -281,6 +349,52 @@
         "A-BUILDING-001"
       ],
       "reason": "Official height control and survey are not present in the public site package."
+    },
+    "bilingual_figure_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "assets/figures/"
+      ],
+      "formula": "count(*.en.png) under assets/figures",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "bilingual_pdf_count": {
+      "status": "known",
+      "value": 2,
+      "unit": "count",
+      "source_files": [
+        "drawings/"
+      ],
+      "formula": "count(*.en.pdf) under drawings",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "bilingual_visual_count": {
+      "status": "known",
+      "value": 1,
+      "unit": "count",
+      "source_files": [
+        "visual/"
+      ],
+      "formula": "count(*.en.html) under visual",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "bilingual_completeness_ratio": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "assets/figures/",
+        "drawings/",
+        "visual/"
+      ],
+      "formula": "(6+2+1) / (6+2+1)",
+      "confidence": "high",
+      "assumptions": []
     }
   }
 }

@@ -26,6 +26,14 @@
       "usage": "临时生成、可视化与自检；不得作为 official redline。"
     },
     {
+      "id": "BOUNDARY-BASIS-AUDIT",
+      "title": "Provisional boundary independent background cross-check",
+      "path": "brief/site-package/geometry/provisional_boundaries_basis.md",
+      "accessed_date": "2026-08-09",
+      "source_type": "repository_background_audit",
+      "usage": "披露 OSM 公园与暂定总体范围 0% 相交、最近约 412.5 米的空间不确定性；不得据此替换 official polygon 或用于正式评分。"
+    },
+    {
       "id": "KEY-AREA-SOURCE",
       "path": "brief/site-package/geometry/provisional_boundaries.geojson",
       "source_type": "agent_inferred_from_public_data",

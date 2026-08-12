@@ -114,6 +114,97 @@
    "source_type": "official_public",
    "usage": "京张铁路遗址公园一期(约2.5公里)2023年开放等公开事实; 用作明线活力带现状基础与分期衔接依据。",
    "limitations": "背景资料(background_only); 公园全线实施范围以官方规划为准。"
+  },
+  {
+   "id": "STD-REF-PROJECT-ANNOUNCEMENT",
+   "path": "brief/site-package/standards/references/project-official-announcement.md",
+   "publisher": "open-city-ai/haidian 仓库快照",
+   "source_type": "repository_public_registry",
+   "usage": "公告正文在仓库内的机读快照(19.8KB); 本包对三层范围、三处重点区名称与面积、公告四至街道的全部引用均以此文件为准，可逐句回读。",
+   "limitations": "仓库快照，非发布机关原件；如与官方原件不一致以原件为准。"
+  },
+  {
+   "id": "STD-REF-AGENT-TASKBOOK-0518",
+   "path": "brief/site-package/standards/references/agent-open-call-taskbook-0518.md",
+   "publisher": "open-city-ai/haidian 仓库快照",
+   "source_type": "repository_public_registry",
+   "usage": "面向智能体的开源征集任务书快照(9.0KB); 本包 agent.1–agent.6 六项任务的必答项与禁止表述均以此为准。",
+   "limitations": "仓库快照；评审维度以 agent_taskbook.json 的机读版本为准。"
+  },
+  {
+   "id": "STD-REF-MOHURD-URBAN-DESIGN",
+   "path": "brief/site-package/standards/references/mohurd-urban-design-measures.md",
+   "publisher": "open-city-ai/haidian 仓库快照(住房城乡建设部《城市设计管理办法》)",
+   "source_type": "repository_public_registry",
+   "usage": "城市设计管理办法要点快照(6.7KB); 支撑第9章风貌管控与夜景照明引导的表述边界。",
+   "limitations": "要点摘录，非规章全文；具体条款以官方发布为准。"
+  },
+  {
+   "id": "STD-REF-MOHURD-CONTROL-PLANNING",
+   "path": "brief/site-package/standards/references/mohurd-control-detailed-planning.md",
+   "publisher": "open-city-ai/haidian 仓库快照(控制性详细规划相关规范)",
+   "source_type": "repository_public_registry",
+   "usage": "控规深度要求快照(10.4KB); 界定本包「控规深度城市设计」的交付边界，以及交通、市政、容量结论必须交由专业测算的口径。",
+   "limitations": "要点摘录；法定控规条件仍登记为待补。"
+  },
+  {
+   "id": "STD-REF-MNR-LAND-USE",
+   "path": "brief/site-package/standards/references/mnr-land-use-classification-guide.md",
+   "publisher": "open-city-ai/haidian 仓库快照(自然资源部国土空间用地用海分类指南)",
+   "source_type": "repository_public_registry",
+   "usage": "用地用海分类编码快照(8.0KB); 本包 189 块全覆盖用地分区所用的 0802/0701/05/0804 等全部编码取自此表。",
+   "limitations": "要点摘录；编码释义以官方指南为准。"
+  },
+  {
+   "id": "STD-REF-MOHURD-ARCH-DEPTH",
+   "path": "brief/site-package/standards/references/mohurd-arch-design-depth-2016.md",
+   "publisher": "open-city-ai/haidian 仓库快照(建筑工程设计文件编制深度规定)",
+   "source_type": "repository_public_registry",
+   "usage": "建筑设计深度规定的登记条目(0.7KB); 本包据此明确概念体量不等同于建筑设计深度，相关缺口如实登记为待补。",
+   "limitations": "仅为登记条目，官方正文未入库；不得据此主张达到建筑设计深度。"
+  },
+  {
+   "id": "CASE-KENDALL-SQUARE",
+   "url": "https://kendallsquare.org/",
+   "publisher": "Kendall Square Association",
+   "accessed_date": "2026-08-10",
+   "source_type": "official_public",
+   "usage": "§3.4 案例「剑桥肯德尔广场」的官方站点; 用于核对「校区与转化区零距离」这一可迁移机制的定性描述。",
+   "limitations": "行业协会站点，非政府统计口径；本包不引用其任何投资额或产值数字。"
+  },
+  {
+   "id": "CASE-STATION-F",
+   "url": "https://stationf.co/",
+   "publisher": "STATION F",
+   "accessed_date": "2026-08-10",
+   "source_type": "official_public",
+   "usage": "§3.4 案例「巴黎 Station F」的官方站点; 用于核对「老货运站改造为单体大空间孵化器、运营方即品牌」的定性描述。",
+   "limitations": "运营方自述站点；本包不引用其入驻团队数量等未经第三方核实的数字。"
+  },
+  {
+   "id": "CASE-ONE-NORTH",
+   "url": "https://www.jtc.gov.sg/find-space/one-north",
+   "publisher": "JTC Corporation (Singapore)",
+   "accessed_date": "2026-08-10",
+   "source_type": "official_public",
+   "usage": "§3.4 案例「新加坡 one-north」的开发主体官方页面; 用于核对「政府主导长周期滚动开发与留白」的定性描述。",
+   "limitations": "开发主体官方页面；本包不引用其分期时间表细节。"
+  },
+  {
+   "id": "PKG-IDENTITY-MARK",
+   "path": "assets/two-way-line-logo.svg",
+   "publisher": "本方案原创",
+   "source_type": "agent_inferred_from_public_data",
+   "usage": "§3.2 标识方向的可缩放矢量实现(彩色与单色两版); 纯路径与矩形，无文字、无外链、未参照任何现有标识。",
+   "limitations": "方向性视觉建议，非最终视觉系统；最终标识须由专业设计深化并另行清权。"
+  },
+  {
+   "id": "PKG-TWOWAY-PROTOCOL",
+   "path": "visual/assets/twoway-protocol.schema.json",
+   "publisher": "本方案原创",
+   "source_type": "agent_inferred_from_public_data",
+   "usage": "§6.3 对开协议的机读契约; 与 twoway-runbook.json、run_twoway_tabletop.js、twoway-tabletop-evidence.json 共同构成可复算的准入检验，零外部依赖。",
+   "limitations": "作者侧可复现的回放记录，非独立背书；其检验的是本方案自设的准入契约，不是行政审批或法律合规。"
   }
  ]
 }

@@ -288,7 +288,7 @@
   },
   "user_persona_count": {
    "status": "known",
-   "value": 6,
+   "value": 7,
    "unit": "count",
    "source_files": [
     "proposal.md"
@@ -373,6 +373,48 @@
    "formula": "pending_official_data",
    "confidence": "unknown",
    "assumptions": []
+  },
+  "key_area_zhongzhiyuan_gfa_sqm": {
+   "status": "known",
+   "value": 1448075.5,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/buildings.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "sum(gross_floor_area_sqm_concept where representative_point within PROV-KEY-001)",
+   "confidence": "medium",
+   "assumptions": [
+    "A-PROV-BOUNDARY-001"
+   ]
+  },
+  "key_area_origin_gfa_sqm": {
+   "status": "known",
+   "value": 1004761.6,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/buildings.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "sum(gross_floor_area_sqm_concept where representative_point within PROV-KEY-002)",
+   "confidence": "medium",
+   "assumptions": [
+    "A-PROV-BOUNDARY-001"
+   ]
+  },
+  "key_area_dazhongsi_gfa_sqm": {
+   "status": "known",
+   "value": 1208336.5,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/buildings.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "sum(gross_floor_area_sqm_concept where representative_point within PROV-KEY-003)",
+   "confidence": "medium",
+   "assumptions": [
+    "A-PROV-BOUNDARY-001"
+   ]
   }
  }
 }

@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.1.0",
+  "assumptions": [
+    {
+      "id": "A-CONTROLS-001",
+      "status": "pending_professional_confirmation",
+      "statement": "Detailed regulatory controls, road redlines, ownership, municipal utilities, and engineering constraints must be confirmed from official attachments before statutory use.",
+      "impact": "The package can be reviewed as a formal AI submission only for provided official boundaries and submitted design layers; statutory controls still need professional confirmation."
+    },
+    {
+      "id": "A-PROVISIONAL-METRICS-002",
+      "status": "active_limitation",
+      "statement": "Exact-looking metric values are retained only to satisfy deterministic recomputation tolerance; public-facing interpretation should use rounded values and provisional labels.",
+      "impact": "Prevents provisional geometry from being read as official area or statutory control."
+    },
+    {
+      "id": "A-INCLUSION-003",
+      "status": "design_commitment",
+      "statement": "Every AI service must keep an equivalent non-smartphone path, manual service window, appeal path and rollback trigger.",
+      "impact": "Protects older adults, children, disabled users, caregivers and users without smart devices."
+    },
+    {
+      "id": "A-V03-SCORE-REPAIR-004",
+      "status": "concept_iteration",
+      "statement": "v0.3 assets are score-raising design evidence, not official approval or implementation commitment.",
+      "impact": "Improves reviewability while preserving public-data and professional-confirmation boundaries."
+    }
+  ]
+}

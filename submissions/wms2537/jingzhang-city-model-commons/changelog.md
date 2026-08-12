@@ -1,5 +1,18 @@
 # 方案迭代记录
 
+## v1.4 - 2026-08-10
+
+- Added an authoritative local-source Dazhongsi evidence unit for HD00-1603-01/03A: official transaction index, survey report, multi-plan supply review, municipal/traffic plan, and water-impact review, with URLs, access dates, hashes, scope limits, and a reproducible audit.
+- Added bounded local metrics (39,522.111 m², 60 m height, FAR 2.45, 25% minimum green ratio, 30 m setback, 300 m station-integration context, and 0.34 runoff coefficient) without upgrading the wider 72 ha key area or provisional geometry.
+- Updated bilingual proposals, narrative, visual evidence register, assumptions, and visual indexes to distinguish local evidence-backed guardrails from unresolved whole-belt redlines, CRS, ownership, heritage, and infrastructure data.
+
+## v1.3 - 2026-08-09
+
+- Added a public Haidian evidence baseline that separates current population, ageing, economy, heritage-park, AI-policy, and regional-coordination context from site-specific controls and future forecasts.
+- Added five directional regional interfaces for Beiwèi Community, Future Science City, Huairou Science City, Beijing E-Town, and Beijing-Tianjin-Hebei; each has a minimum exchange artifact and a consent, rights/IP, safety, maintenance, and withdrawal/no-recognition gate, with no partnership or mutual-recognition claim.
+- Added a machine-readable six-component proof-mile register covering spatial anchors, owner type, minimum data, human takeover, maintenance, positive/negative evidence, opening gates, and stop/retirement decisions.
+- Added bilingual proposal, offline-report, visual-index sections, crosswalk references, and a final A3/A0 evidence appendix so local evidence, regional interfaces, and component handoffs are visible across the review surfaces.
+
 ## v1.2 - 2026-08-08
 
 - Added a bounded first-proof package with one public accessibility/heat-safety pilot and one Zhongzhiyuan industry validation pilot.

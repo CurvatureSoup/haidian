@@ -623,6 +623,22 @@
       ],
       "required_for_formal": false
     },
+    "regional_interface_count": {
+      "status": "known",
+      "value": 5,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/site_evidence_baseline.json",
+        "proposal.md"
+      ],
+      "formula": "count of the five directional regional interfaces in the evidence baseline register",
+      "confidence": "high",
+      "assumptions": [
+        "A-REGIONAL-SYNERGY-001"
+      ],
+      "required_for_formal": false,
+      "reason": "Conceptual interface count only; no counterpart, partnership, data exchange, or mutual-recognition claim is implied."
+    },
     "rail_station_integration_index": {
       "status": "unknown",
       "value": null,
@@ -652,6 +668,98 @@
       ],
       "required_for_formal": false,
       "reason": "No verified parking, loading, accessibility or emergency-demand survey is included."
+    },
+    "dazhongsi_local_unit_area_sqm": {
+      "status": "known",
+      "value": 39522.111,
+      "unit": "sqm",
+      "source_files": [
+        "sources.json",
+        "visual/assets/site_evidence_baseline.json"
+      ],
+      "formula": "official HD00-1603-01 + HD00-1603-03A local unit area from the supply-review record",
+      "confidence": "high",
+      "assumptions": [],
+      "required_for_formal": false,
+      "scope_note": "Official local-source evidence unit only; not the 72 ha Dazhongsi key-area boundary."
+    },
+    "dazhongsi_local_b4_height_control_m": {
+      "status": "known",
+      "value": 60,
+      "unit": "m",
+      "source_files": [
+        "sources.json"
+      ],
+      "formula": "HD00-1603-01 control height in the official supply-review letter",
+      "confidence": "high",
+      "assumptions": [],
+      "required_for_formal": false,
+      "scope_note": "Local HD00-1603-01 control; not a global height rule."
+    },
+    "dazhongsi_local_b4_far_control": {
+      "status": "known",
+      "value": 2.45,
+      "unit": "far",
+      "source_files": [
+        "sources.json"
+      ],
+      "formula": "HD00-1603-01 FAR in the official supply-review letter",
+      "confidence": "high",
+      "assumptions": [],
+      "required_for_formal": false,
+      "scope_note": "Local HD00-1603-01 control; not the proposal-wide FAR."
+    },
+    "dazhongsi_local_b4_green_ratio_min": {
+      "status": "known",
+      "value": 0.25,
+      "unit": "ratio",
+      "source_files": [
+        "sources.json"
+      ],
+      "formula": "HD00-1603-01 minimum green ratio in the official supply-review letter",
+      "confidence": "high",
+      "assumptions": [],
+      "required_for_formal": false,
+      "scope_note": "Local minimum; not the conceptual 22.5% green-space share or a full-belt statutory ratio."
+    },
+    "dazhongsi_north_third_ring_setback_m": {
+      "status": "known",
+      "value": 30,
+      "unit": "m",
+      "source_files": [
+        "sources.json"
+      ],
+      "formula": "minimum building-control-line setback from North Third Ring road in the official supply-review letter",
+      "confidence": "high",
+      "assumptions": [],
+      "required_for_formal": false,
+      "scope_note": "Local review condition; does not replace the wider road-redline dataset."
+    },
+    "dazhongsi_station_integration_radius_m": {
+      "status": "known",
+      "value": 300,
+      "unit": "m",
+      "source_files": [
+        "sources.json"
+      ],
+      "formula": "local station-integration control radius described in the municipal-traffic planning report",
+      "confidence": "medium",
+      "assumptions": [],
+      "required_for_formal": false,
+      "scope_note": "Report-level local interface, subject to approval; not a citywide station standard."
+    },
+    "dazhongsi_runoff_coefficient_max": {
+      "status": "known",
+      "value": 0.34,
+      "unit": "ratio",
+      "source_files": [
+        "sources.json"
+      ],
+      "formula": "maximum combined runoff coefficient in the official water-impact review",
+      "confidence": "high",
+      "assumptions": [],
+      "required_for_formal": false,
+      "scope_note": "Local project water-review condition; not a full-belt hydrological model."
     }
   }
 }

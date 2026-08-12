@@ -71,6 +71,42 @@
       "accessed_date": "2026-06-05",
       "local_reference_format": "markdown",
       "local_markdown_path": "brief/site-package/standards/references/mohurd-arch-design-depth-2016.md"
+    },
+    {
+      "standard_id": "GENERATIVE-AI-INTERIM-MEASURES",
+      "title_zh": "生成式人工智能服务管理暂行办法",
+      "source_url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "local_reference_path": "brief/site-package/standards/references/generative-ai-interim-measures.md",
+      "local_reference_sha256": "a2900c3b054d5f460ff531456656458fafd96adb2b947987c69d83e518a09f64",
+      "fetch_status": "fetched",
+      "accessed_date": "2026-08-09",
+      "final_url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "local_reference_format": "markdown",
+      "local_markdown_path": "brief/site-package/standards/references/generative-ai-interim-measures.md"
+    },
+    {
+      "standard_id": "BARRIER-FREE-ENVIRONMENT-LAW",
+      "title_zh": "中华人民共和国无障碍环境建设法",
+      "source_url": "https://www.gov.cn/yaowen/liebiao/202306/content_6888910.htm",
+      "local_reference_path": "brief/site-package/standards/references/barrier-free-environment-law.md",
+      "local_reference_sha256": "c4c99ec4f8ea7851f44d485fb3a0c7ce84be117beaa3361da18508a6c3f35dc3",
+      "fetch_status": "fetched",
+      "accessed_date": "2026-08-09",
+      "final_url": "https://www.gov.cn/yaowen/liebiao/202306/content_6888910.htm",
+      "local_reference_format": "markdown",
+      "local_markdown_path": "brief/site-package/standards/references/barrier-free-environment-law.md"
+    },
+    {
+      "standard_id": "ELDERLY-SMART-TECH-PLAN-2020-45",
+      "title_zh": "国务院办公厅关于印发《关于切实解决老年人运用智能技术困难实施方案》的通知（国办发〔2020〕45号）",
+      "source_url": "https://www.gov.cn/zhengce/content/2020-11/24/content_5563804.htm",
+      "local_reference_path": "brief/site-package/standards/references/elderly-smart-tech-plan-2020-45.md",
+      "local_reference_sha256": "5db53c32b4045ba441bf58b60b5f6b5ab5c0d9165193ebac2072e5df2c120940",
+      "fetch_status": "fetched",
+      "accessed_date": "2026-08-09",
+      "final_url": "https://www.gov.cn/zhengce/content/2020-11/24/content_5563804.htm",
+      "local_reference_format": "markdown",
+      "local_markdown_path": "brief/site-package/standards/references/elderly-smart-tech-plan-2020-45.md"
     }
   ]
 }

@@ -59,13 +59,13 @@
       "role": "proposal_figure",
       "required": true,
       "language": "zh",
-      "sha256": "e47d9e2436143e2049dda02169308b79577065a26ecd4ed52e5f5cb9161fed69"
+      "sha256": "842f6ea57d30dbbc479c6d0e86a11bb86a31f700246b2e86005e52811d528d0c"
     },
     {
       "path": "assumptions.json",
       "role": "assumptions",
       "required": true,
-      "sha256": "3f9aa67a591acf9d27b923be1a54894c3395359f56d4effd3f8c26cd5454a588"
+      "sha256": "34687d02aa977a70494dab875c7a38ceaba4890a860166a0c519caf4f57907f6"
     },
     {
       "path": "compliance_matrix.json",
@@ -84,14 +84,14 @@
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "9d8d6e170b8ddae650078c4203ae812f1cc6c03b69b51661dcc6eab8d9d83992"
+      "sha256": "5e9b15515746bece293bf5e416050f1740634d581eb1531430ea347afa05c033"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
       "language": "zh",
-      "sha256": "c91797fa2eb0a2dc03ee0ed02ebd4e5d3a88469f98dd241e2d0906e4cfdd7e44"
+      "sha256": "d1c7c4ad51bfcbd86463d4c9376b72691b63907c2d7d295099d99422dc51b739"
     },
     {
       "path": "geometry/buildings.geojson",
@@ -159,14 +159,14 @@
       "required": false,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "a09750031fb85204852acf0ac27ee9ca2262c8cbfa1de675983694dabab6d839"
+      "sha256": "926b3b78563b8594fa44eff94205bc60ac8ebb58fc192da60a347d55fb173e5a"
     },
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "04fb9e271af7ed8d84efd69dd99e462ce6f78ffbd1172c0100d4d37eb11296b7"
+      "sha256": "7038ceb40cd92c785aca8f274fc361961b5df7d120e98c9b0118da594c31e087"
     },
     {
       "path": "report/copyright_statement.md",
@@ -178,7 +178,7 @@
       "path": "report/narrative.md",
       "role": "narrative",
       "required": false,
-      "sha256": "ffd31fd149b235ea0bcf0c63d95a66c42f6bff37a58e0f5118c3bf05f755ffeb"
+      "sha256": "bc634933779b2eb31b6eb6de3ca2f1279877342436069fda52ed264537204067"
     },
     {
       "path": "report/proposal.html",
@@ -197,13 +197,13 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "5b9d500bcb88f874ea6605aeb08a760e1e654abe0050b534e8e24a786cfcd507"
+      "sha256": "0d509aa9289f576d9270af95996b5ac4d17928755e6db5c7215d26d3641a8af7"
     },
     {
       "path": "standard_matrix.json",
       "role": "standard_matrix",
       "required": true,
-      "sha256": "8a5672e58973c7f682075f2ea1614a4482c6780289bb4b4b30873d5a743e2604"
+      "sha256": "6f17215f44df271bc8662fa9241036812c7f2cca7ac2ed4226b7406b32457eb4"
     },
     {
       "path": "visual/assets/osm-access-nodes.json",
@@ -221,7 +221,7 @@
       "path": "visual/assets/osm-baseline.json",
       "role": "visualization",
       "required": false,
-      "sha256": "2a12c9c4eaeb9b79cd8ba3873a0b43ec21e2e9dd4e95b3533a03d176b836fe13"
+      "sha256": "822c134a01b1214d952534afb0782a3843ba35eba3d447bda6aca10d1c272218"
     },
     {
       "path": "visual/assets/osm-facilities.json",

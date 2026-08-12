@@ -3,7 +3,7 @@
   "id": "wind-health-validation-plan",
   "title_zh": "健康气流、热暴露与水风险验证计划",
   "status": "protocol_only",
-  "scope": "jingzhang-open-pulse",
+  "scope": "zhongzhiyuan-autonomy-commons",
   "purpose": "把六项当前 unknown 指标转化为可由专业团队执行、校准和复核的证据合同；本文件不提供海淀现场测量、CFD 结果、健康结论或审批依据。",
   "cultural_boundary": {
     "terms": ["藏风聚气", "风水"],

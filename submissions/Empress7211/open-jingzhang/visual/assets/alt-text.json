@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1.0",
+  "updated_on": "2026-08-10",
+  "preflight_status": "code_checks_passed_human_accessibility_review_pending",
+  "figures": [
+    {
+      "path": "assets/figures/site-overview.png",
+      "short_alt_zh": "开源京张总览地图与总体空间协议",
+      "short_alt_en": "Open Jingzhang overview map and spatial protocol",
+      "long_description_zh": "横向总览图以一条 Living Mainline 串联众智园 Build、AI 原点 Review 和大钟寺 Merge 三个重点区，并标出两类公共道岔、支线、provisional 边界和证据状态。",
+      "reading_order": [
+        "总标题和精度声明",
+        "Living Mainline",
+        "三个重点区",
+        "两个 Switches 与 Branches",
+        "图例和证据说明"
+      ]
+    },
+    {
+      "path": "assets/figures/land-use-structure.png",
+      "short_alt_zh": "三层范围与用地分区无缝覆盖结构图",
+      "short_alt_en": "Three-level scope and topology-safe land-use structure",
+      "long_description_zh": "图示七类概念用地如何由同一 provisional 场地按顺序差集生成，并说明 Build、Review、Merge 与日常城市功能的互补关系；不表示获批用途。",
+      "reading_order": [
+        "三层范围",
+        "七类概念用地",
+        "三区功能关系",
+        "provisional 与非审批声明"
+      ]
+    },
+    {
+      "path": "assets/figures/key-areas.png",
+      "short_alt_zh": "众智园 Build、原点 Review、大钟寺 Merge 三个重点区差异化设计",
+      "short_alt_en": "Differentiated Build, Review, and Merge designs for the three key areas",
+      "long_description_zh": "三联图分别展示众智园的受控原型编组场、AI 原点的公共评议站和大钟寺的交换空间；三者通过同一六步协议连接，但不表示真实建设或运营批准。",
+      "reading_order": [
+        "众智园 Build",
+        "AI 原点 Review",
+        "大钟寺 Merge",
+        "共同人工闸门与精度限制"
+      ]
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.png",
+      "short_alt_zh": "交通慢行与蓝绿公共空间协同图",
+      "short_alt_en": "Mobility, walking, blue-green, and public-space coordination diagram",
+      "long_description_zh": "图示 Living Mainline 慢行主干、三区回路、公共 Switches、绿地和公共空间的关系；所有线路为概念性设计，不替代道路红线、轨道工程或河道蓝线。",
+      "reading_order": [
+        "慢行主干",
+        "三区回路",
+        "蓝绿空间",
+        "公共空间",
+        "工程条件缺口"
+      ]
+    },
+    {
+      "path": "assets/figures/metrics-evidence.png",
+      "short_alt_zh": "核心指标、来源文件与复算链证据图",
+      "short_alt_en": "Core metrics, source files, and recalculation evidence chain",
+      "long_description_zh": "图中公开展示 provisional 场地约 11.4 平方千米、绿地约 14.94%、公共空间约 4.08%、概念建筑基底约 22.8 公顷，并用 Source—GeoJSON—EPSG:4548—Metrics—Figures—Review 链说明精确值只在机器证据中承担一致性校核。",
+      "reading_order": [
+        "四项约数指标",
+        "known 与 unknown",
+        "单一事实源复算链",
+        "任务和深度覆盖",
+        "九层空间证据"
+      ]
+    }
+  ],
+  "human_review_pending": [
+    "A3 and A0 print proofing",
+    "screen-reader reading order for untagged PDFs",
+    "contrast and colour-vision review",
+    "200 percent zoom and low-vision review",
+    "bilingual consistency review",
+    "review by people with relevant lived experience"
+  ]
+}

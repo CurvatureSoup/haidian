@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0.0",
-  "title_zh": "京张开源脉冲身份系统",
+  "title_zh": "智行京张自主公共带身份系统",
   "author": "许丙南",
   "name": {
-    "zh": "京张开源脉冲",
-    "en": "Jing-Zhang Open Pulse"
+    "zh": "智行京张",
+    "en": "Jing-Zhang Autonomous Commons"
   },
   "mark": {
-    "construction": "two parallel rules interrupted by three open nodes; two small switch diamonds connect the wings",
+    "construction": "one continuous public-route line passes three open yards; two offset safety arcs mark human takeover and reversible withdrawal",
     "meaning": [
-      "百年铁路并行双线",
-      "三处重点区的公共节点",
-      "两翼的可逆接入"
+      "百年铁路的公共记忆与连续通行",
+      "三座试验庭的可见责任节点",
+      "自动化服务与人工等价路径的可逆切换"
     ],
-    "invariant": "Changing node count or order changes the scheme and is not a cosmetic refresh"
+    "invariant": "Changing the three-yard order, the ordinary-route line or the two safety arcs changes the public-service contract; this is not a cosmetic refresh"
   },
   "palette": [
     {
@@ -43,11 +43,11 @@
     }
   ],
   "wayfinding": [
-    "kilometre ticks",
-    "station node plates",
-    "switch diamonds",
-    "status board",
-    "high-contrast, tactile and audible alternatives"
+    "ordinary-route continuity ticks",
+    "three-yard node plates",
+    "human-takeover and withdrawal markers",
+    "public status board",
+    "high-contrast, tactile, paper, telephone and audible alternatives"
   ],
   "clearance": {
     "logo_status": "concept direction, not a registered mark",

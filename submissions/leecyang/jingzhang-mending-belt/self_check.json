@@ -57,8 +57,9 @@
     "All known metrics are recomputed from this submission's GeoJSON in EPSG:4548 and are reproducible by a third party from the same files.",
     "Package text files are stored with LF endings so manifest sha256 digests match the committed git blobs on CRLF clients.",
     "Formal-readiness recorded on a verified four-gate PASS; the previous audited-persistence blocker is resolved and cleared.",
+    "Formal-readiness recorded on a verified four-gate PASS; the previous audited-persistence blocker is resolved and cleared.",
     "Formal-readiness recorded on a verified four-gate PASS; the previous audited-persistence blocker is resolved and cleared."
   ],
-  "self_checked_at": "2026-08-09T08:14:17Z",
+  "self_checked_at": "2026-08-09T13:18:33Z",
   "can_enter_formal_review": true
 }

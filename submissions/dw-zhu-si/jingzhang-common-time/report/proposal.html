@@ -38,6 +38,13 @@ h1 { font-size: 34px; line-height: 1.22; margin: 0 0 10px; }
 h2 { font-size: 25px; margin: 34px 0 12px; border-top: 1px solid var(--line); padding-top: 24px; }
 h3 { font-size: 20px; margin: 26px 0 10px; }
 p, li { font-size: 16px; }
+blockquote {
+  margin: 18px 0;
+  padding: 12px 18px;
+  border-left: 4px solid var(--line);
+  color: var(--muted);
+  background: #f8fafc;
+}
 code {
   background: #eef2f7;
   color: #1d4f7a;
@@ -109,11 +116,11 @@ code {
 <p class="translation-link"><a href="proposal.en.html">Read in English</a></p>
 </section>
 <h1>共时京张 / COMMON TIME</h1>
-<p>&gt; **不是让 AI 占领更多城市，而是让每一次技术进入城市之前，先回答：谁的问题、谁负责、如何验证、何时停止。**</p>
-<p>“共时京张”把“科研、社区、商业与公共服务可能存在时段错配”作为**待调查假设**，而不是既成事实。方案先建立工作日/周末、昼/夜的时段基线，再以共享、轻改、可逆补点和必要建设四级动作，检验存量空间能否在更多时间服务更多人。AI 仅承担检索、匹配、翻译、预约和复盘；问题业主、产权人、运营者、独立评测者与公众保留批准、申诉和停止权。</p>
-<p>空间结构为 **一脊·三钟·两翼·十二共时场**。本轮不以虚构鸟瞰开场，而把实景证据、关系总平、节点平面/剖面、写实概念图和实施门依次展开：一脊是分段核验的铁路遗产—生态—慢行关系脊；三钟是 <code>VERIFY / LEARN / LIVE</code> 三个证据关口；两翼分别输入科技服务与真实城市问题；十二场分为 4 个门户、3 个验证/发布院落、3 个社区服务/共学节点和 2 个安静生态节点。最终回路是 <code>VERIFY → LEARN → LIVE → ADOPT / RETIRE</code>，不以扩大部署掩盖失败。</p>
+<blockquote><p><strong>不是让 AI 占领更多城市，而是让每一次技术进入城市之前，先回答：谁的问题、谁负责、如何验证、何时停止。</strong></p></blockquote>
+<p>“共时京张”把“科研、社区、商业与公共服务可能存在时段错配”作为<strong>待调查假设</strong>，而不是既成事实。方案先建立工作日/周末、昼/夜的时段基线，再以共享、轻改、可逆补点和必要建设四级动作，检验存量空间能否在更多时间服务更多人。AI 仅承担检索、匹配、翻译、预约和复盘；问题业主、产权人、运营者、独立评测者与公众保留批准、申诉和停止权。</p>
+<p>空间结构为 <strong>一脊·三钟·两翼·十二共时场</strong>。本轮不以虚构鸟瞰开场，而把实景证据、关系总平、节点平面/剖面、写实概念图和实施门依次展开：一脊是分段核验的铁路遗产—生态—慢行关系脊；三钟是 <code>VERIFY / LEARN / LIVE</code> 三个证据关口；两翼分别输入科技服务与真实城市问题；十二场分为 4 个门户、3 个验证/发布院落、3 个社区服务/共学节点和 2 个安静生态节点。最终回路是 <code>VERIFY → LEARN → LIVE → ADOPT / RETIRE</code>，不以扩大部署掩盖失败。</p>
 <figure class="proposal-figure"><img src="../assets/figures/site-photo-evidence-v3.jpg" alt="清华园、清河、京张公园、大钟寺与中关村的公开实景证据板"><figcaption>清华园、清河、京张公园、大钟寺与中关村的公开实景证据板</figcaption></figure>
-<p>上图全部为真实摄影，逐张记录地点、拍摄日期、作者、CC BY-SA 4.0 许可、原始文件页和使用边界，详见 <code>visual/assets/photo-register.json</code>。照片时间跨 2020—2025 年，只用于建立场地与城市语境，**不等于 2026 年完整现状调查，也不证明重点区边界、工程条件或方案落位**。</p>
+<p>上图全部为真实摄影，逐张记录地点、拍摄日期、作者、CC BY-SA 4.0 许可、原始文件页和使用边界，详见 <code>visual/assets/photo-register.json</code>。照片时间跨 2020—2025 年，只用于建立场地与城市语境，<strong>不等于 2026 年完整现状调查，也不证明重点区边界、工程条件或方案落位</strong>。</p>
 <h2>设计依据与资料清单</h2>
 <h3>1. 证据等级</h3>
 <div class="proposal-table"><table><thead><tr><th>等级</th><th>内容</th><th>可用于</th><th>不可用于</th></tr></thead><tbody><tr><td>A 官方公开</td><td>征集公告、海淀规划、公园一期、文保条目、政策文件</td><td>确认任务、历史事实、规划背景和法定核验入口</td><td>在缺图件时推断精确红线、权属或指标</td></tr><tr><td>B 仓库清权</td><td>site package、任务书、字段与校验规则</td><td>生成提交包、矩阵、自检和引用关系</td><td>替代缺失的官方控规与现状测绘</td></tr><tr><td>C 公开背景</td><td>OSM、机构官网与国际案例</td><td>低权威空间关系和机制比较</td><td>法定现状、完整设施清单或本地绩效外推</td></tr><tr><td>D 生成设计</td><td>GeoJSON、图纸、运营合同和场景卡</td><td>方案讨论、内部复算、专业深化入口</td><td>政府审定、工程可行、投资或建设承诺</td></tr><tr><td>U unknown</td><td>宗地、权属、红线、文保 GIS、市政容量、真实成本等</td><td>明确下一步调查与决策门</td><td>填入伪精确数字</td></tr></tbody></table></div>
@@ -134,13 +141,16 @@ code {
 </ul>
 <h2>品牌识别、文化导视与国际传播</h2>
 <h3>1. 主名称与概念 Logo</h3>
-<p>总体品牌为 **共时京张 / COMMON TIME JING-ZHANG**。Logo 方向不是铁路或文物图形的仿制，而是由“两条平行轨迹 + 四个时刻点 + 一个开放缺口”组成：平行轨迹对应铁路记忆与当代城市生活；四点对应 <code>VERIFY—LEARN—LIVE—ADOPT/RETIRE</code>；开放缺口表示人工判断、申诉和可退出。它是投稿阶段的概念视觉识别，不是官方启用商标，不构成主办方、铁路、学校、企业或文保单位背书。</p>
+<p>总体品牌为 <strong>共时京张 / COMMON TIME JING-ZHANG</strong>。Logo 方向不是铁路或文物图形的仿制，而是由“两条平行轨迹 + 四个时刻点 + 一个开放缺口”组成：平行轨迹对应铁路记忆与当代城市生活；四点对应 <code>VERIFY—LEARN—LIVE—ADOPT/RETIRE</code>；开放缺口表示人工判断、申诉和可退出。它是投稿阶段的概念视觉识别，不是官方启用商标，不构成主办方、铁路、学校、企业或文保单位背书。</p>
 <h3>2. 视觉识别系统</h3>
 <div class="proposal-table"><table><thead><tr><th>层级</th><th>组件</th><th>使用规则</th><th>禁止事项</th></tr></thead><tbody><tr><td>总体品牌</td><td>证据蓝、验证橙、公共绿、unknown 灰；平行轨迹与开放缺口</td><td>用于封面、总平索引、指标与规则条</td><td>不复制机构专有配色、图标或版式</td></tr><tr><td>三个证据关口</td><td>VERIFY / LEARN / LIVE</td><td>只作为空间与运营状态标签</td><td>不包装成已建园区或独立地产品牌</td></tr><tr><td>文化导视</td><td>证据票据、方向标、版本日期、勘误入口</td><td>事实、解释、拟议设施分层</td><td>不复制机车、钟体、校徽、企业 Logo 或伪遗产</td></tr><tr><td>活动品牌</td><td>COMMON TIME CYCLE</td><td>每次活动显示问题业主、阶段门、后续责任和事实状态</td><td>不把设想活动写成政府确定日程</td></tr></tbody></table></div>
 <p>字体方向采用系统可用的中性无衬线字体与开放授权替代，不在投稿包中分发字体文件；图形优先黑白可识别、色盲友好和低墨印刷。实景照片、分析图、概念效果图继续分栏并保留来源/生成状态。文化标识与一带总体 Logo 不混同。<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup></p>
 <h3>3. 最小国际传播副本</h3>
 <p><code>COMMON TIME JING-ZHANG is a proposal for a civic AI adoption belt where every deployment must identify a real problem owner, pass an independent test, retain a human route, and remain reversible.</code></p>
 <p>所有英文传播必须同时带事实状态：<code>Concept proposal · not an approved plan · provisional spatial relationships · professional verification required.</code> 本包提供中英 Markdown、HTML、A3/A0 和五张含字图件对照；正式对外传播前仍需双语城市规划编辑、商标检索、字体许可和人类事实复核。</p>
+<h3>P0–P1 三重点区空间深化附册</h3>
+<p>新增双语附册 <code>drawings/p0-p1-spatial-deepening.pdf</code>：以真实 OpenStreetMap 公开语境表达三重点区的 30 个候选观察点、9 个候选行动区、6 条候选剖面线和 12 条关系剖面。附册不把开放地图当官方边界或测绘底图，不把候选尺寸当现状或规范结论；交通、生态、遗产、建筑市政消防、公共利益无障碍和 AI 数据治理六类硬门分别关闭，不以综合分平均。<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="OSM-PUBLIC-CONTEXT-20260808" title="来源：OSM-PUBLIC-CONTEXT-20260808">来源</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_key_area_detailed_design" title="深度：three_key_area_detailed_design">深度</sup></p>
+<p>现场回填、专业前置条件和 GO/HOLD 规则见 <code>report/narrative.md</code>。官方 polygon、现场两人复核、专业签署、真实业主、采购路径和人民币成本未取得前，三处重点区继续保持概念建议状态。</p>
 <h2>三层范围工作框架</h2>
 <p>“年度钟—周日钟—小时钟”只保留为传播隐喻，三个空间层级分别回答不同问题：<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_level_scope_framework" title="深度：three_level_scope_framework">深度</sup></p>
 <div class="proposal-table"><table><thead><tr><th>层级</th><th>决策对象</th><th>必须形成的空间成果</th><th>评价方式</th></tr></thead><tbody><tr><td>约43.6 km²统筹研究范围</td><td>人才、资金、算力、数据、场景和专业服务如何循环</td><td>三区两翼分工、七环节资源流、与中关村科学城和区域创新节点的接口</td><td>资源是否进入真实问题并形成采用证据</td></tr><tr><td>约11.4 km²总体设计范围</td><td>产业与城市系统如何共生</td><td>空间类型、公共脊、站点—校园—园区接口、交通、蓝绿、市政和公共服务网络</td><td>系统是否连续、可达、可维护、可回退</td></tr><tr><td>三处重点区</td><td>原型如何落地</td><td>同尺度分区平面、首层、到达、公共空间、建筑原型、剖面、项目与触发条件</td><td>是否具备责任、专业审批和退出条件</td></tr></tbody></table></div>
@@ -174,26 +184,26 @@ code {
 <p>核心矛盾是高安全验证与开放花园的冲突。空间由受控测试内核、标准协作中环、公众解释前场、清河生态界面四层组成；研发物流不穿越公众花园，公众只接触经过转译和脱敏的结果。北段首先核验五环、清河、水岸、防洪、公园分期和现状通道，再决定真实入口与横向连接。<code>BLDG-T01/T02</code>、<code>PUBLIC-09/10/11/12</code> 是原型需求，不是现状资产。</p>
 <p>文化动作从“自主创新口号”转向“工程证据与维护文化”：拟议“京张工程证据桌”展示有来源的测量、施工组织和维护资料；铁路维护、园林养护、设施运维与 AI 安全人员共同进入“维护者档案”。轨道、道岔、机车、龙门吊等必须分别标注原址、复原、迁置或设计符号；未鉴定前不得称原址遗存。</p>
 <div class="proposal-table"><table><thead><tr><th>真实语境证据</th><th>写实概念推演</th></tr></thead><tbody><tr><td>![清河老站房保存为公园后的真实照片](assets/photos/qinghe-old-station-park-2020.jpg)</td><td>![众智园 VERIFY 写实概念图](assets/figures/verify-photoreal-v3.jpg)</td></tr></tbody></table></div>
-<p>右图状态：**概念效果图｜AI 生成｜非现状影像｜非官方规划图｜空间关系待测绘核验**。空间动作是“研发物流后场—受控测试内核—透明但物理隔离的解释界面—公众花园—维护步道—清河生态界面”；在蓝线、防洪、五环和真实通道未核前，不给出工程线位。</p>
+<p>右图状态：<strong>概念效果图｜AI 生成｜非现状影像｜非官方规划图｜空间关系待测绘核验</strong>。空间动作是“研发物流后场—受控测试内核—透明但物理隔离的解释界面—公众花园—维护步道—清河生态界面”；在蓝线、防洪、五环和真实通道未核前，不给出工程线位。</p>
 <div class="proposal-table"><table><thead><tr><th>设计动作</th><th>首层/剖面关系</th><th>实施门</th></tr></thead><tbody><tr><td>受控测试内核</td><td>设备、人员与样本可独立关闭；公众不穿越</td><td>G2 可复现、G3 独立评测与急停</td></tr><tr><td>公众解释前场</td><td>低技术展台、纸质说明、人工主持；不暴露原始数据</td><td>版权、脱敏、无障碍和申诉齐全</td></tr><tr><td>清河维护花园</td><td>生态优先、设施可拆、维护车与慢行错时</td><td>蓝线、防洪、园林和维护责任确认</td></tr></tbody></table></div>
 <h3>北京 AI 原点社区 · LEARN｜知识如何抵达城市</h3>
 <p>核心矛盾是校园知识密度与城市可达性的断裂。空间形成“知识源—转译廊—孵化院—社区共学界面—轨道到达”；校园数据和门禁不并入统一画像，城市侧提供纸质材料、人工答疑和无障碍版本。重点核验五道口、清华东路西口、校园园区边界、清华园车站文保与真实慢行网络。</p>
 <p>清华园车站是 LEARN 的历史锚点，不是复古布景。1910 建站、校园交通和 1949 到达等史实只在授权材料范围内叙述；保护范围与Ⅰ/Ⅴ类建设控制地带须前置核验。在保护范围外可设置低扰动“时间票据”：时间、事件、来源、置信度和勘误入口五列并存，不在旧址附着屏幕、投影或灯带。</p>
 <div class="proposal-table"><table><thead><tr><th>真实语境证据</th><th>写实概念推演</th></tr></thead><tbody><tr><td>![清华园老站房更新后真实照片](assets/photos/qinghuayuan-station-2024.jpg)</td><td>![北京 AI 原点 LEARN 写实概念图](assets/figures/learn-photoreal-v3.jpg)</td></tr></tbody></table></div>
-<p>右图状态：**概念效果图｜AI 生成｜非现状影像｜非官方规划图｜空间关系待测绘核验**。它不描绘受保护站房，只测试“城市侧共学院—人工服务桌—纸质与数字双入口—连续无障碍—安静庭院”的关系。</p>
+<p>右图状态：<strong>概念效果图｜AI 生成｜非现状影像｜非官方规划图｜空间关系待测绘核验</strong>。它不描绘受保护站房，只测试“城市侧共学院—人工服务桌—纸质与数字双入口—连续无障碍—安静庭院”的关系。</p>
 <div class="proposal-table"><table><thead><tr><th>设计动作</th><th>首层/剖面关系</th><th>实施门</th></tr></thead><tbody><tr><td>城市侧共学院</td><td>沿街可见、非消费座位、关门后恢复完整边界</td><td>产权、消防、开放时段和 OPEX 确认</td></tr><tr><td>转译廊</td><td>校园数据/门禁不并库，知识材料经授权后转译</td><td>IP、数据责任和人工编辑签发</td></tr><tr><td>时间票据</td><td>保护范围外、低扰动、可撤回、可勘误</td><td>文保范围 GIS 与专家审查先行</td></tr></tbody></table></div>
 <h3>大钟寺 · LIVE｜城市如何共享时间</h3>
 <p>核心矛盾是高强度轨道商业与舒适公共生活的冲突。空间形成“四象限到达—站前公共厅—智能原生首层—夜间物流与安静界面”；交通高峰、公众试用、文化活动、装卸和居民安静时段不得占用同一冲突界面。四象限连接仅登记问题与候选关系，不给桥隧或道路工程线位。</p>
 <p>文化上并置古钟的公共节律、铁路时刻表与 AI 实时调度三种时间制度，这只是策展解释，不是历史因果。“AI朝圣地标”改称“公共记忆与学习节点”；不复制钟体、不擅采钟声、不以宗教/文物意象做商业装饰。觉生寺与重点区精确关系未叠合前，不宣称其在区内，也不绘未经核验的步行线路。</p>
 <div class="proposal-table"><table><thead><tr><th>真实语境证据</th><th>写实概念推演</th></tr></thead><tbody><tr><td>![大钟寺地铁站 A 口真实照片](assets/photos/dazhongsi-exit-a-2025.jpg)</td><td>![大钟寺 LIVE 写实概念图](assets/figures/live-photoreal-v3.jpg)</td></tr></tbody></table></div>
-<p>右图状态：**概念效果图｜AI 生成｜非现状影像｜非官方规划图｜空间关系待测绘核验**。它表达站口到达、骑行、候车、服务首层、装卸与安静后场的分层，不对应大钟寺站具体站口或工程设计。</p>
+<p>右图状态：<strong>概念效果图｜AI 生成｜非现状影像｜非官方规划图｜空间关系待测绘核验</strong>。它表达站口到达、骑行、候车、服务首层、装卸与安静后场的分层，不对应大钟寺站具体站口或工程设计。</p>
 <div class="proposal-table"><table><thead><tr><th>设计动作</th><th>首层/剖面关系</th><th>实施门</th></tr></thead><tbody><tr><td>站前公共厅</td><td>到达与停留分区，人工问询和静态导图始终可用</td><td>站点边界、客流、疏散与无障碍实测</td></tr><tr><td>分时路缘</td><td>公交/接驳/装卸按固定规则优先，算法只建议</td><td>交通管理批准、现场人员接管、仿真复核</td></tr><tr><td>夜间安静界面</td><td>高峰、活动、装卸与居民安静时段不冲突</td><td>声环境、照明、运营时段和投诉处置</td></tr></tbody></table></div>
 <h2>AI 创新生态、人才画像与 AI+ 场景</h2>
 <p>创新采用团队由四层十二个专业角色组成；它回答“谁把技术带到采用”，不冒充真实用户画像：<sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="innovation_role_count" title="指标：innovation_role_count">指标</sup></p>
 <div class="proposal-table"><table><thead><tr><th>层</th><th>角色</th><th>共时机制</th></tr></thead><tbody><tr><td>策源</td><td>科学家、开源维护者、技术架构师</td><td>复现时段、版本责任、导师回流</td></tr><tr><td>转译</td><td>AI产品负责人、领域专家、服务设计师、双语科技传播者</td><td>把能力转成问题定义、操作协议与公众语言</td></tr><tr><td>采用</td><td>采用工程师、MLOps/安全工程师、采购与合同专家</td><td>集成、监测、TCO、接口、迁移和退出</td></tr><tr><td>公共运行</td><td>数据责任人、设施运营者、无障碍与社区评议者</td><td>值守、维护、申诉、公平和公共价值复核</td></tr></tbody></table></div>
 <p>人才循环不是一次招聘会，而是“开放问题—跨职能组队—有责任项目—技能护照—进入采用团队—导师回流”。不建立个人城市评分，不把贡献公开作为参与前提。</p>
 <h3>六类真实用户画像与服务旅程</h3>
-<p>官网要求的用户画像必须来自实际服务关系，而不是产业岗位名称。V6.0 建立六类**待共创验证**的服务对象画像：<sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="persona_count" title="指标：persona_count">指标</sup></p>
+<p>官网要求的用户画像必须来自实际服务关系，而不是产业岗位名称。V6.0 建立六类<strong>待共创验证</strong>的服务对象画像：<sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="persona_count" title="指标：persona_count">指标</sup></p>
 <div class="proposal-table"><table><thead><tr><th>画像</th><th>一天中的关键任务</th><th>主要空间触点</th><th>最易被排除/转嫁的负担</th><th>同渠道人工与非数字回退</th><th>后续验证</th></tr></thead><tbody><tr><td>PERS-01 跨校通勤学生</td><td>换乘、骑行、课程与低成本停留</td><td>五道口/清华东路西口、共学院、关系脊</td><td>门禁绕行、缺座、夜间安全、必须消费</td><td>静态导图、人工问询、非消费座位</td><td>路径陪走、晚间性别安全审计</td></tr><tr><td>PERS-02 科研/创业人员</td><td>组队、复现、测试、IP 与采用对接</td><td>原点 LEARN、众智园 VERIFY</td><td>只重发布不重失败、供应商锁定</td><td>线下受理、标准模板、独立评测</td><td>G0—G6 转化漏斗与退出访谈</td></tr><tr><td>PERS-03 社区居民与照护者</td><td>接送、就医教育咨询、休息与投诉</td><td>社区服务节点、LIVE、安静界面</td><td>活动噪声、数据采集、通道被占</td><td>人工服务台、纸质目录、电话/现场申诉</td><td>工作日/周末、昼/夜共创与噪声日志</td></tr><tr><td>PERS-04 老年、残障及临时行动不便者</td><td>连续换乘、如厕、休息、获得可靠信息</td><td>站口、过街、坡道、座椅、服务亭</td><td>断链、误导、设备不可达、只给 App</td><td>人工带行、触觉/大字/纸质信息、物理按钮</td><td>无障碍专业陪测，不以平均到达时间替代</td></tr><tr><td>PERS-05 一线保洁安保配送与设施人员</td><td>轮班、维护、装卸、急停和恢复</td><td>后场、路缘、设备岛、夜间界面</td><td>夜间 OPEX、算法加压、休息不足、责任下沉</td><td>固定作业规则、人工排班、物理急停</td><td>劳动负担、事件与恢复时间单列统计</td></tr><tr><td>PERS-06 国内外访客与非数字用户</td><td>导览、翻译、理解历史、求助与离场</td><td>门户、记忆节点、城市客厅</td><td>术语误译、无网/无账号、事实混淆</td><td>双语静态牌、人工讲解、原文并列</td><td>任务完成率、误解点与人工纠错</td></tr></tbody></table></div>
 <p>公共空间不以登录、消费、身份识别或提供数据为进入条件；AI 公共服务必须保持同地点、同开放时段、同效力的人工/静态入口。成效按群体分布复核，不能只报平均值。以上画像只是方案假设，必须由居民、残障人士、一线劳动者、学生、企业和访客的真实参与修订。</p>
 <p>十二张场景卡逐一写明服务对象/情境、最小数据、公共价值、风险、人工责任与非 AI 回退；并绑定空间、通过阈值和退役路径：<sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="scenario_count" title="指标：scenario_count">指标</sup></p>
@@ -237,7 +247,7 @@ code {
 <li>2 个安静生态节点：优先生态恢复、维护教育和低照度，不承担高强度活动。</li>
 </ul>
 <p>每个 feature 都记录 <code>program / time_window / safety_gate / non_ai_fallback / capacity_status</code>。公共空间组件仅包括可移动座椅、发布桌、人工服务台、安静雨棚和版本标记；不嵌入人脸识别，不以登录、消费或数据提供作为使用条件。</p>
-<p>四处拟议公共记忆与学习节点为南端时间证据台、原点证据时钟、贡献者版本廊和零点回退花园 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="landmark_count" title="指标：landmark_count">指标</sup>。它们对应任务书 <code>agent.4</code> 的“AI 朝圣地标、贡献/荣誉展示或公共空间组件”要求，但在方案中坚持称为**拟议公共记忆与学习节点**：朝圣的对象不是企业、模型或网红装置，而是可复现证据、公开贡献、人工责任和及时停止。节点不制造“伪铁路遗存”或巨构；新增构件必须可识别、可逆、带日期，史料由文史人员审核，AI只做检索、翻译、无障碍解释和勘误。</p>
+<p>四处拟议公共记忆与学习节点为南端时间证据台、原点证据时钟、贡献者版本廊和零点回退花园 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="landmark_count" title="指标：landmark_count">指标</sup>。它们对应任务书 <code>agent.4</code> 的“AI 朝圣地标、贡献/荣誉展示或公共空间组件”要求，但在方案中坚持称为<strong>拟议公共记忆与学习节点</strong>：朝圣的对象不是企业、模型或网红装置，而是可复现证据、公开贡献、人工责任和及时停止。节点不制造“伪铁路遗存”或巨构；新增构件必须可识别、可逆、带日期，史料由文史人员审核，AI只做检索、翻译、无障碍解释和勘误。</p>
 <h2>更新项目清单、实施政策与分期计划</h2>
 <p>十项目从“项目名 + 最小动作”升级为责任、资金类别、阶段门和结果 KPI 的实施矩阵；资金只写类型，不写已落实金额或财政承诺。<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="renewal_project_list" title="深度：renewal_project_list">深度</sup></p>
 <div class="proposal-table"><table><thead><tr><th>项目</th><th>问责/执行主体类型</th><th>CAPEX/OPEX与运营</th><th>最低阶段门</th><th>结果 KPI / 退出</th></tr></thead><tbody><tr><td>P01 时段基线登记</td><td>组合办公室/产权人与运营者</td><td>调研采购、产权方实物投入、年度复测</td><td>授权、受影响群体、非共享对照、维护/取消规则</td><td>新增有效开放小时、履约率、单位成本；无真实增量则停止扩点</td></tr><tr><td>P02 原点共学转译院</td><td>高校/研究机构与专业社区</td><td>课程、研究、赞助、场地、版权与主持 OPEX</td><td>IP/数据权、复现、无障碍、人工主持</td><td>复现率、理解率、90日留存；只产生活动人数则 PIVOT</td></tr><tr><td>P03 人工复核亭</td><td>公共服务问题业主/服务机构</td><td>稳定值守、培训、内容更新和设备退役 OPEX</td><td>权限、转接、申诉裁决、SLA 与群体差异基线</td><td>接管时间、首次解决、误导率；不能等价服务则 RETIRE AI 层</td></tr><tr><td>P04 共享评测厅</td><td>独立测试机构/设施运营者</td><td>测试收费、科研支持、保险、维护与复测</td><td>协议、许可、非 AI 基线、隔离、阈值、急停</td><td>测试周期、复测率、严重事件、单位晋级成本；自测自证则 HOLD</td></tr><tr><td>P05 共时关系脊</td><td>公共空间资产主体/维护团队</td><td>批准后 CAPEX，锁定养护、季节复测与恢复资金</td><td>边界、文保、物种/土壤/树冠、蓝线、无障碍</td><td>功能连续、热舒适、维护工时；四联评价不过门则缩减或恢复</td></tr><tr><td>P06 大钟寺到达前场</td><td>交通/资产问题业主与运营者</td><td>前期专业研究，批准后工程、现场值守与维护</td><td>客流仿真、许可、疏散、无障碍、劳动与噪声基线</td><td>换乘分布、冲突、无障碍、投诉；现场不可接管即停止算法建议</td></tr><tr><td>P07 十二共时场</td><td>各点产权人/统一策展运营</td><td>场地、活动、公益配额、保洁安保、撤场与修复</td><td>每点章程、到期日、责任人、安静、申诉和恢复规则</td><td>实际开放、公益时段、OPEX、群体差异；到期仅可续期/转永久/撤除</td></tr><tr><td>P08 端侧服务岛</td><td>ICT/设施业主与安全团队</td><td>租赁/按量、能源、散热、网安、更新与残值</td><td>消防、能源、漏洞、数据目的、IP、断电与迁移</td><td>可用率、能耗、恢复、漏洞、退役时间；锁定/越权则更换或退役</td></tr><tr><td>P09 公共记忆档案</td><td>文史机构/编辑委员会</td><td>研究、口述史、保存、出版、授权与勘误 OPEX</td><td>官方身份、逐项来源/版权、文保审查、撤回</td><td>引用完整、纠错SLA、多语审核；伪遗产或侵权即下架</td></tr><tr><td>P10 COMMON TIME WEEK</td><td>独立秘书处/策展场务评估</td><td>注册、合作伙伴、赞助、场务、安保、无障碍与复盘</td><td>每场绑定真实问题、问题业主、独立评测和后续预算</td><td>有效问题、进入G2/G3、采用/退役；无后续责任链则不续办同类活动</td></tr></tbody></table></div>

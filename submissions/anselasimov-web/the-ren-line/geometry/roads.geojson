@@ -569,6 +569,527 @@
      ]
     ]
    }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-021",
+   "properties": {
+    "id": "RD-021",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "arterial",
+    "name_zh": "西直门外大街—北站北侧(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3406594,
+      39.9404641
+     ],
+     [
+      116.3553,
+      39.9405465
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-022",
+   "properties": {
+    "id": "RD-022",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "大柳树路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3404234,
+      39.9489628
+     ],
+     [
+      116.3553,
+      39.9490465
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-023",
+   "properties": {
+    "id": "RD-023",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "皂君庙路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3401179,
+      39.959961
+     ],
+     [
+      116.3553,
+      39.9600465
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-024",
+   "properties": {
+    "id": "RD-024",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "arterial",
+    "name_zh": "北三环西路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3400068,
+      39.9639604
+     ],
+     [
+      116.3553,
+      39.9640465
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-025",
+   "properties": {
+    "id": "RD-025",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "大运村路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3401167,
+      39.981461
+     ],
+     [
+      116.3539771,
+      39.9815391
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-026",
+   "properties": {
+    "id": "RD-026",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "双清路北口—八家路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3423084,
+      40.0184735
+     ],
+     [
+      116.3548639,
+      40.018544
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-027",
+   "properties": {
+    "id": "RD-027",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "大钟寺东路(现状参照,位置近似;对应公告西侧四至)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3437,
+      39.954
+     ],
+     [
+      116.3439,
+      39.965
+     ],
+     [
+      116.3441,
+      39.9775
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-028",
+   "properties": {
+    "id": "RD-028",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "arterial",
+    "name_zh": "中关村东路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.345,
+      39.978
+     ],
+     [
+      116.3453,
+      39.99
+     ],
+     [
+      116.3455,
+      40.0085
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-029",
+   "properties": {
+    "id": "RD-029",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "荷清路(现状参照,位置近似;对应公告西侧四至)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3452,
+      40.006
+     ],
+     [
+      116.3462,
+      40.0165
+     ],
+     [
+      116.3469477,
+      40.0265002
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-030",
+   "properties": {
+    "id": "RD-030",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "交大东路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3508,
+      39.9395
+     ],
+     [
+      116.351,
+      39.952
+     ],
+     [
+      116.3512,
+      39.965
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-031",
+   "properties": {
+    "id": "RD-031",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "文慧园北路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3530158,
+      39.9390001
+     ],
+     [
+      116.3533,
+      39.948
+     ],
+     [
+      116.3535,
+      39.957
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-032",
+   "properties": {
+    "id": "RD-032",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "高梁桥斜街(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.340589,
+      39.9429966
+     ],
+     [
+      116.347,
+      39.945
+     ],
+     [
+      116.3553,
+      39.9470289
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-033",
+   "properties": {
+    "id": "RD-033",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "展春园西路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3496,
+      39.986
+     ],
+     [
+      116.3498,
+      39.993
+     ],
+     [
+      116.3499,
+      39.9995
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-034",
+   "properties": {
+    "id": "RD-034",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "王庄路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.352,
+      39.992
+     ],
+     [
+      116.3523,
+      40.0
+     ],
+     [
+      116.3525,
+      40.008
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-035",
+   "properties": {
+    "id": "RD-035",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "双清路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3502,
+      40.006
+     ],
+     [
+      116.3512,
+      40.018
+     ],
+     [
+      116.3521239,
+      40.0265001
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-036",
+   "properties": {
+    "id": "RD-036",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "secondary",
+    "name_zh": "学清路(现状参照,位置近似)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3512,
+      40.0065
+     ],
+     [
+      116.3538,
+      40.0175
+     ],
+     [
+      116.3547278,
+      40.0265
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-037",
+   "properties": {
+    "id": "RD-037",
+    "layer": "EXISTING_PRIMARY_ROAD",
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "low",
+    "geometry_role": "existing_condition",
+    "road_class": "arterial",
+    "name_zh": "学院路—西土城路(现状参照,位置近似;与总体设计范围东边界重合)",
+    "note_zh": "沿线现状城市道路参照线:先尝试 Overpass/OSM 未获响应,改按公开地名常识近似定位;同时用作用地单元切割线,非道路红线,红线与断面以官方交通专项为准"
+   },
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       116.3553,
+       39.939
+      ],
+      [
+       116.3553,
+       39.965
+      ]
+     ],
+     [
+      [
+       116.3553,
+       39.965
+      ],
+      [
+       116.3533,
+       39.99
+      ]
+     ],
+     [
+      [
+       116.3533,
+       39.99
+      ],
+      [
+       116.3553,
+       40.0265
+      ]
+     ]
+    ]
+   }
   }
  ]
 }

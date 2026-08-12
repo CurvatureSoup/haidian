@@ -112,6 +112,22 @@
       "impact": "Trademark search, font substitution, final artwork, and adoption require a separate clearance process.",
       "verification_owner": "Brand owner and intellectual-property counsel",
       "release_condition": "Trademark, font, graphic-rights, and adoption reviews are completed."
+    },
+    {
+      "id": "A-PROJ-001",
+      "status": "project_governance_maturity",
+      "statement": "The six renewal projects (JZ-01 to JZ-06) carry a 10-field governance matrix (lead, co-lead, permit, resource tier, cost tier, trigger threshold, KPI, failure mode, exit condition, annual review) that is concept-grade and must be confirmed by licensed planning, transport, water, fire and operating teams before scoring.",
+      "impact": "Cost tiers, KPI thresholds, exit clauses and annual review bodies are initial concept estimates; they are not procurement-ready commitments and must be reset after each gate's evidence is reviewed.",
+      "verification_owner": "Lead agency for each project + professional review team",
+      "release_condition": "Each project receives official sign-off from its named lead agency and the matching licensed review team, with verified triggers, permits and KPI baselines."
+    },
+    {
+      "id": "A-PARK-002",
+      "status": "annual_event_governance",
+      "statement": "The four annual events (AI Pilgrimage Day, Symbiosis Hackathon, Open Source Week, Jing-Zhang AI Public Open Day) and the Global AI Activity-Week public route (JZ-06) are concept-grade and require organiser-, police- and rights-clearance sign-off before they can be scheduled.",
+      "impact": "Event hosts, sponsors, security plans, accessibility plans and copyright clearances must be re-confirmed every cycle; an event cannot enter a formal activity schedule without a current safety, accessibility and rights audit.",
+      "verification_owner": "Haidian district propaganda + culture & tourism + public security + emergency",
+      "release_condition": "Annual operating agreement, budget, accessibility plan, security plan and copyright clearance are approved and published."
     }
   ]
 }

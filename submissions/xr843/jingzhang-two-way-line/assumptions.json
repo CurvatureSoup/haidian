@@ -42,6 +42,27 @@
    "statement": "现状底图取自OpenStreetMap(ODbL), 精度与时效不均; 道路中线、水系、隧道径线均为示意。",
    "impact": "全部现状引用仅作bootstrap参照, 正式设计须以官方测绘与工程资料为准。",
    "recalculation_trigger": "官方测绘底图提供"
+  },
+  {
+   "id": "A-SCOPE-CROSSING-QINGHEBAY-001",
+   "status": "disclosed_precision_limit",
+   "statement": "八处道口中的清河湾道口经EPSG:4548复算位于本包总体设计范围北缘之外约85米, 其余七处在范围内。该道口的设计任务是把明线北端接出边界、缝合至清河水岸, 跨界为其功能所必需, 非定位误差。",
+   "impact": "该处的用地、工程条件与实施依据落在统筹研究范围层面, 不计入总体设计范围的用地复算与指标; crossing_node_count=8 中含此跨界节点, 引用该指标时须一并说明。",
+   "recalculation_trigger": "官方SITE_BOUNDARY polygon入库后重新判断该节点归属"
+  },
+  {
+   "id": "A-SCOPE-QHY-STATION-001",
+   "status": "disclosed_precision_limit",
+   "statement": "清华园车站旧址(1910年建站, 2023年列为北京市文物保护单位)经复算位于本包总体设计范围以西约389米, 在统筹研究范围之内、总体设计范围之外; 与仓库constraints图层自带的「以西约300米」注记方向一致。",
+   "impact": "§4.5对该处遗产界面的低层砖木肌理与退让引导属统筹研究范围层面建议, 不构成总体设计范围内的管控条款; 班次S8「开源模型首发日」的场所为跨范围仪式性场所, 其余十一张班次卡节点均在范围内。范围内直接受文保约束的界面为觉生寺周边。",
+   "recalculation_trigger": "官方SITE_BOUNDARY polygon入库后重新判断该场所归属"
+  },
+  {
+   "id": "A-CASE-PROVENANCE-001",
+   "status": "disclosed_evidence_gap",
+   "statement": "§3.4七个全球案例中, 仅肯德尔广场、Station F、one-north三例取得实测可达的官方出处并登记为来源; 国王十字官网对本包抓取返回403, 多伦多滨水智慧城项目原运营方站点现重定向至其它产品, 张江科学城站点未能确认发布主体, 深圳粤海街道无稳定官方出处。",
+   "impact": "该四例仅作为公开知识的定性概括保留, 不登记为可引用来源、不支撑任何数字主张; 若后续取得稳定出处将补登记并相应更新§3.4。",
+   "recalculation_trigger": "取得四例中任一例的稳定官方出处"
   }
  ]
 }

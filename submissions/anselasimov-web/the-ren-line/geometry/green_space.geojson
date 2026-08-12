@@ -12,7 +12,7 @@
     "geometry_role": "design_proposal",
     "land_use_code": "1401",
     "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
-    "area_sqm_declared": 173137.3
+    "area_sqm_declared": 19840.3
    },
    "geometry": {
     "type": "Polygon",
@@ -31,12 +31,12 @@
        39.9390122
       ],
       [
-       116.3451797,
-       39.9519897
+       116.3448416,
+       39.9404878
       ],
       [
-       116.3465846,
-       39.9519977
+       116.3462462,
+       39.9404958
       ],
       [
        116.3462022,
@@ -51,6 +51,129 @@
    "id": "GS-002",
    "properties": {
     "id": "GS-002",
+    "layer": "GREEN_SPACE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
+    "area_sqm_declared": 54522.2
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3463729,
+       39.9448041
+      ],
+      [
+       116.3462462,
+       39.9404958
+      ],
+      [
+       116.3448416,
+       39.9404878
+      ],
+      [
+       116.3449555,
+       39.9443611
+      ],
+      [
+       116.3463729,
+       39.9448041
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GS-003",
+   "properties": {
+    "id": "GS-003",
+    "layer": "GREEN_SPACE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
+    "area_sqm_declared": 58784.2
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3464963,
+       39.9489972
+      ],
+      [
+       116.3463729,
+       39.9448041
+      ],
+      [
+       116.3449555,
+       39.9443611
+      ],
+      [
+       116.3450915,
+       39.9489892
+      ],
+      [
+       116.3464963,
+       39.9489972
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GS-004",
+   "properties": {
+    "id": "GS-004",
+    "layer": "GREEN_SPACE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
+    "area_sqm_declared": 39990.5
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3465846,
+       39.9519977
+      ],
+      [
+       116.3464963,
+       39.9489972
+      ],
+      [
+       116.3450915,
+       39.9489892
+      ],
+      [
+       116.3451797,
+       39.9519897
+      ],
+      [
+       116.3465846,
+       39.9519977
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GS-005",
+   "properties": {
+    "id": "GS-005",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
@@ -89,16 +212,16 @@
   },
   {
    "type": "Feature",
-   "id": "GS-003",
+   "id": "GS-006",
    "properties": {
-    "id": "GS-003",
+    "id": "GS-006",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
     "geometry_role": "design_proposal",
     "land_use_code": "1401",
     "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
-    "area_sqm_declared": 104989.9
+    "area_sqm_declared": 51654.3
    },
    "geometry": {
     "type": "Polygon",
@@ -109,12 +232,12 @@
        39.9561165
       ],
       [
-       116.3456171,
-       39.9639922
+       116.3454571,
+       39.9599913
       ],
       [
-       116.3470225,
-       39.9640001
+       116.3468625,
+       39.9599992
       ],
       [
        116.3467075,
@@ -130,9 +253,50 @@
   },
   {
    "type": "Feature",
-   "id": "GS-004",
+   "id": "GS-007",
    "properties": {
-    "id": "GS-004",
+    "id": "GS-007",
+    "layer": "GREEN_SPACE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
+    "area_sqm_declared": 53335.6
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3454571,
+       39.9599913
+      ],
+      [
+       116.3456171,
+       39.9639922
+      ],
+      [
+       116.3470225,
+       39.9640001
+      ],
+      [
+       116.3468625,
+       39.9599992
+      ],
+      [
+       116.3454571,
+       39.9599913
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GS-008",
+   "properties": {
+    "id": "GS-008",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
@@ -171,9 +335,9 @@
   },
   {
    "type": "Feature",
-   "id": "GS-005",
+   "id": "GS-009",
    "properties": {
-    "id": "GS-005",
+    "id": "GS-009",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
@@ -212,16 +376,16 @@
   },
   {
    "type": "Feature",
-   "id": "GS-006",
+   "id": "GS-010",
    "properties": {
-    "id": "GS-006",
+    "id": "GS-010",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
     "geometry_role": "design_proposal",
     "land_use_code": "1401",
     "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
-    "area_sqm_declared": 142815.8
+    "area_sqm_declared": 71648.0
    },
    "geometry": {
     "type": "Polygon",
@@ -232,12 +396,12 @@
        39.976121
       ],
       [
-       116.3464913,
-       39.986835
+       116.3462972,
+       39.981496
       ],
       [
-       116.347897,
-       39.9868429
+       116.3477028,
+       39.981504
       ],
       [
        116.3475073,
@@ -253,9 +417,50 @@
   },
   {
    "type": "Feature",
-   "id": "GS-007",
+   "id": "GS-011",
    "properties": {
-    "id": "GS-007",
+    "id": "GS-011",
+    "layer": "GREEN_SPACE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
+    "area_sqm_declared": 71167.8
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3462972,
+       39.981496
+      ],
+      [
+       116.3464913,
+       39.986835
+      ],
+      [
+       116.347897,
+       39.9868429
+      ],
+      [
+       116.3477028,
+       39.981504
+      ],
+      [
+       116.3462972,
+       39.981496
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GS-012",
+   "properties": {
+    "id": "GS-012",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
@@ -294,9 +499,9 @@
   },
   {
    "type": "Feature",
-   "id": "GS-008",
+   "id": "GS-013",
    "properties": {
-    "id": "GS-008",
+    "id": "GS-013",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
@@ -335,9 +540,9 @@
   },
   {
    "type": "Feature",
-   "id": "GS-009",
+   "id": "GS-014",
    "properties": {
-    "id": "GS-009",
+    "id": "GS-014",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
@@ -376,9 +581,9 @@
   },
   {
    "type": "Feature",
-   "id": "GS-010",
+   "id": "GS-015",
    "properties": {
-    "id": "GS-010",
+    "id": "GS-015",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
@@ -417,16 +622,16 @@
   },
   {
    "type": "Feature",
-   "id": "GS-011",
+   "id": "GS-016",
    "properties": {
-    "id": "GS-011",
+    "id": "GS-016",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
     "geometry_role": "design_proposal",
     "land_use_code": "1401",
     "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
-    "area_sqm_declared": 106936.7
+    "area_sqm_declared": 46894.4
    },
    "geometry": {
     "type": "Polygon",
@@ -441,12 +646,12 @@
        40.0180404
       ],
       [
-       116.3490912,
-       40.0230118
+       116.3488265,
+       40.0185103
       ],
       [
-       116.3504988,
-       40.0230197
+       116.350234,
+       40.0185182
       ],
       [
        116.3502021,
@@ -470,40 +675,40 @@
   },
   {
    "type": "Feature",
-   "id": "GS-012",
+   "id": "GS-017",
    "properties": {
-    "id": "GS-012",
+    "id": "GS-017",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
     "geometry_role": "design_proposal",
-    "land_use_code": "1402",
-    "name_zh": "北五环防护绿带(概念)",
-    "area_sqm_declared": 98099.3
+    "land_use_code": "1401",
+    "name_zh": "京张遗址公园绿廊(二期已建成,运营叠加)",
+    "area_sqm_declared": 60042.3
    },
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       116.3504988,
-       40.0230197
+       116.3488265,
+       40.0185103
       ],
       [
-       116.3507022,
-       40.0264756
-      ],
-      [
-       116.3537448,
-       40.0263697
-      ],
-      [
-       116.3535486,
-       40.0230367
+       116.3490912,
+       40.0230118
       ],
       [
        116.3504988,
        40.0230197
+      ],
+      [
+       116.350234,
+       40.0185182
+      ],
+      [
+       116.3488265,
+       40.0185103
       ]
      ]
     ]
@@ -511,32 +716,73 @@
   },
   {
    "type": "Feature",
-   "id": "GS-013",
+   "id": "GS-018",
    "properties": {
-    "id": "GS-013",
+    "id": "GS-018",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
     "geometry_role": "design_proposal",
     "land_use_code": "1402",
     "name_zh": "北五环防护绿带(概念)",
-    "area_sqm_declared": 53290.7
+    "area_sqm_declared": 54806.3
    },
    "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
       [
-       116.3499952,
-       40.0265002
+       116.3521159,
+       40.0264264
       ],
       [
-       116.3553,
+       116.3537448,
+       40.0263697
+      ],
+      [
+       116.3535486,
+       40.0230367
+      ],
+      [
+       116.3517463,
+       40.0230266
+      ],
+      [
+       116.3521159,
+       40.0264264
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GS-019",
+   "properties": {
+    "id": "GS-019",
+    "layer": "GREEN_SPACE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "land_use_code": "1402",
+    "name_zh": "北五环防护绿带(概念)",
+    "area_sqm_declared": 31065.1
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3521239,
+       40.0265001
+      ],
+      [
+       116.3547278,
        40.0265
       ],
       [
-       116.3551106,
-       40.0230454
+       116.3543712,
+       40.0230413
       ],
       [
        116.3535486,
@@ -546,6 +792,35 @@
        116.3537448,
        40.0263697
       ],
+      [
+       116.3521159,
+       40.0264264
+      ],
+      [
+       116.3521239,
+       40.0265001
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GS-020",
+   "properties": {
+    "id": "GS-020",
+    "layer": "GREEN_SPACE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "land_use_code": "1402",
+    "name_zh": "北五环防护绿带(概念)",
+    "area_sqm_declared": 44036.8
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
       [
        116.3507022,
        40.0264756
@@ -561,6 +836,26 @@
       [
        116.3499952,
        40.0265002
+      ],
+      [
+       116.3521239,
+       40.0265001
+      ],
+      [
+       116.3521159,
+       40.0264264
+      ],
+      [
+       116.3517463,
+       40.0230266
+      ],
+      [
+       116.3504988,
+       40.0230197
+      ],
+      [
+       116.3507022,
+       40.0264756
       ]
      ]
     ]
@@ -568,9 +863,9 @@
   },
   {
    "type": "Feature",
-   "id": "GS-014",
+   "id": "GS-021",
    "properties": {
-    "id": "GS-014",
+    "id": "GS-021",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
@@ -617,16 +912,57 @@
   },
   {
    "type": "Feature",
-   "id": "GS-015",
+   "id": "GS-022",
    "properties": {
-    "id": "GS-015",
+    "id": "GS-022",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",
     "geometry_role": "design_proposal",
     "land_use_code": "1402",
     "name_zh": "北五环防护绿带(概念)",
-    "area_sqm_declared": 101061.5
+    "area_sqm_declared": 21481.8
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3553,
+       40.0265
+      ],
+      [
+       116.3551106,
+       40.0230454
+      ],
+      [
+       116.3543712,
+       40.0230413
+      ],
+      [
+       116.3547278,
+       40.0265
+      ],
+      [
+       116.3553,
+       40.0265
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GS-023",
+   "properties": {
+    "id": "GS-023",
+    "layer": "GREEN_SPACE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "land_use_code": "1402",
+    "name_zh": "北五环防护绿带(概念)",
+    "area_sqm_declared": 22322.0
    },
    "geometry": {
     "type": "Polygon",
@@ -637,12 +973,12 @@
        40.0265001
       ],
       [
-       116.3492964,
+       116.3469477,
        40.0265002
       ],
       [
-       116.3490912,
-       40.0230118
+       116.3466858,
+       40.0229982
       ],
       [
        116.3460415,
@@ -658,9 +994,50 @@
   },
   {
    "type": "Feature",
-   "id": "GS-016",
+   "id": "GS-024",
    "properties": {
-    "id": "GS-016",
+    "id": "GS-024",
+    "layer": "GREEN_SPACE",
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "land_use_code": "1402",
+    "name_zh": "北五环防护绿带(概念)",
+    "area_sqm_declared": 78739.6
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3469477,
+       40.0265002
+      ],
+      [
+       116.3492964,
+       40.0265002
+      ],
+      [
+       116.3490912,
+       40.0230118
+      ],
+      [
+       116.3466858,
+       40.0229982
+      ],
+      [
+       116.3469477,
+       40.0265002
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "GS-025",
+   "properties": {
+    "id": "GS-025",
     "layer": "GREEN_SPACE",
     "source_type": "agent_generated_design",
     "confidence": "medium",

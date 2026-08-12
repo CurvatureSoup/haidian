@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.1.0",
+  "checked_on": "2026-08-10",
+  "base_commit": "ea115e01bb8ee8aa6943447df1af7ea4dae90180",
+  "validator": "scripts/self_check_submission.py from current origin/main",
+  "command": "python scripts/self_check_submission.py submissions/Empress7211/open-jingzhang --pr-author Empress7211 --json",
+  "status": "formal_review_ready",
+  "deterministic": {
+    "status": "pass",
+    "errors": 0,
+    "warnings": 13
+  },
+  "spatial": {
+    "status": "pass",
+    "major_issues": 0,
+    "minor_issues": [
+      "KEY_AREA_PROVISIONAL:PROV-KEY-001",
+      "KEY_AREA_PROVISIONAL:PROV-KEY-002",
+      "KEY_AREA_PROVISIONAL:PROV-KEY-003"
+    ]
+  },
+  "visual": {
+    "status": "pass",
+    "issues": 0
+  },
+  "professional": {
+    "status": "pass",
+    "issues": 0,
+    "standard_matrix_items": 6,
+    "design_depth_items": 15
+  },
+  "can_enter_formal_review": true,
+  "expected_non_blocking_notices": [
+    "legacy v1 bilingual compatibility notices",
+    "provisional geometry precision notices"
+  ],
+  "note": "self_check.json remains the preserved original submission record; this file is a separate maintenance-run summary."
+}

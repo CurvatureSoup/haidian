@@ -13,7 +13,7 @@
         "geometry/site_boundary.geojson"
       ],
       "formula": "polygon_area(submitted_site_boundary)",
-      "confidence": "high",
+      "confidence": "low",
       "assumptions": [
         "The submitted boundary is an explicitly provisional geometry. Its calculated area is a working value for intake and design comparison, not a precise official scoring area."
       ]
@@ -118,7 +118,7 @@
     },
     "design_slow_mobility_network_length_m": {
       "status": "known",
-      "value": 13013.9,
+      "value": 13448.6,
       "unit": "m",
       "source_files": [
         "geometry/roads.geojson"
@@ -130,32 +130,34 @@
       ]
     },
     "osm_mapped_station_names_within_800m_count": {
-      "status": "known",
-      "value": 16,
+      "status": "unknown",
+      "value": null,
       "unit": "count",
       "source_files": [
         "sources.json",
         "report/narrative.md"
       ],
       "formula": "count(distinct mapped railway/subway station names within an 800 m projected buffer of the provisional boundary)",
-      "confidence": "low",
+      "confidence": "unknown",
       "assumptions": [
         "OpenStreetMap Overpass snapshot accessed 2026-08-08; station names and positions may be incomplete, duplicated, changed or not represent accessible entrances."
-      ]
+      ],
+      "reason": "The raw OSM feature snapshot and independent replay script are not shipped in this package; the count is therefore not treated as a recomputable Autonomy fact."
     },
     "osm_mapped_crossing_count": {
-      "status": "known",
-      "value": 189,
+      "status": "unknown",
+      "value": null,
       "unit": "count",
       "source_files": [
         "sources.json",
         "report/narrative.md"
       ],
       "formula": "count(OSM nodes tagged highway=crossing inside provisional boundary)",
-      "confidence": "low",
+      "confidence": "unknown",
       "assumptions": [
         "This is a mapping completeness screen, not a safety or accessibility rating; every critical crossing requires field audit."
-      ]
+      ],
+      "reason": "The raw OSM crossing snapshot and independent replay script are not shipped in this package; no mapped count is promoted to known."
     },
     "resident_transport_satisfaction_index": {
       "status": "unknown",
@@ -178,109 +180,117 @@
     "blue_green_accessible_route_overlap_ratio": {"status":"unknown","value":null,"unit":"ratio","source_files":["geometry/green_space.geojson","geometry/public_space.geojson","geometry/roads.geojson","proposal.md"],"formula":"length of field-verified accessible primary route within an approved blue-green service distance / total field-verified accessible primary-route length","confidence":"unknown","assumptions":[],"reason":"Submitted layers are conceptual and no field-verified accessible route, blue-space edge or service-distance criterion is available; no health outcome is inferred from proximity."},
     "water_risk_exceedance_route_verified_ratio": {"status":"unknown","value":null,"unit":"ratio","source_files":["assumptions.json","proposal.md"],"formula":"length of critical accessible route verified outside approved flood-depth and velocity thresholds / total critical accessible-route length under the specified exceedance event","confidence":"unknown","assumptions":[],"reason":"No verified DEM, drainage network, design storm, flood-depth/velocity model or field calibration is available."},
     "resilience_v13_candidate_count": {
-      "status": "known",
-      "value": 5,
+      "status": "not_applicable",
+      "value": null,
       "unit": "count",
       "source_files": [
         "report/narrative.md"
       ],
       "formula": "count(explicit design alternatives S0 through S4)",
-      "confidence": "high",
+      "confidence": "unknown",
       "assumptions": [
         "Alternatives are normalized decision-support archetypes, not construction schemes or approved projects."
-      ]
+      ],
+      "reason": "This legacy resilience comparison belongs to an earlier package iteration and is not used by the Autonomy proposal."
     },
     "resilience_v13_monte_carlo_draws": {
-      "status": "known",
-      "value": 50000,
+      "status": "not_applicable",
+      "value": null,
       "unit": "draws",
       "source_files": [
         "report/narrative.md"
       ],
       "formula": "deterministic Monte Carlo draws with seed 147228 across five stakeholder profiles, uncertain weights and score noise",
-      "confidence": "high",
+      "confidence": "unknown",
       "assumptions": [
         "The draw count and seed are reproducible; the response functions remain explicit design assumptions."
-      ]
+      ],
+      "reason": "No Autonomy decision in the proposal depends on this legacy model run; it is retained only as historical package material."
     },
     "resilience_v13_selected_mean_score": {
-      "status": "known",
-      "value": 72.518,
+      "status": "not_applicable",
+      "value": null,
       "unit": "normalized_score_0_100",
       "source_files": [
         "report/narrative.md",
         "assumptions.json"
       ],
       "formula": "mean(0.70*stakeholder_weighted_criteria + 0.30*second_worst_of_eight_stress_scores) across 50000 draws for S4_balanced_adaptive",
-      "confidence": "low",
+      "confidence": "unknown",
       "assumptions": [
         "This is a comparative decision score, not a measured climate, drainage, safety or resident outcome."
-      ]
+      ],
+      "reason": "The legacy score is not an Autonomy performance result and is not cited by the current proposal."
     },
     "resilience_v13_selected_p05_score": {
-      "status": "known",
-      "value": 70.252,
+      "status": "not_applicable",
+      "value": null,
       "unit": "normalized_score_0_100",
       "source_files": [
         "report/narrative.md"
       ],
       "formula": "fifth_percentile(Monte Carlo robust scores for S4_balanced_adaptive)",
-      "confidence": "low",
+      "confidence": "unknown",
       "assumptions": [
         "The percentile represents model uncertainty only and excludes unknown site geometry, utility, soil, climate and behavioural uncertainty."
-      ]
+      ],
+      "reason": "This historical model percentile is outside the current Autonomy evidence chain."
     },
     "resilience_v13_selected_win_rate": {
-      "status": "known",
-      "value": 0.78862,
+      "status": "not_applicable",
+      "value": null,
       "unit": "ratio",
       "source_files": [
         "report/narrative.md"
       ],
       "formula": "count(draws where S4_balanced_adaptive has highest robust score) / 50000",
-      "confidence": "low",
+      "confidence": "unknown",
       "assumptions": [
         "S2_ecology_intensive wins the remaining 21.138% of draws and wins the deterministic climate-first profile."
-      ]
+      ],
+      "reason": "This legacy candidate-comparison output is not a field or Autonomy result and is excluded from current scoring evidence."
     },
     "resilience_v13_selected_mean_regret": {
-      "status": "known",
-      "value": 0.314,
+      "status": "not_applicable",
+      "value": null,
       "unit": "normalized_score_points",
       "source_files": [
         "report/narrative.md"
       ],
       "formula": "mean(best_candidate_score_per_draw - S4_balanced_adaptive_score_per_draw)",
-      "confidence": "low",
+      "confidence": "unknown",
       "assumptions": [
         "Low regret supports S4 as a robust compromise; it does not imply S4 is optimal under every climate-only objective."
-      ]
+      ],
+      "reason": "The regret comparison is a superseded package-level model artifact and does not answer an Autonomy question."
     },
     "resilience_v13_selected_min_stress_score": {
-      "status": "known",
-      "value": 67.194,
+      "status": "not_applicable",
+      "value": null,
       "unit": "normalized_score_0_100",
       "source_files": [
         "report/narrative.md"
       ],
       "formula": "min(eight deterministic design stress scores for S4_balanced_adaptive)",
-      "confidence": "low",
+      "confidence": "unknown",
       "assumptions": [
         "Eight stress increments are design tests rather than site-specific forecasts."
-      ]
+      ],
+      "reason": "The historical stress score is not connected to the current three-yard Autonomy contract."
     },
     "resilience_v13_hard_gates_passed": {
-      "status": "known",
-      "value": 5,
+      "status": "not_applicable",
+      "value": null,
       "unit": "count",
       "source_files": [
         "report/narrative.md"
       ],
       "formula": "count(pass among minimum core score >=60, minimum stress score >=55, capital intensity <=85, privacy >=80, human score >=75)",
-      "confidence": "low",
+      "confidence": "unknown",
       "assumptions": [
         "Gates are pre-field design-screening rules and must be replaced by approved engineering and participatory acceptance criteria."
-      ]
+      ],
+      "reason": "These legacy resilience gates are not the current Autonomy trial gates and are excluded from the evidence summary."
     },
     "autonomy_scenario_card_count": {
       "status": "known",

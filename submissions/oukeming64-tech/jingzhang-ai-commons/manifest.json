@@ -12,7 +12,7 @@
     "agent_name": "Codex × oukeming64-tech",
     "model": "OpenAI Codex (GPT-5)"
   },
-  "generated_at": "2026-08-08T14:52:14Z",
+  "generated_at": "2026-08-09T04:36:40Z",
   "files": [
     {
       "path": "manifest.json",
@@ -24,7 +24,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "261ea07e1bf5edb2a2130a6b0b4386f650594d33ce4c0059771355ff78c4ce0f"
+      "sha256": "b2cd64b7f779e76f7934c82ee361f5627272b1007466a34ee8edd351342425cc"
     },
     {
       "path": "agent.json",
@@ -79,7 +79,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "57b283d90c25a537d881762553d5563c93380c8897b96c2ff3b801c1b9cfd81f"
+      "sha256": "18a3544a6427a117ca4580ae467d84b9eb4834713ff0a4e85d24944a75026ada"
     },
     {
       "path": "report/narrative.md",
@@ -112,7 +112,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "022934a911ca0cc23912f2937cac82abfda7e84d3e28324b1c6bf16e209f5472"
+      "sha256": "01567e287a65d8c0c47fc5ee41002ba5bd8e35b68c5a5f637c8960bad73c5854"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -202,6 +202,86 @@
       "role": "geometry",
       "required": true,
       "sha256": "d9ea28df06d158e01ea927153ce01ef73c9dccfcdda17fb97fb80cf5eb6e82ff"
+    },
+    {
+      "path": "proposal.en.md",
+      "role": "narrative",
+      "required": true,
+      "language": "en",
+      "translation_of": "proposal.md",
+      "sha256": "d5f81fb6873b69e3c91b1abeb4482a2c485156a1456b62b1604ced9b282e5447"
+    },
+    {
+      "path": "report/proposal.en.html",
+      "role": "rendered_proposal_html",
+      "required": true,
+      "language": "en",
+      "translation_of": "report/proposal.html",
+      "sha256": "4ba81665dc54696c0677e0d9d6a191245d08ce3f9cb6e6e5a2e9e7c16bf14e1b"
+    },
+    {
+      "path": "visual/index.en.html",
+      "role": "visualization",
+      "required": true,
+      "language": "en",
+      "translation_of": "visual/index.html",
+      "sha256": "12bb853de0a480a2f5e2560978d14747a4a69486aae2c375db60d78203e12435"
+    },
+    {
+      "path": "drawings/a3-booklet.en.pdf",
+      "role": "drawing",
+      "required": true,
+      "language": "en",
+      "translation_of": "drawings/a3-booklet.pdf",
+      "sha256": "a89b4f2d9b3a2c0a4b3dea22fabcaa5deea7fd47314d992f441b005930f709f8"
+    },
+    {
+      "path": "drawings/a0-boards.en.pdf",
+      "role": "drawing",
+      "required": true,
+      "language": "en",
+      "translation_of": "drawings/a0-boards.pdf",
+      "sha256": "67212c6123dac92063ce2613a47145f1c8bf0210ca680129e2e5fb683ccf5aa7"
+    },
+    {
+      "path": "assets/figures/site-overview.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/site-overview.png",
+      "sha256": "869ebac378704b3fa55f2d4157840e2ed5eb44f430d364f69843a5a719ec8784"
+    },
+    {
+      "path": "assets/figures/land-use-structure.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/land-use-structure.png",
+      "sha256": "e1be8e266e3a8192468c5ff3dd082ff98c13ec9f0cce13df007887e25f9b3d42"
+    },
+    {
+      "path": "assets/figures/key-areas.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/key-areas.png",
+      "sha256": "817a6df0406b6bad77041b5b70b1abc38aacf133606374177c9d00afeb1cf225"
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/mobility-bluegreen.png",
+      "sha256": "6d63e906e8491691673571b15f318efdf573bc8079b33243a14cc5f798a04042"
+    },
+    {
+      "path": "assets/figures/metrics-evidence.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "language": "en",
+      "translation_of": "assets/figures/metrics-evidence.png",
+      "sha256": "0800ca9bd7c76ced87b698c534e5c0923cc63cc0cbfc22579423f47ede2c794c"
     }
   ],
   "validation_claim": {

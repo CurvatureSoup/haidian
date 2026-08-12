@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "title_zh": "14条场景—空间—运营矩阵",
+  "title_zh": "14项跨域支撑行（非自动驾驶场景卡）",
+  "title_en": "14 supporting cross-domain rows, not AV scenario cards",
   "author": "许丙南",
   "protocol": "one token / one window / one accountable operator / return to ordinary public use",
   "rows": [

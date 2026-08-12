@@ -32,6 +32,12 @@ Professional development must first produce six aligned surveys: railway alignme
 
 The professional response references the official call, agent taskbook, national urban-design and regulatory-planning measures, the national land-use classification guide and the design-depth matrix. [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] [standard:MOHURD-URBAN-DESIGN-MEASURES] [standard:MOHURD-CONTROL-DETAILED-PLANNING] [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] Documents not available in full remain marked for verification rather than treated as authority.
 
+### P0–P1 Key-Area Spatial Deepening Supplement
+
+The bilingual supplement `drawings/p0-p1-spatial-deepening.pdf` uses real public OpenStreetMap context to locate thirty candidate observation points, nine candidate action zones, six candidate section lines and twelve relation sections across the three key areas. Open mapping is not treated as an official boundary or survey base, and candidate dimensions are not represented as existing conditions or code conclusions. Six hard gates—transport, ecology, heritage, building/municipal/fire safety, public interest/accessibility and AI/data governance—must close independently rather than being averaged into a composite score. [source:OSM-PUBLIC-CONTEXT-20260808] [depth:three_key_area_detailed_design]
+
+Field-return requirements, professional prerequisites and GO/HOLD rules are recorded in `report/narrative.md`. All three key areas remain conceptual until official polygons, two-person field verification, professional sign-off, real owners, procurement routes and RMB costs are available.
+
 ## Three-Level Scope Framework
 
 The coordinated research area, overall design area and three key areas answer different decisions. At roughly 43.6 square kilometres, the research scope examines how talent, capital, computing, data, professional services and real-world problems circulate between Zhongguancun Science City and surrounding innovation nodes. At roughly 11.4 square kilometres, the overall design scope organises land-use roles, a public relationship spine, station–campus–park connections, transport, blue-green systems, municipal interfaces and public services. At the key-area scale, each prototype must show arrival, ground floor, public space, section, project owner, operational mode and trigger conditions. [depth:three_level_scope_framework]

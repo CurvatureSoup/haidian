@@ -1,6 +1,6 @@
 {
   "schema_version": "0.2.0",
-  "package_iteration": "v0.2",
+  "package_iteration": "v0.7",
   "status": "asset_level_declaration",
   "assets": [
     {
@@ -20,14 +20,14 @@
     {
       "asset_group": "assets/figures/*.png / drawings/*.pdf",
       "author_zh": "投稿作者",
-      "method_zh": "本地 Python/Pillow/ReportLab 以本包 GeoJSON、metrics 与结构化证据生成；PDF 为本地排版导出",
+      "method_zh": "本地 Python/Pillow/ReportLab 以本包 GeoJSON、metrics 与结构化证据（含人本验收图谱与评审证据地图）生成；PDF 为本地排版导出",
       "third_party_content_zh": "不使用照片、地图瓦片、人物、企业标识、图标包或受限字体文件",
       "clearance": "author-generated"
     },
     {
-      "asset_group": "visual/index*.html / visual/assets/*.json",
+      "asset_group": "visual/index*.html / visual/assets/*.{json,js}",
       "author_zh": "投稿作者",
-      "method_zh": "静态离线 HTML/CSS 与结构化证据台账",
+      "method_zh": "静态离线 HTML/CSS、结构化证据台账与无网络的确定性引用、导航路径复核脚本",
       "third_party_content_zh": "不加载 CDN、远程字体、API、地图、表单、iframe 或追踪",
       "clearance": "author-generated"
     },

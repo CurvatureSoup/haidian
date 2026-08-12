@@ -5,6 +5,35 @@
 This file records every substantive revision of the submission package, why it was made,
 and which validations were re-run. Entries are newest first.
 
+## v0.6 - 2026-08-09
+
+修复画廊查看器报告的四处证据未解析 / Resolve four unresolved evidence references
+
+### 起因
+
+方案页查看器报出四处「未解析」：`geometry/land_use.geojson#LU-001`、`#LU-002`、`#LU-005`（提示"文件已载入，但没有找到编号"），以及 `source:DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311`（提示"正文包含该引用，但方案包中没有找到同名结构化条目"）。
+
+### 根因：此前的自建校验过于宽松
+
+上一版的 `audit_evidence.py` 报 PASS，是因为它做了两处不该做的宽容：
+
+- 对几何引用会剥掉 `-N` 后缀再匹配，于是 `LU-005` 因 `LU-005-1` 存在而被误判为可解析；
+- 对来源引用会接受出现在几何 `derived_from_source_ids` 里的 id，于是 `DATA-SRC-MNR-...` 因几何属性中出现过而被误判为已登记。
+
+查看器采用严格精确匹配，因此暴露了真实缺口。校验器已改为与查看器一致的严格规则，并新增独立探针 `probe_refs.py` 交叉验证。
+
+### 修复
+
+- 用地图层按用途成组，单个用途会被缝合口或边界切分为多个不连续部分（`LU-001-1 … LU-001-11`）。为每个部分补充 `land_use_group_id`、`land_use_group_parts` 与中英文分组说明，并在文件 `metadata.groups` 中给出完整分组索引，使"整个用途"可被检索；正文三处引用改指向确实存在的要素 id。
+- 在 `sources.json` 中正式登记自然资源部《国土空间调查、规划、用途管制用地用海分类指南》（2023-11），含出版者、发布时间、`usable_for_formal: yes`、用途说明（列明本方案使用的 10 个用地代码）与已知限制（仅使用与投稿相关的分类子集，法定用途须以完整官方代码表与主管部门认定为准）。
+
+### 重跑的校验
+
+- 证据索引：118 个标记，严格规则下 0 悬空，两个独立校验器结果一致
+- `self_check_submission.py` → PASS，四门全通过，formal-review-ready
+- `score_submission.py` → 7 pass / 0 needs-work
+- 成果完整性审计 → 无污染；矩阵审计 → 0 问题；`participant_preflight --check-push` → PASS
+
 ## v0.5 - 2026-08-09
 
 双语对等、证据可索引与成果完整性核验 / Bilingual parity, evidence indexing and integrity audit

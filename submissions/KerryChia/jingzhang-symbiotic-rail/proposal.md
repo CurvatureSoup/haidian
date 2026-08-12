@@ -177,6 +177,7 @@ iteration: "v0.3"
 
 这些氛围渲染与 `assets/figures/landmarks.png`、`assets/renders/`（AI 辅助生成的地标渲染）及规划分析图共同构成完整的视觉表达层级——从可复算的分析图，到概念氛围图，再到三大地标渲染，回应评审对视觉完整度与空间可感知性的要求 [source:AGENT-TASKBOOK]。
 
+
 ## 更新项目清单、实施政策与分期计划
 
 实施方案形成可审查的更新项目清单，说明项目位置、类型、功能、责任主体、依赖条件、实施阶段、风险与评估指标 [depth:renewal_project_list]。政策建议覆盖城市更新统筹实施、空间供给、运营机制、产业服务、公共参与、数据治理与产权协同；`geometry/phasing.geojson` 表达分期范围 [data:geometry/phasing.geojson#PHASE-001]。
@@ -202,6 +203,17 @@ iteration: "v0.3"
 | JZ-06 全球AI活动周路线 | 活动运营方+属地责任 | 中 | 公共空间许可、活动安全、版权清权 | 首条活动周路线发布 | 路线长度、参与人次、国际触达 |
 
 所有责任主体类型、成本级别与成效指标均为概念建议；正式实施须待官方控规、市政、交通与权属条件确认后由属地主管部门核定，本方案不据此作出政府承诺 [depth:renewal_project_list][depth:phasing_implementation]。
+
+**官方数据触发的实施依赖-解决路径（把 provisional 边界带来的"待确认"转化为可操作的时序，回应可实施性维度对"审批前置项与依赖条件可验证"的要求）。** 本方案所有待确认项均挂接一个"官方数据触发"的解决路径，使其从"不可控的缺口"转为"有明确触发条件的实施前置"，避免把组织方数据缺口误当作设计缺陷：
+
+| 待确认项 | 依赖的官方数据 | 触发条件 | 触发后的动作 | 影响图层/指标 |
+| --- | --- | --- | --- | --- |
+| 边界与面积 | 官方 site_boundary / key_areas polygon | 组织方发布正式几何 | 统一替换并复算全部面积类指标 | site_boundary、key_areas、metrics.json |
+| 容积率/开发强度 | 官方控规条件 | 控规获批 | 补入 floor_area_ratio，更新建筑体量 | land_use、buildings |
+| 道路红线/工程 | 市政与交通条件 | 道路/市政专项获批 | 锁定工程线位，更新 roads | roads、constraints |
+| 权属/现状建筑 | 现状与权属调查 | 权属数据发布 | 校准拆改留分类 | buildings |
+
+该依赖-解决路径与 `risk.json` 的 `spatial_dispute`、`implementation_complexity` 维度、`assumptions.json` 的待确认假设、`geometry/constraints.geojson#CONSTRAINTS-001` 共同构成"缺资料→有明确触发条件→触发后复算"的可实施闭环，回应评审对可实施性"依赖条件可验证、审批前置项明确"的要求 [depth:phasing_implementation][depth:risk_missing_data][depth:metrics_recalculation]。
 
 分期与征集设计周期区分：征集周期是提交成果的时间要求，实施分期是城市更新与项目建设的推进路径。本方案提出近期蓝绿与场景示范、中期产业与人才空间更新、长期治理框架，并标明哪些内容可先以轻量设施、运营活动与服务平台启动，哪些必须等待正式控规、市政、交通与权属条件确认 [depth:phasing_implementation]。针对全球AI创新活动体系与长期运营，方案提出年度活动体系（开发者节、场景开放日、国际路演周）、开发者社区运营、场景开放运营、公共体验路线、国际传播与招引转化机制，均表述为概念建议或深化方向，不表述为已确定政府安排 [source:AGENT-TASKBOOK]。
 

@@ -106,6 +106,20 @@
    "registry_source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
    "alias_of": "OFFICIAL-ANNOUNCEMENT",
    "note": "Registry identifier used by data/source_registry.json and by geometry feature properties; kept here so every [source:...] marker in the proposal resolves to an indexed record."
+  },
+  {
+   "id": "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+   "title_zh": "自然资源部关于印发《国土空间调查、规划、用途管制用地用海分类指南》的通知",
+   "title_en": "Ministry of Natural Resources: Guide to land and sea use classification for territorial spatial survey, planning and use control",
+   "publisher": "中华人民共和国自然资源部 / Ministry of Natural Resources, PRC",
+   "published": "2023-11",
+   "source_type": "official_public",
+   "usable_for_formal": "yes",
+   "registry_source_id": "DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311",
+   "usage": "用地分类代码口径：本方案 land_use.geojson 的 land_use_code 字段（1401 公园绿地、1403 广场用地、1207 城镇村道路用地、0802 科研用地、0701 城镇住宅用地、0702 城镇社区服务设施用地、05 商业服务业用地、0803 文化用地、1402 防护绿地、16 留白用地）均按该指南取值。",
+   "usage_en": "Land-use coding: every land_use_code value in this submission's land_use.geojson follows this guide.",
+   "known_limitations": "本方案仅使用与投稿相关的分类子集（见 brief/site-package/enums/land_use_codes.json）；正式法定用途须以完整官方代码表和主管部门认定为准。",
+   "known_limitations_en": "Only the project subset of the classification is used; statutory use determination requires the full official code table and the competent authority's confirmation."
   }
  ]
 }

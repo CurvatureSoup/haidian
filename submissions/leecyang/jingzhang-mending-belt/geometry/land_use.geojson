@@ -31,7 +31,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 227796.674,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 1 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -112,7 +116,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 583196.63,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 2 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -241,7 +249,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 431465.751,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 3 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -354,7 +366,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 518980.27,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 4 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 4 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -475,7 +491,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 514328.948,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 5 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 5 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -596,7 +616,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 301778.454,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 6 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 6 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -689,7 +713,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 362227.665,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 7 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 7 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -798,7 +826,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 521722.315,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 8 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 8 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -939,7 +971,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 508991.128,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 9 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 9 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1064,7 +1100,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 568240.705,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 10 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 10 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1205,7 +1245,11 @@
     "land_use_code": "1401",
     "area_sqm_calculated": 28548.14,
     "design_note_zh": "沿实测京张走廊的连续公园绿地，是缝合带的公共底座与文化载体。",
-    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor."
+    "design_note_en": "Continuous park green along the surveyed corridor: the belt's public floor.",
+    "land_use_group_id": "LU-001",
+    "land_use_group_parts": 11,
+    "land_use_group_note_zh": "本要素是用地 LU-001 的第 11 / 11 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 11 of 11 disjoint parts of land use LU-001; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1262,7 +1306,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 52152.819,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 1 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1323,7 +1371,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 47598.68,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 2 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1400,7 +1452,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 67902.336,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 3 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1469,7 +1525,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 41611.121,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 4 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 4 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1538,7 +1598,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 67158.463,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 5 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 5 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1595,7 +1659,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 72746.995,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 6 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 6 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1664,7 +1732,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 66943.383,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 7 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 7 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1761,7 +1833,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 56976.121,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 8 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 8 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1822,7 +1898,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 42973.135,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 9 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 9 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1891,7 +1971,11 @@
     "land_use_code": "1403",
     "area_sqm_calculated": 35288.371,
     "design_note_zh": "缝合口穿越绿脊处的广场用地，保证东西向地面连续。",
-    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade."
+    "design_note_en": "Plaza ground where stitches cross the seam, keeping movement continuous at grade.",
+    "land_use_group_id": "LU-002",
+    "land_use_group_parts": 10,
+    "land_use_group_note_zh": "本要素是用地 LU-002 的第 10 / 10 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 10 of 10 disjoint parts of land use LU-002; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -1976,7 +2060,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 11270.273,
     "design_note_zh": "众智园全栈研发用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "Zhongzhiyuan Full-Stack R&D: placed facing the seam with an open public interface."
+    "design_note_en": "Zhongzhiyuan Full-Stack R&D: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-003",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-003 的第 1 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 4 disjoint parts of land use LU-003; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -2033,7 +2121,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 387546.002,
     "design_note_zh": "众智园全栈研发用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "Zhongzhiyuan Full-Stack R&D: placed facing the seam with an open public interface."
+    "design_note_en": "Zhongzhiyuan Full-Stack R&D: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-003",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-003 的第 2 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 4 disjoint parts of land use LU-003; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -2350,7 +2442,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 274666.517,
     "design_note_zh": "众智园全栈研发用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "Zhongzhiyuan Full-Stack R&D: placed facing the seam with an open public interface."
+    "design_note_en": "Zhongzhiyuan Full-Stack R&D: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-003",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-003 的第 3 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 4 disjoint parts of land use LU-003; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -2587,7 +2683,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 37958.66,
     "design_note_zh": "众智园全栈研发用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "Zhongzhiyuan Full-Stack R&D: placed facing the seam with an open public interface."
+    "design_note_en": "Zhongzhiyuan Full-Stack R&D: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-003",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-003 的第 4 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 4 of 4 disjoint parts of land use LU-003; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -2656,7 +2756,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 39623.38,
     "design_note_zh": "众智园中试验证用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "Zhongzhiyuan Pilot Validation: paired across the seam to support daily east-west trips."
+    "design_note_en": "Zhongzhiyuan Pilot Validation: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-004",
+    "land_use_group_parts": 3,
+    "land_use_group_note_zh": "本要素是用地 LU-004 的第 1 / 3 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 3 disjoint parts of land use LU-004; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -2741,7 +2845,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 357301.087,
     "design_note_zh": "众智园中试验证用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "Zhongzhiyuan Pilot Validation: paired across the seam to support daily east-west trips."
+    "design_note_en": "Zhongzhiyuan Pilot Validation: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-004",
+    "land_use_group_parts": 3,
+    "land_use_group_note_zh": "本要素是用地 LU-004 的第 2 / 3 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 3 disjoint parts of land use LU-004; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -2974,7 +3082,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 319215.289,
     "design_note_zh": "众智园中试验证用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "Zhongzhiyuan Pilot Validation: paired across the seam to support daily east-west trips."
+    "design_note_en": "Zhongzhiyuan Pilot Validation: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-004",
+    "land_use_group_parts": 3,
+    "land_use_group_note_zh": "本要素是用地 LU-004 的第 3 / 3 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 3 disjoint parts of land use LU-004; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -3279,7 +3391,11 @@
     "land_use_code": "0701",
     "area_sqm_calculated": 143623.164,
     "design_note_zh": "AI原点社区居住与人才居住用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "AI Origin Housing & Talent Living: placed facing the seam with an open public interface."
+    "design_note_en": "AI Origin Housing & Talent Living: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-005",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-005 的第 1 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 4 disjoint parts of land use LU-005; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -3376,7 +3492,11 @@
     "land_use_code": "0701",
     "area_sqm_calculated": 128994.143,
     "design_note_zh": "AI原点社区居住与人才居住用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "AI Origin Housing & Talent Living: placed facing the seam with an open public interface."
+    "design_note_en": "AI Origin Housing & Talent Living: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-005",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-005 的第 2 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 4 disjoint parts of land use LU-005; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -3565,7 +3685,11 @@
     "land_use_code": "0701",
     "area_sqm_calculated": 191430.039,
     "design_note_zh": "AI原点社区居住与人才居住用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "AI Origin Housing & Talent Living: placed facing the seam with an open public interface."
+    "design_note_en": "AI Origin Housing & Talent Living: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-005",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-005 的第 3 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 4 disjoint parts of land use LU-005; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -3786,7 +3910,11 @@
     "land_use_code": "0701",
     "area_sqm_calculated": 26086.104,
     "design_note_zh": "AI原点社区居住与人才居住用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "AI Origin Housing & Talent Living: placed facing the seam with an open public interface."
+    "design_note_en": "AI Origin Housing & Talent Living: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-005",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-005 的第 4 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 4 of 4 disjoint parts of land use LU-005; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -3859,7 +3987,11 @@
     "land_use_code": "0702",
     "area_sqm_calculated": 41710.731,
     "design_note_zh": "AI原点社区服务设施用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "AI Origin Community Service Facilities: paired across the seam to support daily east-west trips."
+    "design_note_en": "AI Origin Community Service Facilities: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-006",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-006 的第 1 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 4 disjoint parts of land use LU-006; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -3936,7 +4068,11 @@
     "land_use_code": "0702",
     "area_sqm_calculated": 174831.182,
     "design_note_zh": "AI原点社区服务设施用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "AI Origin Community Service Facilities: paired across the seam to support daily east-west trips."
+    "design_note_en": "AI Origin Community Service Facilities: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-006",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-006 的第 2 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 4 disjoint parts of land use LU-006; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -4097,7 +4233,11 @@
     "land_use_code": "0702",
     "area_sqm_calculated": 244334.532,
     "design_note_zh": "AI原点社区服务设施用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "AI Origin Community Service Facilities: paired across the seam to support daily east-west trips."
+    "design_note_en": "AI Origin Community Service Facilities: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-006",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-006 的第 3 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 4 disjoint parts of land use LU-006; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -4374,7 +4514,11 @@
     "land_use_code": "0702",
     "area_sqm_calculated": 35880.121,
     "design_note_zh": "AI原点社区服务设施用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "AI Origin Community Service Facilities: paired across the seam to support daily east-west trips."
+    "design_note_en": "AI Origin Community Service Facilities: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-006",
+    "land_use_group_parts": 4,
+    "land_use_group_note_zh": "本要素是用地 LU-006 的第 4 / 4 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 4 of 4 disjoint parts of land use LU-006; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -4451,7 +4595,11 @@
     "land_use_code": "05",
     "area_sqm_calculated": 139666.859,
     "design_note_zh": "大钟寺智能原生商业服务业用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "Dazhongsi Intelligent-Native Commerce: placed facing the seam with an open public interface."
+    "design_note_en": "Dazhongsi Intelligent-Native Commerce: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-007",
+    "land_use_group_parts": 3,
+    "land_use_group_note_zh": "本要素是用地 LU-007 的第 1 / 3 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 3 disjoint parts of land use LU-007; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -4536,7 +4684,11 @@
     "land_use_code": "05",
     "area_sqm_calculated": 264531.916,
     "design_note_zh": "大钟寺智能原生商业服务业用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "Dazhongsi Intelligent-Native Commerce: placed facing the seam with an open public interface."
+    "design_note_en": "Dazhongsi Intelligent-Native Commerce: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-007",
+    "land_use_group_parts": 3,
+    "land_use_group_note_zh": "本要素是用地 LU-007 的第 2 / 3 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 3 disjoint parts of land use LU-007; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -4797,7 +4949,11 @@
     "land_use_code": "05",
     "area_sqm_calculated": 92149.383,
     "design_note_zh": "大钟寺智能原生商业服务业用地：面向缝合绿脊布置，界面向公共空间开放。",
-    "design_note_en": "Dazhongsi Intelligent-Native Commerce: placed facing the seam with an open public interface."
+    "design_note_en": "Dazhongsi Intelligent-Native Commerce: placed facing the seam with an open public interface.",
+    "land_use_group_id": "LU-007",
+    "land_use_group_parts": 3,
+    "land_use_group_note_zh": "本要素是用地 LU-007 的第 3 / 3 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 3 disjoint parts of land use LU-007; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -4894,7 +5050,11 @@
     "land_use_code": "0803",
     "area_sqm_calculated": 81243.249,
     "design_note_zh": "大钟寺文化与展示用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "Dazhongsi Culture & Display: paired across the seam to support daily east-west trips."
+    "design_note_en": "Dazhongsi Culture & Display: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-008",
+    "land_use_group_parts": 3,
+    "land_use_group_note_zh": "本要素是用地 LU-008 的第 1 / 3 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 3 disjoint parts of land use LU-008; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -4999,7 +5159,11 @@
     "land_use_code": "0803",
     "area_sqm_calculated": 264920.514,
     "design_note_zh": "大钟寺文化与展示用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "Dazhongsi Culture & Display: paired across the seam to support daily east-west trips."
+    "design_note_en": "Dazhongsi Culture & Display: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-008",
+    "land_use_group_parts": 3,
+    "land_use_group_note_zh": "本要素是用地 LU-008 的第 2 / 3 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 3 disjoint parts of land use LU-008; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5168,7 +5332,11 @@
     "land_use_code": "0803",
     "area_sqm_calculated": 150184.21,
     "design_note_zh": "大钟寺文化与展示用地：与西侧形成跨缝功能对位，支持东西向日常往返。",
-    "design_note_en": "Dazhongsi Culture & Display: paired across the seam to support daily east-west trips."
+    "design_note_en": "Dazhongsi Culture & Display: paired across the seam to support daily east-west trips.",
+    "land_use_group_id": "LU-008",
+    "land_use_group_parts": 3,
+    "land_use_group_note_zh": "本要素是用地 LU-008 的第 3 / 3 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 3 disjoint parts of land use LU-008; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5337,7 +5505,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 29.306,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 1 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5398,7 +5570,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 56.663,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 2 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5451,7 +5627,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 17.169,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 3 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5504,7 +5684,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 400.826,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 4 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 4 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5565,7 +5749,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 14.675,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 5 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 5 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5626,7 +5814,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 0.065,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 6 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 6 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5675,7 +5867,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 230477.831,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 7 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 7 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5772,7 +5968,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 0.001,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 8 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 8 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5821,7 +6021,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 155.164,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 9 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 9 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5886,7 +6090,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 28.685,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 10 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 10 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -5951,7 +6159,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 0.946,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 11 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 11 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6004,7 +6216,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 277785.24,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 12 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 12 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6149,7 +6365,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 175700.062,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 13 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 13 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6254,7 +6474,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 0.07,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 14 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 14 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6303,7 +6527,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 9.68,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 15 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 15 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6372,7 +6600,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 205.886,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 16 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 16 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6437,7 +6669,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 263.254,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 17 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 17 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6506,7 +6742,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 21.111,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 18 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 18 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6575,7 +6815,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 21.369,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 19 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 19 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6644,7 +6888,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 269937.138,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 20 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 20 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6753,7 +7001,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 141779.343,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 21 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 21 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6834,7 +7086,11 @@
     "land_use_code": "0802",
     "area_sqm_calculated": 2.983,
     "design_note_zh": "重点区之间的衔接段，承担创新服务与连续性。",
-    "design_note_en": "Link segments between key areas carrying innovation services and continuity."
+    "design_note_en": "Link segments between key areas carrying innovation services and continuity.",
+    "land_use_group_id": "LU-009",
+    "land_use_group_parts": 22,
+    "land_use_group_note_zh": "本要素是用地 LU-009 的第 22 / 22 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 22 of 22 disjoint parts of land use LU-009; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6891,7 +7147,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 134006.726,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 1 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -6972,7 +7232,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 277785.376,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 2 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7081,7 +7345,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 0.534,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 3 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7150,7 +7418,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 0.069,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 4 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 4 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7199,7 +7471,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 96.641,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 5 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 5 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7264,7 +7540,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 268.846,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 6 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 6 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7337,7 +7617,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 349.096,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 7 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 7 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7402,7 +7686,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 171662.213,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 8 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 8 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7515,7 +7803,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 281750.898,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 9 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 9 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7636,7 +7928,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 0.0,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 10 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 10 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7685,7 +7981,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 0.001,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 11 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 11 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7734,7 +8034,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 0.793,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 12 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 12 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7791,7 +8095,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 231116.28,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 13 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 13 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7904,7 +8212,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 25.26,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 14 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 14 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -7961,7 +8273,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 2.352,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 15 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 15 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8010,7 +8326,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 10.358,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 16 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 16 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8071,7 +8391,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 0.002,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 17 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 17 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8120,7 +8444,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 0.007,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 18 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 18 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8169,7 +8497,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 0.758,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 19 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 19 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8218,7 +8550,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 4.686,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 20 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 20 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8267,7 +8603,11 @@
     "land_use_code": "1402",
     "area_sqm_calculated": 3.559,
     "design_note_zh": "衔接段生态缓冲，保证绿脊在重点区之外不断线。",
-    "design_note_en": "Buffer green keeping the seam continuous outside the key areas."
+    "design_note_en": "Buffer green keeping the seam continuous outside the key areas.",
+    "land_use_group_id": "LU-010",
+    "land_use_group_parts": 21,
+    "land_use_group_note_zh": "本要素是用地 LU-010 的第 21 / 21 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 21 of 21 disjoint parts of land use LU-010; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8320,7 +8660,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 25745.765,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 1 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8405,7 +8749,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 41225.287,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 2 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8482,7 +8830,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 44605.072,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 3 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8551,7 +8903,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 44937.919,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 4 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 4 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8620,7 +8976,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 35790.434,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 5 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 5 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8689,7 +9049,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 34170.519,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 6 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 6 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8762,7 +9126,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 25694.861,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 7 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 7 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8835,7 +9203,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 26720.602,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 8 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 8 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8896,7 +9268,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 24424.271,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 9 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 9 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -8965,7 +9341,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 20880.085,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 10 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 10 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9026,7 +9406,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 32086.54,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 11 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 11 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9091,7 +9475,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 32087.28,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 12 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 12 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9156,7 +9544,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 29086.566,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 13 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 13 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9225,7 +9617,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 29328.892,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 14 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 14 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9290,7 +9686,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 41687.798,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 15 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 15 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9363,7 +9763,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 41959.769,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 16 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 16 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9432,7 +9836,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 25679.211,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 17 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 17 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9513,7 +9921,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 41198.382,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 18 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 18 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9586,7 +9998,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 44685.032,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 19 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 19 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9655,7 +10071,11 @@
     "land_use_code": "1207",
     "area_sqm_calculated": 38218.139,
     "design_note_zh": "缝合口在东西两侧的街道地面，优先步行与无障碍连续。",
-    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking."
+    "design_note_en": "Street ground of the stitches on both edges, prioritising step-free walking.",
+    "land_use_group_id": "LU-011",
+    "land_use_group_parts": 20,
+    "land_use_group_note_zh": "本要素是用地 LU-011 的第 20 / 20 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 20 of 20 disjoint parts of land use LU-011; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9720,7 +10140,11 @@
     "land_use_code": "16",
     "area_sqm_calculated": 0.0,
     "design_note_zh": "边界拟合余量，按留白用地登记，待官方边界发布后重新划分。",
-    "design_note_en": "Residual from boundary fitting, registered as reserved land."
+    "design_note_en": "Residual from boundary fitting, registered as reserved land.",
+    "land_use_group_id": "LU-012",
+    "land_use_group_parts": 5,
+    "land_use_group_note_zh": "本要素是用地 LU-012 的第 1 / 5 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 1 of 5 disjoint parts of land use LU-012; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9773,7 +10197,11 @@
     "land_use_code": "16",
     "area_sqm_calculated": 0.001,
     "design_note_zh": "边界拟合余量，按留白用地登记，待官方边界发布后重新划分。",
-    "design_note_en": "Residual from boundary fitting, registered as reserved land."
+    "design_note_en": "Residual from boundary fitting, registered as reserved land.",
+    "land_use_group_id": "LU-012",
+    "land_use_group_parts": 5,
+    "land_use_group_note_zh": "本要素是用地 LU-012 的第 2 / 5 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 2 of 5 disjoint parts of land use LU-012; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9822,7 +10250,11 @@
     "land_use_code": "16",
     "area_sqm_calculated": 0.005,
     "design_note_zh": "边界拟合余量，按留白用地登记，待官方边界发布后重新划分。",
-    "design_note_en": "Residual from boundary fitting, registered as reserved land."
+    "design_note_en": "Residual from boundary fitting, registered as reserved land.",
+    "land_use_group_id": "LU-012",
+    "land_use_group_parts": 5,
+    "land_use_group_note_zh": "本要素是用地 LU-012 的第 3 / 5 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 3 of 5 disjoint parts of land use LU-012; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9871,7 +10303,11 @@
     "land_use_code": "16",
     "area_sqm_calculated": 0.0,
     "design_note_zh": "边界拟合余量，按留白用地登记，待官方边界发布后重新划分。",
-    "design_note_en": "Residual from boundary fitting, registered as reserved land."
+    "design_note_en": "Residual from boundary fitting, registered as reserved land.",
+    "land_use_group_id": "LU-012",
+    "land_use_group_parts": 5,
+    "land_use_group_note_zh": "本要素是用地 LU-012 的第 4 / 5 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 4 of 5 disjoint parts of land use LU-012; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9920,7 +10356,11 @@
     "land_use_code": "16",
     "area_sqm_calculated": 0.0,
     "design_note_zh": "边界拟合余量，按留白用地登记，待官方边界发布后重新划分。",
-    "design_note_en": "Residual from boundary fitting, registered as reserved land."
+    "design_note_en": "Residual from boundary fitting, registered as reserved land.",
+    "land_use_group_id": "LU-012",
+    "land_use_group_parts": 5,
+    "land_use_group_note_zh": "本要素是用地 LU-012 的第 5 / 5 个不连续部分；同组各部分共享用地代码与设计意图。",
+    "land_use_group_note_en": "This feature is part 5 of 5 disjoint parts of land use LU-012; all parts share the same land-use code and design intent."
    },
    "geometry": {
     "type": "Polygon",
@@ -9949,6 +10389,144 @@
  ],
  "metadata": {
   "coverage_rule_zh": "用地图层无缝无叠满铺提交的 SITE_BOUNDARY。",
-  "coverage_rule_en": "Land use tiles the submitted SITE_BOUNDARY without gaps or overlaps."
+  "coverage_rule_en": "Land use tiles the submitted SITE_BOUNDARY without gaps or overlaps.",
+  "group_index_zh": "用地按用途成组，单个用途可能被缝合口或边界切分为多个不连续部分，编号形如 LU-001-1 … LU-001-N；`land_use_group_id` 给出该用途的组编号。",
+  "group_index_en": "Land use is grouped by purpose; one use may be split into several disjoint parts numbered LU-001-1 … LU-001-N. `land_use_group_id` names the group.",
+  "groups": {
+   "LU-001": [
+    "LU-001-1",
+    "LU-001-2",
+    "LU-001-3",
+    "LU-001-4",
+    "LU-001-5",
+    "LU-001-6",
+    "LU-001-7",
+    "LU-001-8",
+    "LU-001-9",
+    "LU-001-10",
+    "LU-001-11"
+   ],
+   "LU-002": [
+    "LU-002-1",
+    "LU-002-2",
+    "LU-002-3",
+    "LU-002-4",
+    "LU-002-5",
+    "LU-002-6",
+    "LU-002-7",
+    "LU-002-8",
+    "LU-002-9",
+    "LU-002-10"
+   ],
+   "LU-003": [
+    "LU-003-1",
+    "LU-003-2",
+    "LU-003-3",
+    "LU-003-4"
+   ],
+   "LU-004": [
+    "LU-004-1",
+    "LU-004-2",
+    "LU-004-3"
+   ],
+   "LU-005": [
+    "LU-005-1",
+    "LU-005-2",
+    "LU-005-3",
+    "LU-005-4"
+   ],
+   "LU-006": [
+    "LU-006-1",
+    "LU-006-2",
+    "LU-006-3",
+    "LU-006-4"
+   ],
+   "LU-007": [
+    "LU-007-1",
+    "LU-007-2",
+    "LU-007-3"
+   ],
+   "LU-008": [
+    "LU-008-1",
+    "LU-008-2",
+    "LU-008-3"
+   ],
+   "LU-009": [
+    "LU-009-1",
+    "LU-009-2",
+    "LU-009-3",
+    "LU-009-4",
+    "LU-009-5",
+    "LU-009-6",
+    "LU-009-7",
+    "LU-009-8",
+    "LU-009-9",
+    "LU-009-10",
+    "LU-009-11",
+    "LU-009-12",
+    "LU-009-13",
+    "LU-009-14",
+    "LU-009-15",
+    "LU-009-16",
+    "LU-009-17",
+    "LU-009-18",
+    "LU-009-19",
+    "LU-009-20",
+    "LU-009-21",
+    "LU-009-22"
+   ],
+   "LU-010": [
+    "LU-010-1",
+    "LU-010-2",
+    "LU-010-3",
+    "LU-010-4",
+    "LU-010-5",
+    "LU-010-6",
+    "LU-010-7",
+    "LU-010-8",
+    "LU-010-9",
+    "LU-010-10",
+    "LU-010-11",
+    "LU-010-12",
+    "LU-010-13",
+    "LU-010-14",
+    "LU-010-15",
+    "LU-010-16",
+    "LU-010-17",
+    "LU-010-18",
+    "LU-010-19",
+    "LU-010-20",
+    "LU-010-21"
+   ],
+   "LU-011": [
+    "LU-011-1",
+    "LU-011-2",
+    "LU-011-3",
+    "LU-011-4",
+    "LU-011-5",
+    "LU-011-6",
+    "LU-011-7",
+    "LU-011-8",
+    "LU-011-9",
+    "LU-011-10",
+    "LU-011-11",
+    "LU-011-12",
+    "LU-011-13",
+    "LU-011-14",
+    "LU-011-15",
+    "LU-011-16",
+    "LU-011-17",
+    "LU-011-18",
+    "LU-011-19",
+    "LU-011-20"
+   ],
+   "LU-012": [
+    "LU-012-1",
+    "LU-012-2",
+    "LU-012-3",
+    "LU-012-4",
+    "LU-012-5"
+   ]
+  }
  }
 }

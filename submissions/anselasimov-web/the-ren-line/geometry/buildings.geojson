@@ -154,24 +154,24 @@
     "coordinates": [
      [
       [
-       116.3504637,
-       40.0077594
+       116.3494682,
+       40.0077538
       ],
       [
-       116.3504613,
-       40.0080116
+       116.3494659,
+       40.008006
       ],
       [
-       116.3499343,
-       40.0080086
+       116.3489389,
+       40.008003
       ],
       [
-       116.3499367,
-       40.0077565
+       116.3489412,
+       40.0077509
       ],
       [
-       116.3504637,
-       40.0077594
+       116.3494682,
+       40.0077538
       ]
      ]
     ]
@@ -418,24 +418,24 @@
     "coordinates": [
      [
       [
-       116.3504556,
-       40.008615
+       116.3503385,
+       40.0086143
       ],
       [
-       116.3504532,
-       40.0088671
+       116.3503361,
+       40.0088665
       ],
       [
-       116.3499262,
-       40.0088642
+       116.3498091,
+       40.0088635
       ],
       [
-       116.3499286,
-       40.008612
+       116.3498115,
+       40.0086113
       ],
       [
-       116.3504556,
-       40.008615
+       116.3503385,
+       40.0086143
       ]
      ]
     ]
@@ -594,24 +594,24 @@
     "coordinates": [
      [
       [
-       116.3459972,
-       40.0094455
+       116.3461143,
+       40.0094461
       ],
       [
-       116.3459948,
-       40.0096976
+       116.3461119,
+       40.0096983
       ],
       [
-       116.3454678,
-       40.0096946
+       116.3455849,
+       40.0096953
       ],
       [
-       116.3454702,
-       40.0094425
+       116.3455873,
+       40.0094431
       ],
       [
-       116.3459972,
-       40.0094455
+       116.3461143,
+       40.0094461
       ]
      ]
     ]
@@ -858,50 +858,6 @@
     "coordinates": [
      [
       [
-       116.345989,
-       40.010301
-      ],
-      [
-       116.3459866,
-       40.0105531
-      ],
-      [
-       116.3454596,
-       40.0105502
-      ],
-      [
-       116.345462,
-       40.010298
-      ],
-      [
-       116.345989,
-       40.010301
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-021",
-   "properties": {
-    "id": "BF-021",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团21",
-    "floors_concept": 12,
-    "renewal_action_concept": "new_concept",
-    "area_sqm_declared": 1260.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
        116.3471016,
        40.0103073
       ],
@@ -927,16 +883,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-022",
+   "id": "BF-021",
    "properties": {
-    "id": "BF-022",
+    "id": "BF-021",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团22",
-    "floors_concept": 11,
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团21",
+    "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -971,16 +927,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-023",
+   "id": "BF-022",
    "properties": {
-    "id": "BF-023",
+    "id": "BF-022",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团23",
-    "floors_concept": 14,
+    "name_zh": "zhongzhiyuan概念组团22",
+    "floors_concept": 11,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -1008,6 +964,50 @@
       [
        116.3515519,
        40.0103323
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-023",
+   "properties": {
+    "id": "BF-023",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "office",
+    "name_zh": "zhongzhiyuan概念组团23",
+    "floors_concept": 20,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 988.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3527406,
+       40.0103479
+      ],
+      [
+       116.3527384,
+       40.010582
+      ],
+      [
+       116.3522933,
+       40.0105796
+      ],
+      [
+       116.3522955,
+       40.0103454
+      ],
+      [
+       116.3527406,
+       40.0103479
       ]
      ]
     ]
@@ -1078,50 +1078,6 @@
     "coordinates": [
      [
       [
-       116.3459808,
-       40.0111565
-      ],
-      [
-       116.3459784,
-       40.0114087
-      ],
-      [
-       116.3454514,
-       40.0114057
-      ],
-      [
-       116.3454538,
-       40.0111535
-      ],
-      [
-       116.3459808,
-       40.0111565
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-026",
-   "properties": {
-    "id": "BF-026",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团26",
-    "floors_concept": 10,
-    "renewal_action_concept": "new_concept",
-    "area_sqm_declared": 1260.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
        116.3470934,
        40.0111628
       ],
@@ -1147,16 +1103,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-027",
+   "id": "BF-026",
    "properties": {
-    "id": "BF-027",
+    "id": "BF-026",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团27",
-    "floors_concept": 12,
+    "name_zh": "zhongzhiyuan概念组团26",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -1191,16 +1147,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-028",
+   "id": "BF-027",
    "properties": {
-    "id": "BF-028",
+    "id": "BF-027",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团28",
-    "floors_concept": 11,
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团27",
+    "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -1235,17 +1191,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-029",
+   "id": "BF-028",
    "properties": {
-    "id": "BF-029",
+    "id": "BF-028",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "zhongzhiyuan概念组团29",
-    "floors_concept": 18,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "zhongzhiyuan概念组团28",
+    "floors_concept": 17,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -1279,61 +1235,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-030",
+   "id": "BF-029",
    "properties": {
-    "id": "BF-030",
+    "id": "BF-029",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团30",
-    "floors_concept": 14,
-    "renewal_action_concept": "new_concept",
-    "area_sqm_declared": 1260.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       116.3459727,
-       40.0120121
-      ],
-      [
-       116.3459703,
-       40.0122642
-      ],
-      [
-       116.3454432,
-       40.0122612
-      ],
-      [
-       116.3454456,
-       40.0120091
-      ],
-      [
-       116.3459727,
-       40.0120121
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-031",
-   "properties": {
-    "id": "BF-031",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团31",
+    "name_zh": "zhongzhiyuan概念组团29",
     "floors_concept": 12,
-    "renewal_action_concept": "new_concept",
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -1367,16 +1279,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-032",
+   "id": "BF-030",
    "properties": {
-    "id": "BF-032",
+    "id": "BF-030",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团32",
-    "floors_concept": 11,
+    "name_zh": "zhongzhiyuan概念组团30",
+    "floors_concept": 14,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -1411,15 +1323,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-033",
+   "id": "BF-031",
    "properties": {
-    "id": "BF-033",
+    "id": "BF-031",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团33",
+    "name_zh": "zhongzhiyuan概念组团31",
     "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -1455,15 +1367,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-034",
+   "id": "BF-032",
    "properties": {
-    "id": "BF-034",
+    "id": "BF-032",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "zhongzhiyuan概念组团34",
+    "name_zh": "zhongzhiyuan概念组团32",
     "floors_concept": 17,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -1499,15 +1411,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-035",
+   "id": "BF-033",
    "properties": {
-    "id": "BF-035",
+    "id": "BF-033",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团35",
+    "name_zh": "zhongzhiyuan概念组团33",
     "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -1518,24 +1430,24 @@
     "coordinates": [
      [
       [
-       116.3459645,
-       40.0128676
+       116.3458474,
+       40.0128669
       ],
       [
-       116.3459621,
-       40.0131197
+       116.345845,
+       40.0131191
       ],
       [
-       116.3454351,
-       40.0131168
+       116.3453179,
+       40.0131161
       ],
       [
-       116.3454375,
-       40.0128646
+       116.3453204,
+       40.0128639
       ],
       [
-       116.3459645,
-       40.0128676
+       116.3458474,
+       40.0128669
       ]
      ]
     ]
@@ -1543,15 +1455,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-036",
+   "id": "BF-034",
    "properties": {
-    "id": "BF-036",
+    "id": "BF-034",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团36",
+    "name_zh": "zhongzhiyuan概念组团34",
     "floors_concept": 11,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -1587,17 +1499,61 @@
   },
   {
    "type": "Feature",
-   "id": "BF-037",
+   "id": "BF-035",
    "properties": {
-    "id": "BF-037",
+    "id": "BF-035",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团35",
+    "floors_concept": 12,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3480726,
+       40.0128795
+      ],
+      [
+       116.3480702,
+       40.0131316
+      ],
+      [
+       116.3475432,
+       40.0131287
+      ],
+      [
+       116.3475456,
+       40.0128765
+      ],
+      [
+       116.3480726,
+       40.0128795
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-036",
+   "properties": {
+    "id": "BF-036",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团37",
-    "floors_concept": 12,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "zhongzhiyuan概念组团36",
+    "floors_concept": 11,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -1631,15 +1587,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-038",
+   "id": "BF-037",
    "properties": {
-    "id": "BF-038",
+    "id": "BF-037",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团38",
+    "name_zh": "zhongzhiyuan概念组团37",
     "floors_concept": 12,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
@@ -1668,6 +1624,50 @@
       [
        116.3515277,
        40.0128988
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-038",
+   "properties": {
+    "id": "BF-038",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团38",
+    "floors_concept": 12,
+    "renewal_action_concept": "renovation_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3525232,
+       40.0129044
+      ],
+      [
+       116.3525208,
+       40.0131566
+      ],
+      [
+       116.3519937,
+       40.0131536
+      ],
+      [
+       116.3519961,
+       40.0129015
+      ],
+      [
+       116.3525232,
+       40.0129044
       ]
      ]
     ]
@@ -1738,24 +1738,24 @@
     "coordinates": [
      [
       [
-       116.3459563,
-       40.0137231
+       116.3458392,
+       40.0137225
       ],
       [
-       116.3459539,
-       40.0139753
+       116.3458368,
+       40.0139746
       ],
       [
-       116.3454269,
-       40.0139723
+       116.3453098,
+       40.0139716
       ],
       [
-       116.3454293,
-       40.0137201
+       116.3453122,
+       40.0137195
       ],
       [
-       116.3459563,
-       40.0137231
+       116.3458392,
+       40.0137225
       ]
      ]
     ]
@@ -2442,6 +2442,50 @@
     "coordinates": [
      [
       [
+       116.3460571,
+       40.0154348
+      ],
+      [
+       116.3460547,
+       40.015687
+      ],
+      [
+       116.3455277,
+       40.015684
+      ],
+      [
+       116.3455301,
+       40.0154319
+      ],
+      [
+       116.3460571,
+       40.0154348
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-057",
+   "properties": {
+    "id": "BF-057",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团57",
+    "floors_concept": 14,
+    "renewal_action_concept": "retain_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
        116.3470527,
        40.0154405
       ],
@@ -2467,15 +2511,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-057",
+   "id": "BF-058",
    "properties": {
-    "id": "BF-057",
+    "id": "BF-058",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团57",
+    "name_zh": "zhongzhiyuan概念组团58",
     "floors_concept": 14,
     "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
@@ -2511,15 +2555,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-058",
+   "id": "BF-059",
    "properties": {
-    "id": "BF-058",
+    "id": "BF-059",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团58",
+    "name_zh": "zhongzhiyuan概念组团59",
     "floors_concept": 14,
     "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
@@ -2530,24 +2574,24 @@
     "coordinates": [
      [
       [
-       116.3515034,
-       40.0154654
+       116.3505078,
+       40.0154599
       ],
       [
-       116.351501,
-       40.0157176
+       116.3505054,
+       40.015712
       ],
       [
-       116.3509739,
-       40.0157146
+       116.3499784,
+       40.0157091
       ],
       [
-       116.3509763,
-       40.0154625
+       116.3499808,
+       40.0154569
       ],
       [
-       116.3515034,
-       40.0154654
+       116.3505078,
+       40.0154599
       ]
      ]
     ]
@@ -2555,15 +2599,59 @@
   },
   {
    "type": "Feature",
-   "id": "BF-059",
+   "id": "BF-060",
    "properties": {
-    "id": "BF-059",
+    "id": "BF-060",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团60",
+    "floors_concept": 12,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3516205,
+       40.0154661
+      ],
+      [
+       116.3516181,
+       40.0157183
+      ],
+      [
+       116.351091,
+       40.0157153
+      ],
+      [
+       116.3510934,
+       40.0154631
+      ],
+      [
+       116.3516205,
+       40.0154661
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-061",
+   "properties": {
+    "id": "BF-061",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团59",
+    "name_zh": "zhongzhiyuan概念组团61",
     "floors_concept": 14,
     "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
@@ -2599,17 +2687,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-060",
+   "id": "BF-062",
    "properties": {
-    "id": "BF-060",
+    "id": "BF-062",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团60",
-    "floors_concept": 12,
-    "renewal_action_concept": "new_concept",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团62",
+    "floors_concept": 11,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -2643,17 +2731,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-061",
+   "id": "BF-063",
    "properties": {
-    "id": "BF-061",
+    "id": "BF-063",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团61",
-    "floors_concept": 14,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "zhongzhiyuan概念组团63",
+    "floors_concept": 11,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -2687,17 +2775,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-062",
+   "id": "BF-064",
    "properties": {
-    "id": "BF-062",
+    "id": "BF-064",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团62",
-    "floors_concept": 11,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "zhongzhiyuan概念组团64",
+    "floors_concept": 13,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -2731,17 +2819,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-063",
+   "id": "BF-065",
    "properties": {
-    "id": "BF-063",
+    "id": "BF-065",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团63",
-    "floors_concept": 11,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团65",
+    "floors_concept": 14,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -2775,16 +2863,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-064",
+   "id": "BF-066",
    "properties": {
-    "id": "BF-064",
+    "id": "BF-066",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团64",
-    "floors_concept": 13,
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团66",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -2794,24 +2882,24 @@
     "coordinates": [
      [
       [
-       116.3514953,
-       40.016321
+       116.3516124,
+       40.0163216
       ],
       [
-       116.3514929,
-       40.0165731
+       116.35161,
+       40.0165738
       ],
       [
-       116.3509658,
-       40.0165702
+       116.3510829,
+       40.0165708
       ],
       [
-       116.3509682,
-       40.016318
+       116.3510853,
+       40.0163187
       ],
       [
-       116.3514953,
-       40.016321
+       116.3516124,
+       40.0163216
       ]
      ]
     ]
@@ -2819,17 +2907,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-065",
+   "id": "BF-067",
    "properties": {
-    "id": "BF-065",
+    "id": "BF-067",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团65",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团67",
     "floors_concept": 14,
-    "renewal_action_concept": "new_concept",
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -2863,16 +2951,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-066",
+   "id": "BF-068",
    "properties": {
-    "id": "BF-066",
+    "id": "BF-068",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团66",
-    "floors_concept": 10,
+    "name_zh": "zhongzhiyuan概念组团68",
+    "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -2907,17 +2995,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-067",
+   "id": "BF-069",
    "properties": {
-    "id": "BF-067",
+    "id": "BF-069",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团67",
-    "floors_concept": 14,
-    "renewal_action_concept": "retain_concept",
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团69",
+    "floors_concept": 12,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -2951,16 +3039,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-068",
+   "id": "BF-070",
    "properties": {
-    "id": "BF-068",
+    "id": "BF-070",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团68",
-    "floors_concept": 12,
+    "name_zh": "zhongzhiyuan概念组团70",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -2995,17 +3083,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-069",
+   "id": "BF-071",
    "properties": {
-    "id": "BF-069",
+    "id": "BF-071",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团69",
-    "floors_concept": 12,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团71",
+    "floors_concept": 10,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3039,60 +3127,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-070",
+   "id": "BF-072",
    "properties": {
-    "id": "BF-070",
+    "id": "BF-072",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团70",
-    "floors_concept": 10,
-    "renewal_action_concept": "new_concept",
-    "area_sqm_declared": 1260.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       116.3514872,
-       40.0171765
-      ],
-      [
-       116.3514848,
-       40.0174287
-      ],
-      [
-       116.3509577,
-       40.0174257
-      ],
-      [
-       116.3509601,
-       40.0171736
-      ],
-      [
-       116.3514872,
-       40.0171765
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-071",
-   "properties": {
-    "id": "BF-071",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团71",
-    "floors_concept": 10,
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团72",
+    "floors_concept": 11,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -3127,17 +3171,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-072",
+   "id": "BF-073",
    "properties": {
-    "id": "BF-072",
+    "id": "BF-073",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团72",
-    "floors_concept": 11,
-    "renewal_action_concept": "new_concept",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团73",
+    "floors_concept": 14,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3171,17 +3215,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-073",
+   "id": "BF-074",
    "properties": {
-    "id": "BF-073",
+    "id": "BF-074",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团73",
-    "floors_concept": 14,
-    "renewal_action_concept": "retain_concept",
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团74",
+    "floors_concept": 11,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3215,17 +3259,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-074",
+   "id": "BF-075",
    "properties": {
-    "id": "BF-074",
+    "id": "BF-075",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团74",
-    "floors_concept": 11,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "zhongzhiyuan概念组团75",
+    "floors_concept": 12,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3259,16 +3303,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-075",
+   "id": "BF-076",
    "properties": {
-    "id": "BF-075",
+    "id": "BF-076",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团75",
-    "floors_concept": 12,
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团76",
+    "floors_concept": 11,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -3296,50 +3340,6 @@
       [
        116.3481409,
        40.0180133
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-076",
-   "properties": {
-    "id": "BF-076",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团76",
-    "floors_concept": 11,
-    "renewal_action_concept": "renovation_concept",
-    "area_sqm_declared": 1260.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       116.3514791,
-       40.018032
-      ],
-      [
-       116.3514767,
-       40.0182842
-      ],
-      [
-       116.3509496,
-       40.0182812
-      ],
-      [
-       116.350952,
-       40.0180291
-      ],
-      [
-       116.3514791,
-       40.018032
       ]
      ]
     ]
@@ -3410,6 +3410,50 @@
     "coordinates": [
      [
       [
+       116.3538216,
+       40.0180451
+      ],
+      [
+       116.3538192,
+       40.0182973
+      ],
+      [
+       116.3532922,
+       40.0182943
+      ],
+      [
+       116.3532945,
+       40.0180422
+      ],
+      [
+       116.3538216,
+       40.0180451
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-079",
+   "properties": {
+    "id": "BF-079",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团79",
+    "floors_concept": 12,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
        116.3436819,
        40.0188437
       ],
@@ -3435,17 +3479,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-079",
+   "id": "BF-080",
    "properties": {
-    "id": "BF-079",
+    "id": "BF-080",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团79",
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团80",
     "floors_concept": 12,
-    "renewal_action_concept": "new_concept",
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3479,15 +3523,59 @@
   },
   {
    "type": "Feature",
-   "id": "BF-080",
+   "id": "BF-081",
    "properties": {
-    "id": "BF-080",
+    "id": "BF-081",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团81",
+    "floors_concept": 10,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3457902,
+       40.0188556
+      ],
+      [
+       116.3457878,
+       40.0191078
+      ],
+      [
+       116.3452607,
+       40.0191048
+      ],
+      [
+       116.3452631,
+       40.0188527
+      ],
+      [
+       116.3457902,
+       40.0188556
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-082",
+   "properties": {
+    "id": "BF-082",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团80",
+    "name_zh": "zhongzhiyuan概念组团82",
     "floors_concept": 12,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
@@ -3523,17 +3611,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-081",
+   "id": "BF-083",
    "properties": {
-    "id": "BF-081",
+    "id": "BF-083",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团81",
-    "floors_concept": 10,
-    "renewal_action_concept": "new_concept",
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团83",
+    "floors_concept": 13,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3567,59 +3655,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-082",
+   "id": "BF-084",
    "properties": {
-    "id": "BF-082",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团82",
-    "floors_concept": 12,
-    "renewal_action_concept": "renovation_concept",
-    "area_sqm_declared": 1260.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       116.351471,
-       40.0188876
-      ],
-      [
-       116.3514686,
-       40.0191397
-      ],
-      [
-       116.3509415,
-       40.0191368
-      ],
-      [
-       116.3509439,
-       40.0188846
-      ],
-      [
-       116.351471,
-       40.0188876
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-083",
-   "properties": {
-    "id": "BF-083",
+    "id": "BF-084",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团83",
+    "name_zh": "zhongzhiyuan概念组团84",
     "floors_concept": 13,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
@@ -3655,15 +3699,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-084",
+   "id": "BF-085",
    "properties": {
-    "id": "BF-084",
+    "id": "BF-085",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团84",
+    "name_zh": "zhongzhiyuan概念组团85",
     "floors_concept": 13,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
@@ -3699,17 +3743,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-085",
+   "id": "BF-086",
    "properties": {
-    "id": "BF-085",
+    "id": "BF-086",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团85",
-    "floors_concept": 13,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团86",
+    "floors_concept": 10,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3743,17 +3787,61 @@
   },
   {
    "type": "Feature",
-   "id": "BF-086",
+   "id": "BF-087",
    "properties": {
-    "id": "BF-086",
+    "id": "BF-087",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团86",
-    "floors_concept": 10,
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团87",
+    "floors_concept": 11,
     "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.345782,
+       40.0197112
+      ],
+      [
+       116.3457796,
+       40.0199633
+      ],
+      [
+       116.3452525,
+       40.0199603
+      ],
+      [
+       116.3452549,
+       40.0197082
+      ],
+      [
+       116.345782,
+       40.0197112
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-088",
+   "properties": {
+    "id": "BF-088",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团88",
+    "floors_concept": 13,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3787,16 +3875,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-087",
+   "id": "BF-089",
    "properties": {
-    "id": "BF-087",
+    "id": "BF-089",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团87",
-    "floors_concept": 11,
+    "name_zh": "zhongzhiyuan概念组团89",
+    "floors_concept": 14,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -3831,17 +3919,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-088",
+   "id": "BF-090",
    "properties": {
-    "id": "BF-088",
+    "id": "BF-090",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团88",
-    "floors_concept": 13,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团90",
+    "floors_concept": 14,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3850,24 +3938,24 @@
     "coordinates": [
      [
       [
-       116.3514629,
-       40.0197431
+       116.3513457,
+       40.0197424
       ],
       [
-       116.3514605,
-       40.0199953
+       116.3513433,
+       40.0199946
       ],
       [
-       116.3509334,
-       40.0199923
+       116.3508163,
+       40.0199916
       ],
       [
-       116.3509358,
-       40.0197401
+       116.3508186,
+       40.0197395
       ],
       [
-       116.3514629,
-       40.0197431
+       116.3513457,
+       40.0197424
       ]
      ]
     ]
@@ -3875,16 +3963,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-089",
+   "id": "BF-091",
    "properties": {
-    "id": "BF-089",
+    "id": "BF-091",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团89",
-    "floors_concept": 14,
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团91",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -3919,17 +4007,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-090",
+   "id": "BF-092",
    "properties": {
-    "id": "BF-090",
+    "id": "BF-092",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团90",
-    "floors_concept": 14,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "zhongzhiyuan概念组团92",
+    "floors_concept": 10,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -3963,17 +4051,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-091",
+   "id": "BF-093",
    "properties": {
-    "id": "BF-091",
+    "id": "BF-093",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团91",
-    "floors_concept": 10,
-    "renewal_action_concept": "new_concept",
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团93",
+    "floors_concept": 13,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -4007,17 +4095,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-092",
+   "id": "BF-094",
    "properties": {
-    "id": "BF-092",
+    "id": "BF-094",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团92",
-    "floors_concept": 10,
-    "renewal_action_concept": "new_concept",
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团94",
+    "floors_concept": 12,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -4051,17 +4139,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-093",
+   "id": "BF-095",
    "properties": {
-    "id": "BF-093",
+    "id": "BF-095",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团93",
-    "floors_concept": 13,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "zhongzhiyuan概念组团95",
+    "floors_concept": 10,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -4070,24 +4158,24 @@
     "coordinates": [
      [
       [
-       116.3470037,
-       40.0205736
+       116.3471209,
+       40.0205743
       ],
       [
-       116.3470013,
-       40.0208258
+       116.3471185,
+       40.0208265
       ],
       [
-       116.3464742,
-       40.0208228
+       116.3465914,
+       40.0208235
       ],
       [
-       116.3464767,
-       40.0205707
+       116.3465938,
+       40.0205713
       ],
       [
-       116.3470037,
-       40.0205736
+       116.3471209,
+       40.0205743
       ]
      ]
     ]
@@ -4095,17 +4183,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-094",
+   "id": "BF-096",
    "properties": {
-    "id": "BF-094",
+    "id": "BF-096",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团94",
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团96",
     "floors_concept": 12,
-    "renewal_action_concept": "renovation_concept",
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -4139,15 +4227,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-095",
+   "id": "BF-097",
    "properties": {
-    "id": "BF-095",
+    "id": "BF-097",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团95",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团97",
     "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -4183,15 +4271,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-096",
+   "id": "BF-098",
    "properties": {
-    "id": "BF-096",
+    "id": "BF-098",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团96",
+    "name_zh": "zhongzhiyuan概念组团98",
     "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -4227,16 +4315,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-097",
+   "id": "BF-099",
    "properties": {
-    "id": "BF-097",
+    "id": "BF-099",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团97",
-    "floors_concept": 10,
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团99",
+    "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -4271,16 +4359,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-098",
+   "id": "BF-100",
    "properties": {
-    "id": "BF-098",
+    "id": "BF-100",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团98",
-    "floors_concept": 12,
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团100",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -4315,17 +4403,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-099",
+   "id": "BF-101",
    "properties": {
-    "id": "BF-099",
+    "id": "BF-101",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团99",
-    "floors_concept": 12,
-    "renewal_action_concept": "new_concept",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团101",
+    "floors_concept": 14,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -4359,61 +4447,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-100",
+   "id": "BF-102",
    "properties": {
-    "id": "BF-100",
+    "id": "BF-102",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团100",
-    "floors_concept": 10,
-    "renewal_action_concept": "new_concept",
-    "area_sqm_declared": 1260.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       116.3469956,
-       40.0214292
-      ],
-      [
-       116.3469932,
-       40.0216813
-      ],
-      [
-       116.3464661,
-       40.0216783
-      ],
-      [
-       116.3464685,
-       40.0214262
-      ],
-      [
-       116.3469956,
-       40.0214292
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-101",
-   "properties": {
-    "id": "BF-101",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团101",
-    "floors_concept": 14,
-    "renewal_action_concept": "retain_concept",
+    "building_type": "ai_r_and_d",
+    "name_zh": "zhongzhiyuan概念组团102",
+    "floors_concept": 13,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -4447,16 +4491,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-102",
+   "id": "BF-103",
    "properties": {
-    "id": "BF-102",
+    "id": "BF-103",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "zhongzhiyuan概念组团102",
-    "floors_concept": 13,
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团103",
+    "floors_concept": 12,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -4491,17 +4535,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-103",
+   "id": "BF-104",
    "properties": {
-    "id": "BF-103",
+    "id": "BF-104",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团103",
-    "floors_concept": 12,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团104",
+    "floors_concept": 13,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -4535,17 +4579,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-104",
+   "id": "BF-105",
    "properties": {
-    "id": "BF-104",
+    "id": "BF-105",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团104",
-    "floors_concept": 13,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "zhongzhiyuan概念组团105",
+    "floors_concept": 14,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -4579,17 +4623,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-105",
+   "id": "BF-106",
    "properties": {
-    "id": "BF-105",
+    "id": "BF-106",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团105",
-    "floors_concept": 14,
-    "renewal_action_concept": "retain_concept",
+    "building_type": "incubator",
+    "name_zh": "zhongzhiyuan概念组团106",
+    "floors_concept": 11,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -4623,16 +4667,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-106",
+   "id": "BF-107",
    "properties": {
-    "id": "BF-106",
+    "id": "BF-107",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "zhongzhiyuan概念组团106",
-    "floors_concept": 11,
+    "building_type": "lab",
+    "name_zh": "zhongzhiyuan概念组团107",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -4660,50 +4704,6 @@
       [
        116.3458747,
        40.0222784
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-107",
-   "properties": {
-    "id": "BF-107",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "zhongzhiyuan概念组团107",
-    "floors_concept": 10,
-    "renewal_action_concept": "new_concept",
-    "area_sqm_declared": 1260.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       116.3469874,
-       40.0222847
-      ],
-      [
-       116.346985,
-       40.0225369
-      ],
-      [
-       116.3464579,
-       40.0225339
-      ],
-      [
-       116.3464603,
-       40.0222817
-      ],
-      [
-       116.3469874,
-       40.0222847
       ]
      ]
     ]
@@ -5214,6 +5214,50 @@
     "coordinates": [
      [
       [
+       116.3440092,
+       39.9845842
+      ],
+      [
+       116.3440068,
+       39.9848364
+      ],
+      [
+       116.3434799,
+       39.9848334
+      ],
+      [
+       116.3434824,
+       39.9845813
+      ],
+      [
+       116.3440092,
+       39.9845842
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-120",
+   "properties": {
+    "id": "BF-120",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "lab",
+    "name_zh": "beijing概念组团120",
+    "floors_concept": 13,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
        116.3450043,
        39.9845899
       ],
@@ -5239,16 +5283,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-120",
+   "id": "BF-121",
    "properties": {
-    "id": "BF-120",
+    "id": "BF-121",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "beijing概念组团120",
-    "floors_concept": 13,
+    "building_type": "incubator",
+    "name_zh": "beijing概念组团121",
+    "floors_concept": 14,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -5283,16 +5327,60 @@
   },
   {
    "type": "Feature",
-   "id": "BF-121",
+   "id": "BF-122",
    "properties": {
-    "id": "BF-121",
+    "id": "BF-122",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "beijing概念组团121",
+    "name_zh": "beijing概念组团122",
     "floors_concept": 14,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3484579,
+       39.9846093
+      ],
+      [
+       116.3484555,
+       39.9848615
+      ],
+      [
+       116.3479286,
+       39.9848585
+      ],
+      [
+       116.347931,
+       39.9846064
+      ],
+      [
+       116.3484579,
+       39.9846093
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-123",
+   "properties": {
+    "id": "BF-123",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团123",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -5327,16 +5415,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-122",
+   "id": "BF-124",
    "properties": {
-    "id": "BF-122",
+    "id": "BF-124",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "beijing概念组团122",
-    "floors_concept": 14,
+    "building_type": "lab",
+    "name_zh": "beijing概念组团124",
+    "floors_concept": 13,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -5371,15 +5459,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-123",
+   "id": "BF-125",
    "properties": {
-    "id": "BF-123",
+    "id": "BF-125",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团123",
+    "name_zh": "beijing概念组团125",
     "floors_concept": 16,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -5415,17 +5503,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-124",
+   "id": "BF-126",
    "properties": {
-    "id": "BF-124",
+    "id": "BF-126",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团124",
+    "name_zh": "beijing概念组团126",
     "floors_concept": 19,
-    "renewal_action_concept": "new_concept",
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -5459,16 +5547,60 @@
   },
   {
    "type": "Feature",
-   "id": "BF-125",
+   "id": "BF-127",
    "properties": {
-    "id": "BF-125",
+    "id": "BF-127",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团125",
-    "floors_concept": 10,
+    "name_zh": "beijing概念组团127",
+    "floors_concept": 12,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.344001,
+       39.9854398
+      ],
+      [
+       116.3439986,
+       39.9856919
+      ],
+      [
+       116.3434718,
+       39.9856889
+      ],
+      [
+       116.3434742,
+       39.9854368
+      ],
+      [
+       116.344001,
+       39.9854398
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-128",
+   "properties": {
+    "id": "BF-128",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "incubator",
+    "name_zh": "beijing概念组团128",
+    "floors_concept": 11,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -5503,16 +5635,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-126",
+   "id": "BF-129",
    "properties": {
-    "id": "BF-126",
+    "id": "BF-129",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团126",
-    "floors_concept": 13,
+    "building_type": "incubator",
+    "name_zh": "beijing概念组团129",
+    "floors_concept": 12,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -5547,15 +5679,59 @@
   },
   {
    "type": "Feature",
-   "id": "BF-127",
+   "id": "BF-130",
    "properties": {
-    "id": "BF-127",
+    "id": "BF-130",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "incubator",
+    "name_zh": "beijing概念组团130",
+    "floors_concept": 11,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3484497,
+       39.9854649
+      ],
+      [
+       116.3484473,
+       39.985717
+      ],
+      [
+       116.3479205,
+       39.9857141
+      ],
+      [
+       116.3479229,
+       39.9854619
+      ],
+      [
+       116.3484497,
+       39.9854649
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-131",
+   "properties": {
+    "id": "BF-131",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团127",
+    "name_zh": "beijing概念组团131",
     "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -5591,17 +5767,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-128",
+   "id": "BF-132",
    "properties": {
-    "id": "BF-128",
+    "id": "BF-132",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "beijing概念组团128",
-    "floors_concept": 11,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "beijing概念组团132",
+    "floors_concept": 12,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -5635,17 +5811,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-129",
+   "id": "BF-133",
    "properties": {
-    "id": "BF-129",
+    "id": "BF-133",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团129",
-    "floors_concept": 18,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "beijing概念组团133",
+    "floors_concept": 17,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -5679,17 +5855,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-130",
+   "id": "BF-134",
    "properties": {
-    "id": "BF-130",
+    "id": "BF-134",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团130",
+    "name_zh": "beijing概念组团134",
     "floors_concept": 17,
-    "renewal_action_concept": "new_concept",
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -5723,16 +5899,60 @@
   },
   {
    "type": "Feature",
-   "id": "BF-131",
+   "id": "BF-135",
    "properties": {
-    "id": "BF-131",
+    "id": "BF-135",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团131",
-    "floors_concept": 12,
+    "building_type": "lab",
+    "name_zh": "beijing概念组团135",
+    "floors_concept": 11,
+    "renewal_action_concept": "renovation_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3439928,
+       39.9862953
+      ],
+      [
+       116.3439904,
+       39.9865475
+      ],
+      [
+       116.3434636,
+       39.9865445
+      ],
+      [
+       116.343466,
+       39.9862923
+      ],
+      [
+       116.3439928,
+       39.9862953
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-136",
+   "properties": {
+    "id": "BF-136",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "lab",
+    "name_zh": "beijing概念组团136",
+    "floors_concept": 13,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -5767,17 +5987,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-132",
+   "id": "BF-137",
    "properties": {
-    "id": "BF-132",
+    "id": "BF-137",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "beijing概念组团132",
-    "floors_concept": 12,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团137",
+    "floors_concept": 10,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -5811,15 +6031,59 @@
   },
   {
    "type": "Feature",
-   "id": "BF-133",
+   "id": "BF-138",
    "properties": {
-    "id": "BF-133",
+    "id": "BF-138",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "lab",
+    "name_zh": "beijing概念组团138",
+    "floors_concept": 14,
+    "renewal_action_concept": "retain_concept",
+    "area_sqm_declared": 1260.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3484416,
+       39.9863204
+      ],
+      [
+       116.3484392,
+       39.9865726
+      ],
+      [
+       116.3479124,
+       39.9865696
+      ],
+      [
+       116.3479148,
+       39.9863174
+      ],
+      [
+       116.3484416,
+       39.9863204
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-139",
+   "properties": {
+    "id": "BF-139",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "beijing概念组团133",
+    "name_zh": "beijing概念组团139",
     "floors_concept": 11,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -5855,17 +6119,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-134",
+   "id": "BF-140",
    "properties": {
-    "id": "BF-134",
+    "id": "BF-140",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "beijing概念组团134",
-    "floors_concept": 11,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团140",
+    "floors_concept": 10,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -5899,17 +6163,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-135",
+   "id": "BF-141",
    "properties": {
-    "id": "BF-135",
+    "id": "BF-141",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团135",
+    "name_zh": "beijing概念组团141",
     "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -5943,17 +6207,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-136",
+   "id": "BF-142",
    "properties": {
-    "id": "BF-136",
+    "id": "BF-142",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团136",
-    "floors_concept": 19,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "beijing概念组团142",
+    "floors_concept": 20,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -5987,15 +6251,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-137",
+   "id": "BF-143",
    "properties": {
-    "id": "BF-137",
+    "id": "BF-143",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "education",
-    "name_zh": "beijing概念组团137",
+    "name_zh": "beijing概念组团143",
     "floors_concept": 6,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -6031,17 +6295,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-138",
+   "id": "BF-144",
    "properties": {
-    "id": "BF-138",
+    "id": "BF-144",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "beijing概念组团138",
-    "floors_concept": 14,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "beijing概念组团144",
+    "floors_concept": 13,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6075,15 +6339,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-139",
+   "id": "BF-145",
    "properties": {
-    "id": "BF-139",
+    "id": "BF-145",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "beijing概念组团139",
+    "name_zh": "beijing概念组团145",
     "floors_concept": 11,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -6119,16 +6383,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-140",
+   "id": "BF-146",
    "properties": {
-    "id": "BF-140",
+    "id": "BF-146",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团140",
-    "floors_concept": 10,
+    "building_type": "lab",
+    "name_zh": "beijing概念组团146",
+    "floors_concept": 13,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -6163,15 +6427,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-141",
+   "id": "BF-147",
    "properties": {
-    "id": "BF-141",
+    "id": "BF-147",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "beijing概念组团141",
+    "name_zh": "beijing概念组团147",
     "floors_concept": 11,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -6207,17 +6471,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-142",
+   "id": "BF-148",
    "properties": {
-    "id": "BF-142",
+    "id": "BF-148",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团142",
-    "floors_concept": 20,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "beijing概念组团148",
+    "floors_concept": 19,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6251,17 +6515,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-143",
+   "id": "BF-149",
    "properties": {
-    "id": "BF-143",
+    "id": "BF-149",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团143",
-    "floors_concept": 16,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "beijing概念组团149",
+    "floors_concept": 19,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6295,15 +6559,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-144",
+   "id": "BF-150",
    "properties": {
-    "id": "BF-144",
+    "id": "BF-150",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "education",
-    "name_zh": "beijing概念组团144",
+    "name_zh": "beijing概念组团150",
     "floors_concept": 9,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -6339,17 +6603,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-145",
+   "id": "BF-151",
    "properties": {
-    "id": "BF-145",
+    "id": "BF-151",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "beijing概念组团145",
+    "building_type": "lab",
+    "name_zh": "beijing概念组团151",
     "floors_concept": 11,
-    "renewal_action_concept": "new_concept",
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6383,16 +6647,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-146",
+   "id": "BF-152",
    "properties": {
-    "id": "BF-146",
+    "id": "BF-152",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "beijing概念组团146",
-    "floors_concept": 13,
+    "building_type": "incubator",
+    "name_zh": "beijing概念组团152",
+    "floors_concept": 14,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -6427,16 +6691,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-147",
+   "id": "BF-153",
    "properties": {
-    "id": "BF-147",
+    "id": "BF-153",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "beijing概念组团147",
-    "floors_concept": 11,
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团153",
+    "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -6471,17 +6735,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-148",
+   "id": "BF-154",
    "properties": {
-    "id": "BF-148",
+    "id": "BF-154",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团148",
-    "floors_concept": 13,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "beijing概念组团154",
+    "floors_concept": 10,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6515,17 +6779,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-149",
+   "id": "BF-155",
    "properties": {
-    "id": "BF-149",
+    "id": "BF-155",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团149",
-    "floors_concept": 19,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "beijing概念组团155",
+    "floors_concept": 16,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6559,16 +6823,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-150",
+   "id": "BF-156",
    "properties": {
-    "id": "BF-150",
+    "id": "BF-156",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团150",
-    "floors_concept": 19,
+    "name_zh": "beijing概念组团156",
+    "floors_concept": 16,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -6603,15 +6867,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-151",
+   "id": "BF-157",
    "properties": {
-    "id": "BF-151",
+    "id": "BF-157",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "education",
-    "name_zh": "beijing概念组团151",
+    "name_zh": "beijing概念组团157",
     "floors_concept": 7,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
@@ -6647,16 +6911,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-152",
+   "id": "BF-158",
    "properties": {
-    "id": "BF-152",
+    "id": "BF-158",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "beijing概念组团152",
-    "floors_concept": 14,
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团158",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -6691,16 +6955,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-153",
+   "id": "BF-159",
    "properties": {
-    "id": "BF-153",
+    "id": "BF-159",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团153",
-    "floors_concept": 12,
+    "building_type": "incubator",
+    "name_zh": "beijing概念组团159",
+    "floors_concept": 11,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -6735,16 +6999,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-154",
+   "id": "BF-160",
    "properties": {
-    "id": "BF-154",
+    "id": "BF-160",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团154",
-    "floors_concept": 10,
+    "building_type": "lab",
+    "name_zh": "beijing概念组团160",
+    "floors_concept": 13,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -6779,17 +7043,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-155",
+   "id": "BF-161",
    "properties": {
-    "id": "BF-155",
+    "id": "BF-161",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团155",
-    "floors_concept": 10,
-    "renewal_action_concept": "new_concept",
+    "building_type": "lab",
+    "name_zh": "beijing概念组团161",
+    "floors_concept": 11,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6823,15 +7087,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-156",
+   "id": "BF-162",
    "properties": {
-    "id": "BF-156",
+    "id": "BF-162",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团156",
+    "name_zh": "beijing概念组团162",
     "floors_concept": 16,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -6867,17 +7131,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-157",
+   "id": "BF-163",
    "properties": {
-    "id": "BF-157",
+    "id": "BF-163",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团157",
+    "name_zh": "beijing概念组团163",
     "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6911,17 +7175,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-158",
+   "id": "BF-164",
    "properties": {
-    "id": "BF-158",
+    "id": "BF-164",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "education",
-    "name_zh": "beijing概念组团158",
-    "floors_concept": 6,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "beijing概念组团164",
+    "floors_concept": 8,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6955,17 +7219,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-159",
+   "id": "BF-165",
    "properties": {
-    "id": "BF-159",
+    "id": "BF-165",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "beijing概念组团159",
-    "floors_concept": 11,
-    "renewal_action_concept": "new_concept",
+    "building_type": "lab",
+    "name_zh": "beijing概念组团165",
+    "floors_concept": 14,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -6999,15 +7263,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-160",
+   "id": "BF-166",
    "properties": {
-    "id": "BF-160",
+    "id": "BF-166",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "beijing概念组团160",
+    "name_zh": "beijing概念组团166",
     "floors_concept": 13,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -7043,17 +7307,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-161",
+   "id": "BF-167",
    "properties": {
-    "id": "BF-161",
+    "id": "BF-167",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "beijing概念组团161",
-    "floors_concept": 11,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团167",
+    "floors_concept": 12,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7087,17 +7351,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-162",
+   "id": "BF-168",
    "properties": {
-    "id": "BF-162",
+    "id": "BF-168",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团162",
-    "floors_concept": 10,
-    "renewal_action_concept": "new_concept",
+    "building_type": "lab",
+    "name_zh": "beijing概念组团168",
+    "floors_concept": 14,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7131,16 +7395,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-163",
+   "id": "BF-169",
    "properties": {
-    "id": "BF-163",
+    "id": "BF-169",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团163",
-    "floors_concept": 17,
+    "name_zh": "beijing概念组团169",
+    "floors_concept": 20,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -7175,16 +7439,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-164",
+   "id": "BF-170",
    "properties": {
-    "id": "BF-164",
+    "id": "BF-170",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团164",
-    "floors_concept": 18,
+    "name_zh": "beijing概念组团170",
+    "floors_concept": 19,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -7219,17 +7483,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-165",
+   "id": "BF-171",
    "properties": {
-    "id": "BF-165",
+    "id": "BF-171",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "education",
-    "name_zh": "beijing概念组团165",
+    "name_zh": "beijing概念组团171",
     "floors_concept": 10,
-    "renewal_action_concept": "retain_concept",
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7263,16 +7527,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-166",
+   "id": "BF-172",
    "properties": {
-    "id": "BF-166",
+    "id": "BF-172",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "beijing概念组团166",
-    "floors_concept": 13,
+    "name_zh": "beijing概念组团172",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -7307,15 +7571,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-167",
+   "id": "BF-173",
    "properties": {
-    "id": "BF-167",
+    "id": "BF-173",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团167",
+    "name_zh": "beijing概念组团173",
     "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
@@ -7351,17 +7615,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-168",
+   "id": "BF-174",
    "properties": {
-    "id": "BF-168",
+    "id": "BF-174",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "beijing概念组团168",
-    "floors_concept": 14,
-    "renewal_action_concept": "retain_concept",
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团174",
+    "floors_concept": 13,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7395,16 +7659,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-169",
+   "id": "BF-175",
    "properties": {
-    "id": "BF-169",
+    "id": "BF-175",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "incubator",
-    "name_zh": "beijing概念组团169",
-    "floors_concept": 14,
+    "name_zh": "beijing概念组团175",
+    "floors_concept": 11,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -7439,17 +7703,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-170",
+   "id": "BF-176",
    "properties": {
-    "id": "BF-170",
+    "id": "BF-176",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团170",
-    "floors_concept": 19,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "beijing概念组团176",
+    "floors_concept": 16,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7483,15 +7747,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-171",
+   "id": "BF-177",
    "properties": {
-    "id": "BF-171",
+    "id": "BF-177",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团171",
+    "name_zh": "beijing概念组团177",
     "floors_concept": 20,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -7527,16 +7791,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-172",
+   "id": "BF-178",
    "properties": {
-    "id": "BF-172",
+    "id": "BF-178",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "education",
-    "name_zh": "beijing概念组团172",
-    "floors_concept": 6,
+    "name_zh": "beijing概念组团178",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -7571,16 +7835,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-173",
+   "id": "BF-179",
    "properties": {
-    "id": "BF-173",
+    "id": "BF-179",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团173",
-    "floors_concept": 12,
+    "building_type": "lab",
+    "name_zh": "beijing概念组团179",
+    "floors_concept": 10,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -7615,17 +7879,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-174",
+   "id": "BF-180",
    "properties": {
-    "id": "BF-174",
+    "id": "BF-180",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "ai_r_and_d",
-    "name_zh": "beijing概念组团174",
-    "floors_concept": 13,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "incubator",
+    "name_zh": "beijing概念组团180",
+    "floors_concept": 11,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7659,17 +7923,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-175",
+   "id": "BF-181",
    "properties": {
-    "id": "BF-175",
+    "id": "BF-181",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "beijing概念组团175",
-    "floors_concept": 11,
-    "renewal_action_concept": "new_concept",
+    "building_type": "lab",
+    "name_zh": "beijing概念组团181",
+    "floors_concept": 14,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7703,16 +7967,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-176",
+   "id": "BF-182",
    "properties": {
-    "id": "BF-176",
+    "id": "BF-182",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "lab",
-    "name_zh": "beijing概念组团176",
-    "floors_concept": 10,
+    "name_zh": "beijing概念组团182",
+    "floors_concept": 13,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -7747,17 +8011,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-177",
+   "id": "BF-183",
    "properties": {
-    "id": "BF-177",
+    "id": "BF-183",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团177",
-    "floors_concept": 20,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "beijing概念组团183",
+    "floors_concept": 18,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7791,16 +8055,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-178",
+   "id": "BF-184",
    "properties": {
-    "id": "BF-178",
+    "id": "BF-184",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团178",
-    "floors_concept": 20,
+    "name_zh": "beijing概念组团184",
+    "floors_concept": 18,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -7835,17 +8099,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-179",
+   "id": "BF-185",
    "properties": {
-    "id": "BF-179",
+    "id": "BF-185",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "education",
-    "name_zh": "beijing概念组团179",
-    "floors_concept": 6,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "beijing概念组团185",
+    "floors_concept": 10,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7879,16 +8143,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-180",
+   "id": "BF-186",
    "properties": {
-    "id": "BF-180",
+    "id": "BF-186",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "beijing概念组团180",
-    "floors_concept": 11,
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团186",
+    "floors_concept": 12,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -7923,17 +8187,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-181",
+   "id": "BF-187",
    "properties": {
-    "id": "BF-181",
+    "id": "BF-187",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "beijing概念组团181",
-    "floors_concept": 14,
-    "renewal_action_concept": "retain_concept",
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团187",
+    "floors_concept": 12,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -7967,17 +8231,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-182",
+   "id": "BF-188",
    "properties": {
-    "id": "BF-182",
+    "id": "BF-188",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "lab",
-    "name_zh": "beijing概念组团182",
-    "floors_concept": 13,
-    "renewal_action_concept": "new_concept",
+    "building_type": "incubator",
+    "name_zh": "beijing概念组团188",
+    "floors_concept": 12,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8011,17 +8275,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-183",
+   "id": "BF-189",
    "properties": {
-    "id": "BF-183",
+    "id": "BF-189",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
-    "building_type": "incubator",
-    "name_zh": "beijing概念组团183",
-    "floors_concept": 12,
-    "renewal_action_concept": "renovation_concept",
+    "building_type": "ai_r_and_d",
+    "name_zh": "beijing概念组团189",
+    "floors_concept": 10,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 1260.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8055,17 +8319,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-184",
+   "id": "BF-190",
    "properties": {
-    "id": "BF-184",
+    "id": "BF-190",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团184",
-    "floors_concept": 18,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "beijing概念组团190",
+    "floors_concept": 17,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8099,17 +8363,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-185",
+   "id": "BF-191",
    "properties": {
-    "id": "BF-185",
+    "id": "BF-191",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "beijing概念组团185",
-    "floors_concept": 20,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "beijing概念组团191",
+    "floors_concept": 18,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8143,17 +8407,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-186",
+   "id": "BF-192",
    "properties": {
-    "id": "BF-186",
+    "id": "BF-192",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团186",
-    "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团192",
+    "floors_concept": 20,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8187,17 +8451,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-187",
+   "id": "BF-193",
    "properties": {
-    "id": "BF-187",
+    "id": "BF-193",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团187",
-    "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团193",
+    "floors_concept": 18,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8231,17 +8495,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-188",
+   "id": "BF-194",
    "properties": {
-    "id": "BF-188",
+    "id": "BF-194",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团188",
+    "name_zh": "dazhongsi概念组团194",
     "floors_concept": 19,
-    "renewal_action_concept": "renovation_concept",
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8275,16 +8539,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-189",
+   "id": "BF-195",
    "properties": {
-    "id": "BF-189",
+    "id": "BF-195",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团189",
-    "floors_concept": 20,
+    "name_zh": "dazhongsi概念组团195",
+    "floors_concept": 16,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -8319,16 +8583,60 @@
   },
   {
    "type": "Feature",
-   "id": "BF-190",
+   "id": "BF-196",
    "properties": {
-    "id": "BF-190",
+    "id": "BF-196",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团190",
-    "floors_concept": 19,
+    "name_zh": "dazhongsi概念组团196",
+    "floors_concept": 20,
+    "renewal_action_concept": "new_concept",
+    "area_sqm_declared": 988.0,
+    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3492988,
+       39.9442563
+      ],
+      [
+       116.3492966,
+       39.9444905
+      ],
+      [
+       116.348852,
+       39.944488
+      ],
+      [
+       116.3488542,
+       39.9442538
+      ],
+      [
+       116.3492988,
+       39.9442563
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "BF-197",
+   "properties": {
+    "id": "BF-197",
+    "layer": "BUILDING_FOOTPRINT",
+    "source_type": "agent_generated_design",
+    "confidence": "low",
+    "geometry_role": "design_proposal",
+    "building_type": "office",
+    "name_zh": "dazhongsi概念组团197",
+    "floors_concept": 18,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -8363,17 +8671,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-191",
+   "id": "BF-198",
    "properties": {
-    "id": "BF-191",
+    "id": "BF-198",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团191",
-    "floors_concept": 16,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团198",
+    "floors_concept": 19,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8407,15 +8715,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-192",
+   "id": "BF-199",
    "properties": {
-    "id": "BF-192",
+    "id": "BF-199",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团192",
+    "name_zh": "dazhongsi概念组团199",
     "floors_concept": 20,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -8451,16 +8759,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-193",
+   "id": "BF-200",
    "properties": {
-    "id": "BF-193",
+    "id": "BF-200",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团193",
-    "floors_concept": 18,
+    "name_zh": "dazhongsi概念组团200",
+    "floors_concept": 16,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -8495,15 +8803,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-194",
+   "id": "BF-201",
    "properties": {
-    "id": "BF-194",
+    "id": "BF-201",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团194",
+    "name_zh": "dazhongsi概念组团201",
     "floors_concept": 19,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -8539,15 +8847,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-195",
+   "id": "BF-202",
    "properties": {
-    "id": "BF-195",
+    "id": "BF-202",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团195",
+    "name_zh": "dazhongsi概念组团202",
     "floors_concept": 16,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -8583,17 +8891,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-196",
+   "id": "BF-203",
    "properties": {
-    "id": "BF-196",
+    "id": "BF-203",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团196",
+    "name_zh": "dazhongsi概念组团203",
     "floors_concept": 20,
-    "renewal_action_concept": "new_concept",
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8627,17 +8935,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-197",
+   "id": "BF-204",
    "properties": {
-    "id": "BF-197",
+    "id": "BF-204",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团197",
-    "floors_concept": 18,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团204",
+    "floors_concept": 20,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8671,60 +8979,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-198",
+   "id": "BF-205",
    "properties": {
-    "id": "BF-198",
+    "id": "BF-205",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团198",
-    "floors_concept": 19,
-    "renewal_action_concept": "renovation_concept",
-    "area_sqm_declared": 988.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       116.3482962,
-       39.9451063
-      ],
-      [
-       116.348294,
-       39.9453404
-      ],
-      [
-       116.3478494,
-       39.9453379
-      ],
-      [
-       116.3478516,
-       39.9451038
-      ],
-      [
-       116.3482962,
-       39.9451063
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-199",
-   "properties": {
-    "id": "BF-199",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "office",
-    "name_zh": "dazhongsi概念组团199",
-    "floors_concept": 20,
+    "name_zh": "dazhongsi概念组团205",
+    "floors_concept": 18,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -8759,17 +9023,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-200",
+   "id": "BF-206",
    "properties": {
-    "id": "BF-200",
+    "id": "BF-206",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团200",
-    "floors_concept": 16,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团206",
+    "floors_concept": 19,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8803,15 +9067,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-201",
+   "id": "BF-207",
    "properties": {
-    "id": "BF-201",
+    "id": "BF-207",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团201",
+    "name_zh": "dazhongsi概念组团207",
     "floors_concept": 19,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -8847,15 +9111,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-202",
+   "id": "BF-208",
    "properties": {
-    "id": "BF-202",
+    "id": "BF-208",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团202",
+    "name_zh": "dazhongsi概念组团208",
     "floors_concept": 16,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -8891,17 +9155,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-203",
+   "id": "BF-209",
    "properties": {
-    "id": "BF-203",
+    "id": "BF-209",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团203",
-    "floors_concept": 20,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "dazhongsi概念组团209",
+    "floors_concept": 17,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8935,17 +9199,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-204",
+   "id": "BF-210",
    "properties": {
-    "id": "BF-204",
+    "id": "BF-210",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团204",
-    "floors_concept": 20,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团210",
+    "floors_concept": 17,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -8979,17 +9243,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-205",
+   "id": "BF-211",
    "properties": {
-    "id": "BF-205",
+    "id": "BF-211",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团205",
-    "floors_concept": 18,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团211",
+    "floors_concept": 20,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9023,17 +9287,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-206",
+   "id": "BF-212",
    "properties": {
-    "id": "BF-206",
+    "id": "BF-212",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团206",
-    "floors_concept": 19,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团212",
+    "floors_concept": 20,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9067,17 +9331,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-207",
+   "id": "BF-213",
    "properties": {
-    "id": "BF-207",
+    "id": "BF-213",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团207",
-    "floors_concept": 19,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团213",
+    "floors_concept": 17,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9111,17 +9375,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-208",
+   "id": "BF-214",
    "properties": {
-    "id": "BF-208",
+    "id": "BF-214",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团208",
-    "floors_concept": 16,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团214",
+    "floors_concept": 17,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9155,17 +9419,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-209",
+   "id": "BF-215",
    "properties": {
-    "id": "BF-209",
+    "id": "BF-215",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团209",
-    "floors_concept": 17,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团215",
+    "floors_concept": 18,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9199,17 +9463,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-210",
+   "id": "BF-216",
    "properties": {
-    "id": "BF-210",
+    "id": "BF-216",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团210",
-    "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团216",
+    "floors_concept": 20,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9243,61 +9507,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-211",
+   "id": "BF-217",
    "properties": {
-    "id": "BF-211",
+    "id": "BF-217",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团211",
-    "floors_concept": 20,
-    "renewal_action_concept": "retain_concept",
-    "area_sqm_declared": 988.0,
-    "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       116.3516227,
-       39.9459805
-      ],
-      [
-       116.3516205,
-       39.9462147
-      ],
-      [
-       116.3511759,
-       39.9462122
-      ],
-      [
-       116.3511781,
-       39.945978
-      ],
-      [
-       116.3516227,
-       39.9459805
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "BF-212",
-   "properties": {
-    "id": "BF-212",
-    "layer": "BUILDING_FOOTPRINT",
-    "source_type": "agent_generated_design",
-    "confidence": "low",
-    "geometry_role": "design_proposal",
-    "building_type": "office",
-    "name_zh": "dazhongsi概念组团212",
-    "floors_concept": 20,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "dazhongsi概念组团217",
+    "floors_concept": 16,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9331,17 +9551,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-213",
+   "id": "BF-218",
    "properties": {
-    "id": "BF-213",
+    "id": "BF-218",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团213",
+    "name_zh": "dazhongsi概念组团218",
     "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9375,17 +9595,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-214",
+   "id": "BF-219",
    "properties": {
-    "id": "BF-214",
+    "id": "BF-219",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团214",
-    "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团219",
+    "floors_concept": 20,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9419,15 +9639,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-215",
+   "id": "BF-220",
    "properties": {
-    "id": "BF-215",
+    "id": "BF-220",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团215",
+    "name_zh": "dazhongsi概念组团220",
     "floors_concept": 18,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
@@ -9463,16 +9683,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-216",
+   "id": "BF-221",
    "properties": {
-    "id": "BF-216",
+    "id": "BF-221",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团216",
-    "floors_concept": 20,
+    "name_zh": "dazhongsi概念组团221",
+    "floors_concept": 17,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -9507,16 +9727,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-217",
+   "id": "BF-222",
    "properties": {
-    "id": "BF-217",
+    "id": "BF-222",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团217",
-    "floors_concept": 16,
+    "name_zh": "dazhongsi概念组团222",
+    "floors_concept": 17,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -9551,16 +9771,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-218",
+   "id": "BF-223",
    "properties": {
-    "id": "BF-218",
+    "id": "BF-223",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团218",
-    "floors_concept": 17,
+    "name_zh": "dazhongsi概念组团223",
+    "floors_concept": 20,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -9595,17 +9815,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-219",
+   "id": "BF-224",
    "properties": {
-    "id": "BF-219",
+    "id": "BF-224",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团219",
-    "floors_concept": 20,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团224",
+    "floors_concept": 17,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9639,17 +9859,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-220",
+   "id": "BF-225",
    "properties": {
-    "id": "BF-220",
+    "id": "BF-225",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团220",
-    "floors_concept": 18,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团225",
+    "floors_concept": 19,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9683,17 +9903,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-221",
+   "id": "BF-226",
    "properties": {
-    "id": "BF-221",
+    "id": "BF-226",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团221",
-    "floors_concept": 17,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团226",
+    "floors_concept": 18,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9727,16 +9947,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-222",
+   "id": "BF-227",
    "properties": {
-    "id": "BF-222",
+    "id": "BF-227",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团222",
-    "floors_concept": 17,
+    "name_zh": "dazhongsi概念组团227",
+    "floors_concept": 18,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -9771,15 +9991,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-223",
+   "id": "BF-228",
    "properties": {
-    "id": "BF-223",
+    "id": "BF-228",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团223",
+    "name_zh": "dazhongsi概念组团228",
     "floors_concept": 20,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -9815,17 +10035,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-224",
+   "id": "BF-229",
    "properties": {
-    "id": "BF-224",
+    "id": "BF-229",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团224",
-    "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团229",
+    "floors_concept": 18,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9859,17 +10079,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-225",
+   "id": "BF-230",
    "properties": {
-    "id": "BF-225",
+    "id": "BF-230",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团225",
+    "name_zh": "dazhongsi概念组团230",
     "floors_concept": 19,
-    "renewal_action_concept": "new_concept",
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9903,17 +10123,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-226",
+   "id": "BF-231",
    "properties": {
-    "id": "BF-226",
+    "id": "BF-231",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团226",
+    "name_zh": "dazhongsi概念组团231",
     "floors_concept": 18,
-    "renewal_action_concept": "renovation_concept",
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -9947,16 +10167,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-227",
+   "id": "BF-232",
    "properties": {
-    "id": "BF-227",
+    "id": "BF-232",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团227",
-    "floors_concept": 18,
+    "name_zh": "dazhongsi概念组团232",
+    "floors_concept": 20,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -9991,16 +10211,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-228",
+   "id": "BF-233",
    "properties": {
-    "id": "BF-228",
+    "id": "BF-233",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团228",
-    "floors_concept": 20,
+    "name_zh": "dazhongsi概念组团233",
+    "floors_concept": 16,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -10035,17 +10255,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-229",
+   "id": "BF-234",
    "properties": {
-    "id": "BF-229",
+    "id": "BF-234",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团229",
-    "floors_concept": 18,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团234",
+    "floors_concept": 20,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -10079,16 +10299,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-230",
+   "id": "BF-235",
    "properties": {
-    "id": "BF-230",
+    "id": "BF-235",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团230",
-    "floors_concept": 19,
+    "name_zh": "dazhongsi概念组团235",
+    "floors_concept": 17,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -10123,17 +10343,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-231",
+   "id": "BF-236",
    "properties": {
-    "id": "BF-231",
+    "id": "BF-236",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团231",
-    "floors_concept": 18,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团236",
+    "floors_concept": 20,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -10167,17 +10387,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-232",
+   "id": "BF-237",
    "properties": {
-    "id": "BF-232",
+    "id": "BF-237",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团232",
-    "floors_concept": 20,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团237",
+    "floors_concept": 17,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -10211,16 +10431,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-233",
+   "id": "BF-238",
    "properties": {
-    "id": "BF-233",
+    "id": "BF-238",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团233",
-    "floors_concept": 16,
+    "name_zh": "dazhongsi概念组团238",
+    "floors_concept": 19,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -10255,17 +10475,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-234",
+   "id": "BF-239",
    "properties": {
-    "id": "BF-234",
+    "id": "BF-239",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团234",
-    "floors_concept": 20,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "dazhongsi概念组团239",
+    "floors_concept": 17,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -10299,17 +10519,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-235",
+   "id": "BF-240",
    "properties": {
-    "id": "BF-235",
+    "id": "BF-240",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团235",
-    "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团240",
+    "floors_concept": 20,
+    "renewal_action_concept": "retain_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -10343,17 +10563,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-236",
+   "id": "BF-241",
    "properties": {
-    "id": "BF-236",
+    "id": "BF-241",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团236",
-    "floors_concept": 20,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "dazhongsi概念组团241",
+    "floors_concept": 17,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -10387,17 +10607,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-237",
+   "id": "BF-242",
    "properties": {
-    "id": "BF-237",
+    "id": "BF-242",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团237",
-    "floors_concept": 17,
-    "renewal_action_concept": "renovation_concept",
+    "name_zh": "dazhongsi概念组团242",
+    "floors_concept": 16,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -10431,17 +10651,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-238",
+   "id": "BF-243",
    "properties": {
-    "id": "BF-238",
+    "id": "BF-243",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团238",
-    "floors_concept": 19,
-    "renewal_action_concept": "new_concept",
+    "name_zh": "dazhongsi概念组团243",
+    "floors_concept": 17,
+    "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -10475,15 +10695,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-239",
+   "id": "BF-244",
    "properties": {
-    "id": "BF-239",
+    "id": "BF-244",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团239",
+    "name_zh": "dazhongsi概念组团244",
     "floors_concept": 17,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
@@ -10519,17 +10739,17 @@
   },
   {
    "type": "Feature",
-   "id": "BF-240",
+   "id": "BF-245",
    "properties": {
-    "id": "BF-240",
+    "id": "BF-245",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团240",
-    "floors_concept": 20,
-    "renewal_action_concept": "retain_concept",
+    "name_zh": "dazhongsi概念组团245",
+    "floors_concept": 16,
+    "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
    },
@@ -10563,16 +10783,16 @@
   },
   {
    "type": "Feature",
-   "id": "BF-241",
+   "id": "BF-246",
    "properties": {
-    "id": "BF-241",
+    "id": "BF-246",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团241",
-    "floors_concept": 17,
+    "name_zh": "dazhongsi概念组团246",
+    "floors_concept": 19,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,
     "note_zh": "概念示意建筑,非地块级拆改留结论,现状底数待官方资料核实"
@@ -10607,15 +10827,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-242",
+   "id": "BF-247",
    "properties": {
-    "id": "BF-242",
+    "id": "BF-247",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团242",
+    "name_zh": "dazhongsi概念组团247",
     "floors_concept": 16,
     "renewal_action_concept": "new_concept",
     "area_sqm_declared": 988.0,
@@ -10651,15 +10871,15 @@
   },
   {
    "type": "Feature",
-   "id": "BF-243",
+   "id": "BF-248",
    "properties": {
-    "id": "BF-243",
+    "id": "BF-248",
     "layer": "BUILDING_FOOTPRINT",
     "source_type": "agent_generated_design",
     "confidence": "low",
     "geometry_role": "design_proposal",
     "building_type": "office",
-    "name_zh": "dazhongsi概念组团243",
+    "name_zh": "dazhongsi概念组团248",
     "floors_concept": 17,
     "renewal_action_concept": "renovation_concept",
     "area_sqm_declared": 988.0,

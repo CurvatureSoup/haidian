@@ -277,6 +277,30 @@
       ],
       "reason": "No cleared household baseline, eligibility rule, or follow-up register is available; the proposal defines the protocol only."
     },
+    "sustained_employment_transition_rate": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [],
+      "formula": "consented eligible participants in an agreed paid transition role at the predeclared follow-up point / consented eligible participants with a documented baseline",
+      "confidence": "unknown",
+      "assumptions": [
+        "A-JOBS-001"
+      ],
+      "reason": "No locally authorized participant baseline, paid-pathway definition, follow-up window, or outcome register is available; the skills-transition corridor is not an employment result."
+    },
+    "manual_service_equivalence_rate": {
+      "status": "unknown",
+      "value": null,
+      "unit": "ratio",
+      "source_files": [],
+      "formula": "applicable service interactions with an independently verified equal-status human, phone, or paper fallback / applicable service interactions in the declared service catalogue",
+      "confidence": "unknown",
+      "assumptions": [
+        "A-ACCESS-001"
+      ],
+      "reason": "No operating service catalogue, accessibility walk-through, or observed availability record exists for this conceptual proposal."
+    },
     "operational_pue": {
       "status": "unknown",
       "value": null,
@@ -287,7 +311,24 @@
       "assumptions": [
         "A-ENERGY-001"
       ],
-      "reason": "No approved compute programme, IT load, cooling design, or metered operation exists for this conceptual proposal."
+      "reason": "No approved compute programme, IT load, cooling design, or metered operation exists for this conceptual proposal.",
+      "design_target": {
+        "range": [
+          1.15,
+          1.25
+        ],
+        "unit": "ratio",
+        "target_kind": "policy_reference_baseline",
+        "status": "proposal_baseline_not_measured",
+        "source_ids": [
+          "BJ-COMPUTE-2024"
+        ],
+        "note_zh": "仅把北京相关导向转成待核验设计基线；不是本项目法定控制值、许可结论或实测结果，具体项目须按适用政策与专业设计重算。",
+        "evidence_class": "policy_reference_not_measurement",
+        "measured": false,
+        "contributes_to_metric_status": false,
+        "official_control": false
+      }
     },
     "green_electricity_share": {
       "status": "unknown",
@@ -299,7 +340,24 @@
       "assumptions": [
         "A-ENERGY-001"
       ],
-      "reason": "The 30% value is a proposal baseline, not a measured result or a project-specific statutory control."
+      "reason": "The 30% value is a proposal baseline, not a measured result or a project-specific statutory control.",
+      "design_target": {
+        "range": [
+          0.3,
+          0.3
+        ],
+        "unit": "ratio",
+        "target_kind": "policy_reference_baseline",
+        "status": "proposal_baseline_not_measured",
+        "source_ids": [
+          "BJ-DATACENTER-2024"
+        ],
+        "note_zh": "30%仅作为相关存量数据中心目标区间的提案基线，不是新建项目法定最低值、采购凭证或实测结果，具体项目须经授权与计量核验。",
+        "evidence_class": "policy_reference_not_measurement",
+        "measured": false,
+        "contributes_to_metric_status": false,
+        "official_control": false
+      }
     },
     "recovered_heat_mwh": {
       "status": "unknown",

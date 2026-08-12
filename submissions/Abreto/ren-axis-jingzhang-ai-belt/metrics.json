@@ -387,9 +387,9 @@
    "value": 18,
    "unit": "count",
    "source_files": [
-    "geometry/phasing.geojson"
+    "visual/assets/governance-ledger.json"
    ],
-   "formula": "count(renewal project entries in proposal.md 更新项目清单)",
+   "formula": "count(governance-ledger.json $.projects[])",
    "confidence": "medium",
    "assumptions": []
   },
@@ -398,9 +398,9 @@
    "value": 3,
    "unit": "count",
    "source_files": [
-    "geometry/public_space.geojson"
+    "spatial.json"
    ],
-   "formula": "count(AI pilgrimage landmark proposals in proposal.md)",
+   "formula": "count(spatial.json $.items[] where id endswith '-landmark')",
    "confidence": "medium",
    "assumptions": []
   },
@@ -544,6 +544,76 @@
    ],
    "note_zh": "带内已批地块绿地率下限的最低值（五塔寺HD00-2002-10，≥10%）；七宗中六宗给出，其值域为≥10%—≥35%，蓝景丽家HD00-1603-03A原表以“/”表示未给出。规划条件明确绿地率为下限。"
   },
+  "reference_control_plan_population_2035": {
+   "status": "known",
+   "value": 364000,
+   "unit": "person",
+   "source_files": [
+    "visual/assets/control-plan-draft.json"
+   ],
+   "formula": "control-plan-draft.json scale_2035.population_person",
+   "confidence": "medium",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "HD00-1601等街区控规草案公众读本的2035年常住人口规模（约36.4万人），范围为该控规规划范围，不是本设计范围。"
+  },
+  "reference_control_plan_construction_land_ha": {
+   "status": "known",
+   "value": 1648.1,
+   "unit": "ha",
+   "source_files": [
+    "visual/assets/control-plan-draft.json"
+   ],
+   "formula": "control-plan-draft.json scale_2035.construction_land_ha",
+   "confidence": "medium",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "该控规草案2035年城乡建设用地约1648.1公顷；含道路与公园等非开发用地，不是可开发地块净用地。"
+  },
+  "reference_control_plan_floor_area_sqm": {
+   "status": "known",
+   "value": 23693000,
+   "unit": "sqm",
+   "source_files": [
+    "visual/assets/control-plan-draft.json"
+   ],
+   "formula": "control-plan-draft.json scale_2035.floor_area_sqm",
+   "confidence": "medium",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "该控规草案2035年建筑规模约2369.3万平方米。与上一项相除得到的约1.44是毛强度代理，本包不据此设任何容积率指标。"
+  },
+  "reference_control_plan_green_travel_share_pct": {
+   "status": "known",
+   "value": 80,
+   "unit": "percent",
+   "source_files": [
+    "visual/assets/control-plan-draft.json"
+   ],
+   "formula": "control-plan-draft.json mobility_2035.green_travel_share_pct",
+   "confidence": "medium",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "该控规草案2035年绿色出行比例目标80%。这是出行方式结构，不是绿地率。"
+  },
+  "reference_control_plan_road_density_km_per_sqkm": {
+   "status": "known",
+   "value": 8.0,
+   "unit": "km_per_sqkm",
+   "source_files": [
+    "visual/assets/control-plan-draft.json"
+   ],
+   "formula": "control-plan-draft.json mobility_2035.road_network_density_km_per_sqkm",
+   "confidence": "medium",
+   "assumptions": [
+    "A-CONTROLS-003"
+   ],
+   "note_zh": "该控规草案2035年集中建设区道路网密度（含街坊路）约8.0公里/平方公里。口径为城市道路网，与本包的慢行与接驳网络长度不可直接相比。"
+  },
   "reference_plots_aggregate_far": {
    "status": "known",
    "value": 3.562,
@@ -557,6 +627,118 @@
     "A-CONTROLS-003"
    ],
    "note_zh": "七宗参照地块合计地上建筑规模÷合计用地规模，是这批样本的合计值，不是本带或本设计范围的容积率。"
+  },
+  "reference_park_full_length_m": {
+   "status": "known",
+   "value": 9000,
+   "unit": "m",
+   "source_files": [
+    "visual/assets/park-official-records.json"
+   ],
+   "formula": "park-official-records.json figures.full_length_m",
+   "confidence": "high",
+   "assumptions": [
+    "A-PARK-001"
+   ],
+   "note_zh": "市规自委2021年规划解读：遗址公园南起北京北站、北至北五环，全长约9公里。规划口径，非竣工测量长度。"
+  },
+  "reference_park_service_subdistrict_count": {
+   "status": "known",
+   "value": 9,
+   "unit": "count",
+   "source_files": [
+    "visual/assets/park-official-records.json"
+   ],
+   "formula": "park-official-records.json figures.service_subdistrict_count",
+   "confidence": "high",
+   "assumptions": [
+    "A-PARK-001"
+   ],
+   "note_zh": "市规自委2021年规划解读：服务海淀9个街镇。街镇名单原文未列，不得据此断定逐街镇覆盖。"
+  },
+  "reference_park_phase1_area_sqm": {
+   "status": "known",
+   "value": 168000,
+   "unit": "sqm",
+   "source_files": [
+    "visual/assets/park-official-records.json"
+   ],
+   "formula": "park-official-records.json figures.phase1_area_sqm",
+   "confidence": "high",
+   "assumptions": [
+    "A-PARK-001"
+   ],
+   "note_zh": "市园林绿化局2023年两稿一致：一期16.8公顷，范围清华东路—知春路。同期长度官方有2.4与2.5公里两种口径，本包不注册长度指标。"
+  },
+  "reference_park_phase2_area_sqm": {
+   "status": "known",
+   "value": 530900,
+   "unit": "sqm",
+   "source_files": [
+    "visual/assets/park-official-records.json"
+   ],
+   "formula": "park-official-records.json figures.phase2_area_sqm",
+   "confidence": "high",
+   "assumptions": [
+    "A-PARK-001"
+   ],
+   "note_zh": "出自《京张铁路遗址公共空间改造提升工程（二期）配套项目（监理）》2026-08-05业绩公示的“工程规模”字段，记录对象是二期的配套项目而非二期全部工程；其值与海淀区政府门户所记二期总用地53.09万平方米同值，本包据此读作二期规模。"
+  },
+  "reference_park_phase2_north_area_sqm": {
+   "status": "known",
+   "value": 300100,
+   "unit": "sqm",
+   "source_files": [
+    "visual/assets/park-official-records.json"
+   ],
+   "formula": "park-official-records.json figures.phase2_north_area_sqm",
+   "confidence": "high",
+   "assumptions": [
+    "A-PARK-001"
+   ],
+   "note_zh": "市园林绿化局2026-07-13：二期北段清华东路—北五环约30.01公顷。"
+  },
+  "reference_park_phase2_south_area_sqm": {
+   "status": "known",
+   "value": 230800,
+   "unit": "sqm",
+   "source_files": [
+    "visual/assets/park-official-records.json"
+   ],
+   "formula": "park-official-records.json figures.phase2_south_area_sqm",
+   "confidence": "medium",
+   "assumptions": [
+    "A-PARK-001"
+   ],
+   "note_zh": "政务发布口径：二期南段23.08万平方米。唯一出处是登记为背景资料的政务稿，不得独自承担承重结论；与北段相加为530900平方米，与官方系统的二期总规模逐位一致——本包据此把它当作转录校验，而非正式论据。"
+  },
+  "reference_park_phase2_north_length_m": {
+   "status": "known",
+   "value": 2600,
+   "unit": "m",
+   "source_files": [
+    "visual/assets/park-official-records.json"
+   ],
+   "formula": "park-official-records.json figures.phase2_north_length_m",
+   "confidence": "medium",
+   "assumptions": [
+    "A-PARK-001"
+   ],
+   "note_zh": "政务发布口径：二期北段2.6公里。唯一出处是登记为背景资料的政务稿，不得独自承担承重结论。二期新增长度合计官方未单列，本包不做减法推算。"
+  },
+  "reference_park_branch_road_count": {
+   "status": "known",
+   "value": 9,
+   "unit": "count",
+   "source_files": [
+    "visual/assets/park-official-records.json"
+   ],
+   "formula": "park-official-records.json figures.branch_road_count",
+   "confidence": "medium",
+   "assumptions": [
+    "A-PARK-001"
+   ],
+   "note_zh": "政务发布与区政府门户两处一致：9条城市支路。两处均登记为背景资料、本包未取得主管部门原件，正文只作有归属的转述，不得独自承担承重结论。同批材料中流传的“46个出入口”未见于任何政府或主管部门原文，本包不采用。"
   }
  }
 }

@@ -1,5 +1,12 @@
 # 方案迭代记录
 
+## v1.9 - 2026-08-09
+
+- Added a bilingual prototype-interface section to the offline visual boards, exposing the public-interface section, N0 fallback, sensing boundary, and four physical receipt states in both languages.
+- Added the machine-readable `JZ-001` prototype passport schema and concept example: `MAKE -> TRANSLATE -> USE -> repair/transfer`, AI input/output limits, human decisions, exposure register, stop rights, field-witness status, and restoration dependencies.
+- Corrected `PHASE-003` to use the Zhongzhiyuan prototype-yard role; the previous station/commercial label did not match the proposal's MAKE-stage spatial logic.
+- Re-rendered the bilingual proposal HTML and A3/A0 drawing sets. All dimensions, ownership, capacity, funding, permits, official geometry and field-witness claims remain explicitly pending rather than asserted.
+
 ## v1.8 - 2026-08-09
 
 - Added the repository's two public-draft source-index records (`brief-public-brief` and `brief-public-boundary`) to the bilingual evidence trail, with publication status, permitted use, and disclosure limitations.

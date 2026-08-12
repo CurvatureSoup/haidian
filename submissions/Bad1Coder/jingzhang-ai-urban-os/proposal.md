@@ -115,6 +115,12 @@ AI 原生不是给传统规划贴标签：多智能体先把居民课题拆为�
 
 产业原型的空间—运营映射为“提交模型卡 → 领取材料/接口 → 1:1 试用 → 现场复盘 → 拆卸/复用”；城市功能则采用“人工服务并行 → 可选 AI 辅助 → 公众主动反馈 → 到期退役”。每张场景卡同时填写感知地籍字段和空间—时段暴露预算：何时开启、谁在现场、何时自动关闭、何时恢复普通公共模式。所有场景遵循 [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]，不替代审批、医疗诊断、交通指挥或安全责任。[depth:three_key_area_detailed_design]
 
+为证明 AI 是空间生产力而不是事后标签，本案用 `SC-01 / JZ-001` 做一条可复核的版本谱系。`V0` 保留普通静态导视与人工引导基线；`V1` 只在 MAKE 原型房生成清权文本候选；`V2` 把同一编号构件带入 1:1 触觉、纸图和语音旁路审阅；`V3` 将已复核构件转译为 TRANSLATE 服务房的居民语言；`V4` 才在 USE 端作为不设门槛的可选辅助；`V5` 触发 N0 后回到维修/再利用目录，留下地面复原和材料转场收据。每一版同时记录空间改变、材料/连接改变和人工服务改变，示例明确是 `concept_only`、`pending_field_witness`，不是已发生的现场性能结果。[data:visual/assets/example-jz-001-prototype-passport.json#JZ-001-PASSPORT] [data:geometry/constraints.geojson#NODE-004] [depth:three_key_area_detailed_design]
+
+![JZ 1:1 公共接口剖面与版本谱系](assets/figures/prototype-interface.png)
+
+该护照合同把 AI 输入、允许输出、人类决定、实体构件、拆装工具、N0—N3 暴露、人工等价服务、四态收据、停止/申诉权和下一站写成可机器读取的字段；未取得官方几何、权属、容量、资金、许可或现场见证的项目仍保持待确认。[data:visual/assets/jz-prototype-passport.schema.json#JZ-PROTOTYPE-PASSPORT]
+
 ## 用地、建筑规模与拆改留方案
 
 用地布局以公共框架先行、首层可见、存量优先为原则。研发与产业服务靠近 MAKE 节点，混合创新街区承载材料、法务、IP、共享制作和人才服务，社区生活服务围绕 TRANSLATE 房间，开放空间与绿地承载公园审阅面和 USE 节点。六块设计多边形完整覆盖提交范围；代码和 16.0%—20.4% 的设计占比用于方案复核，不能替代法定分区或批准的用地比例。[data:geometry/land_use.geojson#LU-001] [metric:land_use_share_sum_ratio] [depth:land_use_layout]

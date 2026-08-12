@@ -1,24 +1,25 @@
 {
   "schema_version": "1.0.0",
-  "title_zh": "v1.7 任务书成果唯一索引",
+  "title_zh": "v3.9 任务书成果唯一索引",
   "author": "许丙南",
   "items": [
     {
       "id": "agent.1",
       "requirement": "一带总体概念与功能统筹方案设计",
       "deliverables": [
-        "Token Pulse identity system",
+        "Jing-Zhang Autonomous Commons identity system",
         "一带三核、多点场景、蓝绿慢行复合环",
         "区域协同机制图"
       ],
       "proposal_sections": [
         "三层范围工作框架",
-        "v1.7 冲顶修复：从概念到可审阅成果"
+        "2. 核心概念：一条公共轴、三座试验庭、两条安全网"
       ],
       "artifacts": [
         "visual/assets/identity-system.json",
         "visual/assets/regional-ecosystem.json",
-        "assets/figures/identity-system.png"
+        "assets/identity/jingzhang-commons-mark.svg",
+        "visual/assets/public-landmarks.json"
       ],
       "acceptance_test": "identity mark, three nodes, two wings, and regional loop are independently inspectable"
     },
@@ -28,32 +29,35 @@
       "deliverables": [
         "8要素生态机制表",
         "5个区域协同接口",
-        "6个案例机制摘要"
+        "6个自动驾驶官方机制及禁用推断"
       ],
       "proposal_sections": [
         "统筹研究范围产业与未来城市研究",
-        "v1.7 冲顶修复：从概念到可审阅成果"
+        "2. 核心概念：一条公共轴、三座试验庭、两条安全网"
       ],
       "artifacts": [
         "visual/assets/regional-ecosystem.json",
-        "assets/figures/regional-ecosystem.png"
+        "assets/figures/regional-ecosystem.png",
+        "visual/assets/case-mechanism-matrix.json"
       ],
-      "acceptance_test": "land, space, industry, capital, talent, compute, data and scenario links have owners and return paths"
+      "acceptance_test": "the eight ecosystem links have owners and return paths, and every AV case separates a transferable mechanism from prohibited local inference"
     },
     {
       "id": "agent.3",
       "requirement": "AI+场景赋能新范式与智能化AI活力城市设计",
       "deliverables": [
-        "14条场景卡",
+        "12条 AV 场景卡 + 14 条运营矩阵行",
         "触发器、最小数据、停止条件",
         "非AI等价服务"
       ],
       "proposal_sections": [
-        "AI创新生态、人才画像与 AI+ 场景",
-        "v1.7 冲顶修复：从概念到可审阅成果"
+        "AI 创新生态、人才画像与 AI+ 场景",
+        "5. 十二张场景卡：从可逆试点到可退出服务"
       ],
       "artifacts": [
-        "visual/assets/scenario-operation-matrix.json"
+        "visual/assets/scenario-operation-matrix.json",
+        "visual/assets/scenario-operation-contract.json",
+        "visual/assets/persona-role-matrix.json"
       ],
       "acceptance_test": "every scenario has space, trigger, RACI, SLA, cost band, retention and non-AI equivalent"
     },
@@ -62,16 +66,17 @@
       "requirement": "AI公共空间、智能原生新业态与朝圣地标设计",
       "deliverables": [
         "8件公共空间组件",
-        "4个朝圣/荣誉节点",
+        "3个公共地标与荣誉节点",
         "人工兜底与组件维护"
       ],
       "proposal_sections": [
         "蓝绿空间、公共空间与城市风貌",
-        "v1.7 冲顶修复：从概念到可审阅成果"
+        "7. 三座 AI 朝圣地标与城市文化"
       ],
       "artifacts": [
         "visual/assets/component-library.json",
-        "assets/figures/component-operations.png"
+        "assets/figures/component-operations.png",
+        "visual/assets/public-landmarks.json"
       ],
       "acceptance_test": "components are physical, legible without an app, and each has a maintenance trigger"
     },
@@ -84,8 +89,8 @@
         "贡献/荣誉展示规则"
       ],
       "proposal_sections": [
-        "文化叙事、地标与长期运营",
-        "v1.7 冲顶修复：从概念到可审阅成果"
+        "7. 三座 AI 朝圣地标与城市文化",
+        "风险、版权与合规说明"
       ],
       "artifacts": [
         "visual/assets/identity-system.json",
@@ -102,15 +107,17 @@
         "招引转化与退出机制"
       ],
       "proposal_sections": [
-        "文化叙事、地标与长期运营",
-        "v1.7 冲顶修复：从概念到可审阅成果"
+        "更新项目清单、实施政策与分期计划",
+        "风险、版权与合规说明"
       ],
       "artifacts": [
         "visual/assets/scenario-operation-matrix.json",
-        "visual/assets/regional-ecosystem.json"
+        "visual/assets/scenario-operation-contract.json",
+        "visual/assets/regional-ecosystem.json",
+        "visual/assets/annual-event-system.json"
       ],
       "acceptance_test": "annual cadence, ownership, maintenance budget band and rollback gate are explicit"
     }
   ],
-  "version_note": "本索引把正文、图件和 JSON 的唯一证据位置绑定起来；所有空间动作仍为 provisional 概念建议。"
+  "version_note": "本索引把正文、图件和 JSON 的唯一证据位置绑定起来；六个案例只迁移自动驾驶机制，不迁移许可、伙伴、绩效或现场结果；12 条 AV 场景卡与 14 条运营矩阵行是两种不同覆盖层，所有空间动作仍为 provisional 概念建议。"
 }

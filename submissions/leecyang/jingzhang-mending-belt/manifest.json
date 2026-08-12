@@ -25,7 +25,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "83238a78fdf86e45c0b0172e0b8cf45e60d3fba2d7f98d9146ae3d73d063e174"
+      "sha256": "488e84b1848d4f3f6a5a318a7d2da560787409cae81f21175fd6c1cb036bbb5c"
     },
     {
       "path": "agent.json",
@@ -49,13 +49,13 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "e306170c5fb57cf9a87a98631e7a53d0d583c17e206345dc7d2d3de6c93a57a7"
+      "sha256": "d526efa34e247a71f0ddfcfa655dd26ee829a5e67197bfc0824910cb639a68ae"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "a4b8a95088ca351e9638daf003b2c19395ef44c2292eb8eb209b937fb77f6eee"
+      "sha256": "2f04197f492fa48e8334c7650d464276bfda7c5d224d9e1d407e4364c9d4f945"
     },
     {
       "path": "compliance_matrix.json",
@@ -80,7 +80,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "3b6046839f153b8c486b314b7435adc1530fbd76cf2191923f2d07472a2379f0"
+      "sha256": "f3d4a28a8c0e15fb2500be0ff0aaba0069ed090952642d9c2294d4103407fbb3"
     },
     {
       "path": "report/narrative.md",
@@ -178,7 +178,7 @@
       "path": "geometry/land_use.geojson",
       "role": "geometry",
       "required": true,
-      "sha256": "52f8750c4020ca14cb953a5868db29ad61a0d9cc2a718f90aa6f40e606d3a721"
+      "sha256": "b2147c910c3597fbd4ebf2929844e80960ce179ede8f8ff7b931315d343f17de"
     },
     {
       "path": "geometry/phasing.geojson",
@@ -210,14 +210,14 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "73843ed2273ae90ab5b9f3746dfd1076fc0cb68e953ddde7028339424c0a0223"
+      "sha256": "44cbfd3f4787aae1e6b81612992add11db36a28457a784d8184aa7d01e7aed82"
     },
     {
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
       "language": "zh",
-      "sha256": "e80c2ec3169ed22661e520996b45f29a99e5e51f6a31f6cf344a4f7cd6202c6b"
+      "sha256": "16201186d13f8a596f44d3ce2085ad874c5398db796788486dae48fc29462633"
     },
     {
       "path": "report/proposal.en.html",
@@ -225,7 +225,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "336a477c643120bf5c6e18b76617d09735564ccf5176d7382cfbb388bc9b9eb4"
+      "sha256": "8cff7ac9a64a3416282ee81b6827294719e43add4a6a4173ea49c77d999cdc4b"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -303,17 +303,17 @@
       "visual_packaging_check",
       "professional_evidence_review"
     ],
-    "self_checked_at": "2026-08-09T08:14:17Z",
+    "self_checked_at": "2026-08-09T13:18:33Z",
     "formal_readiness": {
       "state": "formal-review-ready",
       "can_enter_formal_review": true,
-      "recorded_at": "2026-08-09T08:14:17Z",
+      "recorded_at": "2026-08-09T13:18:33Z",
       "evidence": "self_check.json",
       "resolved_blockers": [
         {
           "blocker": "Pending audited self-check persistence from self_check_submission.py --mark-self-checked after repository guard #807 is available.",
           "resolution": "Repository PR #807 is still OPEN, so its audited write path does not exist yet. The underlying requirement is met directly instead: the four-gate self-check was re-run and its full result persisted in self_check.json, and this claim was written only after a verified PASS. The dependency on #807 is kept visible below as an open advisory rather than silently dropped; once #807 merges this record should be regenerated through the audited path.",
-          "resolved_at": "2026-08-09T08:14:17Z",
+          "resolved_at": "2026-08-09T13:18:33Z",
           "upstream_dependency": {
             "pull_request": 807,
             "state_at_record_time": "open",

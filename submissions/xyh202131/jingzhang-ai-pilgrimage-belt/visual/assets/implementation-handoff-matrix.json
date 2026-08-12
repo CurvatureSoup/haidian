@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0.0",
+  "matrix_id": "JZ-IMPLEMENTATION-HANDOFF-V1",
+  "status": "conceptual_no_go",
+  "as_of": "2026-08-10",
+  "purpose_zh": "把既有八个更新项目、三个首测协议和十二个 G1 预注册场景连接到同一组可移交、可阻断、可复核的现实证据包；本矩阵不新增项目、场景、审批或现实成绩。",
+  "purpose_en": "Connect the existing eight renewal projects, three first-test protocols, and twelve G1 preregistration scenes to one transferable, blocking, and reviewable real-world evidence chain. This matrix creates no new project, scene, approval, or real-world result.",
+  "authority_boundary": {
+    "current_gate": "G0",
+    "approved_items": 0,
+    "operating_items": 0,
+    "completed_field_tests": 0,
+    "known_real_world_results": 0,
+    "official_geometry_available": false,
+    "rule": "A complete template or cross-reference is not implementation evidence. Every item remains NO-GO until all nine item-specific closure artifacts are supplied, accepted, and independently reviewable."
+  },
+  "handoff_pack_definitions": [
+    {
+      "pack_id": "H01_AUTHORITY",
+      "closure_category_ref": "visual/assets/readiness-closure-contract.json#C01_ROLE_ACCEPTANCE",
+      "required_contents": ["real accountable-party acceptance", "operationally responsible-party acceptance", "reachable stop chain and shift coverage"]
+    },
+    {
+      "pack_id": "H02_APPROVAL_SCOPE",
+      "closure_category_ref": "visual/assets/readiness-closure-contract.json#C02_APPROVAL_SCOPE",
+      "required_contents": ["approval register", "approved site and time window", "conditions and expiry"]
+    },
+    {
+      "pack_id": "H03_BASELINE",
+      "closure_category_ref": "visual/assets/readiness-closure-contract.json#C03_SITE_TIME_BASELINE",
+      "required_contents": ["dated site survey", "ordinary-use baseline", "same-task non-AI comparator"]
+    },
+    {
+      "pack_id": "H04_DATA_SAFETY",
+      "closure_category_ref": "visual/assets/readiness-closure-contract.json#C04_PROHIBITED_DATA_CONTROL",
+      "required_contents": ["prohibited-data control", "minimum-data inventory", "incident and retention procedure"]
+    },
+    {
+      "pack_id": "H05_STOP_RECOVERY",
+      "closure_category_ref": "visual/assets/readiness-closure-contract.json#C05_STOP_AUTHORITY",
+      "additional_closure_category_ref": "visual/assets/readiness-closure-contract.json#C06_RECOVERY_REHEARSAL",
+      "required_contents": ["physical or procedural stop test", "named restart authority", "rehearsed restoration and acceptance record"]
+    },
+    {
+      "pack_id": "H06_PUBLIC_PARITY",
+      "closure_category_ref": "visual/assets/readiness-closure-contract.json#C07_COMMUNITY_CO_TEST",
+      "required_contents": ["community co-test record", "same-task non-AI parity comparison", "appeal and withdrawal record"]
+    },
+    {
+      "pack_id": "H07_RETEST_DECISION",
+      "closure_category_ref": "visual/assets/readiness-closure-contract.json#C08_INDEPENDENT_RETEST",
+      "additional_closure_category_ref": "visual/assets/readiness-closure-contract.json#C09_GO_NO_GO_MINUTE",
+      "required_contents": ["independent retest package", "versioned finding register", "signed go/no-go minute"]
+    }
+  ],
+  "item_handoffs": [
+    {
+      "item_id": "JZ-01",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-JZ-01",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/public_space.geojson#PUBLIC-004", "geometry/public_space.geojson#PUBLIC-009", "geometry/roads.geojson"],
+      "linked_preregistration_refs": ["G1-PREREG-008", "G1-PREREG-009", "G1-PREREG-010"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "JZ-02",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-JZ-02",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/public_space.geojson", "geometry/green_space.geojson"],
+      "linked_preregistration_refs": ["G1-PREREG-002", "G1-PREREG-008", "G1-PREREG-010"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "JZ-03",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-JZ-03",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/constraints.geojson#AI-ZONE-001", "geometry/constraints.geojson#SCENE-001", "geometry/constraints.geojson#SCENE-004"],
+      "linked_preregistration_refs": ["G1-PREREG-001", "G1-PREREG-002", "G1-PREREG-003"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "JZ-04",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-JZ-04",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/constraints.geojson#AI-ZONE-002", "geometry/constraints.geojson#SCENE-005", "geometry/constraints.geojson#SCENE-007"],
+      "linked_preregistration_refs": ["G1-PREREG-005", "G1-PREREG-006", "G1-PREREG-007"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "JZ-05",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-JZ-05",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/constraints.geojson#AI-ZONE-003", "geometry/constraints.geojson#SCENE-009", "geometry/constraints.geojson#SCENE-012"],
+      "linked_preregistration_refs": ["G1-PREREG-009", "G1-PREREG-011", "G1-PREREG-012"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "JZ-06",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-JZ-06",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/public_space.geojson#PUBLIC-001", "geometry/public_space.geojson#PUBLIC-003"],
+      "linked_preregistration_refs": ["G1-PREREG-005"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "JZ-07",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-JZ-07",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/constraints.geojson"],
+      "linked_preregistration_refs": ["G1-PREREG-003", "G1-PREREG-004"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "JZ-08",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-JZ-08",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/phasing.geojson"],
+      "linked_preregistration_refs": ["G1-PREREG-004"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "T-01",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-T-01",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/constraints.geojson#SCENE-001"],
+      "linked_preregistration_refs": ["G1-PREREG-001"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "T-02",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-T-02",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/constraints.geojson#SCENE-011", "geometry/constraints.geojson#SCENE-012"],
+      "linked_preregistration_refs": ["G1-PREREG-011", "G1-PREREG-012"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    },
+    {
+      "item_id": "T-03",
+      "closure_record_ref": "visual/assets/readiness-closure-contract.json#CLOSE-T-03",
+      "current_phase_ref": "geometry/phasing.geojson#PHASE-1",
+      "spatial_refs": ["geometry/constraints.geojson#SCENE-008", "geometry/constraints.geojson#SCENE-009"],
+      "linked_preregistration_refs": ["G1-PREREG-008", "G1-PREREG-009"],
+      "required_handoff_pack_ids": ["H01_AUTHORITY", "H02_APPROVAL_SCOPE", "H03_BASELINE", "H04_DATA_SAFETY", "H05_STOP_RECOVERY", "H06_PUBLIC_PARITY", "H07_RETEST_DECISION"],
+      "submitted_artifact_refs": [],
+      "decision": "NO-GO"
+    }
+  ],
+  "scenario_crosswalk": [
+    {"preregistration_ref": "G1-PREREG-001", "scene_id": "SCENE-001", "linked_item_ids": ["JZ-03", "T-01"]},
+    {"preregistration_ref": "G1-PREREG-002", "scene_id": "SCENE-002", "linked_item_ids": ["JZ-02", "JZ-03"]},
+    {"preregistration_ref": "G1-PREREG-003", "scene_id": "SCENE-003", "linked_item_ids": ["JZ-03", "JZ-07"]},
+    {"preregistration_ref": "G1-PREREG-004", "scene_id": "SCENE-004", "linked_item_ids": ["JZ-07", "JZ-08"]},
+    {"preregistration_ref": "G1-PREREG-005", "scene_id": "SCENE-005", "linked_item_ids": ["JZ-04", "JZ-06"]},
+    {"preregistration_ref": "G1-PREREG-006", "scene_id": "SCENE-006", "linked_item_ids": ["JZ-04"]},
+    {"preregistration_ref": "G1-PREREG-007", "scene_id": "SCENE-007", "linked_item_ids": ["JZ-04"]},
+    {"preregistration_ref": "G1-PREREG-008", "scene_id": "SCENE-008", "linked_item_ids": ["JZ-01", "JZ-02", "T-03"]},
+    {"preregistration_ref": "G1-PREREG-009", "scene_id": "SCENE-009", "linked_item_ids": ["JZ-01", "JZ-05", "T-03"]},
+    {"preregistration_ref": "G1-PREREG-010", "scene_id": "SCENE-010", "linked_item_ids": ["JZ-01", "JZ-02"]},
+    {"preregistration_ref": "G1-PREREG-011", "scene_id": "SCENE-011", "linked_item_ids": ["JZ-05", "T-02"]},
+    {"preregistration_ref": "G1-PREREG-012", "scene_id": "SCENE-012", "linked_item_ids": ["JZ-05", "T-02"]}
+  ],
+  "summary": {
+    "existing_project_count": 8,
+    "existing_test_protocol_count": 3,
+    "covered_item_count": 11,
+    "covered_preregistration_count": 12,
+    "required_item_category_slot_count": 99,
+    "submitted_real_world_artifact_count": 0,
+    "approved_item_count": 0,
+    "go_decision_count": 0,
+    "no_go_decision_count": 11
+  }
+}

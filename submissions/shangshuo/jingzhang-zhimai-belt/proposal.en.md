@@ -291,6 +291,9 @@ The Logo design fuses three layers of imagery: **Railway Tracks (Jingzhang Railw
 | Road Centerlines | 16 | count(road_features) |
 | Land Use Parcels | 31 (seamless, zero overlap) | count(land_use_features) |
 
+
+*Evidence references — data+metric (spatial indicators & metrics):* [data:geometry/buildings.geojson#BLDG-0001] [data:geometry/constraints.geojson#CONSTRAINTS-0001] [data:geometry/key_areas.geojson#PROV-KEY-001] [data:geometry/key_areas.geojson#PROV-KEY-002] [data:geometry/key_areas.geojson#PROV-KEY-003] [data:geometry/land_use.geojson] [data:geometry/phasing.geojson] [data:geometry/public_space.geojson] [data:geometry/public_space.geojson#PUBLIC-0001] [data:geometry/roads.geojson] [data:geometry/site_boundary.geojson#SITE-0001] [metric:building_footprint_area_sqm] [metric:key_area_count] [metric:public_space_ratio] [metric:site_area_sqm]
+
 ### 2. Compliance Standard Citations
 
 This proposal's design basis, methodology, and presentation follow the following standards and regulations:
@@ -306,6 +309,9 @@ This proposal's design basis, methodology, and presentation follow the following
 | General Accessibility Code for Building & Municipal Engineering (GB 55019-2021) | Mandatory National Standard | Accessibility requirements for new/renovated public buildings |
 | Aged-Friendly Facility General Technical Requirements (GB/T 45158-2024) | Recommended National Standard | Elderly-friendly services |
 
+
+*Evidence references — standard (compliance citations):* [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [standard:MOHURD-ARCH-DESIGN-DEPTH-2016] [standard:MOHURD-CONTROL-DETAILED-PLANNING] [standard:MOHURD-URBAN-DESIGN-MEASURES] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]
+
 ### 3. Source Level Classification (Honest Statement)
 
 This submission's `sources.json` strictly aligns with the organizer-provided `data/source_registry.json` (registry authority). The registration scope is:
@@ -315,6 +321,9 @@ This submission's `sources.json` strictly aligns with the organizer-provided `da
 This submission **did not unilaterally expand source authority**. Other background references (PIPL, local urban renewal guidelines, global tech-city cases, etc.) are categorized as background references in `report/copyright_statement.md`, used only as design input, **not as authoritative endorsement**.
 
 ---
+
+
+*Evidence references — source + depth + assumption (design basis & evidence):* [source:DATA-SRC-AGENT-TASKBOOK-20260518] [source:DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311] [source:DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING] [source:DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES] [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509] [source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605] [depth:blue_green_public_space] [depth:development_intensity_controls] [depth:existing_conditions_diagnosis] [depth:height_massing_character] [depth:land_use_layout] [depth:metrics_recalculation] [depth:municipal_new_infrastructure] [depth:overall_spatial_structure] [depth:phasing_implementation] [depth:renewal_project_list] [depth:retain_renovate_demolish] [depth:risk_missing_data] [depth:three_key_area_detailed_design] [depth:three_level_scope_framework] [depth:traffic_rail_slow_parking] [assumption:A-CONTROLS-001] [assumption:A-DESIGN-001] [assumption:A-INFRA-001]
 
 ## References
 

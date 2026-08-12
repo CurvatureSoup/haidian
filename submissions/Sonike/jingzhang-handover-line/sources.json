@@ -33,7 +33,11 @@
         "替代官方红线、控规、权属或工程底图",
         "推断现状建筑、市政容量或交通量"
       ],
-      "limitations": "资料包明确缺少多项法定与工程底图。"
+      "limitations": "资料包明确缺少多项法定与工程底图。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "yes",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "SOURCE-REGISTRY",
@@ -58,7 +62,11 @@
         "赋予被登记内容以法定效力",
         "替代原始发布机构的授权条款"
       ],
-      "limitations": "登记不等同于内容的法定效力。"
+      "limitations": "登记不等同于内容的法定效力。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "yes",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "PROCESSED-FACT-PACK",
@@ -82,7 +90,11 @@
         "作为新增权威事实的出处",
         "替代公告或标准原文"
       ],
-      "limitations": "处理层不是新增权威来源。"
+      "limitations": "处理层不是新增权威来源。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "background_only",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "BOUNDARY-SOURCE",
@@ -114,7 +126,12 @@
       "not_usable_for": [
         "官方红线、精确面积、地块权属或审批依据"
       ],
-      "limitations": "official_boundary=false；不得作为法定红线。"
+      "limitations": "official_boundary=false；不得作为法定红线。",
+      "registry_source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+      "registry_authority_level": "PROVISIONAL_REPOSITORY",
+      "registry_review_status": "provisional",
+      "usable_for_formal": "provisional_only",
+      "usable_for_formal_basis": "central_registry_verbatim"
     },
     {
       "id": "KEY-AREA-SOURCE",
@@ -137,7 +154,12 @@
       "not_usable_for": [
         "重点区域的法定边界、拆改留结论或权属判断"
       ],
-      "limitations": "official_boundary=false；须由正式边界替换。"
+      "limitations": "official_boundary=false；须由正式边界替换。",
+      "registry_source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+      "registry_authority_level": "PROVISIONAL_REPOSITORY",
+      "registry_review_status": "provisional",
+      "usable_for_formal": "provisional_only",
+      "usable_for_formal_basis": "central_registry_verbatim"
     },
     {
       "id": "OFFICIAL-ANNOUNCEMENT",
@@ -160,7 +182,12 @@
       "not_usable_for": [
         "精确 polygon、控规指标、工程条件或审批结论"
       ],
-      "limitations": "网页公告不包含完整法定附件几何。"
+      "limitations": "网页公告不包含完整法定附件几何。",
+      "registry_source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+      "registry_authority_level": "A0",
+      "registry_review_status": "approved",
+      "usable_for_formal": "yes",
+      "usable_for_formal_basis": "central_registry_verbatim"
     },
     {
       "id": "AGENT-TASKBOOK",
@@ -183,53 +210,97 @@
       "not_usable_for": [
         "法定规划、政府行动或投资承诺"
       ],
-      "limitations": "是清权任务摘录，正式审定仍归人类专业团队。"
+      "limitations": "是清权任务摘录，正式审定仍归人类专业团队。",
+      "registry_source_id": "DATA-SRC-AGENT-TASKBOOK-20260518",
+      "registry_authority_level": "CLEARED_USER_DOCUMENT",
+      "registry_review_status": "approved",
+      "usable_for_formal": "yes",
+      "usable_for_formal_basis": "central_registry_verbatim"
+    },
+    {
+      "id": "FONT-NOTO-SERIF-SC",
+      "source_type": "standard_resource",
+      "evidence_class": "build_toolchain",
+      "authority_level": "T0",
+      "title": "Noto Serif SC（四套 PDF 实际嵌入的中文字体）",
+      "publisher": "Google / Adobe，noto-cjk 项目",
+      "source_locator": "https://github.com/notofonts/noto-cjk/raw/main/Serif/Variable/TTF/Subset/NotoSerifSC-VF.ttf",
+      "retrieved_at": "2026-08-10",
+      "accessed_date": "2026-08-10",
+      "collection_method": "从 noto-cjk 官方仓库取可变字重 TTF（sha256 5326cfb097e3ab26fcb39329752b5c0a439bf8d5c4649520e4b492939c352a09，25,125,232 字节，Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0），用 fontTools 4.60.1 的 varLib.instancer 固定 wght=400→300 得到静态实例 Noto Serif SC Light（sha256 f1fa5614fbf9f9508b181cdc193ed153b350de012a7442e8b6c5b7428643aae5），再由 Ghostscript 10.07.0 经 cidfmap 指定为 GB1 字符集的字体程序、以子集方式嵌入四套 PDF。许可字段直接读自字体 name 表 nameID 13/14，不引用二手说法。",
+      "spatial_coverage": "不适用",
+      "temporal_coverage": "不适用",
+      "license_or_reuse_terms": "SIL Open Font License 1.1（字体 name 表 nameID 13 自述，nameID 14 指向 http://scripts.sil.org/OFL）。OFL 明确允许在文档中嵌入字体子集并随文档再分发，因此本包可承载该字体的嵌入与传播。",
+      "usage": "四套图纸 PDF 中全部中文字形的字体程序。",
+      "usable_for": [
+        "证明四套 PDF 的中文字形来自一款许可可核验、允许嵌入与再分发的开源字体",
+        "支持用 `pdffonts` 复核嵌入状态（应为 <子集前缀>+NotoSerifSC、CID TrueType、emb=yes）"
+      ],
+      "not_usable_for": [
+        "主张对该字体的任何权利",
+        "证明拉丁字形的来源（拉丁字形见 FONT-PDF-BASE14）",
+        "证明图件 PNG 的字形来源（PNG 字形见 FONT-STHEITI-RASTER）"
+      ],
+      "limitations": "PDF 内容流沿用原有排版，仅替换字体程序；字体名对象已同步由 STSong-Light 改为 NotoSerifSC，使文件自述与实际嵌入字形一致。字体文件本身不随包提交（投稿目录不接受 .ttf 扩展名），凭上述 URL 与 sha256 可独立取得并复核。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "not_a_factual_source",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "FONT-PDF-BASE14",
       "source_type": "standard_resource",
       "evidence_class": "build_toolchain",
       "authority_level": "T0",
-      "title": "PDF 内置基础字体（Helvetica / Helvetica-Bold / Helvetica-BoldOblique）",
+      "title": "PDF 内置基础字体（Helvetica 家族与 ZapfDingbats）",
       "publisher": "PDF 规范内置基础十四款字体",
-      "retrieved_at": "2026-08-09",
-      "accessed_date": "2026-08-09",
-      "collection_method": "由 reportlab 以标准字体名引用；用 `pdffonts` 对四套 PDF 逐一核验，结果为 type=Type 1、encoding=WinAnsi、emb=no。",
+      "retrieved_at": "2026-08-10",
+      "accessed_date": "2026-08-10",
+      "collection_method": "由 reportlab 以标准字体名引用；用 `pdffonts` 对四套 PDF 逐一核验，结果为 type=Type 1、encoding=WinAnsi（ZapfDingbats 为 ZapfDingbats 编码）、emb=no。",
       "spatial_coverage": "不适用",
       "temporal_coverage": "不适用",
-      "license_or_reuse_terms": "PDF 规范内置基础字体，按字体名引用，不在文件中嵌入或再分发任何字体文件，因此本包不承载字体授权义务。",
+      "license_or_reuse_terms": "PDF 规范规定的基础十四款字体，按字体名引用，不在文件中嵌入或再分发任何字体文件，因此本包不承载这部分字体的授权义务。",
       "usage": "图纸中全部拉丁文字（页眉编号、页脚、英文标签）。",
       "usable_for": [
-        "证明拉丁文字的排版不依赖任何需授权的第三方字体文件"
+        "证明拉丁文字与符号的排版不依赖任何需授权的第三方字体文件",
+        "说明四套 PDF 中剩余 emb=no 条目的性质"
       ],
       "not_usable_for": [
         "证明 CJK 字形的来源",
         "证明打印效果或字距在任意阅读器中一致"
       ],
-      "limitations": "emb=no 意味着字形由阅读器提供；不同阅读器的度量差异可能造成轻微版面位移。"
+      "limitations": "emb=no 意味着字形由阅读器提供。与中文字体不同，基础十四款字体是 PDF 规范要求符合规范的阅读器自行提供的，因此不构成显示风险；本包选择不嵌入其替代实现，以免在文件中以 Helvetica 之名承载另一铸字厂的字形。不同阅读器的度量差异可能造成拉丁文字的轻微字距差别。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "not_a_factual_source",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "FONT-ADOBE-CID",
       "source_type": "standard_resource",
       "evidence_class": "build_toolchain",
       "authority_level": "T0",
-      "title": "Adobe Asian 标准 CID 字体（STSong-Light、Song）",
-      "publisher": "Adobe Asian 标准字体与 CMap 集",
-      "retrieved_at": "2026-08-09",
-      "accessed_date": "2026-08-09",
-      "collection_method": "由 reportlab 的 UnicodeCIDFont 与 PyMuPDF 的标准 CJK 字体名引用；`pdffonts` 核验结果为 CID Type 0、encoding=UniGB-UCS2-H 或 UniGB-UTF16-H、emb=no。",
+      "title": "Adobe CMap 资源 UniGB-UCS2-H 与 Adobe-GB1 字符集（仅作编码，不再引用字体程序）",
+      "publisher": "Adobe CMap 资源与字符集定义",
+      "retrieved_at": "2026-08-10",
+      "accessed_date": "2026-08-10",
+      "collection_method": "四套 PDF 的 Type0 字体沿用 Adobe 预定义 CMap `UniGB-UCS2-H` 与 `/CIDSystemInfo /Registry (Adobe) /Ordering (GB1)` 作为编码与字符集；字体程序已改为嵌入的 Noto Serif SC（见 FONT-NOTO-SERIF-SC）。用 `pdffonts` 逐套核验，结果为 CID TrueType、encoding=UniGB-UCS2-H、emb=yes。",
       "spatial_coverage": "不适用",
       "temporal_coverage": "不适用",
-      "license_or_reuse_terms": "以标准 CID 字体名与 CMap 引用，不嵌入、不再分发字体文件，本包不承载字体授权义务。",
-      "usage": "图纸中全部中文文字。",
+      "license_or_reuse_terms": "仅使用 CMap 的编码映射与字符集编号，不嵌入、不再分发 Adobe 字体文件；v1.10 及更早版本按名引用 STSong-Light 且不嵌入，自本版起不再依赖该引用。",
+      "usage": "四套图纸 PDF 中文文字的字符编码与字符集声明。",
       "usable_for": [
-        "证明中文排版未嵌入或再分发任何字体文件"
+        "说明中文文字采用哪一套 CMap 编码与字符集"
       ],
       "not_usable_for": [
-        "保证任意阅读器都能显示中文",
-        "证明字形外观与设计稿完全一致"
+        "证明中文字形的来源（字形来源见 FONT-NOTO-SERIF-SC）",
+        "主张对 Adobe CMap 资源的任何权利"
       ],
-      "limitations": "emb=no 且为 CJK：**阅读器必须自带中文字体包，否则中文可能不显示**。这是本包成果的已知阅读依赖，需在正式出版前改为嵌入获授权字体。"
+      "limitations": "本条自 v1.11 起由「字体来源」降为「编码声明」。v1.10 及更早版本此处记录的是「以标准 CID 字体名引用、emb=no」的状态，该状态已被本版的嵌入方案取代。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "not_a_factual_source",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "FONT-STHEITI-RASTER",
@@ -252,7 +323,11 @@
         "主张对该字体的任何权利",
         "在其他机器上复现完全一致的字形"
       ],
-      "limitations": "在未安装该字体的机器上重跑生成脚本会得到不同字形；图件因此按当前栅格产物归档，而非按运行时重绘。"
+      "limitations": "在未安装该字体的机器上重跑生成脚本会得到不同字形；图件因此按当前栅格产物归档，而非按运行时重绘。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "not_a_factual_source",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "TOOLCHAIN-BUILD",
@@ -261,13 +336,13 @@
       "authority_level": "T0",
       "title": "本包成果的生成工具链与依赖许可",
       "publisher": "本投稿自制",
-      "retrieved_at": "2026-08-09",
-      "accessed_date": "2026-08-09",
-      "collection_method": "逐个依赖读取其自身分发元数据（importlib.metadata）取版本与许可，不引用二手说法。",
+      "retrieved_at": "2026-08-10",
+      "accessed_date": "2026-08-10",
+      "collection_method": "Python 依赖逐个读取其自身分发元数据（importlib.metadata）取版本与许可；命令行工具取 `--version` 自述，均不引用二手说法。",
       "spatial_coverage": "不适用",
       "temporal_coverage": "不适用",
-      "license_or_reuse_terms": "Python 3.12.13（PSF）；reportlab 4.4.3（BSD）；Pillow 12.3.0（MIT-CMU）；shapely 2.1.2（BSD 3-Clause）；pyproj 3.7.2（MIT）；PyMuPDF 1.27.2.3（AGPL-3.0 或 Artifex 商业许可，二选一）。",
-      "usage": "几何复算、指标复算、图件栅格渲染、PDF 排版与页脚重刷。",
+      "license_or_reuse_terms": "Python 3.12.13（PSF）；reportlab 4.4.3（BSD）；Pillow 12.3.0（MIT-CMU）；shapely 2.1.2（BSD 3-Clause）；pyproj 3.7.2（MIT）；fontTools 4.60.1（MIT）；qpdf 12.3.2（Apache-2.0）；PyMuPDF 1.27.2.3（AGPL-3.0 或 Artifex 商业许可，二选一）；Ghostscript 10.07.0（AGPL-3.0）。",
+      "usage": "几何复算、指标复算、图件栅格渲染、PDF 排版与页脚重刷，以及本版新增的中文字体嵌入（Ghostscript 按 cidfmap 替换字体程序）与字体名订正（qpdf）。",
       "usable_for": [
         "核验成果由哪些工具生成及各自许可",
         "判断是否存在需随成果传播的许可义务"
@@ -276,7 +351,11 @@
         "证明生成脚本本身已随包提交",
         "证明在他机可逐字节复现"
       ],
-      "limitations": "PyMuPDF 为 AGPL/商业双许可，本包仅将其作为**工具**用于页脚文本重刷，未分发其代码，也未将其链接进任何交付物；若后续需分发生成脚本，须先确认该依赖的分发条件。生成脚本目前不在包内，因此本包不主张逐字节可复现，只主张几何与指标可由 metrics.json 的公式与源文件独立复算。"
+      "limitations": "PyMuPDF 与 Ghostscript 均为 AGPL（PyMuPDF 另有商业许可可选）。二者在本包中**仅作为构建工具在本机运行**：未分发其源码或二进制，未将其代码链接进任何交付物，生成的 PDF 是工具的输出而非其衍生作品，因此不随成果传播 AGPL 义务。嵌入 PDF 的字体子集来自 OFL-1.1 的 Noto Serif SC，不来自任何 AGPL 组件。生成脚本目前不在包内，因此本包不主张逐字节可复现，只主张几何与指标可由 metrics.json 的公式与源文件独立复算。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "not_a_factual_source",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "HAIDIAN-2025-STATISTICAL-BULLETIN",
@@ -397,7 +476,11 @@
         "作为本方案任何空间指标、分期目标或试点绩效值",
         "与其他行政区作排名或因果比较"
       ],
-      "limitations": "统计口径为海淀全区，远大于本方案范围；公报未提供空间分布，也未提供人工智能企业数或独角兽企业数。"
+      "limitations": "统计口径为海淀全区，远大于本方案范围；公报未提供空间分布，也未提供人工智能企业数或独角兽企业数。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "background_only",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "GENERATIVE-AI-INTERIM-MEASURES",
@@ -411,12 +494,12 @@
       "effective_date": "2023-08-15",
       "retrieved_at": "2026-08-08",
       "accessed_date": "2026-08-08",
-      "collection_method": "在国家互联网信息办公室官网读取规章全文，逐条摘取与本方案“停用、投诉、评估”红线直接对应的条款。",
+      "collection_method": "在国家互联网信息办公室官网读取规章全文，逐条摘取三条条款各自的适用对象与实际效果，用于区分法定底线与本方案自设标准。",
       "source_locator": "第十四条、第十五条、第十七条",
       "spatial_coverage": "中华人民共和国境内",
       "temporal_coverage": "2023-08-15 起施行",
       "license_or_reuse_terms": "国家机关公开发布的规章，依法公开；本包只引用条款要义并注明条号，不复制全文。",
-      "usage": "把本方案的“可停用、可投诉、可退出”从设计偏好转为对现行规章的合规响应。",
+      "usage": "记录第十四、十五、十七条各自的适用对象与实际效果，用于在合规基线表中把法定底线与本方案自设标准逐行分列。本方案的“可停用、可投诉、可退出”并非整体由该办法要求。",
       "observations": [
         {
           "id": "genai_measures_effective_date",
@@ -427,17 +510,29 @@
           "not_spatially_allocable": true
         }
       ],
-      "cross_check_note": "第十四条要求发现违法内容时及时采取停止生成、停止传输、消除等处置措施；第十五条要求建立投诉举报机制、设置便捷入口并公布处理流程和反馈时限；第十七条要求具有舆论属性或社会动员能力的服务开展安全评估。三条共同支持本方案把“停用按钮、公开值班簿、反馈时限”作为空间与运营的必备配置，而不是可选增项。",
+      "cross_check_note": "三条条款的实际效果各不相同，不可合并成一条通则：第十四条是**发现违法内容时**的处置义务（停止生成、停止传输、消除等），不构成面向一般用户的停用权；第十五条要求建立投诉举报机制、设置便捷入口并**公布**处理流程和反馈时限，未规定具体数值时限；第十七条只适用于**具有舆论属性或社会动员能力的**服务。因此，本方案的接管亭物理停用入口、非违法情形下的常设停用入口、具体空间载体与任何数值时限，均为本方案自设的公共服务标准，不是上述条款的要求；合规基线表已按此逐行分列。",
       "usable_for": [
-        "论证接管亭的物理停用入口与投诉入口具有法定依据",
-        "论证“公布处理流程和反馈时限”是既有义务，因此交付契约必须留出该字段"
+        "引用第十四条“发现违法内容时应及时停止生成、停止传输、消除”的处置义务本身",
+        "引用第十五条“应建立投诉举报机制、设置便捷入口并公布处理流程和反馈时限”的义务本身",
+        "引用第十七条对具有舆论属性或社会动员能力的服务的安全评估要求本身",
+        "作为合规基线表中“法定依据与其实际效果”一列的出处"
       ],
       "not_usable_for": [
         "作为法律意见或合规结论",
         "推断具体服务是否已完成备案或安全评估",
-        "替代主管部门对个案的认定"
+        "替代主管部门对个案的认定",
+        "由第十四条推出面向一般用户的停用权或退出权",
+        "由第十五条推出任何具体数值的响应时限",
+        "把第十七条的安全评估要求适用于不具备舆论属性或社会动员能力的服务",
+        "把该办法推广到全部AI应用、城市设计项目或非生成式系统",
+        "论证接管亭的物理停用入口、常设停用入口或其空间载体具有法定依据"
       ],
-      "limitations": "本包为城市设计投稿，只作合规对照，不作法律解释；条款适用范围与个案判断由主管部门和法律专业人员负责。"
+      "limitations": "本包为城市设计投稿，只作合规对照，不作法律解释；条款适用范围与个案判断由主管部门和法律专业人员负责。",
+      "registry_source_id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+      "registry_authority_level": "A0",
+      "registry_review_status": "approved",
+      "usable_for_formal": "yes",
+      "usable_for_formal_basis": "central_registry_verbatim"
     },
     {
       "id": "BARRIER-FREE-ENVIRONMENT-LAW",
@@ -456,7 +551,7 @@
       "spatial_coverage": "中华人民共和国境内",
       "temporal_coverage": "2023-09-01 起施行",
       "license_or_reuse_terms": "国家法律，依法公开；本包只引用条款要义并注明条号。",
-      "usage": "把本方案的“无AI等价服务”红线锚定为法定义务，而不是设计者的善意。",
+      "usage": "记录第三十九条的适用范围与人工办理要求，用于界定本方案人工兜底中哪一部分属法定下限。该条只覆盖列举的服务事项，本方案把人工兜底推广到全部十二个场景与组件库属自设标准。",
       "observations": [
         {
           "id": "barrier_free_law_effective_date",
@@ -467,22 +562,29 @@
           "not_spatially_allocable": true
         }
       ],
-      "cross_check_note": "第三十九条明确：公共服务场所涉及医疗健康、社会保障、金融业务、生活缴费等服务事项的，应当保留现场指导、人工办理等传统服务方式。该条与国办发〔2020〕45号的“传统服务方式与智能化服务创新并行”同向，二者共同构成本方案人工窗口配置的法定与政策依据。",
+      "cross_check_note": "第三十九条的适用对象是**涉及医疗健康、社会保障、金融业务、生活缴费等事项的**公共服务场所，要求其保留现场指导、人工办理等传统服务方式；**不适用于全部公共空间或数字界面**。国办发〔2020〕45号提出“传统服务方式与智能化服务创新并行”，方向一致，但属政策要求而非法律义务，二者不可合并表述为“法定依据”。本方案把人工兜底推广到全部十二个场景与组件库，超出该条适用范围，属自设的公共服务标准；合规基线表已按此分列。",
       "usable_for": [
-        "论证公共服务类场景必须保留现场指导与人工办理，且属于法定要求",
-        "为组件库、接管亭与城市交接厅设定无障碍与人工兜底的下限"
+        "引用第三十九条对列举服务事项（医疗健康、社会保障、金融业务、生活缴费等）公共服务场所保留现场指导与人工办理的法定要求本身",
+        "仅在上述列举情形内，作为无障碍与人工兜底下限的法定出处"
       ],
       "not_usable_for": [
         "作为法律意见或对具体场所的合规认定",
-        "推断既有设施的无障碍达标情况"
+        "推断既有设施的无障碍达标情况",
+        "把第三十九条的人工办理要求推广到全部公共空间、全部十二个场景或数字界面",
+        "论证组件库、接管亭与城市交接厅的人工兜底配置整体具有法定依据"
       ],
-      "limitations": "本包只作合规对照；具体项目的无障碍设计与验收须由具备资质的专业团队按现行标准执行。"
+      "limitations": "本包只作合规对照；具体项目的无障碍设计与验收须由具备资质的专业团队按现行标准执行。",
+      "registry_source_id": "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+      "registry_authority_level": "A0",
+      "registry_review_status": "approved",
+      "usable_for_formal": "yes",
+      "usable_for_formal_basis": "central_registry_verbatim"
     },
     {
       "id": "ELDERLY-SMART-TECH-PLAN",
       "url": "https://www.gov.cn/zhengce/content/2020-11/24/content_5563804.htm",
       "source_type": "official_public",
-      "evidence_class": "regulatory_baseline",
+      "evidence_class": "background_only",
       "authority_level": "A1",
       "title": "国务院办公厅关于印发《关于切实解决老年人运用智能技术困难实施方案》的通知（国办发〔2020〕45号）",
       "publisher": "国务院办公厅",
@@ -494,7 +596,7 @@
       "spatial_coverage": "全国",
       "temporal_coverage": "2020-11-24 印发",
       "license_or_reuse_terms": "国务院办公厅公开发布的政策文件，依法公开。",
-      "usage": "为“十二个场景一律配置无AI等价服务”提供政策依据与场景清单对照。",
+      "usage": "作为“传统服务方式与智能化服务创新并行”的政策背景与高频场景清单对照。该文件是政策通知而非法律义务，也未对具体项目设定法定控制；“十二个场景一律配置无AI等价服务”的覆盖范围与强制程度属本方案自设。",
       "observations": [
         {
           "id": "elderly_plan_document_number",
@@ -505,16 +607,25 @@
           "not_spatially_allocable": true
         }
       ],
-      "cross_check_note": "文件确立“坚持传统服务方式与智能化服务创新并行”，并聚焦出行、就医、消费、文娱、办事等高频事项；本方案十二个场景的无AI兜底逐一对应到这些高频事项，而不是笼统声明“照顾老年人”。",
+      "cross_check_note": "文件提出“坚持传统服务方式与智能化服务创新并行”，并列举出行、就医、消费、文娱、办事等高频事项。**该表述是并行原则，不等于“不得取消传统渠道”的禁止性规定**；文件为国务院办公厅政策通知，不是法律义务，中央来源登记亦标为 background_only。本方案十二个场景的无AI兜底逐一对应到这些高频事项类别，而不是笼统声明“照顾老年人”；一律配置的强制程度由本方案自设。",
       "usable_for": [
-        "论证智能化服务不得取消传统渠道属于既有政策要求",
+        "引用“坚持传统服务方式与智能化服务创新并行”这一政策原则本身",
+        "引用出行、就医、消费、文娱、办事等高频服务场景清单",
         "把场景卡的“无AI等价服务”一栏对应到具体高频事项类别"
       ],
       "not_usable_for": [
         "作为对具体服务机构的合规评价",
-        "推断海淀区或走廊内老年人的实际使用情况与需求量"
+        "推断海淀区或走廊内老年人的实际使用情况与需求量",
+        "把该政策通知当作具体项目的法定控制要求或法律义务",
+        "由“并行”原则推出“不得取消传统渠道”的禁止性规定",
+        "推断某地或某服务已落实该政策"
       ],
-      "limitations": "政策文件面向全国，未给出空间落位或本地实施细则；本地做法须由主管部门确定。"
+      "limitations": "政策文件面向全国，未给出空间落位或本地实施细则；本地做法须由主管部门确定。",
+      "registry_source_id": "DATA-SRC-ELDERLY-SMART-TECH-PLAN-2020-45",
+      "registry_authority_level": "A0",
+      "registry_review_status": "approved",
+      "usable_for_formal": "background_only",
+      "usable_for_formal_basis": "central_registry_verbatim"
     },
     {
       "id": "CASE-ONE-NORTH",
@@ -537,7 +648,11 @@
       "not_usable_for": [
         "绩效因果推断、土地制度移植或指标类比"
       ],
-      "limitations": "仅转述公开网页；未复用图片或品牌资产，不进行绩效因果推断。"
+      "limitations": "仅转述公开网页；未复用图片或品牌资产，不进行绩效因果推断。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "background_only",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "CASE-KALASATAMA",
@@ -560,7 +675,11 @@
       "not_usable_for": [
         "移植其数据治理环境、福利制度或居民参与基础"
       ],
-      "limitations": "仅转述公开网页；制度与数据治理环境不可直接移植。"
+      "limitations": "仅转述公开网页；制度与数据治理环境不可直接移植。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "background_only",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "CASE-STATION-F",
@@ -583,7 +702,11 @@
       "not_usable_for": [
         "企业绩效、融资结果或运营收益的类比"
       ],
-      "limitations": "仅转述公开网页；未验证企业绩效，未复用视觉资产。"
+      "limitations": "仅转述公开网页；未验证企业绩效，未复用视觉资产。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "background_only",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "CASE-22BARCELONA",
@@ -606,7 +729,11 @@
         "土地制度、容积奖励或财政工具的直接移植"
       ],
       "usage": "提取创新地区的经济、社会与城市更新协同框架。",
-      "limitations": "仅作机制对照；土地制度、历史阶段与治理结构不同。"
+      "limitations": "仅作机制对照；土地制度、历史阶段与治理结构不同。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "background_only",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "CASE-KENDALL",
@@ -629,7 +756,11 @@
         "直接套用其数值、分区管制或开发条件"
       ],
       "usage": "提取把用地、城市设计、交通与实施行动放入同一规划研究的做法。",
-      "limitations": "仅转述城市官方报告；不直接套用数值和管制。"
+      "limitations": "仅转述城市官方报告；不直接套用数值和管制。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "background_only",
+      "usable_for_formal_basis": "participant_self_assessed"
     },
     {
       "id": "CASE-KNOWLEDGE-QUARTER",
@@ -652,7 +783,12 @@
         "成员构成、成效或经济影响的直接引用"
       ],
       "usage": "提取联盟式知识交换、公共可达和场所运营机制。",
-      "limitations": "仅转述公开网页；组织成员与成效需持续核验。"
+      "limitations": "仅转述公开网页；组织成员与成效需持续核验。",
+      "registry_source_id": null,
+      "registry_review_status": "not_in_central_registry",
+      "usable_for_formal": "background_only",
+      "usable_for_formal_basis": "participant_self_assessed"
     }
-  ]
+  ],
+  "registry_alignment_note": "本表的 usable_for_formal 采用中央登记表 data/source_registry.json 的同一套取值词汇，以便机器逐项对照。凡 usable_for_formal_basis = central_registry_verbatim 的条目，其 registry_source_id / registry_authority_level / registry_review_status / usable_for_formal 四项均由脚本从中央表逐字复制，未经改写；本包对该来源的用法另受中央表 allowed_uses / prohibited_uses 约束，逐条已在 usable_for / not_usable_for 中收窄。凡 basis = participant_self_assessed 的条目**不在中央表内**，registry_review_status 一律标 not_in_central_registry —— 维护者已裁定参赛者自采源不必重复登记中央表，投稿包的 sources.json 才是该来源的完整记录；但自评状态不等于中央批准，本包不据此主张任何中央审定结论。not_a_factual_source 用于字体与构建工具链条目：它们是资产与软件许可记录，不是事实来源，不作为任何设计结论的证据。"
 }

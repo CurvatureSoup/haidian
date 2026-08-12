@@ -4,8 +4,8 @@
     {
       "id": "A-BOUNDARY-001",
       "status": "pending_official_data",
-      "statement": "总体边界与三处重点区使用仓库 provisional rough polygons。",
-      "impact": "面积、图层、图纸和指标只用于投稿内部一致性；official polygon 到位后须整链重算。"
+      "statement": "总体边界与三处重点区使用仓库 provisional rough polygons；主线背景核对记录 OSM 已测绘遗址公园与 PROV-SITE-001 相交 0%、最近约 412.5 米。",
+      "impact": "差异不证明任何一方正确，但所有面积、图层、图纸和 OSM 指标只描述当前暂定 polygon；official polygon 到位后须整链重算。"
     },
     {
       "id": "A-CONTROLS-001",
@@ -28,8 +28,8 @@
     {
       "id": "A-OSM-001",
       "status": "public_baseline_with_limits",
-      "statement": "OSM 标签和步行路网覆盖不完整且不均匀。",
-      "impact": "结果只形成现场核查候选；缺标签不证明设施不存在，也不表示容量、价格、营业或质量。"
+      "statement": "OSM 标签和步行路网覆盖不完整且不均匀，分析范围本身又是存在已量化背景差异的 provisional polygon。",
+      "impact": "结果只形成当前暂定范围的现场核查候选；不能外推为遗址公园周边正式基线，缺标签也不证明设施不存在或表示容量、价格、营业、质量。"
     },
     {
       "id": "A-RETENTION-001",

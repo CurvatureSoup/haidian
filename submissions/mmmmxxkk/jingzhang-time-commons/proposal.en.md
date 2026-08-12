@@ -31,12 +31,14 @@ Version 2.0 is a substantive replacement of the merged v1 “Time Commons.” At
 
 The official announcement and agent taskbook provide the project aims, textual scopes, approximate areas, three focus areas, and six agent tasks. [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK] The repository still lacks approval-grade boundaries, zoning controls, building surveys, tenure, leases, road redlines, utilities, heritage records, and household baselines. `site_boundary.geojson` and `key_areas.geojson` therefore remain `provisional_constraint` geometries. All dependent results must be recalculated when official geometry arrives. [source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]
 
+The latest repository basis note adds a background-only cross-check: the OSM-mapped Jing-Zhang Railway Heritage Park has 0% intersection with `PROV-SITE-001`, with a nearest distance of about 412.5 metres. This establishes neither that OSM is complete nor that the provisional polygon is wrong, so it is not a basis for silently moving the boundary. It does establish that every current OSM metric describes only the current provisional polygon and must not be presented as an official park-surroundings baseline. [source:BOUNDARY-BASIS-AUDIT]
+
 This version adds a reproducible OSMnx workflow. Inside the provisional WGS84 boundary it retrieved [metric:osm_walk_node_count] walk nodes, [metric:osm_walk_edge_count] directed edges, and [metric:osm_selected_facility_count] filtered facility objects. [metric:osm_all_five_access_1200_ratio] of walk nodes can reach OSM tags in all five categories—public transport, daily food, health, care/education, and public basics—within 1,200 metres of network distance. This describes tag coverage, not a facility census or service quality. A missing tag is not evidence that a service is absent. [source:OSM-BASELINE] [source:OSMNX]
 
 | Evidence layer | Current status | Supports | Does not support |
 | --- | --- | --- | --- |
 | Announcement and taskbook | registered | aims, textual scope, required tasks | official geometry or controls |
-| Provisional geometry | reproducible, low confidence | internal topology and concept relations | approval, relocation, precise quantities |
+| Provisional geometry | reproducible, low confidence; about 412.5 m background discrepancy from the OSM-mapped park | internal topology and concept relations | approval, relocation, precise quantities, or actual park inclusion |
 | OSM network and tags | generated under ODbL | access candidates and field-check list | capacity, price, hours, quality, absence |
 | Housing, tenancy, shops, labour | missing | data collection contracts only | rent pressure, displacement, survival rates |
 | Participation | not conducted | recruitment and dissent-recording method | resident consent or satisfaction |

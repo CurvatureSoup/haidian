@@ -137,7 +137,7 @@
   },
   "building_footprint_area_sqm": {
    "status": "known",
-   "value": 279250.8,
+   "value": 285551.4,
    "unit": "sqm",
    "source_files": [
     "geometry/buildings.geojson"
@@ -151,7 +151,7 @@
   },
   "concept_total_floor_area_sqm": {
    "status": "known",
-   "value": 3886868.7,
+   "value": 3953480.0,
    "unit": "sqm",
    "source_files": [
     "geometry/buildings.geojson"
@@ -165,7 +165,7 @@
   },
   "concept_far_key_areas": {
    "status": "known",
-   "value": 1.0525,
+   "value": 1.0706,
    "unit": "far",
    "source_files": [
     "geometry/buildings.geojson",
@@ -180,7 +180,7 @@
   },
   "building_density_key_areas": {
    "status": "known",
-   "value": 0.0756,
+   "value": 0.0773,
    "unit": "ratio",
    "source_files": [
     "geometry/buildings.geojson",
@@ -236,6 +236,47 @@
    "formula": "count(road_class in branch,pedestrian)",
    "confidence": "high",
    "assumptions": []
+  },
+  "greenway_500m_coverage_ratio": {
+   "status": "known",
+   "value": 0.9068,
+   "unit": "ratio",
+   "source_files": [
+    "geometry/land_use.geojson",
+    "geometry/site_boundary.geojson"
+   ],
+   "formula": "area_epsg4548(buffer(union(land_use where code=1401),500m) ∩ site_boundary) / site_area",
+   "confidence": "medium",
+   "assumptions": [
+    "A-BOUNDARY-001"
+   ]
+  },
+  "rail_station_800m_coverage_ratio": {
+   "status": "known",
+   "value": 0.5481,
+   "unit": "ratio",
+   "source_files": [
+    "geometry/roads.geojson",
+    "geometry/site_boundary.geojson"
+   ],
+   "formula": "area_epsg4548(union(buffer(rail_station_point_i,800m), i=1..5) ∩ site_boundary) / site_area;站点锚点(lon,lat,WGS84近似)=北京北站(116.3450,39.9400); 大钟寺站(116.3480,39.9665); 五道口站(116.3490,39.9985); 清华东路西口站(116.3482,40.0070); 清河站(116.3495,40.0250)",
+   "confidence": "medium",
+   "assumptions": [
+    "A-BOUNDARY-001"
+   ]
+  },
+  "stitch_road_avg_spacing_m": {
+   "status": "known",
+   "value": 1080.8,
+   "unit": "m",
+   "source_files": [
+    "geometry/roads.geojson"
+   ],
+   "formula": "length_epsg4548(RD-001 记忆线主轴) / (east_west_stitch_road_count - 1) = 9726.8 / (10 - 1);沿轴线方向的平均缝合间距",
+   "confidence": "medium",
+   "assumptions": [
+    "A-BOUNDARY-001"
+   ]
   },
   "floor_area_ratio_official": {
    "status": "unknown",
@@ -307,7 +348,7 @@
   },
   "land_use_05_area_sqm": {
    "status": "known",
-   "value": 4361601.7,
+   "value": 4178326.7,
    "unit": "sqm",
    "source_files": [
     "geometry/land_use.geojson"
@@ -349,7 +390,7 @@
   },
   "land_use_0802_area_sqm": {
    "status": "known",
-   "value": 2927992.9,
+   "value": 2975906.6,
    "unit": "sqm",
    "source_files": [
     "geometry/land_use.geojson"
@@ -363,7 +404,7 @@
   },
   "land_use_0803_area_sqm": {
    "status": "known",
-   "value": 237236.1,
+   "value": 420511.1,
    "unit": "sqm",
    "source_files": [
     "geometry/land_use.geojson"
@@ -433,7 +474,7 @@
   },
   "land_use_16_area_sqm": {
    "status": "known",
-   "value": 122483.1,
+   "value": 74569.3,
    "unit": "sqm",
    "source_files": [
     "geometry/land_use.geojson"
@@ -445,9 +486,173 @@
     "A-CONCEPT-001"
    ]
   },
+  "key_area_zhongzhiyuan_concept_far": {
+   "status": "known",
+   "value": 0.8839,
+   "unit": "far",
+   "source_files": [
+    "geometry/buildings.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "sum(footprint*floors in zhongzhiyuan)/area(zhongzhiyuan)",
+   "confidence": "low",
+   "assumptions": [
+    "A-BOUNDARY-001",
+    "A-CONCEPT-001"
+   ]
+  },
+  "key_area_zhongzhiyuan_building_density": {
+   "status": "known",
+   "value": 0.07,
+   "unit": "ratio",
+   "source_files": [
+    "geometry/buildings.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "sum(footprint in zhongzhiyuan)/area(zhongzhiyuan)",
+   "confidence": "low",
+   "assumptions": [
+    "A-BOUNDARY-001",
+    "A-CONCEPT-001"
+   ]
+  },
+  "key_area_origin_concept_far": {
+   "status": "known",
+   "value": 1.1777,
+   "unit": "far",
+   "source_files": [
+    "geometry/buildings.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "sum(footprint*floors in origin)/area(origin)",
+   "confidence": "low",
+   "assumptions": [
+    "A-BOUNDARY-001",
+    "A-CONCEPT-001"
+   ]
+  },
+  "key_area_origin_building_density": {
+   "status": "known",
+   "value": 0.0903,
+   "unit": "ratio",
+   "source_files": [
+    "geometry/buildings.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "sum(footprint in origin)/area(origin)",
+   "confidence": "low",
+   "assumptions": [
+    "A-BOUNDARY-001",
+    "A-CONCEPT-001"
+   ]
+  },
+  "key_area_dazhongsi_concept_far": {
+   "status": "known",
+   "value": 1.4152,
+   "unit": "far",
+   "source_files": [
+    "geometry/buildings.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "sum(footprint*floors in dazhongsi)/area(dazhongsi)",
+   "confidence": "low",
+   "assumptions": [
+    "A-BOUNDARY-001",
+    "A-CONCEPT-001"
+   ]
+  },
+  "key_area_dazhongsi_building_density": {
+   "status": "known",
+   "value": 0.0782,
+   "unit": "ratio",
+   "source_files": [
+    "geometry/buildings.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "formula": "sum(footprint in dazhongsi)/area(dazhongsi)",
+   "confidence": "low",
+   "assumptions": [
+    "A-BOUNDARY-001",
+    "A-CONCEPT-001"
+   ]
+  },
+  "memory_line_length_m": {
+   "status": "known",
+   "value": 9726.8,
+   "unit": "m",
+   "source_files": [
+    "geometry/roads.geojson"
+   ],
+   "formula": "length(RD-001 spine)",
+   "confidence": "medium",
+   "assumptions": [
+    "A-BOUNDARY-001"
+   ]
+  },
+  "design_road_network_length_m": {
+   "status": "known",
+   "value": 21543.9,
+   "unit": "m",
+   "source_files": [
+    "geometry/roads.geojson"
+   ],
+   "formula": "sum(length of design road centerlines)",
+   "confidence": "medium",
+   "assumptions": [
+    "A-BOUNDARY-001",
+    "A-CONCEPT-001"
+   ]
+  },
+  "mean_land_unit_area_sqm": {
+   "status": "known",
+   "value": 81520.2,
+   "unit": "sqm",
+   "source_files": [
+    "geometry/land_use.geojson"
+   ],
+   "formula": "site_area/count(land_use_units)",
+   "confidence": "medium",
+   "assumptions": [
+    "A-BOUNDARY-001",
+    "A-CONCEPT-001"
+   ]
+  },
+  "land_unit_count": {
+   "status": "known",
+   "value": 140,
+   "unit": "count",
+   "source_files": [
+    "geometry/land_use.geojson"
+   ],
+   "formula": "count(LAND_USE features)",
+   "confidence": "high",
+   "assumptions": []
+  },
+  "concept_building_count": {
+   "status": "known",
+   "value": 248,
+   "unit": "count",
+   "source_files": [
+    "geometry/buildings.geojson"
+   ],
+   "formula": "count(BUILDING_FOOTPRINT)",
+   "confidence": "high",
+   "assumptions": []
+  },
+  "public_space_node_count": {
+   "status": "known",
+   "value": 7,
+   "unit": "count",
+   "source_files": [
+    "geometry/public_space.geojson"
+   ],
+   "formula": "count(PUBLIC_SPACE)",
+   "confidence": "high",
+   "assumptions": []
+  },
   "phase_1_area_sqm": {
    "status": "known",
-   "value": 4273925.8,
+   "value": 4238944.3,
    "unit": "sqm",
    "source_files": [
     "geometry/phasing.geojson"
@@ -461,7 +666,7 @@
   },
   "phase_2_area_sqm": {
    "status": "known",
-   "value": 2311244.1,
+   "value": 2304966.2,
    "unit": "sqm",
    "source_files": [
     "geometry/phasing.geojson"
@@ -475,7 +680,7 @@
   },
   "phase_3_area_sqm": {
    "status": "known",
-   "value": 4827655.4,
+   "value": 4868914.9,
    "unit": "sqm",
    "source_files": [
     "geometry/phasing.geojson"

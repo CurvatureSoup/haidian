@@ -1,6 +1,11 @@
 {
  "type": "FeatureCollection",
  "name": "REGULATORY_CONTROL",
+ "derived_measures": {
+  "coordinates_crs": "urn:ogc:def:crs:OGC::CRS84",
+  "measurement_crs": "EPSG:4548",
+  "note": "Coordinates are CRS84 (WGS 84 lon/lat) as required by RFC 7946 section 4, which removed the GeoJSON crs member; every *_declared area and length property in this file was computed in EPSG:4548 (CGCS2000 / 3-degree Gauss-Kruger CM 117E)."
+ },
  "features": [
   {
    "type": "Feature",
@@ -13,6 +18,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "name_zh": "S11 AI产业测试验证场受控边界",
+    "name_en": "S11 AI industry test and validation ground — controlled boundary",
     "note_zh": "本方案自定义的受控测试边界，属设计建议，非法定控制线。官方文物保护范围、建设控制地带、蓝线与道路红线仍属数据缺口，本方案不予推定，须待官方图层发布后接入并整体重算。",
     "tolerance_class": "F1",
     "area_sqm_declared": 53007.7,
@@ -297,6 +303,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "name_zh": "S06 低速机器人试点受控边界",
+    "name_en": "S06 low-speed robot pilot — controlled boundary",
     "note_zh": "本方案自定义的受控测试边界，属设计建议，非法定控制线。官方文物保护范围、建设控制地带、蓝线与道路红线仍属数据缺口，本方案不予推定，须待官方图层发布后接入并整体重算。",
     "tolerance_class": "F1",
     "area_sqm_declared": 237479.4,
@@ -393,6 +400,7 @@
     "geometry_role": "design_proposal",
     "official_boundary": false,
     "name_zh": "S10 公共安全运行复盘场景边界（不得自动执行）",
+    "name_en": "S10 public-safety operations review — scenario boundary (never automatic)",
     "note_zh": "本方案自定义的受控测试边界，属设计建议，非法定控制线。官方文物保护范围、建设控制地带、蓝线与道路红线仍属数据缺口，本方案不予推定，须待官方图层发布后接入并整体重算。",
     "tolerance_class": "F1",
     "area_sqm_declared": 15369.1,

@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-08-09T05:24:44Z",
+  "generated_at": "2026-08-10T01:39:30Z",
   "ok": true,
   "review_status": "formal-review-ready",
   "can_enter_formal_review": true,
@@ -125,6 +125,13 @@
       "severity": "info",
       "target": "proposal.md",
       "message": "The public package contains the design, mandatory evidence, licences and risk statements; optional production logs, research corpora, internal reviews and local execution paths are excluded."
+    },
+    {
+      "check_id": "P0_P1_SPATIAL_DEEPENING",
+      "result": "pass",
+      "severity": "major",
+      "target": "drawings/p0-p1-spatial-deepening.pdf",
+      "message": "The bilingual supplement separates OpenStreetMap context, provisional action zones, candidate sections, field tasks and six independent professional gates without upgrading them to official, surveyed or approved status."
     }
   ]
 }

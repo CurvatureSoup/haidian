@@ -38,6 +38,13 @@ h1 { font-size: 34px; line-height: 1.22; margin: 0 0 10px; }
 h2 { font-size: 25px; margin: 34px 0 12px; border-top: 1px solid var(--line); padding-top: 24px; }
 h3 { font-size: 20px; margin: 26px 0 10px; }
 p, li { font-size: 16px; }
+blockquote {
+  margin: 18px 0;
+  padding: 12px 18px;
+  border-left: 4px solid var(--line);
+  color: var(--muted);
+  background: #f8fafc;
+}
 code {
   background: #eef2f7;
   color: #1d4f7a;
@@ -111,7 +118,7 @@ code {
 <h1>京张缝合带 THE MENDING BELT</h1>
 <h2>摘要与总体判断</h2>
 <p>百年京张铁路给海淀留下两笔遗产：一笔是可以被纪念的自主创新精神，另一笔很少被正面讨论——它在城市中留下了一条从北五环到西直门外大街、近十公里长的连续走廊。铁路作为线性基础设施，天然优先纵向通行，横向连通则有待补足。一百年里，东西两侧的社区、校园、产业区各自成长壮大，东西两侧的日常生活各自形成了完整而独立的体系。这不是修辞。用 OpenStreetMap 开放数据对走廊做一次穿越性统计，现状的横向连通条件可以被量化：</p>
-<p>&gt; 在图幅内约 10.19 公里的京张走廊上，能够连续贯通东西两侧的道路只有 6 条。平均间距约 2,038 米，最大空档达 2,160 米。</p>
+<blockquote><p>在图幅内约 10.19 公里的京张走廊上，能够连续贯通东西两侧的道路只有 6 条。平均间距约 2,038 米，最大空档达 2,160 米。</p></blockquote>
 <p>也就是说，在这条带的某些位置，地图上可映射的连续东西向穿越点之间相隔两公里以上。这是横向连通提升空间的量化线索，不是交通调查、权属判断或“合法通行点”结论；实际绕行还须由现场与交通专业核实 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="existing_ew_crossing_count" title="指标：existing_ew_crossing_count">指标</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="max_crossing_gap_m" title="指标：max_crossing_gap_m">指标</sup>。</p>
 <p>因此本方案提出一个与常见思路相反的总体判断：这条带的首要任务不是&quot;更好地沿着它走&quot;，而是&quot;重新能够横着穿过去&quot;。遗址公园的价值不在于再造一条供人纵向漫步的景观主脉，而在于它第一次让横向缝合在空间上成为可能。方案把这一判断落成三件具体的事：一道连续的遗产缝合绿脊作为公共底座，十处横向缝合口作为核心公共空间系统，以及一套让同一块地面在不同时段承担不同角色的全时运行机制 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/public_space.geojson#PUBLIC-006" title="空间数据：geometry/public_space.geojson#PUBLIC-006">空间数据</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="mending_stitch_count" title="指标：mending_stitch_count">指标</sup>。</p>
 <p>十处缝合口不是均匀撒点，而是对着上面那份统计逐条回应：其中 6 处改造既有穿越——那 6 条已经贯通的路，问题不在有没有，而在断点、绕行与无障碍不连续；另 4 处填补实测空档——落在 1.5 km 以上的缺口里，两端都接到既有道路上，不做&quot;通向围墙的通道&quot; <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="stitch_upgrade_count" title="指标：stitch_upgrade_count">指标</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="stitch_new_link_count" title="指标：stitch_new_link_count">指标</sup>。每一条线形都沿 OSM 实测道路走向绘制，而不是画在图上的一道横杠。</p>
@@ -152,7 +159,7 @@ code {
 <h3>遗产缝合绿脊</h3>
 <p>沿原铁路走廊全长贯通，占带宽约一半，是公共底座与文化载体，也承担南北慢行主线的功能。绿脊连续是前提——一旦被打断，横向缝合就失去可依托的公共地面 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/green_space.geojson#GREEN-001" title="空间数据：geometry/green_space.geojson#GREEN-001">空间数据</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="green_ratio" title="指标：green_ratio">指标</sup>。</p>
 <h3>东西两侧界面</h3>
-<p>不是简单的用地填充，而是跨缝功能对位：西侧与东侧在同一纬度上布置互补而非重复的功能，制造横向往返的真实理由。众智园段西侧为全栈研发、东侧为中试验证，研发与验证之间的往返本身就产生穿越需求；AI原点段西侧为居住与人才居住、东侧为社区服务设施，生活与服务的往返同理；大钟寺段西侧为智能原生商业服务业、东侧为文化与展示 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-005" title="空间数据：geometry/land_use.geojson#LU-005">空间数据</sup>。如果东西两侧功能雷同，缝合口就会变成没人使用的装饰性构筑物，这是本方案要主动避免的情形。</p>
+<p>不是简单的用地填充，而是跨缝功能对位：西侧与东侧在同一纬度上布置互补而非重复的功能，制造横向往返的真实理由。众智园段西侧为全栈研发、东侧为中试验证，研发与验证之间的往返本身就产生穿越需求；AI原点段西侧为居住与人才居住、东侧为社区服务设施，生活与服务的往返同理；大钟寺段西侧为智能原生商业服务业、东侧为文化与展示 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-005-1" title="空间数据：geometry/land_use.geojson#LU-005-1">空间数据</sup>。如果东西两侧功能雷同，缝合口就会变成没人使用的装饰性构筑物，这是本方案要主动避免的情形。</p>
 <h3>十处缝合口</h3>
 <p>核心公共空间系统，详见下节。</p>
 <p>用地布局按自然资源部分类指南编制，在临时边界内无缝无叠满铺：绿脊为公园绿地（1401），缝合口穿越绿脊处为广场用地（1403），缝合口在两侧的地面为城镇村道路用地（1207），三处重点区两侧按上述对位关系分别为科研用地（0802）、城镇住宅用地（0701）、城镇社区服务设施用地（0702）、商业服务业用地（05）与文化用地（0803），衔接段西侧为科研用地、东侧为防护绿地（1402），边界拟合余量登记为留白用地（16）<sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="land_use_polygon_count" title="指标：land_use_polygon_count">指标</sup>。</p>
@@ -201,7 +208,7 @@ code {
 <h3>公共利益与公平校验</h3>
 <p>缝合口的评价顺序是“先连续、再效率、后活动”：老人、儿童照护者、轮椅与助行器使用者的无障碍连续性不因活动布置被牺牲；夜间照明保留安全底线，不以降低照明换取节能指标；免费穿越空间不以消费、注册或使用某一平台为前提；试点前后均记录不同用户群体的可达性、停留与投诉处置，不以单一平均值掩盖弱势群体的损失。若某一试点改善了通勤却降低了照护、无障碍或夜间安全表现，优先回退或调整，而不是继续扩大。</p>
 <h2>用地、建筑规模与拆改留方案</h2>
-<p>用地方案已在&quot;总体设计范围&quot;一节说明，按分类指南编制并在临时边界内满铺 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-001" title="空间数据：geometry/land_use.geojson#LU-001">空间数据</sup>。建筑规模与拆改留：待正式数据补齐。建筑规模取决于容积率管控值，拆改留取决于地块权属、现状建筑质量与安全评估，两类数据在公开资料包中均不存在。方案只提出前述判断原则，不给出任何具体地块结论。几何中的 30 个建筑基底是缝合口两侧活跃界面的概念占位，其面积复算值仅用于说明界面规模量级 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="building_footprint_area_sqm" title="指标：building_footprint_area_sqm">指标</sup>。用地方案的设计意图是让每一块地都对缝合口负责。绿脊统一为公园绿地（1401），保证公共底座连续；缝合口穿越绿脊处转为广场用地（1403），使横向地面在权属与管理口径上就是公共的，而不是靠绿地临时借用；缝合口在东西两侧的地面登记为城镇村道路用地（1207），确保步行连续有明确的用地依据。三处重点区两侧按跨缝功能对位分别落为科研（0802）、城镇住宅（0701）、社区服务设施（0702）、商业服务业（05）与文化用地（0803）；衔接段西侧为科研用地承担创新服务、东侧为防护绿地（1402）承担生态缓冲，保证绿脊在重点区之外不断线；边界拟合产生的余量登记为留白用地（16），待官方边界发布后重新划分 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-002" title="空间数据：geometry/land_use.geojson#LU-002">空间数据</sup>。这一分配的可复算性由几何保证：110 个用地图斑在临时设计范围内无缝无叠满铺，缺口与重叠均在容差以内，第三方可用同一批 GeoJSON 独立复现面积结论 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="land_use_polygon_count" title="指标：land_use_polygon_count">指标</sup>。需要强调的是，用地代码表达的是功能意图与管理口径建议，不表达开发强度、建筑规模或权属；官方红线与控规管控值发布后，用地边界与代码都须重新校核，而不是沿用本方案的临时划分 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="land_use_layout" title="深度：land_use_layout">深度</sup>。</p>
+<p>用地方案已在&quot;总体设计范围&quot;一节说明，按分类指南编制并在临时边界内满铺 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-001-1" title="空间数据：geometry/land_use.geojson#LU-001-1">空间数据</sup>。建筑规模与拆改留：待正式数据补齐。建筑规模取决于容积率管控值，拆改留取决于地块权属、现状建筑质量与安全评估，两类数据在公开资料包中均不存在。方案只提出前述判断原则，不给出任何具体地块结论。几何中的 30 个建筑基底是缝合口两侧活跃界面的概念占位，其面积复算值仅用于说明界面规模量级 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="building_footprint_area_sqm" title="指标：building_footprint_area_sqm">指标</sup>。用地方案的设计意图是让每一块地都对缝合口负责。绿脊统一为公园绿地（1401），保证公共底座连续；缝合口穿越绿脊处转为广场用地（1403），使横向地面在权属与管理口径上就是公共的，而不是靠绿地临时借用；缝合口在东西两侧的地面登记为城镇村道路用地（1207），确保步行连续有明确的用地依据。三处重点区两侧按跨缝功能对位分别落为科研（0802）、城镇住宅（0701）、社区服务设施（0702）、商业服务业（05）与文化用地（0803）；衔接段西侧为科研用地承担创新服务、东侧为防护绿地（1402）承担生态缓冲，保证绿脊在重点区之外不断线；边界拟合产生的余量登记为留白用地（16），待官方边界发布后重新划分 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-002-1" title="空间数据：geometry/land_use.geojson#LU-002-1">空间数据</sup>。这一分配的可复算性由几何保证：110 个用地图斑在临时设计范围内无缝无叠满铺，缺口与重叠均在容差以内，第三方可用同一批 GeoJSON 独立复现面积结论 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="land_use_polygon_count" title="指标：land_use_polygon_count">指标</sup>。需要强调的是，用地代码表达的是功能意图与管理口径建议，不表达开发强度、建筑规模或权属；官方红线与控规管控值发布后，用地边界与代码都须重新校核，而不是沿用本方案的临时划分 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="land_use_layout" title="深度：land_use_layout">深度</sup>。</p>
 <h2>交通、轨道、市政与公共服务设施</h2>
 <h3>交通与慢行</h3>
 <p>方案的交通核心是横向连续。绿脊慢行主线贯通南北，十条横向步行连接线跨越绿脊，三条轨道接驳概念线连接重点区与绿脊 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/roads.geojson#ROAD-001" title="空间数据：geometry/roads.geojson#ROAD-001">空间数据</sup>。所有线位均为概念示意，不构成道路线形、道路红线、轨道线位或工程方案，须由交通与轨道专业依法定程序确定 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="traffic_rail_slow_parking" title="深度：traffic_rail_slow_parking">深度</sup>。</p>

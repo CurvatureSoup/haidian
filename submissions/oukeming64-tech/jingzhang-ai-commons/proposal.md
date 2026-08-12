@@ -2,6 +2,8 @@
 title: "未来胡同：把时间还给普通人的 AI 创新带"
 author_github: "oukeming64-tech"
 language: "zh"
+proposal_format_version: "2"
+bilingual_contract_version: "1"
 translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "以未来胡同为社会空间原型，让AI退到后台，用可验证的交通时间红利、无门槛公共服务和街坊共同生活回应百年京张创新带。"
@@ -19,7 +21,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ## 设计依据与资料清单
 
-本方案首先服从官方公告对43.6平方公里统筹研究范围、约11.4平方公里总体设计范围和三处重点区域的任务描述，并以仓库任务包、来源登记、专业标准快照和临时空间数据为机器可读底稿。[source:OFFICIAL-ANNOUNCEMENT] [source:SITE-PACKAGE] [source:SOURCE-REGISTRY] [source:PROCESSED-FACT-PACK] 面向智能体的六项任务、三大定位、五大功能、案例、画像、场景、文化和运营要求来自开源任务书，不被误写成法定规划条件。[source:AGENT-TASKBOOK] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
+本方案首先服从官方公告对43.6平方公里统筹研究范围、约11.4平方公里总体设计范围和三处重点区域的任务描述。[source:OFFICIAL-ANNOUNCEMENT] 仓库任务包规定投稿结构，[source:SITE-PACKAGE] 来源登记和临时空间数据共同构成机器可读底稿。[source:SOURCE-REGISTRY] [source:PROCESSED-FACT-PACK] 面向智能体的六项任务、三大定位、五大功能、案例、画像、场景、文化和运营要求来自开源任务书，[source:AGENT-TASKBOOK] 不被误写成法定规划条件。[standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
 
 当前总体边界与重点片区polygon来自仓库临时粗略数据：[source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]。它们均标注为 provisional constraint、official boundary=false、confidence=medium；由临时边界在EPSG:4548下复算的面积约为11.4128平方公里，只服务于本轮构图和自检，不能解释为官方红线或精确法定面积。[data:geometry/site_boundary.geojson#SITE-001] [data:geometry/key_areas.geojson#PROV-KEY-001] [metric:site_area_sqm] 现状建筑、道路红线、控规、权属、市政、消防、防洪、文保、人口、企业和交通基线均未取得；资料缺口本身就是设计结论的一部分，而不是用想象填满的空白。[depth:existing_conditions_diagnosis]
 
@@ -54,7 +56,9 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 三处重点区形成互补的产业—生活循环：北部“造具院”关注全栈互操作、安全评测和绿色运维；中部“共研院”关注高校成果解释、开源协作、创业孵化和家庭友好的工作学习；南部“百业院”把智能体、终端、内容和公共服务放进小店、换乘和社区日常流程。它们不组成只对精英开放的园区，而是通过街坊门廊、夜校、维修所和人工服务台向多种职业开放。[data:geometry/key_areas.geojson#PROV-KEY-002]
 
-六个全球案例仅用于比较机制，不转移比例或政策。Kendall Square提醒创新区必须同时处理完整城区和公共空间；one-north强调工作、生活、学习与交往的持续运营；STATION F说明生态来自项目和伙伴，而非一栋巨构；Knowledge Quarter展示跨机构知识网络；Quayside警示数字治理仍需公共权力、隐私和现有法规边界；首尔DMC说明轨道接驳可支撑数字产业集聚。[source:CASE-KENDALL] [source:CASE-ONE-NORTH] [source:CASE-STATION-F] [source:CASE-KQ-LONDON] [source:CASE-QUAYSIDE] [source:CASE-SEOUL-DMC] 本地转译只取“混合、开放、持续运营、公共治理、交通连接”五项原则，不复制海外规模、投资额或空间形式。
+六个全球案例仅用于比较机制，不转移比例或政策。Kendall Square提醒创新区必须同时处理完整城区和公共空间，[source:CASE-KENDALL] one-north强调工作、生活、学习与交往的持续运营，[source:CASE-ONE-NORTH] STATION F说明生态来自项目和伙伴，而非一栋巨构。[source:CASE-STATION-F]
+
+Knowledge Quarter展示跨机构知识网络，[source:CASE-KQ-LONDON] Quayside警示数字治理仍需公共权力、隐私和现有法规边界，[source:CASE-QUAYSIDE] 首尔DMC说明轨道接驳可支撑数字产业集聚。[source:CASE-SEOUL-DMC] 本地转译只取“混合、开放、持续运营、公共治理、交通连接”五项原则，不复制海外规模、投资额或空间形式。
 
 ## 总体设计范围城市更新与控规深度城市设计
 
@@ -88,7 +92,7 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ## 用地、建筑规模与拆改留方案
 
-用地层采用0702、1401、0802和05四类任务包允许代码，表达街坊服务、绿色公地、科研教育和日常商业的概念关系。[standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] 四个分区由临时边界切分并闭合覆盖，不推断现状土地性质，也不作为调规建议。公共空间和绿地另外表达真实设计动作：连续遮荫廊、三处院心和一条街坊门廊，指标分别由GeoJSON联合面积复算。[data:geometry/green_space.geojson#GREEN-001] [data:geometry/public_space.geojson#PUBLIC-001] [metric:green_ratio] [metric:public_space_ratio]
+用地层采用0702、1401、0802和05四类任务包允许代码，表达街坊服务、绿色公地、科研教育和日常商业的概念关系。[standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] 四个分区由临时边界切分并闭合覆盖，不推断现状土地性质，也不作为调规建议。公共空间和绿地另外表达真实设计动作：连续遮荫廊、三处院心和一条街坊门廊。[data:geometry/green_space.geojson#GREEN-001] [data:geometry/public_space.geojson#PUBLIC-001] 相关比例由GeoJSON联合面积复算。[metric:green_ratio] [metric:public_space_ratio]
 
 拆改留采用“保留优先—轻介入—证据后置”的决策树。第一问是现状建筑是否安全、合法、具有使用和文化价值；第二问是服务是否可通过运营、家具、首层开放或无障碍修补完成；第三问才是实体改造；拆除必须证明不可避免、具有公共利益、得到权属和法定程序支持。当前十二个建筑要素全部标为概念性包络，不对应真实门牌和拆除对象。[data:geometry/buildings.geojson#BLDG-012] [depth:retain_renovate_demolish]
 
@@ -120,21 +124,40 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 项目清单包括：JZ-01归家慢行断点工单、JZ-02三院街坊门廊、JZ-03公交可靠接驳与信号影子试验、JZ-04无AI等价服务台、JZ-05百工维修与教习所、JZ-06公共算法陪审桌、JZ-07百工标尺庭与退役工具库、JZ-08关机半日与同任务双路实测。每项都必须补齐责任主体、审批路径、人员工时、运维预算、停用成本和受影响群体；当前均为候选项目，不承诺工期与投资。[depth:renewal_project_list]
 
+### 候选项目交付台账
+
+下表把八个候选项目从“名称”推进到可交接的最小工作包。牵头角色均为建议、尚未确认；没有取得对应数据、审批和运营承诺时，项目不得越过门槛。
+
+| 项目 | 建议牵头角色（未确认） | 启动门槛 | 第一轮可核验证据 | 退出或回退 |
+| --- | --- | --- | --- | --- |
+| JZ-01 归家慢行断点工单 | 规划与交通团队、残障使用者代表 | 官方边界、道路权属与安全踏勘 | 断点清单、完整任务链共测、最弱势群体单列 | 撤除临时标线与导向，恢复原通行组织 |
+| JZ-02 三院街坊门廊 | 公共空间运营与权属协调方 | 权属同意、消防与无障碍核查 | 停留使用记录、无消费座位与维护工时 | 撤除可移动家具，保留原有出入口 |
+| JZ-03 公交可靠接驳与信号影子试验 | 交通主管、公交与交管专业团队 | 清权聚合数据、仿真审查、现场许可 | 固定配时对照、公交与行人结果、最差群体报告 | 一键恢复原配时，停止现场建议输入 |
+| JZ-04 无AI等价服务台 | 具体公共服务运营方 | 服务事项清单、人员排班与线下渠道 | 同任务双路的完成、时间、费用、无障碍与尊严体验 | 恢复并保留人工窗口、纸面与电话服务 |
+| JZ-05 百工维修与教习所 | 一线班组与设施运营方 | 劳动协商、工单数据边界与场地安全 | 维修知识交接、工时变化、无自动评分审计 | 回到原人工工单流程并可导出知识记录 |
+| JZ-06 公共算法陪审桌 | 服务责任主体、居民与专业复核者 | 投诉权限、隐私边界与回避规则 | 个案证据链、不同意见、人工决定与复议记录 | 转回既有人工投诉程序，AI不保留裁决权 |
+| JZ-07 百工标尺庭与退役工具库 | 文化与公共空间运营方 | 内容授权、史实核验与实体安全 | 来源卡、误差与退役理由、公众更正记录 | 下架争议内容，保留可追溯撤回记录 |
+| JZ-08 关机半日与同任务双路实测 | 跨运营方联合值守 | 获批时窗、应急预案与服务连续性清单 | 静态导视、原配时、现金、纸面、电话和人工路径通过记录 | 立即恢复原服务；任一基础路径失败则停止扩展AI |
+
 年度运营以“春季城市出题、夏季百工共造、秋季街道试作、冬季公共回执”为循环。问题先做权利和数据审查，工具先在合成环境测试，试点必须有人值守和非AI服务；冬季安排一次关机半日，关闭非必要AI，检验静态导视、信号原配时、现金、纸面、电话、人工和应急路径，任一基础路径失败就先修底层、不扩AI。[source:PEER-QUIET-INTELLIGENCE] 年末同时公布成功、失败、投诉、维修和退役。荣誉体系表彰维护者、评测者、修复者和主动停止风险项目的人，不按融资额或曝光度排名。
 
 公众参与不能从一句“共创”开始自我证明。当前受影响用户咨询数量为零；下一步需公开招募居民、公交与站务人员、一线工人、商户、老人、照护者和残障人士，支付合理参与成本，提供线上与线下渠道，并保存不同意见。招募者使用预先登记的同一任务分别走AI和非AI路径，按职业、年龄、身体条件和数字能力分组报告完成率、时间、直接成本、无障碍断点与自述尊严体验；不能用平均值抹掉任何一组被惩罚的事实。[source:PEER-CHOICE-LINE] 未经这一关，AI生成的场景只能是需要被现实纠正的提案。
 
 ## 指标体系、面积复算与合规矩阵
 
-可复算指标和绩效目标分开。临时总体边界面积、概念建筑基底、概念绿地和公共空间联合面积、重点区数量、院落原型数和场景节点数可以从GeoJSON复算；但其精度受临时边界和设计假设限制。[metric:site_area_sqm] [metric:building_footprint_area_sqm] [metric:green_ratio] [metric:public_space_ratio] [metric:key_area_count] [metric:future_hutong_courtyard_count] [metric:ai_scenario_node_count] 本方案当前绿地概念比例约0.1758，公共空间概念比例约0.0927，只用于图层一致性检查，不是审定规划指标。[depth:metrics_recalculation]
+可复算指标和绩效目标分开。临时总体边界面积、概念建筑基底和概念绿地比例可以从GeoJSON复算，[metric:site_area_sqm] [metric:building_footprint_area_sqm] [metric:green_ratio] 公共空间比例、重点区数量和院落原型数也由同一数据链计算。[metric:public_space_ratio] [metric:key_area_count] [metric:future_hutong_courtyard_count]
+
+场景节点数来自公共空间图层登记；[metric:ai_scenario_node_count] 上述精度均受临时边界和设计假设限制。本方案当前绿地概念比例约0.1758，公共空间概念比例约0.0927，只用于图层一致性检查，不是审定规划指标。[depth:metrics_recalculation]
 
 ![指标、证据等级与时间红利验证路径图](assets/figures/metrics-evidence.png)
 
-时间红利、公交准点、信号延误改善、最弱势群体体验、跨职业参与、非AI等价覆盖和同任务两路差距都保持unknown，因为没有现场基线和获批试点。[metric:return_home_time_dividend_minutes] [metric:signal_control_peak_delay_reduction] [metric:non_ai_equivalent_service_coverage] [metric:same_task_equivalence_gap] 验证采用配对出行日记、路口人均延误、公交到站波动、完整无障碍任务链、同任务双路实测、人工接管记录和少数群体单独报告。若某个群体更差，平均值再好也不能升级试点。
+时间红利、公交准点和信号延误改善都保持unknown，因为没有现场基线和获批试点。[metric:return_home_time_dividend_minutes] [metric:signal_control_peak_delay_reduction] 非AI等价覆盖和同任务两路差距同样不预填成绩。[metric:non_ai_equivalent_service_coverage] [metric:same_task_equivalence_gap] 验证采用配对出行日记、路口人均延误、公交到站波动、完整无障碍任务链、同任务双路实测、人工接管记录和少数群体单独报告。若某个群体更差，平均值再好也不能升级试点。
 
 合规矩阵逐条覆盖公告17项任务和agent.1至agent.6共23项；标准矩阵覆盖5项强制标准和1项资料缺口；设计深度矩阵覆盖15项成果深度。自检通过只证明结构、引用、几何和展示一致，不证明官方认可、工程可行、公众接受或实施批准。真正的完成条件是：官方资料能替换临时假设，受影响的人参与并能够说不，运营者承担长期维护，失败项目可以安全退出。
 
 ## 风险、版权与合规说明
+
+风险与合规处理明确覆盖公开资料边界、隐私保护、版权许可、实施风险和人工复核；下列约束都必须在试点、发布和退出环节留下可审计记录。
 
 主要风险包括临时边界被误读、控规和权属缺失、文保与公园条件未知、交通模型把成本转嫁给旁街、传感器功能蔓延、数字排斥、创新区推高生活成本、供应商锁定、能耗和电子废弃物、运营空心化。应对方法不是多写一句免责声明，而是把限制画进图层、写进场景停止条件、纳入年度预算和公开回执。[data:geometry/phasing.geojson#PHASE-003] [depth:risk_missing_data]
 
@@ -144,10 +167,16 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 ## 参考资料
 
-官方与任务包主证据为北京市规划和自然资源委员会海淀分局公告、仓库site package、agent taskbook、source registry与processed fact pack。[source:OFFICIAL-ANNOUNCEMENT] [source:SITE-PACKAGE] [source:AGENT-TASKBOOK] [source:SOURCE-REGISTRY] [source:PROCESSED-FACT-PACK] 临时空间来源仅为边界推演：[source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]。概念方向来自参赛者本轮明确表达，经抽象后进入方案，不公开私人文件或生活细节。[source:PARTICIPANT-DIRECTION]
+仓库公开任务书 `brief/public-brief.md` 与资料边界说明 `brief/README.md` 只用于任务背景和公开性约束；二者当前均按 public-draft 使用，不替代维护者的正式公开性确认。
 
-国际背景案例均在sources.json登记发布者、访问日期和用途限制：[source:CASE-KENDALL] [source:CASE-ONE-NORTH] [source:CASE-STATION-F] [source:CASE-KQ-LONDON] [source:CASE-QUAYSIDE] [source:CASE-SEOUL-DMC]。它们只能支撑一般机制比较，不能支撑京张的用地、规模、交通、投资或法定控制结论。A3/A0为避免跨平台丢失中文，嵌入Noto Sans SC的字形子集，字体许可为SIL Open Font License 1.1。[source:FONT-NOTO-SANS-SC]
+官方与任务包主证据为北京市规划和自然资源委员会海淀分局公告、仓库site package和agent taskbook。[source:OFFICIAL-ANNOUNCEMENT] [source:SITE-PACKAGE] [source:AGENT-TASKBOOK] source registry与processed fact pack负责追踪证据链。[source:SOURCE-REGISTRY] [source:PROCESSED-FACT-PACK] 临时空间来源仅为边界推演：[source:BOUNDARY-SOURCE] [source:KEY-AREA-SOURCE]。概念方向来自参赛者本轮明确表达，经抽象后进入方案，不公开私人文件或生活细节。[source:PARTICIPANT-DIRECTION]
+
+国际背景案例均在sources.json登记发布者、访问日期和用途限制。前三项为Kendall Square、one-north与STATION F，[source:CASE-KENDALL] [source:CASE-ONE-NORTH] [source:CASE-STATION-F] 后三项为Knowledge Quarter、Quayside与首尔DMC。[source:CASE-KQ-LONDON] [source:CASE-QUAYSIDE] [source:CASE-SEOUL-DMC] 它们只能支撑一般机制比较，不能支撑京张的用地、规模、交通、投资或法定控制结论。A3/A0为避免跨平台丢失中文，嵌入Noto Sans SC的字形子集，字体许可为SIL Open Font License 1.1。[source:FONT-NOTO-SANS-SC]
 
 同行机制署名与许可登记为：[source:PEER-QUIET-INTELLIGENCE] [source:PEER-CHOICE-LINE] [source:PEER-AI-LINE-ACCESSIBILITY]。仅作比较、不复用的在途方案登记为：[source:PEER-COMMON-TABLE-COMPARE] [source:PEER-CONTINUITY-COMPARE] [source:PEER-HANDOVER-COMPARE]。同行阅读不改变本案主干：AI退到后台，把可验证的时间、便利和街坊关系还给普通人。
 
-机器证据入口汇总：[data:geometry/site_boundary.geojson#SITE-001]、[data:geometry/key_areas.geojson#PROV-KEY-003]、[data:geometry/land_use.geojson#LU-004]、[data:geometry/buildings.geojson#BLDG-012]、[data:geometry/roads.geojson#ROAD-005]、[data:geometry/green_space.geojson#GREEN-003]、[data:geometry/public_space.geojson#SCN-12]、[data:geometry/constraints.geojson#CONSTRAINTS]、[data:geometry/phasing.geojson#PHASE-003]。上述引用与metrics、compliance matrix、standard matrix、design depth matrix、A3/A0和离线HTML共同构成可追溯投稿包；任何后续数据替换都应重新渲染、复算和自检。
+边界与用地的机器证据入口为：[data:geometry/site_boundary.geojson#SITE-001]、[data:geometry/key_areas.geojson#PROV-KEY-003]、[data:geometry/land_use.geojson#LU-004]。
+
+建筑、道路与绿地的机器证据入口为：[data:geometry/buildings.geojson#BLDG-012]、[data:geometry/roads.geojson#ROAD-005]、[data:geometry/green_space.geojson#GREEN-003]。
+
+公共空间、约束与分期的机器证据入口为：[data:geometry/public_space.geojson#SCN-12]、[data:geometry/constraints.geojson#CONSTRAINTS]、[data:geometry/phasing.geojson#PHASE-003]。上述引用与metrics、compliance matrix、standard matrix、design depth matrix、A3/A0和离线HTML共同构成可追溯投稿包；任何后续数据替换都应重新渲染、复算和自检。

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "proposal_id": "jingzhang-open-pulse",
-  "revision": "v1.4",
+  "proposal_id": "zhongzhiyuan-autonomy-commons",
+  "revision": "v3.8",
   "author_github": "147228",
   "method": "每条记录是一个可审计的设计决策：先写风险，再写空间响应、目标指标、输入证据、人工复核和回退条件。target_score 不是现状事实，必须在官方边界、现场测绘或专业模拟到位后复核。",
   "records": [

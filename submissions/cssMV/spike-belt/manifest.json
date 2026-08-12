@@ -97,14 +97,14 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "af84035f451e64ed8735cedd66ebdac948cb92b607f6ada137a485bbacf8867f",
+      "sha256": "c0ff557d2a2f69b9192551d74027ebcb319ef7a118f9203f8b66e61c664492f4",
       "language": "zh"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "f01e36c9aed3816f7de2358c0ebed25d41b38bbe3d6039e60acd61c33969768f",
+      "sha256": "af9a84f18d22360680ebbbb9606fbca88a61bbfb5f41ec7634caacae47559572",
       "language": "zh"
     },
     {
@@ -207,7 +207,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "af2b966cac03045c71bd8d869da2ab1a711c738eb40e5292d7196aa7fbee4622"
+      "sha256": "4aba6fab026522bda5571f7911acd0dc1dbf526bdb84b516ed3b072b0d9b1c6c"
     },
     {
       "path": "assets/figures/spike-system.png",
@@ -301,7 +301,7 @@
       "language": "en",
       "translation_of": "visual/index.html",
       "required": false,
-      "sha256": "49a157fa2c6ba60f48c81caf2042423247f145799486bac7eb8d456a96f417a5"
+      "sha256": "4266c32ebae4add9d42333f83d93f8beef9ca8c69e4d065c4afe287130cf159b"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -309,7 +309,7 @@
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
       "required": false,
-      "sha256": "b630934f6d654865892d43abb5f3786644a72632697c511a17ccea52780c1be8"
+      "sha256": "89e5e9f43a5029d2e8bbe58952a7bdaed110662c9a4a9f3e2044933c0b2d5a93"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -317,7 +317,7 @@
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
       "required": false,
-      "sha256": "3e78cd9f27abd117c339ed3eb2ae6001a6991892ccc3d0b2ddfc9392e5b75006"
+      "sha256": "2c36007fc21fc01807a91eadf962c4267ab27c6816b8bdd8b7496a4f5d4cf4e9"
     }
   ],
   "validation_claim": {

@@ -2,6 +2,9 @@
 title: "开源城市 · 京张主干线：百年京张AI创新带城市设计与碑刻纪念体系"
 author_github: "edison-land"
 language: "zh"
+proposal_format_version: "2"
+bilingual_contract_version: "1"
+translation_file: "proposal.en.md"
 license: "COMMUNITY-DISPLAY-ONLY"
 summary: "把 43.6 平方公里统筹范围当作一个可读写的城市仓库：11.4 平方公里总体设计范围是唯一的主干线 main，三处重点区是三次可验收的 commit，两翼是两个 fork，AI+ 场景以 issue 方式开放认领，逐年 tag 沉淀为沿遗址公园的碑刻纪念体系。全部空间判断由 9 个 GeoJSON 图层与 21 项可复算指标支撑，边界为 provisional 粗略范围并全程标注。"
 tracks: ["civic-agent-governance", "jingzhang-heritage-narrative", "ai-origin-community"]
@@ -28,7 +31,14 @@ iteration: "v1.0"
 
 ## 设计依据与资料清单
 
-本方案的第一依据是北京市规划和自然资源委员会海淀分局发布的《百年京张AI创新带城市设计国际方案征集资格预审公告》，第二依据是面向全球智能体开源征集的任务书摘录，第三依据是仓库中已完成登记的机器可读站点包。生成顺序严格遵循「先读资料—再锁约束—后做设计—最后复算」：先读 `design_brief.json`、`allowed_design_space.json`、`enums/`、`ranges/planning_limits.json`、`schemas/` 与 `data/source_registry.json`，再用 `data/processed/` 的四张处理表建立任务清单、范围结构、资料用途与缺口清单，最后才生成图层并复算指标。本节的证据链为 [source:OFFICIAL-ANNOUNCEMENT]、[source:AGENT-TASKBOOK]、[source:SITE-PACKAGE]、[source:SOURCE-REGISTRY]、[source:PROCESSED-FACT-PACK]、[source:BOUNDARY-SOURCE]、[source:KEY-AREA-SOURCE] 与 [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]、[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]。
+本方案的第一依据是北京市规划和自然资源委员会海淀分局发布的《百年京张AI创新带城市设计国际方案征集资格预审公告》，第二依据是面向全球智能体开源征集的任务书摘录，第三依据是仓库中已完成登记的机器可读站点包。生成顺序严格遵循「先读资料—再锁约束—后做设计—最后复算」：先读 `design_brief.json`、`allowed_design_space.json`、`enums/`、`ranges/planning_limits.json`、`schemas/` 与 `data/source_registry.json`，再用 `data/processed/` 的四张处理表建立任务清单、范围结构、资料用途与缺口清单，最后才生成图层并复算指标。本节的证据链按依据层级拆分如下：
+
+| 依据层级 | 内容 | 证据 |
+| --- | --- | --- |
+| 公告与任务书 | 设计目的、三层范围、六项智能体任务与统一边界条款 | [source:OFFICIAL-ANNOUNCEMENT]、[source:AGENT-TASKBOOK] |
+| 机器可读站点包 | 枚举、指标区间、模式与资料用途边界 | [source:SITE-PACKAGE]、[source:SOURCE-REGISTRY]、[source:PROCESSED-FACT-PACK] |
+| 临时几何来源 | 提交边界与三处重点区的 provisional 几何 | [source:BOUNDARY-SOURCE]、[source:KEY-AREA-SOURCE] |
+| 主控标准 | 公告与任务书要求的标准化响应 | [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]、[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] |
 
 **资料状态必须先讲清楚，否则后面所有面积都是假的。** 截至本次提交，公开渠道没有可下载、可校验坐标系的本次征集官方精确红线；公告只给出三层范围的面积与文字四至、三处重点区的名称与南北顺序。因此本方案的 `geometry/site_boundary.geojson` 与 `geometry/key_areas.geojson` 全部使用仓库登记的 provisional 粗略范围，属性统一标注 `official_boundary=false`、`geometry_role="provisional_constraint"`、`boundary_precision="provisional_rough"`，见 [data:geometry/site_boundary.geojson#SITE-001] 与 [data:geometry/key_areas.geojson#PROV-KEY-001]。它们只用于生成、可视化、拓扑自检与设计讨论，**不得作为官方红线、审批依据或精确面积依据**。相应地，[metric:site_area_sqm] 复算值 1 141.28 公顷与公告约 11.4 平方公里之间的 0.11% 偏差，只说明临时几何拟合了公告面积，不说明边界正确。
 
@@ -181,11 +191,35 @@ iteration: "v1.0"
 
 ## 指标体系、面积复算与合规矩阵
 
-指标分三类管理，这是本方案区别于「用数字制造精确感」的关键。**第一类是空间可复算指标**，由提交几何在 EPSG:4548 下直接复算，共 21 项，包括 [metric:site_area_sqm]、[metric:key_area_count]、[metric:key_area_total_area_sqm]、[metric:land_use_polygon_count]、[metric:land_use_research_area_sqm]、[metric:land_use_park_area_sqm]、[metric:land_use_reserve_area_sqm]、[metric:green_space_area_sqm]、[metric:green_ratio]、[metric:public_space_area_sqm]、[metric:public_space_ratio]、[metric:building_footprint_area_sqm]、[metric:building_coverage_ratio]、[metric:road_network_length_m]、[metric:main_line_length_m]、[metric:phase_count]、[metric:phase_1_area_sqm]、[metric:milestone_landmark_count]、[metric:scenario_card_count]、[metric:persona_count] 与 [metric:renewal_project_count]。**第二类是待确认管控指标**，包括容积率、总建筑规模、建筑高度上限与道路用地比例，全部标注 unknown 并写明原因与前置条件。**第三类是运营绩效指标**，如场景使用频次、活动参与度、慢行可达性满意度，需长期数据校准，不在本次提交中给出预测值。复算规则由 [depth:metrics_recalculation] 校核。
+指标分三类管理，这是本方案区别于「用数字制造精确感」的关键。**第一类是空间可复算指标**，由提交几何在 EPSG:4548 下直接复算，共 21 项，按指标族与复算口径列出如下。**第二类是待确认管控指标**，包括容积率、总建筑规模、建筑高度上限与道路用地比例，全部标注 unknown 并写明原因与前置条件。**第三类是运营绩效指标**，如场景使用频次、活动参与度、慢行可达性满意度，需长期数据校准，不在本次提交中给出预测值。复算规则由 [depth:metrics_recalculation] 校核。
+
+| 指标族 | 复算口径 | 指标 |
+| --- | --- | --- |
+| 范围与重点区 | 边界与重点区多边形面积、数量 | [metric:site_area_sqm]、[metric:key_area_count]、[metric:key_area_total_area_sqm] |
+| 用地结构 | 按用地代码汇总分区面积与数量 | [metric:land_use_polygon_count]、[metric:land_use_research_area_sqm]、[metric:land_use_park_area_sqm] |
+| 留白与绿地 | 留白面积、绿地并集面积与占比 | [metric:land_use_reserve_area_sqm]、[metric:green_space_area_sqm]、[metric:green_ratio] |
+| 公共空间 | 公共空间并集面积与占比 | [metric:public_space_area_sqm]、[metric:public_space_ratio] |
+| 建筑基底 | 基底并集面积与覆盖关系 | [metric:building_footprint_area_sqm]、[metric:building_coverage_ratio] |
+| 交通与慢行 | 线位长度合计与主轴长度 | [metric:road_network_length_m]、[metric:main_line_length_m] |
+| 分期实施 | 分期数量与一期范围面积 | [metric:phase_count]、[metric:phase_1_area_sqm] |
+| 成果计数 | 碑刻地标、场景卡与用户画像数量 | [metric:milestone_landmark_count]、[metric:scenario_card_count]、[metric:persona_count] |
+| 更新项目 | 更新项目清单条目数 | [metric:renewal_project_count] |
 
 ![核心指标复算、证据链关系与四道自检状态图](assets/figures/metrics-evidence.png)
 
-**合规矩阵是任务响应的主控文件。** `compliance_matrix.json` 逐条覆盖公告 1.3.1—1.3.3、1.4.1—1.4.3、1.5.1.1—1.5.3.3 以及面向智能体任务书的 agent.1—agent.6，每条给出报告章节、GeoJSON 图层、指标、图纸、HTML 页面、来源、假设与自检项。`standard_matrix.json` 回答「每条设计判断依据什么标准」，`design_depth_matrix.json` 回答「成果是否达到 formal 深度」，两者的核心项均须为 complete。三张矩阵与本文的引用标签一一对应，评审者可以从任意一条结论回溯到具体图层与具体文件，也可以反向从图层查出它支撑了哪条任务。全部图层清单为 [data:geometry/site_boundary.geojson#SITE-001]、[data:geometry/key_areas.geojson#PROV-KEY-001]、[data:geometry/land_use.geojson#LU-001]、[data:geometry/buildings.geojson#BLDG-001]、[data:geometry/roads.geojson#ROAD-001]、[data:geometry/green_space.geojson#GREEN-001]、[data:geometry/public_space.geojson#PUB-001]、[data:geometry/constraints.geojson#CON-RAIL-001]、[data:geometry/phasing.geojson#PHASE-001]。
+**合规矩阵是任务响应的主控文件。** `compliance_matrix.json` 逐条覆盖公告 1.3.1—1.3.3、1.4.1—1.4.3、1.5.1.1—1.5.3.3 以及面向智能体任务书的 agent.1—agent.6，每条给出报告章节、GeoJSON 图层、指标、图纸、HTML 页面、来源、假设与自检项。`standard_matrix.json` 回答「每条设计判断依据什么标准」，`design_depth_matrix.json` 回答「成果是否达到 formal 深度」，两者的核心项均须为 complete。三张矩阵与本文的引用标签一一对应，评审者可以从任意一条结论回溯到具体图层与具体文件，也可以反向从图层查出它支撑了哪条任务。九个图层与其表达内容的对应关系如下：
+
+| 图层 | 表达内容 | 引用 |
+| --- | --- | --- |
+| 提交边界 | 总体设计范围（provisional） | [data:geometry/site_boundary.geojson#SITE-001] |
+| 重点区域 | 三次 commit 的粗略范围 | [data:geometry/key_areas.geojson#PROV-KEY-001] |
+| 用地分区 | 13 个用地面的无缝分区 | [data:geometry/land_use.geojson#LU-001] |
+| 建筑基底 | 设计建议的基底组织关系 | [data:geometry/buildings.geojson#BLDG-001] |
+| 交通慢行 | 主轴、缝合步道与接驳线位 | [data:geometry/roads.geojson#ROAD-001] |
+| 绿地系统 | 连续绿带与口袋公园 | [data:geometry/green_space.geojson#GREEN-001] |
+| 公共空间 | 碑刻节点与站前广场 | [data:geometry/public_space.geojson#PUB-001] |
+| 现状约束 | 铁路、水系与主要道路示意线位 | [data:geometry/constraints.geojson#CON-RAIL-001] |
+| 分期实施 | 三期推进范围 | [data:geometry/phasing.geojson#PHASE-001] |
 
 ## 风险、版权与合规说明
 
@@ -203,5 +237,22 @@ iteration: "v1.0"
 - `data/source_registry.json`：公开与清权资料的用途边界登记 [source:SOURCE-REGISTRY]
 - `data/processed/agent_fact_pack.md` 与四张处理表 [source:PROCESSED-FACT-PACK]
 - `brief/site-package/geometry/provisional_boundaries.geojson`：临时边界与重点区 [source:BOUNDARY-SOURCE]、[source:KEY-AREA-SOURCE]
-- 专业标准本地参考：[standard:PROJECT-OFFICIAL-ANNOUNCEMENT]、[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]、[standard:MOHURD-URBAN-DESIGN-MEASURES]、[standard:MOHURD-CONTROL-DETAILED-PLANNING]、[standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]、[standard:MOHURD-ARCH-DESIGN-DEPTH-2016]
-- 成果深度索引：[depth:existing_conditions_diagnosis]、[depth:three_level_scope_framework]、[depth:overall_spatial_structure]、[depth:land_use_layout]、[depth:development_intensity_controls]、[depth:height_massing_character]、[depth:retain_renovate_demolish]、[depth:traffic_rail_slow_parking]、[depth:municipal_new_infrastructure]、[depth:blue_green_public_space]、[depth:three_key_area_detailed_design]、[depth:renewal_project_list]、[depth:phasing_implementation]、[depth:metrics_recalculation]、[depth:risk_missing_data]
+
+专业标准本地参考：
+
+| 专业维度 | 标准 |
+| --- | --- |
+| 项目主控 | [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]、[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] |
+| 城市设计与控规 | [standard:MOHURD-URBAN-DESIGN-MEASURES]、[standard:MOHURD-CONTROL-DETAILED-PLANNING] |
+| 用地分类与成果深度 | [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]、[standard:MOHURD-ARCH-DESIGN-DEPTH-2016] |
+
+成果深度索引：
+
+| 阶段 | 深度项 |
+| --- | --- |
+| 现状与框架 | [depth:existing_conditions_diagnosis]、[depth:three_level_scope_framework]、[depth:overall_spatial_structure] |
+| 用地与强度 | [depth:land_use_layout]、[depth:development_intensity_controls]、[depth:height_massing_character] |
+| 更新与交通 | [depth:retain_renovate_demolish]、[depth:traffic_rail_slow_parking]、[depth:municipal_new_infrastructure] |
+| 蓝绿与重点区 | [depth:blue_green_public_space]、[depth:three_key_area_detailed_design] |
+| 实施与复核 | [depth:renewal_project_list]、[depth:phasing_implementation]、[depth:metrics_recalculation] |
+| 风险 | [depth:risk_missing_data] |

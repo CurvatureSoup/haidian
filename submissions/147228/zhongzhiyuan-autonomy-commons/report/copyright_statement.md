@@ -1,13 +1,13 @@
 # Copyright, Attribution, and Clearance Statement
 
-**Submission:** Jing-Zhang Open Pulse / 京张开源脉冲
+**Submission:** Jing-Zhang Autonomous Commons / 京张智行自主公共带
 **Author:** 许丙南 (`147228`)
-**Iteration:** v1.7
+**Iteration:** v3.8
 **Display licence:** `COMMUNITY-DISPLAY-ONLY`
 
 ## Scope of this statement
 
-This statement covers the formal package under `submissions/147228/jingzhang-open-pulse/`: Markdown narratives and translation, JSON metadata and analytical tables, GeoJSON geometry, generated figures, A3/A0 PDFs, offline HTML, and validation metadata. The path-level inventory is `visual/assets/copyright-ledger.json`; `manifest.json` records the package hashes. The ledger must be regenerated after any asset is edited.
+This statement covers the formal package under `submissions/147228/zhongzhiyuan-autonomy-commons/`: Markdown narratives and translation, JSON metadata and analytical tables, GeoJSON geometry, generated figures, A3/A0 PDFs, offline HTML, and validation metadata. The path-level inventory is `visual/assets/copyright-ledger.json`; `manifest.json` records the package hashes. The ledger must be regenerated after any asset is edited.
 
 ## Authorship and generation
 

@@ -29,7 +29,8 @@
       ],
       "source_ids": [
         "SOURCE-REGISTRY",
-        "BOUNDARY-SOURCE",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "PROVISIONAL-BOUNDARY-BASIS",
         "OSM-CONTEXT",
         "HAIDIAN-JZ-PHASE2-OPEN-2026",
         "HAIDIAN-AI-TRIAL-FIELD-2026",
@@ -71,8 +72,10 @@
         "key_area_total_sqm"
       ],
       "source_ids": [
-        "OFFICIAL-ANNOUNCEMENT",
-        "AGENT-TASKBOOK"
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+        "AGENT-TASKBOOK",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "PROVISIONAL-BOUNDARY-BASIS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001"
@@ -382,7 +385,11 @@
       ],
       "drawing_refs": [
         "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
+        "drawings/a0-boards.pdf",
+        "assets/figures/key-areas.svg",
+        "assets/figures/key-areas.en.svg",
+        "assets/figures/key-area-sections.svg",
+        "assets/figures/key-area-sections.en.svg"
       ],
       "geometry_refs": [
         "geometry/key_areas.geojson",
@@ -392,7 +399,8 @@
       ],
       "evidence_files": [
         "visual/assets/site-grounding-register.json",
-        "visual/assets/pilot-readiness-register.json"
+        "visual/assets/pilot-readiness-register.json",
+        "visual/assets/key-area-evidence-matrix.json"
       ],
       "metric_refs": [
         "key_area_building_count",
@@ -402,7 +410,8 @@
         "pilot_readiness_protocol_coverage_ratio"
       ],
       "source_ids": [
-        "KEY-AREA-SOURCE",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "PROVISIONAL-BOUNDARY-BASIS",
         "AGENT-TASKBOOK",
         "HAIDIAN-AI-TRIAL-FIELD-2026",
         "HAIDIAN-JZ-MIDTERM-2026",
@@ -412,14 +421,16 @@
         "A-BOUNDARY-001",
         "A-SPATIAL-REPRESENTATION-002",
         "A-SCENARIO-PROTOCOL-004",
-        "A-SITE-LOCATION-008"
+        "A-SITE-LOCATION-008",
+        "A-KEY-AREA-DETAIL-010",
+        "A-KEY-AREA-SPATIAL-011"
       ],
       "self_check_ids": [
         "KEY_AREAS_TRUST",
         "SPATIAL_EVIDENCE",
         "SCENARIO_PROTOCOL"
       ],
-      "evidence_summary_zh": "三个状态站分别说明矛盾、空间结构、项目、场景、进入门和概念验收，并把官方公开的重点节点与人本目标转为可复核设计响应；所有具体落位仍待官方几何和现场核验，不把桌面证据写成现状测绘。"
+      "evidence_summary_zh": "三个状态站分别形成不可机械复制的概念平面、关系剖面、首层公共界面、连续非 AI / 无障碍意图线、人工交接、可拆构件、四态与场所恢复合同；中英文图文与结构化矩阵回链同一现有 Feature。所有具体落位、尺寸、无障碍、消防、铁路保护、市政、运营与恢复结果仍待正式资料、专业核验和现场共测，不把体量原型或桌面证据写成现状建筑、工程结论或批准。"
     },
     {
       "item_id": "renewal_project_list",
@@ -442,7 +453,9 @@
       "evidence_files": [
         "visual/assets/pilot-readiness-register.json",
         "visual/assets/site-grounding-register.json",
-        "visual/assets/g1-preregistration-register.json"
+        "visual/assets/g1-preregistration-register.json",
+        "visual/assets/g0-offline-enterprise-service-baseline.json",
+        "visual/assets/t02-g0-g1-replay-result.json"
       ],
       "metric_refs": [
         "gateway_count",
@@ -451,10 +464,12 @@
         "pilot_readiness_project_coverage_ratio",
         "pilot_readiness_protocol_coverage_ratio",
         "g1_preregistration_required_field_coverage_ratio",
-        "completed_g1_preregistration_count"
+        "completed_g1_preregistration_count",
+        "completed_g0_offline_replay_count",
+        "g0_offline_expected_decision_match_ratio"
       ],
       "source_ids": [
-        "OFFICIAL-ANNOUNCEMENT",
+        "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
         "AGENT-TASKBOOK",
         "HAIDIAN-JZ-PHASE2-OPEN-2026",
         "HAIDIAN-JZ-MIDTERM-2026"
@@ -462,13 +477,15 @@
       "assumption_ids": [
         "A-SCENARIO-PROTOCOL-004",
         "A-POST-OPENING-007",
-        "A-SITE-LOCATION-008"
+        "A-SITE-LOCATION-008",
+        "A-G0-OFFLINE-009"
       ],
       "self_check_ids": [
         "TASK_EVIDENCE_SPECIFICITY",
-        "SCENARIO_PROTOCOL"
+        "SCENARIO_PROTOCOL",
+        "G0_T02_SYNTHETIC_REPLAY"
       ],
-      "evidence_summary_zh": "八个项目分别绑定 Feature、前置条件、概念级责任角色、审批触发、禁采数据、事故责任、共同测试、恢复、独立复测和 go/no-go；12 个场景另有 G1 预注册合同，先锁定同任务对照、主指标、分母、停止恢复和版本。字段覆盖不代表责任主体已确认、项目已获批或测试已执行。"
+      "evidence_summary_zh": "八个项目分别绑定 Feature、前置条件、概念级责任角色、审批触发、禁采数据、事故责任、共同测试、恢复、独立复测和 go/no-go；12 个场景另有 G1 预注册合同。T-02 已完成一次十案例合成治理回放，证明固定规则、停机和恢复分支可复现；责任主体、审批、真实服务、G1 窗口与现场执行仍为 0 或 unknown。"
     },
     {
       "item_id": "phasing_implementation",
@@ -489,7 +506,9 @@
       "evidence_files": [
         "visual/assets/pilot-readiness-register.json",
         "visual/assets/innovation-register.json",
-        "visual/assets/g1-preregistration-register.json"
+        "visual/assets/g1-preregistration-register.json",
+        "visual/assets/g0-offline-enterprise-service-baseline.json",
+        "visual/assets/t02-g0-g1-replay-result.json"
       ],
       "metric_refs": [
         "phase_count",
@@ -497,7 +516,9 @@
         "pilot_readiness_protocol_coverage_ratio",
         "completed_post_opening_field_audit_count",
         "approved_g1_test_window_count",
-        "g1_field_execution_count"
+        "g1_field_execution_count",
+        "completed_g0_offline_replay_count",
+        "g0_offline_stop_recovery_branch_coverage_ratio"
       ],
       "source_ids": [
         "AGENT-TASKBOOK",
@@ -507,12 +528,14 @@
       ],
       "assumption_ids": [
         "A-SCENARIO-PROTOCOL-004",
-        "A-POST-OPENING-007"
+        "A-POST-OPENING-007",
+        "A-G0-OFFLINE-009"
       ],
       "self_check_ids": [
-        "SCENARIO_PROTOCOL"
+        "SCENARIO_PROTOCOL",
+        "G0_T02_SYNTHETIC_REPLAY"
       ],
-      "evidence_summary_zh": "0—2、3—5、5 年后只是时间窗口；责任、审批、预注册、社区共测、独立复测、已建公园增量和恢复证据共同决定进入、毕业与回滚。获批 G1 窗口和现场执行数均为 0，当前仍停留在概念/G0。"
+      "evidence_summary_zh": "0—2、3—5、5 年后只是时间窗口；责任、审批、预注册、社区共测、独立复测、已建公园增量和恢复证据共同决定进入、毕业与回滚。T-02 的一次合成治理回放只补足 G0 决策逻辑证据；获批 G1 窗口、真实独立复测和现场执行数均为 0，当前仍停留在 G0。"
     },
     {
       "item_id": "metrics_recalculation",
@@ -598,6 +621,8 @@
       ],
       "source_ids": [
         "SOURCE-REGISTRY",
+        "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+        "PROVISIONAL-BOUNDARY-BASIS",
         "STD-ARCH-DEPTH-GAP",
         "AI-CONTENT-LABEL-2025",
         "HAIDIAN-JZ-PHASE2-OPEN-2026",

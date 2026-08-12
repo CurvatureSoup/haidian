@@ -18,6 +18,7 @@ from ai_review_submission import (  # noqa: E402
     ReviewError,
     collect_visual_inputs,
     content_preflight,
+    is_organizer_owned_action,
     run_ai_review,
     validate_base_url,
     validate_output_dir,
@@ -324,6 +325,156 @@ class AIReviewSubmissionTests(unittest.TestCase):
             self.assertIn("review evidence omitted", preview)
             self.assertNotIn("OPENAI_API_KEY", preview)
             self.assertIn("content_preflight_issues", result)
+
+    def test_visual_packet_includes_present_english_figure_counterparts(self) -> None:
+        try:
+            from PIL import Image
+        except ImportError:  # pragma: no cover - Pillow is a project test dependency.
+            self.skipTest("Pillow unavailable")
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            figure_dir = root / "assets" / "figures"
+            figure_dir.mkdir(parents=True)
+            for name in ["site-overview.png", "site-overview.en.png"]:
+                Image.new("RGB", (2, 2), "white").save(figure_dir / name)
+            with mock.patch(
+                "ai_review_submission.FIGURE_PATHS",
+                ["assets/figures/site-overview.png"],
+            ), mock.patch("ai_review_submission.render_pdf_previews", return_value=[]), mock.patch(
+                "ai_review_submission.render_html_previews", return_value=[]
+            ):
+                _, included, warnings = collect_visual_inputs(root, root / "rendered", 2, 1024 * 1024)
+            self.assertEqual(
+                included,
+                ["assets/figures/site-overview.png", "assets/figures/site-overview.en.png"],
+            )
+            self.assertEqual([], warnings)
+
+    def test_visual_packet_keeps_all_bilingual_previews_with_eighteen_image_budget(self) -> None:
+        try:
+            from PIL import Image
+        except ImportError:  # pragma: no cover - Pillow is a project test dependency.
+            self.skipTest("Pillow unavailable")
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            figure_dir = root / "assets" / "figures"
+            figure_dir.mkdir(parents=True)
+            figure_paths = [
+                "assets/figures/site-overview.png",
+                "assets/figures/land-use-structure.png",
+                "assets/figures/key-areas.png",
+                "assets/figures/mobility-bluegreen.png",
+                "assets/figures/metrics-evidence.png",
+            ]
+            for rel in figure_paths:
+                primary = root / rel
+                counterpart = primary.with_name(f"{primary.stem}.en{primary.suffix}")
+                Image.new("RGB", (2, 2), "white").save(primary)
+                Image.new("RGB", (2, 2), "white").save(counterpart)
+
+            for rel in [
+                "drawings/a3-booklet.pdf",
+                "drawings/a0-boards.pdf",
+                "drawings/a3-booklet.en.pdf",
+                "drawings/a0-boards.en.pdf",
+                "report/proposal.html",
+                "visual/index.html",
+                "report/proposal.en.html",
+                "visual/index.en.html",
+            ]:
+                path = root / rel
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(b"fixture")
+
+            rendered = root / "rendered"
+            rendered.mkdir()
+            def previews(prefix: str) -> list[Path]:
+                paths = [rendered / f"{prefix}-a3-01.png", rendered / f"{prefix}-a0-01.png"]
+                for path in paths:
+                    Image.new("RGB", (2, 2), "white").save(path)
+                return paths
+
+            with mock.patch("ai_review_submission.FIGURE_PATHS", figure_paths), mock.patch(
+                "ai_review_submission.render_pdf_previews",
+                side_effect=[previews("pdf-zh"), previews("pdf-en")],
+            ), mock.patch(
+                "ai_review_submission.render_html_previews",
+                side_effect=[previews("html-zh"), previews("html-en")],
+            ):
+                _, included, warnings = collect_visual_inputs(
+                    root, rendered, 18, 1024 * 1024
+                )
+            self.assertEqual(18, len(included))
+            self.assertIn("rendered/html-en-a3-01.png", included)
+            self.assertIn("rendered/html-en-a0-01.png", included)
+            self.assertEqual([], warnings)
+
+    def test_organizer_owned_next_action_moves_to_data_gap(self) -> None:
+        review = valid_review()
+        for item in review["rubric_scores"]:
+            item["score"] = 5
+        review["required_next_actions_zh"] = ["组织方：发布官方几何后重算指标。"]
+        client = FakeClient(review)
+        with tempfile.TemporaryDirectory() as tmp, mock.patch(
+            "ai_review_submission.collect_visual_inputs", return_value=([], [], [])
+        ), mock.patch("ai_review_submission.content_preflight", return_value=[]):
+            result = run_ai_review(
+                ROOT, SUBMISSION, "alice", Path(tmp), client, "gpt-test",
+                "https://api.openai.com/v1", "high", 18, 1024 * 1024, False,
+            )
+        self.assertEqual("featured-candidate", result["decision"]["publication_recommendation"])
+        self.assertEqual([], result["review"]["required_next_actions_zh"])
+        self.assertIn("组织方：发布官方几何后重算指标。", result["review"]["data_gaps_zh"])
+        self.assertTrue(any("moved organizer-owned" in item for item in result["decision"]["local_gate_overrides"]))
+
+    def test_participant_repair_mentioning_official_geometry_stays_blocking(self) -> None:
+        review = valid_review()
+        for item in review["rubric_scores"]:
+            item["score"] = 5
+        review["required_next_actions_zh"] = [
+            "修正把非官方边界误标为官方边界的声明。",
+            "删除声称使用官方几何的虚假描述。",
+        ]
+        client = FakeClient(review)
+        with tempfile.TemporaryDirectory() as tmp, mock.patch(
+            "ai_review_submission.collect_visual_inputs", return_value=([], [], [])
+        ), mock.patch("ai_review_submission.content_preflight", return_value=[]):
+            result = run_ai_review(
+                ROOT, SUBMISSION, "alice", Path(tmp), client, "gpt-test",
+                "https://api.openai.com/v1", "high", 7, 1024 * 1024, False,
+            )
+        self.assertEqual("request-changes", result["review"]["recommendation"])
+        self.assertFalse(result["review"]["can_enter_formal_review"])
+        self.assertEqual(
+            review["required_next_actions_zh"], result["review"]["required_next_actions_zh"]
+        )
+        self.assertEqual("do-not-publish", result["decision"]["publication_recommendation"])
+        self.assertFalse(any("moved organizer-owned" in item for item in result["decision"]["local_gate_overrides"]))
+
+    def test_ambiguous_organizer_language_stays_blocking(self) -> None:
+        participant_repairs = [
+            "由组织方提供的几何被错误解读，请参赛者修正图件。",
+            "待组织方确认前，请删除已获正式批准的表述。",
+            "等待主办方发布边界前，请参赛者修正图件。",
+        ]
+        for action in participant_repairs:
+            with self.subTest(action=action):
+                self.assertFalse(is_organizer_owned_action(action))
+                review = valid_review()
+                for item in review["rubric_scores"]:
+                    item["score"] = 5
+                review["required_next_actions_zh"] = [action]
+                client = FakeClient(review)
+                with tempfile.TemporaryDirectory() as tmp, mock.patch(
+                    "ai_review_submission.collect_visual_inputs", return_value=([], [], [])
+                ), mock.patch("ai_review_submission.content_preflight", return_value=[]):
+                    result = run_ai_review(
+                        ROOT, SUBMISSION, "alice", Path(tmp), client, "gpt-test",
+                        "https://api.openai.com/v1", "high", 7, 1024 * 1024, False,
+                    )
+                self.assertEqual("request-changes", result["review"]["recommendation"])
+                self.assertEqual([action], result["review"]["required_next_actions_zh"])
+                self.assertFalse(any("moved organizer-owned" in item for item in result["decision"]["local_gate_overrides"]))
 
     def test_submission_path_author_must_match_pr_author(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

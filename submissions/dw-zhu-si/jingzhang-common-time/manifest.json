@@ -244,7 +244,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "23dd36157e2fe758531c7efaa61e07da0773109d159d3ecd4fb0356ba67ee057",
+      "sha256": "dd89e192b7d6096c1693090954ae6ab9feff81f33a97270d6c347f926cf3cdd4",
       "language": "zh"
     },
     {
@@ -257,14 +257,14 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "5869a3cf5da803f8c1914189288d6410fc58513fe81834f07d844b8c07d27edb",
+      "sha256": "42e5a9d6c90668c6e28c144995f0a66bb99155efb9b4a8f1ffb1ce1bc5533f38",
       "language": "zh"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "9f01b503c155c1feff56dc8ae8d4aa4f9a9b2602a558cb3e68b7eec4b0bcb3b1"
+      "sha256": "d99e20b9fd70ed6e61ce30794ee6dd3697d4b3899e436959b314cfa92b8e67de"
     },
     {
       "path": "sources.json",
@@ -353,7 +353,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "86ff1421e5bf44e64fb936e16263255ad4f1233077ac77ae67c078813ebbd6ca"
+      "sha256": "a128a3dc5ed39e2cf68a41c22799108f2f7f87529e876dfed47a0f4b65c75270"
     },
     {
       "path": "report/proposal.en.html",
@@ -361,7 +361,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "b6082c90a8b2fe26d39865ea33c747a413db6d44ace6eec2f23afc012cbff534"
+      "sha256": "515237afb6f77e069d9f35dc9f2337460255f6962739807644baac8c1cfa5b80"
     },
     {
       "path": "visual/index.en.html",
@@ -370,6 +370,20 @@
       "language": "en",
       "translation_of": "visual/index.html",
       "sha256": "c66184e01066bb5d6b31bb9c0b8762d455ec6ddbcdaa132f8296e1dbdd0bc735"
+    },
+    {
+      "path": "drawings/p0-p1-spatial-deepening.pdf",
+      "role": "drawing",
+      "required": false,
+      "language": "neutral",
+      "sha256": "2dc50bf22b3517aa88b54a9cb16f779c9e1a0cdcba482b4dc5052e22a22b6abb"
+    },
+    {
+      "path": "report/narrative.md",
+      "role": "narrative",
+      "required": false,
+      "language": "neutral",
+      "sha256": "13369d2ccadcc7ff204523592069255a12f22569e3ab4b1cabf410a43a59a9cb"
     }
   ],
   "validation_claim": {
