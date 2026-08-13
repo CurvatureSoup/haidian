@@ -15,10 +15,14 @@
 | SMOKE-ORCH | DONE | orchestrator | 读取三项结果并汇总路由状态 | 三个 smoke 输出与规则后置复核 | `project_control/smoke/orchestrator_summary.md` | 行为交接 PASS；配置 CONFIG_VALIDATED；实际模型 NOT OBSERVABLE |
 | ROUTE-MODEL-VERIFY | DONE | orchestrator | 核对项目级 Agent 配置与运行边界 | 当前配置与 smoke 结果 | CONFIG_VALIDATED | 配置优先级和行为通过；平台未提供独立运行时模型遥测 |
 | G1-INTERNAL-INVENTORY | DONE | orchestrator | 盘点仓库内来源、面积、临时几何、标准和资料缺口 | source registry / site package / processed fact pack / Issue #846 | `project_control/G1_DATA_BASELINE.md` | 6 条中央来源、6 个公告面积、6 个 provisional 要素、9 类缺口已登记；未开展外部采集或设计 |
-| G1-DIR-001 | WAITING_HUMAN | human + orchestrator | 决定 G1 空间数据工作范围策略 | provisional 边界限制 / Issue #846 / 官方 polygon 缺失 | 待人类选择 A、B 或 C | 该选择会改变采集范围、返工量和空间口径；未决前停止空间提取 |
-| G1-DATA-BASELINE | PAUSED | orchestrator | 建立资料、空间与现状数据基线 | 用户授权 / G1 内部盘点 | `project_control/G1_DATA_BASELINE.md` | 已安全保存；等待 `G1-DIR-001`，不自动进入外部采集或设计 |
+| G1-DIR-001 | DONE | human + orchestrator | 决定 G1 空间数据工作范围策略 | provisional 边界限制 / Issue #846 / 官方 polygon 缺失 | 选择 C；`G1_DUAL_TRACK_PROTOCOL.md` | 双轨只允许来源发现与试跑；正式基线等待官方数据 |
+| G1-DATA-GOVERNANCE | DONE | orchestrator | 固定九类缺口的来源、字段、许可和整体复算要求 | G1 内部盘点 / 选择 C | acquisition matrix / field dictionary / dual-track protocol | 9 类缺口齐全；不产生正式空间结论 |
+| G1-PUBLIC-SOURCE-PILOT | DONE | researcher + librarian | 试跑公开官方来源并保存可重放回执 | 无凭证官方网页 | `G1_SOURCE_DISCOVERY_LOG.csv` | 6 个 HTTP 200 + SHA-256；metadata-only；不复制媒体、不生成设计 |
+| G1-EXT-ACCESS-001 | WAITING_HUMAN | human + orchestrator | 决定是否授权外部联系或受限附件访问 | P0 边界/控规/文保/宗地/市政缺口 | 待决定组织方请求、主管部门图纸请求或需登录入口 | 涉及外部状态、身份/机构信息或许可，不得擅自执行 |
+| G1-DATA-BASELINE | PAUSED | orchestrator | 建立资料、空间与现状数据基线 | 双轨协议 / 来源矩阵 / 字段字典 | `project_control/G1_DATA_BASELINE.md` | 已安全保存于外部访问门；候选来源不升级为正式基线 |
 | DESIGN-START | BLOCKED | orchestrator | 正式城市规划与 Baseline Freeze | 后续单独授权 | 未启动 | 当前明确禁止 |
 | UPSTREAM-SYNC-20260812 | DONE | orchestrator | 合并并发布官方规则 | `upstream/main@905b8be6` | remote merge `f1cecdd5`；method commit `4f1e397e` | 无语义冲突；远端 SHA 与树已核验；未启动设计 |
 | AI-NATIVE-METHOD-V01 | DONE | orchestrator | 建立方法规范、Schema、模板、合成夹具和 validator | 用户冻结的 v0.1 方法 | `project_control/ai_native/` | 正例与公式重算通过；无真实设计数据 |
 | AI-NATIVE-AGENT-CONTRACTS | DONE | orchestrator | 更新六个 Agent 的方法职责 | v0.1 规范 | `.codex/agents/*.toml` | 模型、effort、sandbox 保持不变 |
 | AI-NATIVE-CONTRACT-SMOKE | DONE | qa_worker | 运行独立纯合成方法契约 smoke | 合成 fixture 与负例突变 | `SYNTHETIC_METHOD_CONTRACT_PASS` | 不覆盖历史 smoke、不验证运行时模型、不生成设计 |
+| UPSTREAM-SYNC-20260813 | DONE | orchestrator | 合并最新官方 main 并复核规则影响 | `upstream/main@464aead8` | remote merge `65a06071` | 其后 7 个提交均为 submissions；项目路径无冲突 |

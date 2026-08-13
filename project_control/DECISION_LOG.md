@@ -29,3 +29,6 @@
 | D-025 | 2026-08-12 | R-Score 采用六分项权重、High 暂定 ≥80；关键设施 AI-Off 基础服务保持率 ≥100%，ATS 与 R 不相加。 | 用户实施计划。 | 用专用资产比例单项决定可逆性，或将双轴压成总分。 | FROZEN | human + orchestrator |
 | D-026 | 2026-08-12 | 每设施必须有三态故障合同、Second Life，并在 Boom/Fragmentation/Retreat 三未来下全 PASS 才可 High–High。 | 用户实施计划。 | 只写人工接管口号或单一未来叙述。 | FROZEN | human + orchestrator |
 | D-027 | 2026-08-12 | 当前只改方法、六 Agent 与合成测试；不新增设计 Agent、研究或真实方案，不解除 `G1-DIR-001` 和 `DESIGN-START`。 | 用户实施计划与现有 Gate。 | 借方法实施提前生产设施、坐标、造价或图件。 | FROZEN | human + orchestrator |
+| D-028 | 2026-08-13 | `G1-DIR-001` 选择 C 双轨策略：官方待定轨与发现试跑轨并行，provisional 结果不进入正式基线，官方数据到位后整体复算。 | 人类明确选择 C；Issue #846 与官方 polygon 缺失仍在。 | A 完全等待官方边界；B 直接以 provisional 推进空间基线。 | FROZEN | human + orchestrator |
+| D-029 | 2026-08-13 | 最新官方 main 合入架构分支；`completeness_limited_by` 仅用于披露正式深度受官方缺数限制，不改变 complete 门或证据等级。 | `905b8be6..61306151` 规则差异及 `main@464aead8` 同步审计。 | 用该字段掩盖 incomplete/data_gap，或因纯投稿更新改写项目方法。 | FROZEN | orchestrator + qa_worker |
+| D-030 | 2026-08-13 | 无凭证公开来源发现可执行；外部联系、注册登录、机构/个人信息提交和受限附件请求设为 `G1-EXT-ACCESS-001` 人类门。 | 双轨协议与来源采集矩阵显示 P0 缺口需组织方或主管部门附件。 | 总控擅自发邮件、Issue、注册账号或接受未知许可。 | FROZEN | human + orchestrator |

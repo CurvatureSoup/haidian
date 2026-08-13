@@ -37,4 +37,9 @@
 | F-024 | CONFIRMED | 本轮授权只限 AI-native v0.1 方法基础设施、六个 Agent 契约与合成测试，不解除设计门。 | 用户实施计划 / D-027 | 不得生成真实设施、坐标、尺寸、造价、图件或新增研究。 | orchestrator | 2026-08-12 |
 | F-025 | CONFIRMED | ATS 与 R-Score 是项目自定义 v0.1 双轴指标，不是官方评分；权重和 High 阈值是待未来真实记录校准的工作参数。 | AI_NATIVE_METHOD_V0_1 / D-024 / D-025 | 不得冒充既有标准或实证阈值，不得将二者相加。 | evidence_planner | 2026-08-12 |
 | F-026 | CONFIRMED | 方法全集为 8 类设施，首轮为 6 类；High–High 要求 AI 物理使用行为、可测物理改变并通过 anti-sticker 门。 | AI_NATIVE_METHOD_V0_1 / D-023 | 单纯摄像头、传感器或后台算法不能进入 High–High。 | qa_worker | 2026-08-12 |
-| F-027 | CONFIRMED | 当前官方规则基线为 `905b8be6`，未来正式投稿 manifest 使用 0.2 严格哈希与 refresh→self-check 流程。 | upstream main / manifest migration | 项目方法不写入中央 Schema；正式投稿仍只改 submissions 目录。 | qa_worker | 2026-08-12 |
+| F-027 | CONFIRMED | 2026-08-12 方法实施时的官方规则基线为 `905b8be6`；未来正式投稿 manifest 使用 0.2 严格哈希与 refresh→self-check 流程。 | upstream main / manifest migration | 作为历史实施点保留；项目方法不写入中央 Schema，正式投稿仍只改 submissions 目录。 | qa_worker | 2026-08-12 |
+| F-028 | CONFIRMED | 人类已选择 `G1-DIR-001=C`；发现与试跑结果必须保持 provisional/背景状态，官方数据到位后整体重裁剪、重算和差异审计。 | 用户决定 / D-028 / G1 双轨协议 | 可以继续可追溯来源发现，但不能形成正式边界、法定指标或设计判断。 | orchestrator | 2026-08-13 |
+| F-029 | CONFIRMED | 官方 `main@464aead8` 已合入远端架构分支 `65a06071`；相对 `61306151` 的 7 个新提交只改 `submissions/`。 | GitHub commits / compare / Git trees API | 最新规则接口已纳入，未触发 AI-native 方法或 Agent 模型变更。 | librarian | 2026-08-13 |
+| F-030 | CONFIRMED | 正式设计深度项新增可选 `completeness_limited_by`，但核心 status 仍必须 `complete`，且该字段不能改变 formal 资格或证据真值。 | design_depth_matrix schema / formal guide @ 61306151 | 未来可机器可读披露官方缺数限制，不能据此填造未知控规、边界或底数。 | qa_worker | 2026-08-13 |
+| F-031 | CONFIRMED | 6 个官方网页已完成 metadata-only 试跑并取得 HTTP 200 与内容 SHA-256；控规通告和文保页面均缺可直接充当项目正式 polygon 的清权 GIS/CAD。 | G1_SOURCE_DISCOVERY_LOG.csv | 只作文字背景、来源发现或官方文字约束；不复制媒体，不做精确空间叠加。 | evidence_planner | 2026-08-13 |
+| M-006 | MISSING | 关闭 P0 缺口所需的组织方正式附件、清华园车站另行印发图纸、清权地籍与市政资料仍未取得。 | G1_SOURCE_ACQUISITION_MATRIX.csv | 下一步涉及外部联系或受限访问，等待 `G1-EXT-ACCESS-001`。 | orchestrator | 2026-08-13 |

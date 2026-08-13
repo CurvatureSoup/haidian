@@ -2,7 +2,7 @@
 
 ## 当前目标
 
-启动 G1 资料、空间与现状数据基线，先完成仓库内资料盘点、缺口登记和关键数据策略决策。当前已安全暂停在 `G1-DIR-001`，等待人类选择空间数据提取范围；不开展正式城市设计、不生成投稿方案、不进行大规模数据下载。
+G1 已采用双轨策略 C：官方待定轨用于未来正式基线，发现试跑轨只保存可追溯来源与处理回执。九类来源矩阵、字段字典和首批官方网页试跑已完成；当前安全暂停在 `G1-EXT-ACCESS-001`，等待是否授权外部联系或受限附件访问。不开展正式城市设计、不生成投稿方案、不进行大规模数据下载。
 
 ## 项目与仓库
 
@@ -10,9 +10,9 @@
 - 工作 fork：`CurvatureSoup/haidian`
 - Agent 架构分支：`codex/agent-architecture`
 - 历史 G0 基线：官方 `main@d28c14002a77d19221888ffe8ac447876aca3165`
-- 当前规则基线：官方 `main@9051ca77fe1a15657bc3abf0513c402561afae0f`
-- 规则复核校验点：官方 `main@c4765c8baff68794dca212f2f57167769f809efe`；相对当前规则基线，顶层 Git tree 唯一变化为 `submissions/`
-- 远端同步：`codex/agent-architecture` 已通过 `a59a6fd37a766ef675cb182cc0ea5326e638f157` 合并当前规则基线，并在 `de301b91a8e9a33701d64d7a7679f66648d23c5a` 完成规则后置复核记录
+- 当前官方同步点：`main@464aead8cac0cc0664b060343efb156ef4a83e52`
+- 规则接口校验点：非投稿规则变化截至 `61306151143d96509d2d73f2a4848581b27bddea`；其后至 `464aead8` 的变化全部位于 `submissions/`
+- 远端同步：`codex/agent-architecture` 已在合并提交 `65a060717b652a36182a217753dfeaddc0bf2057` 纳入最新官方 main；项目自有路径无冲突
 - 本机 Skill：七个文件已与当前规则基线逐一校验一致
 - 本地 Git：已于 2026-08-10 使用 blobless sparse fetch 安全快进至远端 `de301b91`；工作树与远端一致，旧规则树阻断已解除
 - 正式规则入口：`skills/urban-design-ai-submission/SKILL.md`
@@ -33,7 +33,7 @@
 - 使用足够完成任务的最低成本 Agent。
 - 所有事实与项目状态只在 `project_control/` 维护。
 - 总叙事冻结为 **AI-native, not AI-dependent**；`AI-Ready, AI-Optional` 保留为工程约束。两者均为项目自定义方法，不是官方事实或评分标准。
-- 本轮只实施 `project_control/ai_native/AI_NATIVE_METHOD_V0_1.md`、设施记录 Schema/validator、合成测试和六个 Agent 契约，不进入真实设计或新增研究。
+- AI-native v0.1 方法基础设施已完成；当前只推进 G1 双轨来源治理和经授权的公开来源发现，不进入真实设计。
 - 方法覆盖 8 类设施，首轮校准道路、路缘、入口、公园、市政物流、能源/边缘节点 6 类；采用 ATS×R 双轴、三态运行、Second Life 与 Boom/Fragmentation/Retreat 压力测试。
 - 未来正式投稿必须遵守官方 package、证据、几何、版权与 PR 范围要求。
 - 新投稿采用 `proposal_format_version="2"` 与 `bilingual_contract_version="1"`，中英文及所有文字型交付物必须成对一致。
@@ -55,16 +55,17 @@
 2. 不复跑 smoke；不合并仅含 `submissions/` 的上游更新；不物化其他投稿媒体。
 3. 中央 `data/source_registry.json` 只读，新的参赛者自采来源先进入本项目 G1 记录，申请中央登记必须另行授权并走 Issue。
 4. provisional geometry 只可在用户选择工作策略后用于明确标注的临时提取、检查或讨论，不得升级为官方边界。
-5. 关键方向、范围或法定口径决策必须暂停并由人类决定；当前门为 `G1-DIR-001`。
+5. 关键方向、范围、法定口径、外部联系或凭证访问必须暂停并由人类决定；当前门为 `G1-EXT-ACCESS-001`。
 
 ## 当前验证结论
 
 - 2026-08-12 已将官方规则 `upstream/main@905b8be6ed6b9eb9e84307ef2dbf565fe96dc6f0` 合入架构分支并发布；远端合并提交为 `f1cecdd5d9d98c168df668cecef5500e95c4ac72`，AI-native v0.1 提交为 `4f1e397e81fddcf029cec573ce6eb3e865ba8401`。旧规则 SHA 只保留为历史记录。
 - 最新 manifest 契约为 0.2：未来投稿须严格校验哈希；ready 包改动后先 refresh manifest，再重新 self-check。AI-native 矩阵未来使用既有 `evidence_data` role，不修改中央 Schema。
+- 最新规则允许正式深度项用可选 `completeness_limited_by` 披露官方数据限制，但核心项仍必须为 `complete`；该字段不把 unknown 升级为确定结论。
 - AI-native v0.1 Schema、合法模板、合成 High–High 正例与负例突变均已通过独立契约测试，结果为 `SYNTHETIC_METHOD_CONTRACT_PASS`；这不代表真实方案或运行时模型验证。
 - `d28c1400..9051ca77` 的 10 个非投稿路径已完成影响复核：来源登记职责、模型披露、仿真一致性、符号链接拒绝和 provisional 背景核对均已回写；gallery 自动维护与生成快照不影响 Agent 架构。
 - OSM 背景核对暴露了 provisional 总体范围的不确定性，但不能证明临时范围错误，也不能把 OSM 升级为官方边界；仍等待官方 polygon 裁决。
 - 六个 Agent 配置可解析，三项 smoke 原始产物结论仍有效；项目配置验收为 `CONFIG_VALIDATED`，运行时模型审计为 `NOT OBSERVABLE`，不得声称三级实际模型路由通过。
-- 当前规则影响复核与本地 Git 同步均为 `PASS`；G1 仓库内盘点已启动并完成首轮清单，状态为 `PAUSED_AT_HUMAN_GATE`。
+- 当前规则影响复核和远端树级同步均为 `PASS`；G1 双轨协议、九类来源矩阵、字段字典和 6 个官方网页哈希回执已完成，状态为 `PAUSED_AT_EXTERNAL_ACCESS_GATE`。
 - 官方精确范围 polygon、项目控规指标、现状专业底数和一份需官方文件补齐的设计深度标准仍缺失。
-- `G1-DIR-001` 等待人类选择工作空间范围策略；`DESIGN-START` 继续保持 `BLOCKED`，需要未来另行授权。
+- `G1-DIR-001=C` 已冻结；下一门 `G1-EXT-ACCESS-001` 等待人类决定是否授权联系组织方/主管部门或访问需登记、登录、许可的附件。`DESIGN-START` 继续保持 `BLOCKED`。

@@ -1,0 +1,10 @@
+gap_id,priority,required_dataset,target_authority,current_candidate_ids,current_state,formal_use_now,provisional_use,required_capture,required_transform,replacement_trigger,owner,next_action
+GAP-BOUNDARY-001,P0,三层范围官方polygon,组织方或北京市规划自然资源主管部门,SRC-G1-OFFICIAL-ANNOUNCEMENT,official_text_only,no,query_discovery_only,清权GIS/CAD/PDF及发布依据,坐标系核验_拓扑检查_三层范围面积复算,收到组织方正式polygon,gis_analyst,需人类决定是否发起组织方附件请求
+GAP-BOUNDARY-002,P0,三个重点片区官方KEY_AREA polygon,组织方或北京市规划自然资源主管部门,SRC-G1-OFFICIAL-ANNOUNCEMENT,official_text_only,no,query_discovery_only,清权GIS/CAD/PDF及发布依据,坐标系核验_拓扑检查_重点区面积复算,收到组织方正式KEY_AREA,gis_analyst,需人类决定是否发起组织方附件请求
+GAP-CONTROL-001,P0,项目控规条件及控制线,北京市规划自然资源主管部门,SRC-G1-CONTROL-NOTICE,background_only,no,field_discovery_only,正式控规文本图则或任务书附件,街区地块字段映射_版本和效力核验,取得适用于本项目范围的正式控制条件,evidence_planner,追踪草案图则和后续正式批准文件
+GAP-ROAD-001,P1,道路红线_等级_断面_节点,北京市规划自然资源和交通主管部门,SRC-G1-CONTROL-NOTICE,background_only,no,interface_trial_only,正式道路红线或交通专项,线网拓扑_断面字段_与官方范围裁剪,取得正式道路红线或任务书附件,gis_analyst,仅建立字段和来源目录
+GAP-PARCEL-001,P0,宗地边界_权属_实施状态,组织方或清权地籍资料,none,missing,no,no,清权宗地GIS及权属状态表,唯一宗地ID_拓扑_权属状态受控映射,取得清权地籍资料,evidence_planner,停止在外部访问权限门
+GAP-BUILDING-001,P1,建筑轮廓_用途_高度_年代_状态,官方现状调查或清权测绘,none,missing,no,metadata_trial_only,建筑GIS与调查表_测量日期,空间连接_字段标准化_缺失率报告,取得官方调查或清权测绘,gis_analyst,可继续发现公开目录但不得判拆改留
+GAP-HERITAGE-001,P0,遗址公园与清华园车站保护范围及建控地带,北京市文物局和规划自然资源主管部门,SRC-G1-HERITAGE-QHY|SRC-G1-HERITAGE-NOTICE|SRC-G1-PARK-PHASE2,official_textual_control,only_textual_claims,context_only,正式说明与图纸_图件版本_空间基准,图纸配准仅在许可和基准明确后进行_与官方范围叠加,取得另行印发图纸或清权GIS,evidence_planner,需人类决定是否请求另行印发图纸
+GAP-MUNICIPAL-001,P0,市政管线_消防_防洪排涝_海绵条件,组织方或相关主管部门,none,missing,no,no,清权专项和管线资料,专业字段对齐_安全等级_版本核验,取得清权专项或任务书附件,evidence_planner,停止在外部访问权限门
+GAP-SERVICE-001,P1,公共服务设施位置_类型_容量_服务状态,区级主管部门或可信开放数据,SRC-G1-PARK-CATALOG|SRC-G1-PARK-PHASE2,partial_background,no,directory_and_schema_trial,官方设施名录和容量字段,去重_分类映射_时效核验_官方范围重裁剪,取得完整官方设施底数,researcher,可继续无凭证公开目录发现
