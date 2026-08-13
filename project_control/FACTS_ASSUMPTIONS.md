@@ -8,7 +8,7 @@
 | F-002 | CONFIRMED | 项目级自定义 Codex Agent 使用 `.codex/agents/*.toml`，每个文件至少包含 name、description、developer_instructions。 | OpenAI Docs: Subagents | 本项目按正式 schema 建立 Agent。 | qa_worker | 2026-08-09 |
 | F-003 | CONFIRMED | 正式投稿 PR 只允许修改本人 `submissions/<login>/<slug>/`。 | 最新项目 Skill / formal guide | Agent 架构使用独立分支，不能混入未来投稿 PR。 | orchestrator | 2026-08-09 |
 | F-004 | CONFIRMED | 当前阶段已启动 G1 资料、空间与现状数据基线，但不开始城市设计。 | 用户任务 / D-020 | 只允许盘点、来源治理、缺口登记和经人类确认的数据基线工作；`DESIGN-START` 保持冻结。 | orchestrator | 2026-08-10 |
-| A-001 | ASSUMPTION | `AI-Ready, AI-Optional` 是后续方案的候选总原则。 | 用户提供的两篇深度调研 | 进入规划阶段前由总控结合正式证据决定是否冻结。 | evidence_planner | 2026-08-09 |
+| A-001 | CONFIRMED | `AI-Ready, AI-Optional` 已冻结为 `AI-native, not AI-dependent` 下的工程约束。 | 用户决定 / D-022 | 这是项目方法，不是外部事实或官方规则；人类权利、停止权和最终决定权优先。 | evidence_planner | 2026-08-12 |
 | A-002 | ASSUMPTION | 调研中的大规模专业 Agent 清单适合分阶段扩展，而不适合初始化时一次建立。 | 用户调研 + 当前第一批范围 | 第一阶段只保留六个 Agent。 | orchestrator | 2026-08-09 |
 | F-005 | CONFIRMED | librarian、researcher、evidence_planner 和 orchestrator 均完成了指定微型任务与共享文件交接。 | `project_control/smoke/` | 角色行为与总控读取能力已验证。 | orchestrator | 2026-08-09 |
 | F-006 | CONFIRMED | `d28c14002a77d19221888ffe8ac447876aca3165` 是历史 G0 审计基线，已被当前规则基线 `9051ca77fe1a15657bc3abf0513c402561afae0f` 取代。 | GitHub compare / D-014 | 仅保留历史审计，不再作为当前规则输入。 | librarian | 2026-08-09 |
@@ -34,3 +34,7 @@
 | M-003 | MISSING | `建筑工程设计文件编制深度规定（2016年版）` 在标准登记中仍为 `needs_official_file`。 | standards.json | 不能仅凭 URL 当作本地正式专业标准证据。 | evidence_planner | 2026-08-09 |
 | M-004 | MISSING | 现状地块、建筑、交通、市政、公服、文保和权属等专业底数尚未补齐。 | `brief/site-package/missing-data.md` | G1 数据基线不得自动判定完成。 | orchestrator | 2026-08-09 |
 | M-005 | CONFIRMED | 2026-08-09 记录的 Git HTTPS 阻断已解除；本地 `codex/agent-architecture` 已安全快进至远端 `de301b91a8e9a33701d64d7a7679f66648d23c5a`，同步前 10 个本地修改文件与该远端提交逐一同哈希。 | `git fetch --filter` / `git merge --ff-only` / GitHub contents API | 本地旧历史不再阻断后续工作；用户仍明确暂不进入 G1。 | orchestrator | 2026-08-10 |
+| F-024 | CONFIRMED | 本轮授权只限 AI-native v0.1 方法基础设施、六个 Agent 契约与合成测试，不解除设计门。 | 用户实施计划 / D-027 | 不得生成真实设施、坐标、尺寸、造价、图件或新增研究。 | orchestrator | 2026-08-12 |
+| F-025 | CONFIRMED | ATS 与 R-Score 是项目自定义 v0.1 双轴指标，不是官方评分；权重和 High 阈值是待未来真实记录校准的工作参数。 | AI_NATIVE_METHOD_V0_1 / D-024 / D-025 | 不得冒充既有标准或实证阈值，不得将二者相加。 | evidence_planner | 2026-08-12 |
+| F-026 | CONFIRMED | 方法全集为 8 类设施，首轮为 6 类；High–High 要求 AI 物理使用行为、可测物理改变并通过 anti-sticker 门。 | AI_NATIVE_METHOD_V0_1 / D-023 | 单纯摄像头、传感器或后台算法不能进入 High–High。 | qa_worker | 2026-08-12 |
+| F-027 | CONFIRMED | 当前官方规则基线为 `905b8be6`，未来正式投稿 manifest 使用 0.2 严格哈希与 refresh→self-check 流程。 | upstream main / manifest migration | 项目方法不写入中央 Schema；正式投稿仍只改 submissions 目录。 | qa_worker | 2026-08-12 |

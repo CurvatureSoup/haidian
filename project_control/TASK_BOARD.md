@@ -18,3 +18,7 @@
 | G1-DIR-001 | WAITING_HUMAN | human + orchestrator | 决定 G1 空间数据工作范围策略 | provisional 边界限制 / Issue #846 / 官方 polygon 缺失 | 待人类选择 A、B 或 C | 该选择会改变采集范围、返工量和空间口径；未决前停止空间提取 |
 | G1-DATA-BASELINE | PAUSED | orchestrator | 建立资料、空间与现状数据基线 | 用户授权 / G1 内部盘点 | `project_control/G1_DATA_BASELINE.md` | 已安全保存；等待 `G1-DIR-001`，不自动进入外部采集或设计 |
 | DESIGN-START | BLOCKED | orchestrator | 正式城市规划与 Baseline Freeze | 后续单独授权 | 未启动 | 当前明确禁止 |
+| UPSTREAM-SYNC-20260812 | DONE | orchestrator | 合并最新官方规则 | `upstream/main@905b8be6` | merge `b84f1ca1` | 无语义冲突；未启动设计 |
+| AI-NATIVE-METHOD-V01 | DONE | orchestrator | 建立方法规范、Schema、模板、合成夹具和 validator | 用户冻结的 v0.1 方法 | `project_control/ai_native/` | 正例与公式重算通过；无真实设计数据 |
+| AI-NATIVE-AGENT-CONTRACTS | DONE | orchestrator | 更新六个 Agent 的方法职责 | v0.1 规范 | `.codex/agents/*.toml` | 模型、effort、sandbox 保持不变 |
+| AI-NATIVE-CONTRACT-SMOKE | DONE | qa_worker | 运行独立纯合成方法契约 smoke | 合成 fixture 与负例突变 | `SYNTHETIC_METHOD_CONTRACT_PASS` | 不覆盖历史 smoke、不验证运行时模型、不生成设计 |

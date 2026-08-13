@@ -23,3 +23,9 @@
 | D-019 | 2026-08-10 | 完成同步与校验点登记后暂不进入 G1，`DESIGN-START` 继续保持阻断。 | 用户明确授权只执行本地同步与规则校验点更新，并明确暂不进入 G1。 | 把 Git 同步完成解释为资料研究或规划生产授权。 | FROZEN | human + orchestrator |
 | D-020 | 2026-08-10 | 启动 G1 资料、空间与现状数据基线，同时继续执行轻量规则监控、不复跑 smoke、不合并纯投稿更新，并保持 `DESIGN-START` 阻断。 | 用户明确授权执行原清单 1、2、3、5 并启动 G1。 | 把 G1 授权解释为城市设计、正式指标计算或投稿生产授权。 | FROZEN | human + orchestrator |
 | D-021 | 2026-08-10 | G1 遇到会改变范围、数据口径或后续方向的关键决策时，先安全保存并停止，未经人类选择不得继续。 | 用户要求关键性方向决策立即停止等待；未决时安全保存。 | 总控自行选择 provisional 空间工作范围或扩大采集。 | FROZEN | human + orchestrator |
+| D-022 | 2026-08-12 | 总叙事冻结为 `AI-native, not AI-dependent`；`AI-Ready, AI-Optional` 为工程约束，人类权利与最终决定权优先。 | 用户实施计划。 | 让城市依赖某一代 AI，或赋予 AI 法律人格和优先城市权利。 | FROZEN | human + orchestrator |
+| D-023 | 2026-08-12 | 采用“AI需求反推、由人治理的设施重构”，先判 retain/adapt/reconstruct；全集 8 类、首批 6 类，并设物理使用者与 anti-sticker 门。 | 用户实施计划与同行差异审计。 | 为追求高 ATS 制造无必要土建，或把外挂传感器称为 AI-native。 | FROZEN | human + orchestrator |
+| D-024 | 2026-08-12 | ATS 采用 P/F/I/U 四项 0–5、总分 `5×sum`，High 暂定 ≥70 且 P≥2、U≥3。 | 用户实施计划。 | 把 ATS 冒充官方分数或用单一设备数量代替转型程度。 | FROZEN | human + orchestrator |
+| D-025 | 2026-08-12 | R-Score 采用六分项权重、High 暂定 ≥80；关键设施 AI-Off 基础服务保持率 ≥100%，ATS 与 R 不相加。 | 用户实施计划。 | 用专用资产比例单项决定可逆性，或将双轴压成总分。 | FROZEN | human + orchestrator |
+| D-026 | 2026-08-12 | 每设施必须有三态故障合同、Second Life，并在 Boom/Fragmentation/Retreat 三未来下全 PASS 才可 High–High。 | 用户实施计划。 | 只写人工接管口号或单一未来叙述。 | FROZEN | human + orchestrator |
+| D-027 | 2026-08-12 | 当前只改方法、六 Agent 与合成测试；不新增设计 Agent、研究或真实方案，不解除 `G1-DIR-001` 和 `DESIGN-START`。 | 用户实施计划与现有 Gate。 | 借方法实施提前生产设施、坐标、造价或图件。 | FROZEN | human + orchestrator |

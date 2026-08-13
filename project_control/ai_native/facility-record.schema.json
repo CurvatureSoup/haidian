@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ai-native/facility-record.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "method_version", "dataset_kind", "synthetic", "evidence_register", "assumption_register", "facilities", "portfolio_summary"],
+  "properties": {
+    "schema_version": {"const": "0.1.0"},
+    "method_version": {"const": "ai-native-facility-v0.1"},
+    "dataset_kind": {"enum": ["template", "synthetic_fixture", "project_assessment"]},
+    "synthetic": {"type": "boolean"},
+    "evidence_register": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+    "assumption_register": {"type": "array", "items": {"$ref": "#/$defs/assumption"}},
+    "facilities": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/facility"}},
+    "portfolio_summary": {"$ref": "#/$defs/portfolio"}
+  },
+  "$defs": {
+    "refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["evidence_id", "status", "description", "source_ref", "confidence", "limitations"],
+      "properties": {
+        "evidence_id": {"type": "string", "minLength": 1}, "status": {"enum": ["synthetic", "confirmed", "provisional", "missing"]},
+        "description": {"type": "string"}, "source_ref": {"type": "string"}, "confidence": {"enum": ["high", "medium", "low", "unknown"]},
+        "limitations": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "assumption": {
+      "type": "object", "additionalProperties": false,
+      "required": ["assumption_id", "description", "status", "confidence"],
+      "properties": {"assumption_id": {"type": "string", "minLength": 1}, "description": {"type": "string"}, "status": {"enum": ["active", "resolved"]}, "confidence": {"enum": ["high", "medium", "low", "unknown"]}}
+    },
+    "component": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "score", "rationale", "evidence_ids", "assumption_ids"],
+      "properties": {"status": {"enum": ["known", "unknown"]}, "score": {"type": ["integer", "null"], "minimum": 0, "maximum": 5}, "rationale": {"type": "string"}, "evidence_ids": {"$ref": "#/$defs/refs"}, "assumption_ids": {"$ref": "#/$defs/refs"}}
+    },
+    "gate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "rationale", "evidence_ids", "assumption_ids"],
+      "properties": {"status": {"enum": ["pass", "fail", "unknown"]}, "rationale": {"type": "string"}, "evidence_ids": {"$ref": "#/$defs/refs"}, "assumption_ids": {"$ref": "#/$defs/refs"}}
+    },
+    "fault": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "trigger", "service_floor", "control_authority", "safe_state", "max_duration_hours", "recovery"],
+      "properties": {"status": {"enum": ["tested", "documented", "unknown"]}, "trigger": {"type": "string"}, "service_floor": {"type": "string"}, "control_authority": {"type": "string"}, "safe_state": {"type": "string"}, "max_duration_hours": {"type": ["number", "null"], "minimum": 0}, "recovery": {"type": "string"}}
+    },
+    "future": {
+      "type": "object", "additionalProperties": false,
+      "required": ["parameters", "status", "required_capacity", "delivered_capacity", "unit", "service_floor_met", "safety", "accessibility", "rationale", "evidence_ids", "assumption_ids"],
+      "properties": {"parameters": {"type": "object"}, "status": {"enum": ["pass", "fail", "unknown"]}, "required_capacity": {"type": ["number", "null"], "minimum": 0}, "delivered_capacity": {"type": ["number", "null"], "minimum": 0}, "unit": {"type": "string"}, "service_floor_met": {"type": ["boolean", "null"]}, "safety": {"enum": ["pass", "fail", "unknown"]}, "accessibility": {"enum": ["pass", "fail", "unknown"]}, "rationale": {"type": "string"}, "evidence_ids": {"$ref": "#/$defs/refs"}, "assumption_ids": {"$ref": "#/$defs/refs"}}
+    },
+    "facility": {
+      "type": "object", "additionalProperties": false,
+      "required": ["facility_id", "title", "facility_class", "calibration_wave", "criticality", "assessment_maturity", "assessment_status", "overall_confidence", "users", "baseline_b0", "basic_service", "reverse_design", "physical_change", "compatibility", "operation_states", "second_life", "gates", "ats", "r_score", "futures", "classification", "evidence_ids", "assumption_ids"],
+      "properties": {
+        "facility_id": {"type": "string", "minLength": 1}, "title": {"type": "string"},
+        "facility_class": {"enum": ["road_intersection", "curb_loading", "building_entrance", "parking", "park_public_space", "lamp_street_furniture", "municipal_logistics", "energy_edge_node"]},
+        "calibration_wave": {"enum": [1, 2]}, "criticality": {"enum": ["critical", "non_critical"]},
+        "assessment_maturity": {"enum": ["concept", "prototype", "tabletop_verified", "field_verified"]}, "assessment_status": {"enum": ["draft", "assessed"]},
+        "overall_confidence": {"enum": ["high", "medium", "low", "unknown"]},
+        "users": {"type": "object", "additionalProperties": false, "required": ["human_users", "ai_users"], "properties": {"human_users": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "ai_users": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["actor_type", "physical_actions"], "properties": {"actor_type": {"type": "string"}, "physical_actions": {"type": "array", "uniqueItems": true, "items": {"enum": ["enter", "traverse", "dock", "queue", "load", "unload", "occupy_capacity", "charge"]}}}}}}},
+        "baseline_b0": {"type": "object", "additionalProperties": false, "required": ["description"], "properties": {"description": {"type": "string"}}},
+        "basic_service": {"type": "object", "additionalProperties": false, "required": ["definition", "unit", "baseline_capacity", "required_floor", "ai_off_immediate_capacity", "capacity_group_id"], "properties": {"definition": {"type": "string"}, "unit": {"type": "string", "minLength": 1}, "baseline_capacity": {"type": "number", "exclusiveMinimum": 0}, "required_floor": {"type": "number", "minimum": 0}, "ai_off_immediate_capacity": {"type": "number", "minimum": 0}, "capacity_group_id": {"type": "string", "minLength": 1}}},
+        "reverse_design": {"type": "object", "additionalProperties": false, "required": ["decision", "why_change", "counterfactual", "necessity_gate"], "properties": {"decision": {"enum": ["retain", "adapt", "reconstruct"]}, "why_change": {"type": "string"}, "counterfactual": {"type": "string"}, "necessity_gate": {"enum": ["pass", "fail", "unknown"]}}},
+        "physical_change": {"type": "object", "additionalProperties": false, "required": ["summary", "dimensions", "interventions", "measurable_changes"], "properties": {"summary": {"type": "string"}, "dimensions": {"type": "array", "uniqueItems": true, "items": {"enum": ["space", "scale", "structure", "physical_interface", "operations"]}}, "interventions": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["kind", "description"], "properties": {"kind": {"enum": ["space", "scale", "structure", "physical_interface", "operations", "sensor", "camera", "software"]}, "description": {"type": "string"}}}}, "measurable_changes": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["attribute", "baseline", "proposed", "unit"], "properties": {"attribute": {"type": "string"}, "baseline": {"type": "number"}, "proposed": {"type": "number"}, "unit": {"type": "string"}}}}}},
+        "compatibility": {"type": "object", "additionalProperties": false, "required": ["human_priority_preserved", "non_ai_access_preserved", "accessibility_preserved", "human_decision_authority", "legacy_compatibility", "interface_strategy"], "properties": {"human_priority_preserved": {"type": "boolean"}, "non_ai_access_preserved": {"type": "boolean"}, "accessibility_preserved": {"type": "boolean"}, "human_decision_authority": {"type": "string"}, "legacy_compatibility": {"type": "string"}, "interface_strategy": {"type": "string"}}},
+        "operation_states": {"type": "object", "additionalProperties": false, "required": ["ai_native", "ai_degraded", "ai_off"], "properties": {"ai_native": {"type": "object"}, "ai_degraded": {"type": "object", "additionalProperties": false, "required": ["network", "localization", "model", "sensing", "power", "vendor_interface"], "properties": {"network": {"$ref": "#/$defs/fault"}, "localization": {"$ref": "#/$defs/fault"}, "model": {"$ref": "#/$defs/fault"}, "sensing": {"$ref": "#/$defs/fault"}, "power": {"$ref": "#/$defs/fault"}, "vendor_interface": {"$ref": "#/$defs/fault"}}}, "ai_off": {"type": "object", "additionalProperties": false, "required": ["entry_condition", "maintained_basic_services", "control_authority", "safe_state", "conversion_time_hours", "recovery_time_objective_hours", "conversion_cost_amount", "capital_replacement_value_amount", "currency"], "properties": {"entry_condition": {"type": "string"}, "maintained_basic_services": {"type": "array", "items": {"type": "string"}}, "control_authority": {"type": "string"}, "safe_state": {"type": "string"}, "conversion_time_hours": {"type": "number", "minimum": 0}, "recovery_time_objective_hours": {"type": "number", "exclusiveMinimum": 0}, "conversion_cost_amount": {"type": "number", "minimum": 0}, "capital_replacement_value_amount": {"type": "number", "exclusiveMinimum": 0}, "currency": {"type": "string", "minLength": 1}}}}},
+        "second_life": {"type": "object", "additionalProperties": false, "required": ["asset_scope", "status", "paths"], "properties": {"asset_scope": {"enum": ["fixed_or_long_lived", "removable_electronics", "mixed"]}, "status": {"enum": ["known", "unknown"]}, "paths": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["path_type", "description", "target_users", "conversion_steps", "owner", "status"], "properties": {"path_type": {"enum": ["alternate_use", "redeploy", "reuse", "material_recovery"]}, "description": {"type": "string"}, "target_users": {"type": "array", "items": {"type": "string"}}, "conversion_steps": {"type": "array", "items": {"type": "string"}}, "owner": {"type": "string"}, "status": {"enum": ["planned", "tabletop_verified", "prototype_verified", "field_verified", "unknown"]}}}}}},
+        "gates": {"type": "object", "additionalProperties": false, "required": ["necessity", "public_value", "safety", "accessibility"], "properties": {"necessity": {"$ref": "#/$defs/gate"}, "public_value": {"$ref": "#/$defs/gate"}, "safety": {"$ref": "#/$defs/gate"}, "accessibility": {"$ref": "#/$defs/gate"}}},
+        "ats": {"$ref": "#/$defs/ats"}, "r_score": {"$ref": "#/$defs/r_score"},
+        "futures": {"type": "object", "additionalProperties": false, "required": ["boom", "fragmentation", "retreat"], "properties": {"boom": {"$ref": "#/$defs/future"}, "fragmentation": {"$ref": "#/$defs/future"}, "retreat": {"$ref": "#/$defs/future"}}},
+        "classification": {"type": "object", "additionalProperties": false, "required": ["declared_quadrant", "high_high_eligible"], "properties": {"declared_quadrant": {"enum": ["high_high", "high_ats_only", "high_r_only", "low_low", "not_evaluable"]}, "high_high_eligible": {"type": "boolean"}}},
+        "evidence_ids": {"$ref": "#/$defs/refs"}, "assumption_ids": {"$ref": "#/$defs/refs"}
+      }
+    },
+    "ats": {"type": "object", "additionalProperties": false, "required": ["components", "total"], "properties": {"components": {"type": "object", "additionalProperties": false, "required": ["p", "f", "i", "u"], "properties": {"p": {"$ref": "#/$defs/component"}, "f": {"$ref": "#/$defs/component"}, "i": {"$ref": "#/$defs/component"}, "u": {"$ref": "#/$defs/component"}}}, "total": {"$ref": "#/$defs/score_total"}}},
+    "r_score": {"type": "object", "additionalProperties": false, "required": ["components", "raw", "total"], "properties": {"components": {"type": "object", "additionalProperties": false, "required": ["rq", "rt", "rc", "rd", "ro", "rl"], "properties": {"rq": {"$ref": "#/$defs/component"}, "rt": {"$ref": "#/$defs/component"}, "rc": {"$ref": "#/$defs/component"}, "rd": {"$ref": "#/$defs/component"}, "ro": {"$ref": "#/$defs/component"}, "rl": {"$ref": "#/$defs/component"}}}, "raw": {"type": "object", "additionalProperties": false, "required": ["retention_pct", "time_to_rto_ratio", "cost_to_crv_ratio", "ai_dedicated_asset_ratio", "stranded_ai_asset_ratio"], "properties": {"retention_pct": {"type": ["number", "null"], "minimum": 0}, "time_to_rto_ratio": {"type": ["number", "null"], "minimum": 0}, "cost_to_crv_ratio": {"type": ["number", "null"], "minimum": 0}, "ai_dedicated_asset_ratio": {"type": ["number", "null"], "minimum": 0, "maximum": 1}, "stranded_ai_asset_ratio": {"type": ["number", "null"], "minimum": 0, "maximum": 1}}}, "total": {"$ref": "#/$defs/score_total"}}},
+    "score_total": {"type": "object", "additionalProperties": false, "required": ["status", "value"], "properties": {"status": {"enum": ["known", "unknown"]}, "value": {"type": ["number", "null"], "minimum": 0, "maximum": 100}}},
+    "summary_value": {"type": "object", "additionalProperties": false, "required": ["status", "value"], "properties": {"status": {"enum": ["known", "unknown", "not_applicable"]}, "value": {"type": ["number", "null"]}}},
+    "portfolio": {
+      "type": "object", "additionalProperties": false,
+      "required": ["facility_class_ats_medians", "critical_min_r_score", "evaluation_coverage_pct", "high_high_capacity_shares"],
+      "properties": {
+        "facility_class_ats_medians": {"type": "array", "minItems": 8, "maxItems": 8, "items": {"type": "object", "additionalProperties": false, "required": ["facility_class", "status", "value"], "properties": {"facility_class": {"enum": ["road_intersection", "curb_loading", "building_entrance", "parking", "park_public_space", "lamp_street_furniture", "municipal_logistics", "energy_edge_node"]}, "status": {"enum": ["known", "unknown", "not_applicable"]}, "value": {"type": ["number", "null"]}}}},
+        "critical_min_r_score": {"$ref": "#/$defs/summary_value"}, "evaluation_coverage_pct": {"$ref": "#/$defs/summary_value"},
+        "high_high_capacity_shares": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["capacity_group_id", "unit", "status", "numerator", "denominator", "value_pct"], "properties": {"capacity_group_id": {"type": "string"}, "unit": {"type": "string"}, "status": {"enum": ["known", "unknown", "not_applicable"]}, "numerator": {"type": ["number", "null"]}, "denominator": {"type": ["number", "null"]}, "value_pct": {"type": ["number", "null"]}}}}
+      }
+    }
+  }
+}

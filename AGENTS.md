@@ -36,6 +36,7 @@
 3. 事实、来源、假设或冲突分别回写 SSOT；不得悄悄改写其他 Agent 的专业结论。
 4. 总控读取结构化成果，裁决冲突并记录 `DECISION_LOG.md`；重大结论未经记录不得视为冻结。
 5. 确定性检查由 `qa_worker` 执行；专业判断不能用格式检查代替。
+6. AI-native 设施方法的唯一规范入口为 `project_control/ai_native/AI_NATIVE_METHOD_V0_1.md`；未来设计获得解锁后，设施记录仍必须通过该目录的 Schema 与 validator，并保留人类治理门。
 
 统一交接至少包含：`task_id`、`status`、`producer_agent`、`summary`、`source_ids`、`assumption_ids`、`blockers`、`output_paths`、`escalation_target`。
 
@@ -57,4 +58,6 @@
 
 ## 当前 smoke test
 
-系统初始化完成后，只执行 `project_control/smoke/README.md` 中三个微型任务。不得借 smoke test 开展正式研究、城市诊断或方案设计。总控必须汇总实际调度结果；如果模型没有按配置运行，记录真实限制，不得声称通过。
+`project_control/smoke/` 中历史三级路由 smoke 已完成并保留，不覆盖、不复跑。AI-native v0.1 只允许新增独立、明确标记的纯合成方法契约 smoke；该测试不验证运行时模型，也不得借此开展正式研究、城市诊断或方案设计。
+
+当前已授权建设 AI-native v0.1 方法、Schema、模板、合成测试和六个 Agent 的职责契约，但这不解除 `G1-DIR-001` 或 `DESIGN-START`。不得生成真实设施方案、坐标、尺寸、造价、图件，不得新增研究。

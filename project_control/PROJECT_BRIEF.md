@@ -32,7 +32,9 @@
 
 - 使用足够完成任务的最低成本 Agent。
 - 所有事实与项目状态只在 `project_control/` 维护。
-- 用户提供的工作原则 `AI-Ready, AI-Optional` 作为后续待总控冻结的项目方法，不是官方事实。
+- 总叙事冻结为 **AI-native, not AI-dependent**；`AI-Ready, AI-Optional` 保留为工程约束。两者均为项目自定义方法，不是官方事实或评分标准。
+- 本轮只实施 `project_control/ai_native/AI_NATIVE_METHOD_V0_1.md`、设施记录 Schema/validator、合成测试和六个 Agent 契约，不进入真实设计或新增研究。
+- 方法覆盖 8 类设施，首轮校准道路、路缘、入口、公园、市政物流、能源/边缘节点 6 类；采用 ATS×R 双轴、三态运行、Second Life 与 Boom/Fragmentation/Retreat 压力测试。
 - 未来正式投稿必须遵守官方 package、证据、几何、版权与 PR 范围要求。
 - 新投稿采用 `proposal_format_version="2"` 与 `bilingual_contract_version="1"`，中英文及所有文字型交付物必须成对一致。
 - 中央 `data/source_registry.json` 只管理共享和统一复核资料；投稿自采源、字体及工具链依赖写入包内 `sources.json` 或版权说明，不得擅自修改中央表。
@@ -57,6 +59,9 @@
 
 ## 当前验证结论
 
+- 2026-08-12 已将最新官方规则 `upstream/main@905b8be6ed6b9eb9e84307ef2dbf565fe96dc6f0` 合入本地架构分支，合并提交为 `b84f1ca11cb27408e36d964f449fb273a2faaa9a`；旧规则 SHA 只保留为历史记录。
+- 最新 manifest 契约为 0.2：未来投稿须严格校验哈希；ready 包改动后先 refresh manifest，再重新 self-check。AI-native 矩阵未来使用既有 `evidence_data` role，不修改中央 Schema。
+- AI-native v0.1 Schema、合法模板、合成 High–High 正例与负例突变均已通过独立契约测试，结果为 `SYNTHETIC_METHOD_CONTRACT_PASS`；这不代表真实方案或运行时模型验证。
 - `d28c1400..9051ca77` 的 10 个非投稿路径已完成影响复核：来源登记职责、模型披露、仿真一致性、符号链接拒绝和 provisional 背景核对均已回写；gallery 自动维护与生成快照不影响 Agent 架构。
 - OSM 背景核对暴露了 provisional 总体范围的不确定性，但不能证明临时范围错误，也不能把 OSM 升级为官方边界；仍等待官方 polygon 裁决。
 - 六个 Agent 配置可解析，三项 smoke 原始产物结论仍有效；项目配置验收为 `CONFIG_VALIDATED`，运行时模型审计为 `NOT OBSERVABLE`，不得声称三级实际模型路由通过。

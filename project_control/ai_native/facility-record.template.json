@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1.0",
+  "method_version": "ai-native-facility-v0.1",
+  "dataset_kind": "template",
+  "synthetic": true,
+  "evidence_register": [{"evidence_id":"E-TEMPLATE-001","status":"synthetic","description":"Template placeholder only","source_ref":"none","confidence":"unknown","limitations":["Not real design evidence"]}],
+  "assumption_register": [{"assumption_id":"A-TEMPLATE-001","description":"Template placeholder only","status":"active","confidence":"unknown"}],
+  "facilities": [{
+    "facility_id":"FAC-TEMPLATE-001","title":"Draft placeholder","facility_class":"road_intersection","calibration_wave":1,"criticality":"non_critical","assessment_maturity":"concept","assessment_status":"draft","overall_confidence":"unknown",
+    "users":{"human_users":["to be defined"],"ai_users":[]},
+    "baseline_b0":{"description":"To be defined after design authorization"},
+    "basic_service":{"definition":"Placeholder service","unit":"service_units_per_hour","baseline_capacity":1,"required_floor":0,"ai_off_immediate_capacity":0,"capacity_group_id":"placeholder_service"},
+    "reverse_design":{"decision":"retain","why_change":"Unknown","counterfactual":"Unknown","necessity_gate":"unknown"},
+    "physical_change":{"summary":"None proposed","dimensions":[],"interventions":[],"measurable_changes":[]},
+    "compatibility":{"human_priority_preserved":true,"non_ai_access_preserved":true,"accessibility_preserved":true,"human_decision_authority":"Human decision required","legacy_compatibility":"Unknown","interface_strategy":"Unknown"},
+    "operation_states":{"ai_native":{},"ai_degraded":{
+      "network":{"status":"unknown","trigger":"","service_floor":"","control_authority":"","safe_state":"","max_duration_hours":null,"recovery":""},
+      "localization":{"status":"unknown","trigger":"","service_floor":"","control_authority":"","safe_state":"","max_duration_hours":null,"recovery":""},
+      "model":{"status":"unknown","trigger":"","service_floor":"","control_authority":"","safe_state":"","max_duration_hours":null,"recovery":""},
+      "sensing":{"status":"unknown","trigger":"","service_floor":"","control_authority":"","safe_state":"","max_duration_hours":null,"recovery":""},
+      "power":{"status":"unknown","trigger":"","service_floor":"","control_authority":"","safe_state":"","max_duration_hours":null,"recovery":""},
+      "vendor_interface":{"status":"unknown","trigger":"","service_floor":"","control_authority":"","safe_state":"","max_duration_hours":null,"recovery":""}},
+      "ai_off":{"entry_condition":"Unknown","maintained_basic_services":[],"control_authority":"Human authority","safe_state":"Unknown","conversion_time_hours":0,"recovery_time_objective_hours":1,"conversion_cost_amount":0,"capital_replacement_value_amount":1,"currency":"CNY"}},
+    "second_life":{"asset_scope":"fixed_or_long_lived","status":"unknown","paths":[]},
+    "gates":{
+      "necessity":{"status":"unknown","rationale":"","evidence_ids":[],"assumption_ids":[]},"public_value":{"status":"unknown","rationale":"","evidence_ids":[],"assumption_ids":[]},
+      "safety":{"status":"unknown","rationale":"","evidence_ids":[],"assumption_ids":[]},"accessibility":{"status":"unknown","rationale":"","evidence_ids":[],"assumption_ids":[]}},
+    "ats":{"components":{
+      "p":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]},"f":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]},
+      "i":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]},"u":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]}},"total":{"status":"unknown","value":null}},
+    "r_score":{"components":{
+      "rq":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]},"rt":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]},
+      "rc":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]},"rd":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]},
+      "ro":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]},"rl":{"status":"unknown","score":null,"rationale":"","evidence_ids":[],"assumption_ids":[]}},
+      "raw":{"retention_pct":0,"time_to_rto_ratio":0,"cost_to_crv_ratio":0,"ai_dedicated_asset_ratio":null,"stranded_ai_asset_ratio":null},"total":{"status":"unknown","value":null}},
+    "futures":{
+      "boom":{"parameters":{},"status":"unknown","required_capacity":null,"delivered_capacity":null,"unit":"service_units_per_hour","service_floor_met":null,"safety":"unknown","accessibility":"unknown","rationale":"","evidence_ids":[],"assumption_ids":[]},
+      "fragmentation":{"parameters":{},"status":"unknown","required_capacity":null,"delivered_capacity":null,"unit":"service_units_per_hour","service_floor_met":null,"safety":"unknown","accessibility":"unknown","rationale":"","evidence_ids":[],"assumption_ids":[]},
+      "retreat":{"parameters":{},"status":"unknown","required_capacity":null,"delivered_capacity":null,"unit":"service_units_per_hour","service_floor_met":null,"safety":"unknown","accessibility":"unknown","rationale":"","evidence_ids":[],"assumption_ids":[]}},
+    "classification":{"declared_quadrant":"not_evaluable","high_high_eligible":false},"evidence_ids":["E-TEMPLATE-001"],"assumption_ids":["A-TEMPLATE-001"]
+  }],
+  "portfolio_summary":{
+    "facility_class_ats_medians":[
+      {"facility_class":"road_intersection","status":"not_applicable","value":null},{"facility_class":"curb_loading","status":"not_applicable","value":null},
+      {"facility_class":"building_entrance","status":"not_applicable","value":null},{"facility_class":"parking","status":"not_applicable","value":null},
+      {"facility_class":"park_public_space","status":"not_applicable","value":null},{"facility_class":"lamp_street_furniture","status":"not_applicable","value":null},
+      {"facility_class":"municipal_logistics","status":"not_applicable","value":null},{"facility_class":"energy_edge_node","status":"not_applicable","value":null}],
+    "critical_min_r_score":{"status":"not_applicable","value":null},"evaluation_coverage_pct":{"status":"known","value":0},
+    "high_high_capacity_shares":[{"capacity_group_id":"placeholder_service","unit":"service_units_per_hour","status":"known","numerator":0,"denominator":1,"value_pct":0}]
+  }
+}
