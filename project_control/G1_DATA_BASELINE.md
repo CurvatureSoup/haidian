@@ -3,13 +3,13 @@
 ## 结构化交接
 
 - task_id: `G1-DATA-BASELINE`
-- status: `PAUSED_AT_EXTERNAL_ACCESS_GATE`
+- status: `PAUSED_AT_BASELINE_DEPTH_GATE`
 - producer_agent: `orchestrator`
-- summary: 人类已选择双轨策略 C；九类来源矩阵、字段字典、复算协议和首批官方网页回执已完成，现停在需外部联系或凭证访问的下一道门。
+- summary: 人类已选择双轨策略 C，并完成九类缺口的公开网络尽调；确认没有全域正式底包但有局部官方碎片和开放现状数据，现停在公开基线深度选择门。
 - source_ids: `DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509`、`DATA-SRC-AGENT-TASKBOOK-20260518`、`DATA-SRC-MOHURD-URBAN-DESIGN-MEASURES`、`DATA-SRC-MOHURD-CONTROL-DETAILED-PLANNING`、`DATA-SRC-MNR-LAND-USE-CLASSIFICATION-202311`、`DATA-SRC-PROVISIONAL-BOUNDARIES-20260605`
 - assumption_ids: `none`
 - related_fact_ids: `F-010`、`F-016`、`F-022`、`F-023`、`M-002`、`M-003`、`M-004`
-- blockers: `G1-EXT-ACCESS-001`、官方精确 polygon、项目控规条件、现状专业底数、`MOHURD-ARCH-DESIGN-DEPTH-2016` 官方文件
+- blockers: `G1-BASELINE-DEPTH-001`、官方精确 polygon、项目控规条件、现状专业底数、`MOHURD-ARCH-DESIGN-DEPTH-2016` 官方文件
 - output_paths: `project_control/G1_DATA_BASELINE.md`、`project_control/PROJECT_BRIEF.md`、`project_control/FACTS_ASSUMPTIONS.md`、`project_control/TASK_BOARD.md`、`project_control/DECISION_LOG.md`
 - escalation_target: `human`（决定是否授权外部联系、登记/登录或获取受限附件）
 
@@ -90,9 +90,23 @@
 - 未调用 OSM / Overpass、商业地图或需凭证 API；未生成或修改任何空间图层、指标、图纸、方案或投稿文件。
 - 未修改中央 `data/source_registry.json`，未创建 Issue、PR、邮件或外部评论。
 
-## 下一关键门：G1-EXT-ACCESS-001
+## 公开网络全面尽调后的判断
 
-公开无凭证路径已经完成第一轮。下一步若要关闭 P0 缺口，需要至少一项新增授权：向组织方/主管部门请求资格预审附件、正式任务书、清华园车站另行印发图纸或清权 GIS/CAD；或者使用需要注册、登录、机构资格或许可确认的数据入口。该行为涉及外部联系和访问条件，必须由人类决定后执行。
+完整记录见 `project_control/G1_PUBLIC_SOURCE_AUDIT_20260813.md`。未找到全域正式 GIS/CAD 或可无条件下载的组织方密码包；找到蓝景丽家局部成套官方附件、文保文字约束、控规进度、开放公服名录及 OSM/Microsoft 现状底图路径。这些资料的空间范围、证据等级和许可不同，不能静默合并为官方基线。
+
+## 下一关键门：G1-BASELINE-DEPTH-001
+
+需要人类选择：
+
+- A（推荐）：L0 官方文本 + L1 官方项目碎片 + L2 开放现状数据 + L3 machine-readable data gaps；
+- B：只获取官方碎片和无条件开放名录，不使用 OSM/Microsoft；
+- C：暂停下载，先授权一次不冒充机构的公开询问。
+
+选择会改变下载量、ODbL/CDLA 义务、空间覆盖、返工成本和后续 GIS 验证能力，因此总控在此停止。
+
+## 仍保留的外部访问门：G1-EXT-ACCESS-001
+
+若未来选择外部询问、注册登录或请求受限附件，仍需单独授权。资格预审密码包领取期已结束且要求法人/联合体资格，个人参赛者不得绕过该流程。
 
 在决定前：
 

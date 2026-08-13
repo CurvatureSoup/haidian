@@ -32,3 +32,4 @@
 | D-028 | 2026-08-13 | `G1-DIR-001` 选择 C 双轨策略：官方待定轨与发现试跑轨并行，provisional 结果不进入正式基线，官方数据到位后整体复算。 | 人类明确选择 C；Issue #846 与官方 polygon 缺失仍在。 | A 完全等待官方边界；B 直接以 provisional 推进空间基线。 | FROZEN | human + orchestrator |
 | D-029 | 2026-08-13 | 最新官方 main 合入架构分支；`completeness_limited_by` 仅用于披露正式深度受官方缺数限制，不改变 complete 门或证据等级。 | `905b8be6..61306151` 规则差异及 `main@464aead8` 同步审计。 | 用该字段掩盖 incomplete/data_gap，或因纯投稿更新改写项目方法。 | FROZEN | orchestrator + qa_worker |
 | D-030 | 2026-08-13 | 无凭证公开来源发现可执行；外部联系、注册登录、机构/个人信息提交和受限附件请求设为 `G1-EXT-ACCESS-001` 人类门。 | 双轨协议与来源采集矩阵显示 P0 缺口需组织方或主管部门附件。 | 总控擅自发邮件、Issue、注册账号或接受未知许可。 | FROZEN | human + orchestrator |
+| D-031 | 2026-08-13 | 公开网络尽调完成后不把官方碎片、开放底图和社区来源拼接成“完整官方基线”；下一执行批次等待 `G1-BASELINE-DEPTH-001`。 | 九类缺口审计表明全域正式 GIS/CAD 不公开，但局部官方附件和开放现状数据可用。 | 隐瞒缺口继续设计，或将局部/推定数据推广为全域正式事实。 | FROZEN | orchestrator + evidence_planner |

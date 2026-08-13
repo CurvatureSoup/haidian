@@ -26,3 +26,5 @@
 | AI-NATIVE-AGENT-CONTRACTS | DONE | orchestrator | 更新六个 Agent 的方法职责 | v0.1 规范 | `.codex/agents/*.toml` | 模型、effort、sandbox 保持不变 |
 | AI-NATIVE-CONTRACT-SMOKE | DONE | qa_worker | 运行独立纯合成方法契约 smoke | 合成 fixture 与负例突变 | `SYNTHETIC_METHOD_CONTRACT_PASS` | 不覆盖历史 smoke、不验证运行时模型、不生成设计 |
 | UPSTREAM-SYNC-20260813 | DONE | orchestrator | 合并最新官方 main 并复核规则影响 | `upstream/main@464aead8` | remote merge `65a06071` | 其后 7 个提交均为 submissions；项目路径无冲突 |
+| G1-WEB-DUE-DILIGENCE | DONE | researcher + evidence_planner | 全面检索九类缺口的官方附件、开放数据、交易文件与社区核查 | 官方站点 / 公共资源交易 / 开放数据 / GitHub Issues | `G1_PUBLIC_SOURCE_AUDIT_20260813.md` | 确认无全域正式底包；存在局部官方碎片和可标注开放底图 |
+| G1-BASELINE-DEPTH-001 | WAITING_HUMAN | human + orchestrator | 决定公开数据基线深度 | 网络尽调 / 许可与返工风险 | 待选择 A 分层公开基线、B 官方碎片优先或 C 先外部询问 | 选择影响下载量、ODbL/CDLA义务、GIS覆盖和返工成本 |

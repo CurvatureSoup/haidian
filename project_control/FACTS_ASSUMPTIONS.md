@@ -43,3 +43,8 @@
 | F-030 | CONFIRMED | 正式设计深度项新增可选 `completeness_limited_by`，但核心 status 仍必须 `complete`，且该字段不能改变 formal 资格或证据真值。 | design_depth_matrix schema / formal guide @ 61306151 | 未来可机器可读披露官方缺数限制，不能据此填造未知控规、边界或底数。 | qa_worker | 2026-08-13 |
 | F-031 | CONFIRMED | 6 个官方网页已完成 metadata-only 试跑并取得 HTTP 200 与内容 SHA-256；控规通告和文保页面均缺可直接充当项目正式 polygon 的清权 GIS/CAD。 | G1_SOURCE_DISCOVERY_LOG.csv | 只作文字背景、来源发现或官方文字约束；不复制媒体，不做精确空间叠加。 | evidence_planner | 2026-08-13 |
 | M-006 | MISSING | 关闭 P0 缺口所需的组织方正式附件、清华园车站另行印发图纸、清权地籍与市政资料仍未取得。 | G1_SOURCE_ACQUISITION_MATRIX.csv | 下一步涉及外部联系或受限访问，等待 `G1-EXT-ACCESS-001`。 | orchestrator | 2026-08-13 |
+| F-032 | CONFIRMED | 官方资格预审文件采用登记表+邮件+下载密码流程，领取期已结束，且申请主体要求合法注册法人或联合体。 | 官方资格预审公告 | 个人公开参赛者不得冒充机构或绕过访问控制；GitHub 开放投稿继续按公开规则和 provisional 披露推进。 | evidence_planner | 2026-08-13 |
+| F-033 | CONFIRMED | 截至 2026-04-30 官方进展，京张铁路遗址公园沿线街区控规为“已通过市级部门联审、推进获批实施”，未检得公开获批成果图则。 | 海淀规自分局重点任务进展表 / 控规采信通告 | 草案和联审状态不能作为已批控规；全域控制指标继续 missing。 | evidence_planner | 2026-08-13 |
+| F-034 | CONFIRMED | 蓝景丽家公共资源交易页公开 17 项附件，可提供大钟寺局部宗地、测量、市政交通、噪声与规划指标证据。 | 北京市公共资源交易服务平台 | 仅适用于对应约 5.03/7.97 公顷项目及文件时点，不能外推为约 72 公顷重点区或全域基线。 | researcher | 2026-08-13 |
+| F-035 | CONFIRMED | 北京/海淀开放数据可补部分公服名录；OSM/Microsoft 可补推定道路和建筑现状，但不存在公开完整权属、全域道路红线或全域市政底图。 | 公共数据平台 / OSM / Microsoft / Issue #1774 | 若采用须分层标记、保留许可与哈希，官方约束继续 data_gap。 | gis_analyst | 2026-08-13 |
+| F-036 | CONFLICT | 仓库 `PROV-KEY-003` 与大钟寺站空间线索存在约 2.26 km 偏差，Issue #1029 尚未得到维护者裁决。 | GitHub Issue #1029 | 不用该 provisional 要素做大钟寺站级详细判断；等待官方锚点或人类批准的宽松发现范围。 | gis_analyst | 2026-08-13 |
