@@ -185,9 +185,17 @@ def validate_facility(f: dict[str, Any], evid_ids: set[str], ass_ids: set[str], 
     compat = f["compatibility"]
     compat_ok = compat["human_priority_preserved"] and compat["non_ai_access_preserved"] and compat["accessibility_preserved"]
     service_ok = service["ai_off_immediate_capacity"] >= service["required_floor"] and (f["criticality"] != "critical" or retention >= 100 - TOL)
-    high_ats = ats_value is not None and ats_value >= 70 and ats_components["p"]["score"] >= 2 and ats_components["u"]["score"] >= 3 and all_gates
+    physical_user = bool(actions & PHYSICAL_ACTIONS)
+    high_ats = bool(
+        ats_value is not None and ats_value >= 70 and ats_components["p"]["score"] >= 2
+        and ats_components["u"]["score"] >= 3 and all_gates and anti_sticker and physical_user
+    )
+    if ats_value is not None and ats_value >= 70 and not anti_sticker:
+        issue(issues, "ANTI_STICKER_ATS", fid, "High ATS requires substantive physical intervention and measurable change")
+    if ats_value is not None and ats_components["u"]["score"] >= 3 and not physical_user:
+        issue(issues, "AI_PHYSICAL_USER_REQUIRED", fid, "U >= 3 requires an AI physical user")
     high_r = r_value is not None and r_value >= 80 and all(r_components[k]["score"] >= 3 for k in r_components) and service_ok
-    eligible = bool(assessed and complete and f["overall_confidence"] != "unknown" and high_ats and high_r and all_futures and compat_ok and anti_sticker and actions & PHYSICAL_ACTIONS and f["reverse_design"]["decision"] != "retain")
+    eligible = bool(assessed and complete and f["overall_confidence"] != "unknown" and high_ats and high_r and all_futures and compat_ok and f["reverse_design"]["decision"] != "retain")
     quadrant = "not_evaluable" if not assessed or not (ats_known and r_known) else "high_high" if eligible else "high_ats_only" if high_ats else "high_r_only" if high_r else "low_low"
     declared = f["classification"]
     if declared["high_high_eligible"] != eligible: issue(issues, "ELIGIBILITY_MISMATCH", fid, f"high_high_eligible must be {eligible}")
