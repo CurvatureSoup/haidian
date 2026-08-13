@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Design every handover—from prototype to public service, machine to human, day to night, and construction to operation—as a visible, accountable, and reversible urban interface."
 tracks: ["civic-agent-governance", "ai-public-services", "ai-traffic-walkability"]
 scenarios: ["ai-cultural-guide", "ai-health-service-navigation", "ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review", "robot-delivery-low-speed"]
-iteration: "v0.2"
+iteration: "v0.3"
 ---
 
 # HANDOVER JING-ZHANG
@@ -95,6 +95,12 @@ The first 12 weeks move from a no-AI baseline through small reversible BOOST tri
 The offline `unplugged-runner.js` deterministically runs 12 scenarios × 7 branches = 84 synthetic tabletop branches: 12 complete contracts enter authorized review, 60 missing-field or prohibited-data branches are blocked, and 12 AI-OFF branches enter public-bequest review. Its output declares zero real personal data and `field_performance: null`; synthetic tests are not presented as field performance. The weighted review dimensions and their links to prose, drawings, GeoJSON, and JSON artifacts are indexed in `review-evidence-map.json`; the privacy, safety, accessibility, heritage, maintenance, copyright, public-acceptance, and implementation risk register is `risk.json`. [data:visual/assets/unplugged-tabletop-evidence.json] [metric:evidence_branch_count] [depth:handover_contract_system]
 
 Media only carries the state narrative and does not replace spatial evidence. `assets/media/handover-walkthrough.mp4` is a silent, approximately 40-second concept sequence through BASE, BOOST, BLACKOUT, and BEQUEST. The cover, three Key-Area experience images, VTT captions, and bilingual transcript are marked `concept / presentation_only`; rights limits are recorded in `report/copyright_statement.md`.
+
+### v0.3 modern presentation layer
+
+This iteration uses a “public-design base + Neo-civic OS console.” Paper, rail blue, and heritage copper retain planning legibility; deep navy, cyan, and orange are reserved for states, stop authority, and evidence feedback. The first screen moves through `BASE → BOOST → BLACKOUT → BEQUEST`: ordinary service, bounded AI, human stop, and public return. State chips, node pulses, and evidence panels point back to contracts, GeoJSON, metrics, or the 84 unplugged replays; no live data is invented.
+
+`visual/index.html` and `visual/index.en.html` now provide keyboard-operable state switching, a contract selector, `SC-01`—`SC-09` node linkage, the 84-branch test summary, the first-12-weeks timeline, human-window/AI-OFF paths, and reduced-motion support. The modernization changes only the explanatory layer; it does not replace A3/A0 boards, professional drawings, structured spatial data, or the proposal’s judgments.
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 

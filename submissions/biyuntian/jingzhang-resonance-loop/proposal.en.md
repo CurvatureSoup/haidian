@@ -93,6 +93,31 @@ The segments are not a one-way industrial pipeline. Any service can return to an
 
 The machine-readable version is `visual/assets/resonance-protocol.json`. It contains only conceptual operating fields and no personal, real-time or engineering-control data.
 
+### Six Global Cases and a Haidian Translation
+
+The cases below are not an international name collage. They test missing interfaces in the innovation chain: spatial access, operating roles and public safeguards. Only mechanisms are translated; scale, funding, governance powers and policy conditions are not copied.
+
+| Public case | Mechanism observed | Specific Haidian translation | Not copied |
+| --- | --- | --- | --- |
+| Kendall Square, MIT | research, labs, housing, retail, open space and community participation | AI Origin’s campus-edge conversion street joins a staffed ground floor, shared workshop, walking interface and daily service | no MIT parcel, intensity or timetable is inferred |
+| STATION F, Paris | adaptive reuse; programme-based access to mentors, corporates, capital and events | Dazhongsi station-city lounge uses a public front desk, booked collaboration and event pitch sequence | no desk count, admission rule, investment return or brand partnership |
+| MaRS Discovery District, Toronto | commercialisation support and links to capital, customers and talent | an AI Origin service desk joins IP, sector consultation, venture support and human inquiry | no fund, health credential or financing outcome |
+| one-north / LaunchPad, Singapore | research park plus work, learn, live and public community activity; close incubator/VC access | Zhongzhiyuan Trusted Compute Garden combines a test court, low-carbon explanation, developer walk and open day | no estate-management power, land supply or national policy transfer |
+| Cyberport, Hong Kong | incubation, technology networks, sector pilots and talent support | a Dazhongsi application-test front desk makes merchant, civic-service and enterprise trials observable and pausable | no subsidy, computing capacity, approval or tenant commitment |
+| Waterfront Innovation Centre, Toronto | digital infrastructure, employment space, public realm and accountable delivery aligned together | the heritage park puts public space first and digital capability second through reversible packages | no developer, budget, construction scale or engineering standard transfer |
+
+The local chain is therefore: **basic research → open contribution → trusted test → incubation/IP/capital connection → small public-service pilot → public review and international exchange**. Every link needs a spatial carrier, accountable role, staffed option and stop condition; capital service means compliant advice, pitch and connection—not an investment promise [source:CASE-KENDALL-SQUARE] [source:CASE-STATION-F] [source:CASE-MARS].
+
+### Three Anchor Project Packages: Responsibility, Metrics and Exit
+
+| Package | Near-term action (0–12 months) | Lead / partners | Public pilot KPI | What happens if it fails |
+| --- | --- | --- | --- | --- |
+| P-01 Zhongzhiyuan Trusted Compute Garden | temporary test court, movable information desk, low-carbon explanation and booked open days | park operator; university/enterprise teams and public-realm maintainer | explanation coverage, takeover-drill completion, anonymous-feedback closure and energy-disclosure completeness | pause digital display, retain human/physical guidance and review safety, energy and misleading claims |
+| P-02 AI Origin Open-Source Front Desk | shared ground-floor workshop, project cards, IP advice hours and developer-walk meeting point | venue operator; university transfer, open-source and legal/IP partners | consent/attribution completeness, no-login participation, response time and withdrawal handling | remove unclear content; switch to human/offline explanation or stop display |
+| P-03 Dazhongsi Human–AI Co-walking Street | one station exit/corner with static wayfinding, shade, seating, limited shuttle and merchant-service pilot | district operator; merchants, transport/accessibility specialists and community representatives | continuous ordinary walking, staffed-service availability, complaint closure and night-safety review | immediately return to static wayfinding and human service; stop automation and publish a review |
+
+These KPIs are not used for profiling, ranking people or real-time surveillance. They use only authorised aggregated operations records, site observation and anonymous feedback. Any road, rail, municipal, fire, heritage, medical or drone pilot requires relevant professional review and site permission.
+
 The crosswalk from the three positionings and five functions to local actions is `visual/assets/taskbook-resonance-crosswalk.json`; representative key-area concept windows are recorded in `spatial.json`; eight implementation risks and their required human review are in `risk.json`. These files add reviewable evidence and do not create statutory controls or delivery commitments.
 
 ### Six First-Use Scenario Cards
@@ -107,6 +132,21 @@ The design now turns AI+ education, health, commerce, energy, walking and park m
 | AI+ energy | compute-literacy at Zhongzhiyuan | physical notice, human explanation and offline board | unsafe condition or misleading presentation as live official data |
 | AI+ walking | continuous accessible route in the heritage park | physical map, ground cues and staffed inquiry | directions conflict with site conditions or block ordinary access |
 | AI+ park maintenance | reporting lighting, water, trees and facilities | phone/on-site reporting, paper form and human inspection | no staffed route, exposed contact details or compromised safety response |
+
+### Ten Service Blueprints: Turning AI Scenes into Reviewable Services
+
+| Service | Start and staffed entry | Minimum data/tool | Responsible role | Public evidence and stop condition |
+| --- | --- | --- | --- | --- |
+| Open-source release hall | staffed desk and physical project cards | authorised project summary | community curator | attribution, consent and withdrawal log; remove on unclear rights |
+| Safety-governance sandbox | booked briefing and human Q&A | non-production test log | test lead | test scope and incident summary; pause on safety concern |
+| Edge-compute stop | physical board and human explanation | non-live energy example | facility operator | explanation sampling; remove if misleading |
+| AI walking navigation | physical map and staffed inquiry | reviewed route status | public-realm operator | route check and complaints; close when site conflicts |
+| International pitch lounge | human reception and event desk | event registration and rights materials | event organiser | access/crowd review; cancel without capacity or permission |
+| Qinghe low-carbon corridor | park service point | maintenance ledger | landscape maintainer | work-order summary; stop installation for ecology/safety risk |
+| Campus-edge conversion street | university-enterprise consultation window | authorised result abstract | transfer service | response and withdrawal log; shift rights disputes to human process |
+| Data-elements lounge | staffed compliance consultation | non-personal process example | compliance lead | data-use notice; do not display if it cannot be explained |
+| AI daily-service street | community service desk | voluntary, minimised request | community operator | staffed-alternative availability; stop if no human takeover |
+| Global AI activity-week route | offline tour point | itinerary and anonymous attendance observation | route curator | permits, access and complaint review; reduce or cancel if absent |
 
 ### Six Delivery Gates
 

@@ -159,6 +159,17 @@ Without official regulatory conditions (FAR, height, density), no statutory figu
 | P5 Student family | 13 y.o. student + parent | AI education, public experience | Heritage park |
 | P6 International developer | 30 | Open source, international communication | Developer plaza + Origin |
 
+### 6.1 Interlock Spatial Grammar (v1.3 deepening)
+
+To move the "interlock" mechanism beyond metaphor, this proposal lands it as verifiable spatial layers [data:geometry/land_use.geojson] [data:geometry/public_space.geojson]:
+
+- **Switches**: the three key areas (`key_areas.geojson`) — decision nodes that set the direction of innovation;
+- **Block sections**: three `AI_SERVICE_ZONE`s (Zhongzhiyuan acceleration / AI Origin incubation / Dazhongsi landing; data in visual/assets/interlock-zones.json) — each a minimum governance unit with data boundaries, human review, and a responsible entity, **not allowed to operate until passing the interlocking-table admission gates**;
+- **Signals**: 12 `SCENARIO_NODE`s (SN-T1~SN-E8; data in visual/assets/scenario-nodes.json) — the spatial anchors of the 12 scenario cards;
+- **Staff-exchange points**: the three switch plazas (`public_space.geojson`) — carrying permission handover and east-west stitching interfaces.
+
+Mechanism → layer → metric → narrative form a closed chain; any scenario goes live only through the interlock path "switch confirmed → block-section verified → signal cleared → staff exchange" [data:geometry/public_space.geojson#PUBLIC-001].
+
 ### 6.2 AI Scenario Cards (12; 4 are test/validation)
 
 **Test/validation (T)**:

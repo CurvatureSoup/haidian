@@ -1,8 +1,91 @@
 # 方案迭代记录 / Changelog
 
+## v15.0 - 2026-08-13
+
+**Field evidence intake and replacement pack / 现场证据采集与替换包**
+
+- 将既有 D01—D08 和 H01—H07 转成双语空白采集、保管链和专业处置合同；八包均为 `not_collected`、材料 0、现场值 `null`、接收用于复算 0、批准 0。模板完整不等于证据、批准或 G1 升级。
+- Turned existing D01-D08 and H01-H07 into a bilingual empty collection, custody and professional-disposition contract. All eight packets remain `not_collected`, with 0 artifacts, `null` field values, 0 acceptances for recalculation and 0 approvals. Template completeness is not evidence, approval or a G1 upgrade.
+- 新增三条不可互换的未来采集路：众智园核对设备隔离/停止/还场，原点核对同意撤回/居民日常/保障，大钟寺核对高峰连续/来源版本/纠错；完成走查均为 0。
+- Added three non-interchangeable future routes: Zhongzhiyuan for equipment isolation/stop/restoration, Origin for consent withdrawal/daily life/safeguarding, and Dazhongsi for peak continuity/source version/correction. Completed route walks remain 0.
+- #2266 只提供公众可读的保留/修改/暂停/归还处置方法，并被规范化到本包已有术语；未复制其品牌、空间构图、几何、指标、图件、媒体或现实结论。
+- PR #2266 contributes public keep/modify/pause/return disposition method only, normalized into this package's existing vocabulary. No brand, spatial composition, geometry, metric, figure, media or real-world claim is copied.
+- 追加当前态一致性审计：把正文、来源新鲜度策略和双语权利声明中的旧轮次计数统一为最终 125 个路径、50 条来源与 24 个 SVG；历史固定点仍作为带轮次标识的历史记录保留。
+- Added a current-state consistency audit: synchronized stale round-era counts in the narrative, freshness policy and bilingual rights statement to the final 125 paths, 50 sources and 24 SVG files; explicitly versioned historical fixed points remain historical records.
+- 12 场景、8 项目、3 重点区、99 槽、geometry、metrics、全部 G0、临时边界、NO-GO 和 `not_fully_cleared` 保持不变。
+- Twelve scenes, eight projects, three key areas, 99 slots, geometry, metrics, all-G0 status, provisional boundaries, NO-GO and `not_fully_cleared` remain unchanged.
+
+## v14.0 - 2026-08-13
+
+**Accessible offline review walk and final convergence / 可访问离线评审漫游与终局收束**
+
+- 新增双语五步离线评审入口与结构化路由合同，把双轨总纲、三种原型、普通非 AI 任务、故障恢复、D01—D08／H01—H07 专业交接压缩为一条可核查阅读路线；不新增机制或现实结论。
+- Added a bilingual five-step offline review entry and structured route contract, compressing the twin-track master plan, three prototypes, ordinary non-AI task, failure/recovery and D01–D08/H01–H07 professional handoff into one auditable reading route without adding a mechanism or real-world conclusion.
+- 核心内容不依赖 JavaScript；页面支持语义地标、跳转链接、可见焦点、原生 details、方向键/Home/End、减少动态和打印全展开。无账号、扫码、远程资源、表单、追踪、自动播放或 AI 依赖；这是可访问性意图，不声称认证。
+- Core content requires no JavaScript; semantic landmarks, skip link, visible focus, native details, arrow/Home/End keys, reduced motion and print-all mode are provided. There is no account, QR, remote resource, form, tracker, autoplay or AI dependency; these are accessibility intentions, not certification.
+- 第十四轮一致性审计保持一项核心概念、三处差异原型、12 场景、8 项目、3 重点区、99 槽、geometry、metrics、全部 G0、临时边界、NO-GO 与 `not_fully_cleared` 不变；文件或 PR 通过不构成审批、运营或权利许可。
+- The fourteen-round consistency audit preserves one core concept, three differentiated prototypes, 12 scenes, 8 projects, 3 key areas, 99 slots, geometry, metrics, all-G0 status, provisional boundaries, NO-GO and `not_fully_cleared`; no file or PR PASS creates approval, operation or rights clearance.
+
+
 > 本日志仅记录本投稿包的可追溯变化，不是审批、实施、现场测试、权利清除或 trusted CI 证明。每次内容变化后，均须从最终 Git blob 重新生成 manifest，并以绑定最终 PR head 的仓库验证为准。
 >
 > This log records traceable changes to this submission package only. It is not evidence of approval, implementation, field testing, rights clearance, or trusted CI. After any content change, regenerate the manifest from the final Git blobs and rely on repository validation attached to the final PR head.
+
+## v13.0 - 2026-08-13
+
+**Reversible assemblies and restoration / 可逆构件与恢复装配册**
+
+- 新增三处不可机械复制的双语装配关系图与结构化登记：众智园为平行旁路—隔离—实体停止—恢复检查，原点为一街两院四个逐个撤回的无屏节点，大钟寺为四向通勤十字与旁侧来源纠错厅/双入口人工台。
+- Added three non-copyable bilingual assembly relations and a structured register: Zhongzhiyuan parallel bypass/isolation/physical-stop/recovery check; Origin one street, two courts and four individually withdrawable screen-free nodes; Dazhongsi four-way commute cross with off-route source-correction hall and dual-entry staffed desk.
+- 六阶段覆盖安装前、开放前、普通、停止隔离、拆除退场与恢复验收，逐项回链 D01—D08 和 H01—H07；专业团队可修改、拒绝或删除概念。
+- Six stages cover before-install, pre-opening, ordinary use, stop/isolate, remove/exit, and restore/accept, with D01–D08 and H01–H07 backlinks; professionals may revise, reject or delete the concept.
+- 类型、尺寸、材料、连接、专项核验、准确位置、安装方法和恢复时长均保持 unknown；现实安装、批准详图、责任接受、现场检查、拆除和恢复验收均为 0。
+- Type, dimension, material, connection, specialist clearance, exact location, installation method and restoration duration remain unknown; real installations, approved details, accepted duties, inspections, removals and restoration acceptances remain 0.
+- 12 场景、8 项目、3 重点区、99 槽、geometry、metrics、全部 G0、临时边界和 `not_fully_cleared` 不变；图件、PR 或合并不构成工程、场地或实施批准。
+- Twelve scenes, eight projects, three key areas, 99 slots, geometry, metrics, all-G0 status, provisional boundaries and `not_fully_cleared` remain unchanged; drawings, PR review or merge create no engineering, site or implementation approval.
+
+## v12.0 - 2026-08-13
+
+**Ordinary-life spatial scenes / 普通生活空间场景册**
+
+- 新增一张无文字、合成人尺度三联概念图：众智园普通旁路与平行验证庭、原点社区无屏居民街与两院、大钟寺连续通勤与旁侧人工服务。它把“先完成普通任务、AI 只作可选旁侧叠层”画进空间，不新增 Logo、场景、项目、几何或治理合同。
+- Added one text-free synthetic human-scale triptych: Zhongzhiyuan ordinary bypass beside a parallel proof court, Origin Community screen-free resident street and two courts, and Dazhongsi continuous commuting beside staffed service. It spatializes “complete the ordinary task first; AI is only an optional side overlay” without adding a logo, scene, project, geometry, or governance contract.
+- 新增双语长描述与 `ordinary-life-media-register.json`，逐处登记普通路径、可选验证、人工交接、故障绕行、恢复提示、禁止推断和普通—验证—故障—恢复四态；真实照片、确认视点、现场观察、获批构件、运营交互、无障碍结果与恢复结果均保持 0。
+- Added a bilingual long description and `ordinary-life-media-register.json`, recording each ordinary path, optional proof layer, staffed handoff, fault bypass, restoration cue, prohibited inference, and ordinary–proof–fault–recovery reading. Real photographs, confirmed viewpoints, field observations, approved components, operational interactions, accessibility results, and restoration results remain 0.
+- 双语正文、离线 visual、报告、四份出版物、来源/权利证据、manifest 和逐文件台账同步纳入该人类阅读入口。图像由 OpenAI 图像生成工具从本包自编文本提示生成，未输入外部图像；权利状态继续为 `not_fully_cleared`，公共或专业复用继续阻断。
+- Synchronized the bilingual proposals, offline visual, reports, four publications, source/rights evidence, manifest, and file-level ledger with this human-reading entry. The OpenAI image-generation tool used a package-authored text prompt and no external image input; rights remain `not_fully_cleared`, with public or professional reuse still blocked.
+- 12 场景、8 项目、3 重点区、geometry、metrics、99 个现实关闭槽、全部 G0 与临时边界保持不变；概念图、文件 PASS、PR 审查或合并均不构成现实位置、无障碍合规、获批设计、建设、运营或成熟度升级。
+- Twelve scenes, eight projects, three key areas, geometry, metrics, 99 real-world closure slots, all-G0 status, and provisional boundaries remain unchanged. A concept image, file PASS, PR review, or merge creates no real location, accessibility compliance, approved design, construction, operation, or maturity advancement.
+
+## v11.0 - 2026-08-12
+
+**Review synthesis and professional handoff / 评审收束与专业深化交接**
+
+- 不再新增品牌、场景、季节、项目或治理合同；把十轮成果收束为“一概念、三原型、一内核”的四步评审入口，并把任务书 agent.1—agent.6 各绑定到一个核心评审问题、现有证据、专业接手动作和禁止推断。
+- Added no brand, scene, season, project, or governance contract. The ten-round package now converges into a four-step “one concept, three prototypes, one kernel” review entry, with each taskbook duty agent.1–agent.6 bound to one core review question, current evidence, professional next action, and prohibited inference.
+- 深化既有 `implementation-handoff-matrix.json`，新增 D01—D08 八类现实资料替换登记、七专业接手矩阵和“冻结—替换—复算—复核—必要时退役”变更控制；正式资料冲突时先保护普通公共权利、停止验证叠层，不得修改官方或锁定图层迁就方案。
+- Deepened the existing `implementation-handoff-matrix.json` with D01–D08 real-input replacement records, a seven-discipline handoff matrix, and freeze–replace–recalculate–verify–retire change control. When authoritative evidence conflicts, ordinary public rights prevail and the proof overlay stops; official or locked layers must never be altered to preserve the proposal.
+- 新增双语 `review-professional-handoff.{svg,png}`，在一张评审面上组织六项任务、八类资料和七专业 NO-GO 停止线；双语正文、离线 visual、报告、合规回链及四份出版物同步纳入该入口。
+- Added bilingual `review-professional-handoff.{svg,png}` to organize six duties, eight input replacements and a seven-discipline NO-GO stop line on one review surface; synchronized the bilingual proposals, offline visual, report, compliance backlinks and four publications.
+- 当前权威替换材料、专业责任接受、99 槽现实材料、批准、现场测试和 GO 决定均为 0。12 场景、8 项目、3 重点区、geometry、metrics、全部 G0、临时边界和 `not_fully_cleared` 均保持不变；文件、机器或 PR 通过不构成任何现实授权。
+- Authoritative replacement inputs, accepted professional duties, real artifacts across 99 slots, approvals, field tests and GO decisions all remain 0. Twelve scenes, eight projects, three key areas, geometry, metrics, all-G0 status, provisional boundaries and `not_fully_cleared` remain unchanged; no file, machine or PR PASS creates real-world authorization.
+
+## v10.0 - 2026-08-12
+
+**Long-term civic operations and ten-round audit / 长期公共共同体运营与十轮总审计**
+
+- 以 `JZ-FUTURE-09` 完成串行第 10 轮，不重造第 3—9 轮的维护、权利、资源、失败、气候、文化和任务经济机制；新增一份 G0 运营集成合同，把全年普通日、无活动日、四个条件季节、同一居民任务的昼／夜／故障／恢复四窗、八类角色、三载体回写、失败公开和年度保持／修正／扩展／退役纳入同一公共运营协议。
+- Completed serial Round 10 under plan ID `JZ-FUTURE-09` without reinventing the Round 3–9 maintenance, rights, resource, failure, climate, cultural, or mission-economy mechanisms. One G0 integration contract now joins year-round ordinary/no-event days, four conditional seasons, one resident task across day/night/failure/recovery, eight role types, three-carrier writeback, failure disclosure, and annual keep/correct/expand/retire decisions.
+- 把既有 `07:00–22:00` 与 `22:00–07:00` 明确降回“继承的 G0 设计窗口”：不是现实开放时间、排班、夜班、噪声或照度承诺。问题季、开源季、城市 Beta 季和 Proof Week 均为 `not_scheduled`；活动、班次、预算、伙伴和确认运营成绩为 0 或 unknown，普通非 AI／无屏／无账户路径不得被活动占用。
+- Explicitly bounded the inherited `07:00–22:00` and `22:00–07:00` entries as G0 design windows—not real opening hours, rosters, night shifts, noise or lighting promises. Question Season, Open-source Season, Urban Beta Season and Proof Week remain `not_scheduled`; events, shifts, budgets, partners and confirmed operating results remain 0 or unknown, and activities may not occupy the ordinary non-AI/screen-free/no-account path.
+- 新增双语 `year-round-civic-operations.{svg,png}`，同构表达全年底板、四窗旅程、角色责任、场景护照—公共时刻表—证据矩阵回写、年度失败披露与去留决定；国际远程复测只有改善本地公共决定、无障碍、维护、安全或普通服务时才计公共收益，传播热度不计。
+- Added the bilingual, isomorphic `year-round-civic-operations.{svg,png}` figure pair for the all-year base, four-window journey, role duties, scenario-passport/public-timetable/evidence-matrix writeback, annual failure disclosure and disposition. International remote retest counts only when it improves local public decisions, access, maintenance, safety, or ordinary service; publicity does not count.
+- 十项运营决定指标全部保持 typed `unknown` / `null`，现实事故、活动、排班、预算、伙伴、投诉数据、国际复测、年度决定与退役回执均保持 0；结构化合同、总体证据矩阵、假设、指标、来源权利和逐文件权利台账形成可复核回链，但不把字段覆盖率写成运营绩效。
+- All ten operating-decision metrics remain typed `unknown` / `null`; real incidents, events, rosters, budgets, partners, complaint data, international retests, annual decisions and retirement receipts remain 0. The structured contract, master evidence matrix, assumptions, metrics, source-rights records and file-level rights ledger form an auditable chain without turning field coverage into operating performance.
+- 十轮一致性审计确认：前台总纲仍是“双轨京张”，后台内核仍是 JZ-AIOS + G0—G3 + 证据门 + 权利边界；众智园／原点社区／大钟寺仍为验证庭／居民共学街院／通勤发布服务三种不可互换原型；12 场景、8 项目、3 重点区、geometry、临时边界、全部 G0 和 `not_fully_cleared` 均未改变。后续只值得在新现场证据与明确授权下做收敛验证；应停止继续增加品牌、季节、场景、无证据指标或成熟度叙事。
+- The ten-round consistency audit confirms that Twin-track Jing-Zhang remains the front-stage master plan and JZ-AIOS + G0–G3 + evidence gates + rights boundaries remain the backstage kernel. Zhongzhiyuan, Origin Community and Dazhongsi remain non-interchangeable proof-court, resident-learning street/courts, and commuter publication/service prototypes. Twelve scenes, eight projects, three key areas, geometry, provisional boundaries, all-G0 status and `not_fully_cleared` remain unchanged. Further work is worthwhile only as evidence-led convergence under explicit authorization; adding brands, seasons, scenes, unsupported metrics or maturity narratives should stop.
+- 双语 Markdown/离线 HTML 与四份 PDF 同步更新；A3 中英文为 63/67 页，A0 中英文各 15 张整板。全部 PDF 为单一正确页面尺寸、无空白页、无替换字形、无越界文本块；新增运营图的中英文封面、A0 整板和 A3 细节裁片均完成视觉抽查。
+- Synchronized bilingual Markdown/offline HTML and all four PDFs. Chinese/English A3 contain 63/67 pages; both A0 sets contain 15 whole boards. Every PDF has one correct page size, zero blank pages, replacement glyphs or out-of-page text blocks; the bilingual cover, A0 board and A3 detail crops for the new operations figure were visually inspected.
 
 ## v9.1 - 2026-08-12
 

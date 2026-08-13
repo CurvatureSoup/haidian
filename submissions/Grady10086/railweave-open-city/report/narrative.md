@@ -1,8 +1,10 @@
-# 轨迹织城 v2.2 叙事简报
+# 轨迹织城 v2.3 叙事简报
 
 ## 一句话说明
 
 RailWeave（轨迹织城）把百年京张理解为一条持续服务城市日常的公共经线：众智园、北京 AI 原点社区和大钟寺不是三个孤立项目，而是由公共空间、慢行联系、验证流程、人才服务和首用场景共同编织的三个结点。AI 作为可拆卸、可停止、可复核的纬线接入，不替代普通通行、人工服务、专业判断或法定程序。
+
+v2.3 将这一命题进一步固化为“基织—试织—阻断—解编—留织”五态织入法。AI辅助设计搜索在参与者设定规则下比较三种空间织法，保留经纬协同型作为L5概念深化底稿；该选择不证明最优，也不产生现场准入。当前准备度回执明确为G0“不得推进”：未授权、未运行、现场绩效为空。只有场地权利、真实需求、普通服务基线、代表性用户参与、专业核验和依法任命的角色完成可审计签收，并分别通过两道门，方可另行作出限量试点决定。
 
 本成果是面向开放征集的概念性城市设计研究。其工作范围、重点片区索引、功能组件、项目清单、时间切片、成本控制带和责任角色均需在正式边界、权属、现状调查、专业条件、公众参与及依法履行的程序基础上确认。它不构成政府审定、规划许可、项目立项、预算批复、采购决定、合作安排、投资承诺、建设时序或工程可行性结论。
 
@@ -16,7 +18,7 @@ RailWeave 的核心不是增加更多自动化设施，而是保持一条不依�
 
 ## 两套彼此独立的门
 
-v2.2 将实施判断分为两套不能互相替代的门。
+本方案将实施判断分为两套不能互相替代的门。
 
 “织体成熟门”审查城市与项目是否具备承载条件，重点包括空间与场地权利、无障碍和公共通行、消防与相关专业条件、人员和运维资源、数据与设备接口、退出资源及场地恢复能力。它回答的是“这个结点能否承担一项试点”，而不是“某个模型是否表现良好”。
 
@@ -42,7 +44,7 @@ S06 同时要求在未来依法确认的 90 日试点成本中，单列足以覆
 
 ## 交接给后续专业与公众过程
 
-v2.2 的价值在于把“建议做什么”进一步拆成“为什么、由谁复核、缺什么不能开始、失败时如何停止、退出后留下什么”。后续深化应优先补充正式 GIS/CAD、权属与建筑调查、交通和无障碍现场核验、文保、水务、市政、消防、生态、运营、采购与全寿命成本资料；同时通过可访问的线上、线下、电话、纸质和人工渠道邀请受影响公众参与。
+v2.3 的价值在于把“建议做什么”进一步拆成“为什么、如何比选、由谁复核、当前为何不能开始、失败时如何停止、退出后留下什么”。后续深化应优先补充正式 GIS/CAD、权属与建筑调查、交通和无障碍现场核验、文保、水务、市政、消防、生态、运营、采购与全寿命成本资料；同时通过可访问的线上、线下、电话、纸质和人工渠道邀请受影响公众参与。
 
 在上述条件未满足前，RailWeave 仍是一套可讨论、可复算、可失败关闭的研究性接口，而不是已经确定的城市项目。任何引用者均应连同来源、假设、临时几何、权利声明和验证边界一起阅读，不应只截取效果图、成本比例或合成 PASS。
 
@@ -51,6 +53,8 @@ v2.2 的价值在于把“建议做什么”进一步拆成“为什么、由谁
 ### In one sentence
 
 RailWeave treats the Centennial Jing-Zhang corridor as a public warp that continues to support everyday urban life. Zhongzhiyuan, Beijing AI Origin Community, and Dazhongsi are not three isolated projects but three nodes woven together by public space, walking links, validation processes, talent services, and first-use scenarios. AI enters as a removable, stoppable, and reviewable weft; it does not replace ordinary access, staffed service, professional judgement, or statutory procedure.
+
+Version 2.3 fixes this proposition as a five-state method: Base Fabric, Trial Weave, Block, Unweave, and Civic Residual. Participant-directed AI-assisted design search compares three spatial options and retains warp–weft integration as the L5 concept basis. The choice proves neither optimality nor field admission. The current readiness receipt is G0 “do not advance”: not authorised, not run, and field performance null. A separate limited-pilot decision may be considered only after site rights, real demand, the ordinary-service baseline, representative-user participation, professional verification, and lawfully appointed roles create auditable sign-offs and both gates pass independently.
 
 This is a conceptual urban-design study for the open call. Its working extent, key-area locators, functional components, project list, time slices, cost-control bands, and responsibility roles remain subject to confirmation through official boundaries, site rights, baseline surveys, professional conditions, public participation, and all legally required procedures. It is not a government determination, planning permission, project approval, approved budget, procurement decision, partnership arrangement, investment commitment, construction programme, or engineering-feasibility finding.
 
@@ -64,7 +68,7 @@ RailWeave is not primarily an exercise in adding automated facilities. It preser
 
 ### Two independent gates
 
-Version 2.2 separates implementation decisions into two gates that cannot substitute for each other.
+The proposal separates implementation decisions into two gates that cannot substitute for each other.
 
 The Fabric Maturity Gate asks whether the city and project can carry a pilot. It reviews space and site rights, accessibility and ordinary passage, fire safety and other professional conditions, staffing and operating resources, data and equipment interfaces, exit resources, and the ability to restore the site. It does not ask whether a particular model performs well.
 
@@ -90,6 +94,6 @@ This result proves only that the current JSON contracts and runner return the ex
 
 ### Handover to professional and public processes
 
-The contribution of v2.2 is to decompose “what is proposed” into “why it is proposed, who reviews it, which missing conditions prevent a start, how failure stops the activity, and what remains after exit.” Further work should prioritise official GIS/CAD, site-rights and building surveys, field checks for transport and accessibility, and evidence for heritage, water, municipal systems, fire safety, ecology, operations, procurement, and whole-life cost. Affected publics should participate through accessible online, offline, telephone, paper, and staffed channels.
+The contribution of v2.3 is to decompose “what is proposed” into “why it is proposed, how options are screened, who reviews it, why it cannot currently start, how failure stops the activity, and what remains after exit.” Further work should prioritise official GIS/CAD, site-rights and building surveys, field checks for transport and accessibility, and evidence for heritage, water, municipal systems, fire safety, ecology, operations, procurement, and whole-life cost. Affected publics should participate through accessible online, offline, telephone, paper, and staffed channels.
 
 Until those conditions are met, RailWeave remains a research interface that can be discussed, recalculated, and made to fail closed, not a determined urban project. Any reuse should preserve its sources, assumptions, provisional geometry, rights statement, and verification boundary rather than extracting only a rendering, cost percentage, or synthetic PASS.

@@ -48,6 +48,12 @@
       "status": "proposal_policy",
       "statement": "十个 AI 场景均保留非 AI 基线、人工接管或常规服务路径。",
       "impact": "AI 增强退出时，基本城市服务不应因单一模型、设备、账号或平台下线而一并消失。"
+    },
+    {
+      "id": "A-V08-FIELD-009",
+      "status": "not_measured",
+      "statement": "v0.8 的 15 个 observation slot 只预登记未来现场验证结构，当前没有坐标、样本、阈值、现场绩效、许可或具名责任主体。",
+      "impact": "任何图件、指标或评审叙述不得把待测字段自动填成达标或已实施。"
     }
   ]
 }

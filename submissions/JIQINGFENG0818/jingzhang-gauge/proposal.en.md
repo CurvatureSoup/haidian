@@ -13,9 +13,9 @@ iteration: "v0.1"
 
 # The Jing-Zhang Gauge: Urban Design for the Centennial Jing-Zhang AI Innovation Belt with a Public Specification as Its Core Product
 
-**The concept in one sentence**: what this belt ultimately produces is not buildings but a *gauge* — a public specification for AI in urban space that anyone can build to, connect to, and audit against.
+**The concept in one sentence**: what this belt ultimately produces is not buildings but a *gauge* — a public specification for AI (artificial intelligence) in urban space that anyone can build to, connect to, and audit against.
 
-A century ago, the significance of the Jing-Zhang Railway was not only that it was the first railway designed and built by Chinese engineers. It was that, without external technical control, **the specification itself was set locally and made to work**. Self-reliance → standard-setting → interoperability is the real technical legacy of Jing-Zhang. Among the five functions named in the taskbook, "a Full-Stack Independent AI Innovation System (FSIAIS)" and "global discourse power in AI governance" are the two ends of exactly this line, a hundred years apart [source:AGENT-TASKBOOK].
+A century ago, the significance of the Jing-Zhang Railway was not only that it was the first railway designed and built by Chinese engineers. It was that, without external technical control, **the specification itself was set locally and made to work**. Self-reliance → standard-setting → interoperability is the real technical legacy of Jing-Zhang. Among the five functions named in the taskbook of the Haidian-led Centennial Jing-Zhang AI Innovation Belt, "a Full-Stack Independent AI Innovation System (FSIAIS)" and "global discourse power in AI governance" are the two ends of exactly this line, a hundred years apart [source:AGENT-TASKBOOK].
 
 A track gauge is invisible. It produces no locomotive, yet it determines which vehicles can run on the line and which networks can connect. **Whoever holds the standard gains authority over the network without owning a single vehicle.** Discourse power in governance does not come from declarations; it comes from others having to build to your specification. This is the mechanism this proposal offers for that function.
 
@@ -105,21 +105,65 @@ Explicitly excluded: anthropomorphic AI faces, neural-network spheres, glowing b
 | Urban AI life experience belt | The standard part *is* the experience | Every AI installation is scannable for spec, responsible party, and retirement date |
 | AI convergence and innovation belt | Conformance testing as the entry point | Firms join by *passing certification*, not by signing an investment agreement |
 
+### Mechanism mapping of the five functions
+
+Each of the five functions named in the taskbook has one explicit mechanism carrier and one spatial anchor in this proposal — no slogan-style item-by-item response [source:AGENT-TASKBOOK]:
+
+| Taskbook function | Mechanism carrier | Spatial anchor |
+|---|---|---|
+| Full-Stack Independent AI Innovation System | The JZ-Gauge Version Line: drafting, conformance testing, and iteration sovereignty of the specification close their loop inside the belt | Gauge Works (Zhongzhiyuan AI Independent Innovation Acceleration Area) |
+| World-class AI innovation ecosystem | An open supply chain where *certification is the entry*: pass the test and you are in; the JZ-Parts catalogue is the market | The Access Wing arranges factors; Proto Blocks provides real installation ground |
+| New paradigm of AI+ scenario enablement | JZ-Specs scenario protocols plus the sixteen scenario cards: every scenario states its behavioural boundary before deployment is discussed | The Field Wing (Xiaoyue River) and the whole belt |
+| Intelligent, vibrant AI city | The Datum Stones and version colours: every AI facility on the street shows its version, carries a scannable record of responsibility, and can be declined | Public space along the whole Version Line |
+| Global discourse power in AI governance | Retest trigger right + model disclosure + adoptability of the specification: discourse power comes from others building to your gauge | Authored at Gauge Works; the belt itself is the first adopter and demonstration |
+
+### The Three-Areas-Two-Wings collaboration loop (agent.1)
+
+In this proposal the official "three areas, two wings" layout is not five parallel districts but a **closed production loop for the specification**: gauge-setting (Zhongzhiyuan) → first installation (Beijing AI Origin Community) → volume deployment (Dazhongsi) → retest data flowing back to gauge-setting, into the next version. The two wings run across this loop: the **Access Wing** (Zhongguancun technology services wing) arranges factors, IP, and capital at the firms' entry end; the **Field Wing** (Xiaoyue River scenario enablement wing) produces scenario retest data in real waterfront and community conditions at the operating end [source:AGENT-TASKBOOK].
+
+What matters in the loop is the *backflow*, not the assembly line: operating data from volume-deployed facilities, retest results from the Field Wing, and public deliberation records from the Datum Stones all return to Gauge Works as version-upgrade proposals for JZ-Gauge — the three areas and two wings are thus each other's upstream and downstream, and the layout is the loop. The same loop from the firm's perspective appears in Chapter 10 (Access Wing consultation → certification at Gauge Works → real installation at Proto Blocks → scale-up at Market Floor); this section completes the specification's perspective: every backflow is a public version deliberation.
+
+The spatial correspondence of the three areas and two wings is based on the official provisional boundaries and public materials; it is a conceptual mapping and asserts no precise boundary or area figures.
+
+### Regional innovation collaboration: the Jing-Zhang axis (agent.1)
+
+The first export corridor of the Gauge runs northwest along the centennial Jing-Zhang line: **Yanqing** (the intelligent-scenario legacy of the Winter Olympics) and **Zhangjiakou** (renewable-energy and computing-infrastructure siting) have the preconditions to host JZ-Gauge **out-of-belt retest grounds** and green computing supply — the specific scale and current-state data of these preconditions are marked `[待证]` in this version, and no factual assertion is made. This version proposes only three mechanism interfaces: a certification protocol for out-of-belt retest grounds (a site-extension clause of JZ-Specs), a mutual version-recognition mechanism (out-of-belt retest results can trigger a version-upgrade deliberation), and demonstration segments of standard parts along the Jing-Zhang high-speed line (public test positions for JZ-Parts in station environments).
+
+The corridor also extends the "Centennial Jing-Zhang cultural belt" positioning from a heritage narrative into a contemporary narrative of cross-regional technical collaboration: a century ago the Jing-Zhang line unified track gauge and signals; today, what is coordinated along the same line is the retesting and mutual recognition of an AI urban specification. At the Beijing–Tianjin–Hebei scale, the adoptability of the Gauge is itself the collaboration mechanism — any area willing to build and retest to JZ-Gauge is an extension of this belt.
+
 ### Full-Stack Independent AI Innovation System and ecosystem cases (agent.2)
 
 The ecosystem mechanism is organised around eight factor classes — land, space, industry, capital, talent, compute, data, and scenarios — and its core move is to make certification the industrial entry point: the standard-setting district drafts specifications and provides conformance testing; the access wing arranges factors; the first-installation district provides real deployment sites; the volume district takes on scale.
 
-Reference directions for global cases are listed below. **This version gives only the selection direction and the reason for selection; specific figures, company lists, and investment amounts are not fabricated.** Public sources must be supplied item by item before the formal version:
+The global cases are seven, selected for being *of the same kind as one mechanism component of the Gauge* rather than for fame; each case states only verified public facts, with retrieval dates and sources recorded in `sources.json`, and quotes no unverified figures, company lists, or investment amounts:
 
-| Case direction | What is referenced | Status |
-|---|---|---|
-| City-scale sensing deployments that met public objection and were terminated | Lessons of failure and exit-mechanism design | `[待证]` |
-| Open registers for urban algorithms and data | The institutional form of registration and disclosure | `[待证]` |
-| Technical specification catalogues for public procurement | Institutional feasibility of a component catalogue | `[待证]` |
-| Spatial organisation of science cities and innovation districts | Whether the standard-setting → first-installation → volume sequence has precedent | `[待证]` |
-| Rail-heritage linear park renewal | Stitching and activation techniques for linear space | `[待证]` |
-| Open-source community governance and release mechanisms | Organisational prototype for the version line and objection process | `[待证]` |
-| Conformance certification by standards bodies | How certification becomes an industrial entry point | `[待证]` |
+| Case | Ecosystem niche (matching component) | What it teaches this proposal | Status |
+|---|---|---|---|
+| Toronto Quayside (announced 2017; developer announced termination in May 2020) [source:CASE-QUAYSIDE] | Failure cases and exit mechanism (D-03, the Retirement Ground) | When data-governance disputes are unresolved at the mechanism level, public trust collapses before the technology fails; exit and failure display must be part of the institution, not an accident | verified |
+| Amsterdam algorithm register (live on the municipal site; Helsinki runs an equivalent register) [source:CASE-AI-REGISTER] | Public registration (the JZ-Gauge version register) | City-level public algorithm registers already run in practice; the value lies in field structure and accountability, not in registration itself | verified |
+| UK Algorithmic Transparency Recording Standard, maintained by GDS [source:CASE-UK-ATRS] | Standardising the register fields themselves (spec-card fields) | Making "what to register" itself a cross-department standard — isomorphic to the spec card's "define once, cite everywhere" | verified |
+| Singapore AI Verify (released May 2022) [source:CASE-AI-VERIFY] | Conformance testing (testing capacity at Gauge Works) | Government-led "test before claim": governance claims can be tooled and made verifiable — isomorphic to this proposal's "pass the test and you are in" | verified |
+| EU model contractual clauses for AI procurement, MCC-AI (European Commission Community of Practice working document; light version published February 2025) [source:CASE-MCC-AI] | Procurement interface (the institutional form of the JZ-Parts catalogue) | Public procurement is the strongest executor of a specification; templated clauses make "buy to spec" replicable | verified |
+| Spain's AI regulatory sandbox (Royal Decree 817/2023) [source:CASE-ES-SANDBOX] | The legal form of experimental zones (Field Wing scenario opening) | A lawful channel for trial within drawn boundaries has a legislative precedent; a sandbox's output should feed specification revision rather than be an exemption in itself | verified |
+| Singapore one-north (launched 2001) [source:CASE-ONE-NORTH] | A phased innovation-district spatial sequence (gauge-setting — first installation — volume deployment) | Twenty-year phased development lets research, piloting, and industrialisation unfold as a gradient within one district; the spatial sequence serves the industrial sequence | verified |
+
+The joint reading of the seven cases: **registration, testing, procurement, and sandboxing are each mature institutional tools worldwide, yet no city has assembled them into one closed loop** — the Gauge's differentiation is not inventing new tools but stringing the four into a single circuit along the Version Line (register as spec card, test as certification, procure as execution, sandbox as Field Wing), and adding the link the global cases jointly lack: public agenda-setting through the retest trigger right.
+
+### AI innovation ecosystem map (agent.2)
+
+The ecosystem map is organised as eight factor classes × loop segments, each cell marked with its carrying mechanism and its global counterpart:
+
+| Loop segment | Leading factors | Mechanism in this proposal | Global counterpart |
+|---|---|---|---|
+| Gauge-setting (Gauge Works) | Talent, data | JZ-Gauge drafting and conformance testing | AI Verify (testing), ATRS (field standard) |
+| Access (Access Wing) | Capital, industry | Certification as entry; the JZ-Parts catalogue | MCC-AI (procurement clauses) |
+| First installation (Proto Blocks) | Space, scenarios | Real-condition installation with resident jury | — (this proposal's own segment) |
+| Field testing (Field Wing) | Scenarios, data | Experimental zones with mandatory failure publication | Spain's sandbox (legal form) |
+| Volume deployment (Market Floor) | Land, industry | Scaled deployment and stock re-verification | one-north (phased sequence) |
+| Backflow (Datum Stones) | Data, compute | Retest trigger right; version-upgrade deliberation | Registers (openness) + Quayside (cautionary counter-example) |
+
+How to read the map: horizontally it is the three-areas-two-wings collaboration loop (see the overall-concept chapter); vertically it is the allocation of the eight factor classes across segments; the "global counterpart" column is where the seven cases sit — each occupies one segment of the loop and none covers the whole circuit, which is precisely this proposal's opening.
+
 
 [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]
 
@@ -312,6 +356,16 @@ The pilgrimage landmarks are not photo-op sculptures. They are **Datum points** 
 
 Honours are organised not by award but by **version**: the contributors to each specification version are inscribed on the stone segment for that version. Contribution therefore remains traceable and attributable by version.
 
+### Youth, visitors, and inclusive use (agent.4)
+
+The user-side design of public space adds three groups previously under-addressed, all attached to existing facilities, with no new construction content:
+
+**Youth**: the public touchpoints of the Version Line are calibrated so that a secondary-school student can read them — datum-point archives and spec plates carry a youth reading layer that states in one sentence what a device is, which version it runs under, and who is responsible; the S-10 on-site debugging channel adds youth sessions (a mechanism suggestion), pairing with the hands-on entry of the P-04 persona (students and developers); public deliberations at D-02, the Public Bench, include youth observer and question slots (a mechanism suggestion). Youth are not an audience for popular science; they are the first native generation of the retest culture.
+
+**Visitors**: the four Datum Stones naturally form a walkable "Route of the Specification" — D-01 Zero Datum (watch certification) → D-02 the Public Bench (watch deliberation) → D-03 the Retirement Ground (watch failure) → D-04 the Contributors' Roll (watch honours) — connecting to the Jing-Zhang heritage park promenade; no booking and no guide are needed, because the guide content is the spec plates themselves (for operations see long-term operations in Chapter 10). What visitors see is not an exhibition but a specification in operation.
+
+**Inclusion and vulnerable groups**: every public touchpoint (status screens, spec plates, the retest-request channel) follows accessible design and keeps a **non-digital alternative channel** — on-site counters and paper forms are accepted on equal footing with the online channel; elderly people, people with disabilities, and residents who do not use smartphones are default service subjects, not exceptions, in the "non-AI redundant path" of every scenario card; inclusion requirements enter the JZ-Specs site clauses as acceptance terms (a conceptual suggestion). Refusable, reversible, humanly redundant — for vulnerable groups these three are not degraded service; they are this proposal's mechanism definition of "inclusion".
+
 ### Public space component catalogue (agent.4, the technical core of this proposal)
 
 The "implementability" review dimension asks for a clear delivery path and measurable indicators. Most concept proposals answer with a timeline. **A component catalogue with specifications, price bands, maintenance liability, and retirement clauses *is* the delivery path — it can enter a government procurement process directly.**
@@ -381,6 +435,18 @@ The renewal project list is organised in three phases, each mapped to spatial ca
 | 2 | First installation | Stitch-point sections installed, resident jury established, scenario cards launched in batches | D-02 The Objection Stand opened |
 | 3 | Volume deployment | Scale deployment of certified standard parts, introduction of AI-native business forms | D-03 The Decommission Yard opened |
 
+### Implementing bodies, cost structure, and phase-transition triggers (conceptual suggestion)
+
+The phasing table answers "what to build first"; this section answers who builds, where the money structurally goes, and what earns entry into the next phase. Everything here is a conceptual suggestion — the configuration of implementing bodies is subject to confirmation by competent authorities through statutory procedures and imposes no obligation on any party; costs are stated only as structure and main variables, following this package's "conceptual magnitude bands, not quotations" convention, with no amounts given:
+
+| Phase | Suggested implementing bodies | Main cost items and their variable | Transition trigger into the next phase |
+|---|---|---|---|
+| Phase 1 (gauge-setting) | A public-platform body leads testing and certification; specification drafting co-authored with firms and universities | Test equipment, laboratory fit-out, and professional staff — grows with the number of certified categories, far smaller than civil works | JZ-Gauge v1.0 and the first batch of JZ-Parts spec cards released; the full conformance-testing cycle (including red-team and objection procedures) completed end-to-end at least once |
+| Phase 2 (first installation) | District platform bodies working with utility and road title-holders; residents participate as jurors | Stitch-section reconstruction and installation civil works — grows linearly with the number of sections; the highest civil-works share of the three phases | First-installation sections run through a full retest cycle; the resident-jury and retest-trigger procedures have actually handled at least one case (including a published failure case) |
+| Phase 3 (volume deployment) | Certified firms deploy; the operating body handles stock re-verification | Procurement and deployment of certified components — scales with unit price × deployment count; public spending shifts to re-verification and maintenance | No "scale attainment" trigger; continued operation is conditioned on stock re-verification pass rates and a normally functioning retirement process |
+
+When a trigger is not met, the treatment is **postponement, not lowered standards**: any phase that misses its transition conditions is extended with reasons published — the schedule obeys the specification, never the reverse; this is the fundamental difference between the Gauge and a conventional development timeline.
+
 ### Implementation policy direction
 
 Replacing approval-based investment promotion with certification is the core policy recommendation: Access Wing consultation → Gauge Works certification → Proto Blocks installation → Market Floor scale-up.
@@ -389,10 +455,27 @@ This proposal makes **no commitment** regarding government investment, subsidies
 
 ### Long-term operations (agent.6)
 
-- **Gauge Week (annual)**: not a forum but a public specification release, an open conformance testing competition, and a retirement review. Developers bring physical units and receive certification results on the spot
-- **Developer community**: the specification is maintained openly; objections and amendments follow a public process; contributors are inscribed by version at D-04
-- **Scenario opening**: the Field Wing designates experimental zones available on application, with physical signage informing the public during experiments and mandatory publication of failure cases
-- **Conversion pathway**: certification results replace administrative screening, reducing dependence on policy commitments
+The operations design covers all six sub-items required by the taskbook; everything in this section is **mechanism design and conceptual suggestion**, constituting no confirmed event schedule, no government commitment, and no obligation imposed on any party [source:AGENT-TASKBOOK].
+
+**Annual activity system — Gauge Week**: not a forum but a public specification release, an open conformance testing competition, and a retirement review. Developers bring physical units and receive certification results on the spot. Gauge Week also anchors the annual rhythm: before it, a version freeze and red-team testing period; at it, the new version is released together with the transition schedule and retirement list (see the retest-trigger section in this chapter); after it, a stock re-verification period and the public amendment window for the next version — the annual activity system is the version lifecycle itself, with no events invented for their own sake.
+
+**Event brand and communication visuals**: Gauge Week creates no separate visual system; it reuses the version colours and the spec-plate language from the overall-concept chapter — whichever version is released that year, its version colour is the key visual, and the venue is dressed as a walk-in spec card. Communication materials lead with the specification text, the test-method package, and the year's certification and retirement data; posters and slogans are secondary.
+
+**Developer community operating mechanism**: the specification is maintained openly; objections and amendments follow a public process; contributors are inscribed by version at D-04. The process has four steps: objection registration (open to anyone) → reproduction verification (re-run under the published test methods) → version review (onto the Gauge Week agenda or a quarterly review) → inscription of results (adopted contributions enter the D-04 roll). Community roles fall into three tiers — users, contributors, reviewers — and **reviewer standing comes from verifiable retest and reproduction records, not from titles**; the S-10 on-site debugging channel and the P-04 persona (students and developers) are its spatial and human interfaces.
+
+**AI scenario opening mechanism**: the Field Wing designates experimental zones available on application, with physical signage informing the public during experiments and mandatory publication of failure cases. The operating loop has four segments: application (registering data boundaries and human-review rules under the JZ-Specs site clauses) → experiment (physical signage and data boundaries in force) → closure (results archived; failure cases enter the D-03 retirement-ground narrative with stated causes) → conversion (validated components enter the JZ-Parts catalogue candidate queue). The roster of experimental zones rolls over periodically (a mechanism suggestion; cycle and extent to be set by the operating body).
+
+**Public experience and landmark operations**: the four Datum Stones are four continuously operated landmarks — D-01 Zero Datum (the certification floor), D-02 the Public Bench (the deliberation floor), D-03 the Retirement Ground (failure on display), D-04 the Contributors' Roll (the honours floor). Day-to-day operation is simply opening to visitors the certification, deliberation, and retirement that are actually happening; on version upgrades the stones are repainted in the new version colour and a public inscription ceremony is held; guide content reads directly from spec plates and datum-point archives. **The content of public experience is the real events that operations naturally produce — no separate exhibition is fabricated** — which is also how the "urban AI life-experience belt" positioning lands on the operations side.
+
+**International communication and conversion mechanism**: international communication does not lead with promotional film; it ships **downloadable, citable, adoptable specification text** — the success metric is not view counts but which city cited which clause of which JZ-Gauge version. Deliverables are the bilingual specification text, the test-method package, retest datasets, and the failure-case collection (this package's bilingual delivery is the first sample). Conversion lets certification results replace administrative screening, reducing dependence on policy commitments; each of the three target groups has a verifiable conversion pathway and retention mechanism:
+
+| Group | Entry | Conversion pathway | Retention |
+|---|---|---|---|
+| Talent and developers (P-01/P-04) | Gauge Week open competition, S-10 debugging channel | Competitor → contributor → reviewer | D-04 inscription and community roles |
+| Firms (P-02/P-03) | Access Wing consultation → certification at Gauge Works | Certification → first installation → volume deployment (see implementation policy direction in this chapter) | Certification validity bound to retests, with a retirement protocol on exit |
+| International peers and visitors (P-05) | Citation of the specification text, Gauge Week observation | Citation → mutual-recognition pilots at out-of-belt retest grounds (see the Jing-Zhang axis section) | The mutual version-recognition mechanism |
+
+These pathways describe mechanism interfaces, not investment solicitation promises; no investment, subsidy, tax, or landing-count commitment is expressed or implied.
 
 ## Metrics, Area Recalculation, and Compliance Matrix
 
@@ -461,14 +544,23 @@ The text, geometry, figures, and visualisation in this proposal are original out
 - `brief/site-package/geometry/provisional_boundaries.geojson`
 - `brief/site-package/standards/references/`: urban design administrative measures, regulatory detailed planning, land-use classification guide, agent-facing taskbook, project announcement
 - `data/source_registry.json` (source availability tiers)
-- `docs/data-workflow.md`, `docs/terminology-glossary.md`
+
+The repository working documents `docs/data-workflow.md` and `docs/terminology-glossary.md` are process and terminology notes — internal tooling documentation rather than external public-source citations.
+
+**Cited (external public sources, retrieved 2026-08-13)**
+
+- Toronto Quayside termination coverage (CBC, May 2020) [source:CASE-QUAYSIDE]
+- Amsterdam algorithm register (municipal site, live) [source:CASE-AI-REGISTER]
+- UK Algorithmic Transparency Recording Standard hub (gov.uk, maintained by GDS) [source:CASE-UK-ATRS]
+- Singapore AI Verify press release (IMDA, 2022-05-25) [source:CASE-AI-VERIFY]
+- EU model contractual clauses for AI procurement, MCC-AI (OECD.AI policy entry; light version published 2025-02) [source:CASE-MCC-AI]
+- Spain's AI regulatory sandbox under Royal Decree 817/2023 (Pinsent Masons, November 2023) [source:CASE-ES-SANDBOX]
+- Singapore one-north innovation district entry (National Library Board Singapore) [source:CASE-ONE-NORTH]
 
 **To be completed before the formal version**
 
-All marked `[待证]`; **no factual assertion is made in this version**: public sources for five to eight global AI innovation ecosystem cases; public sources on the Jing-Zhang Railway and the unification of technical terminology and standards; public data on rail and municipal infrastructure; official population and facility provision standards.
+All marked `[待证]`; **no factual assertion is made in this version**: public sources on the Jing-Zhang Railway and the unification of technical terminology and standards; public data on rail and municipal infrastructure; official population and facility provision standards.
 
 **Method and tooling**
 
-- Geometry generation: Voronoi partition guarantees that adjacent parcels share exact boundary coordinates; the road network is generated along parcel edges and then subtracted from land use
-- Projection: computed in EPSG:4548, output in EPSG:4326
-- Verification: spatial review PASS, visual packaging check PASS
+Package production process notes (not external source citations): geometry is generated by Voronoi partition so that adjacent parcels share exact boundary coordinates, with the road network generated along parcel edges and then subtracted from land use; computation uses EPSG:4548 with output in EPSG:4326; verification results are spatial review PASS and visual packaging check PASS.

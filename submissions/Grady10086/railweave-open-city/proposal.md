@@ -6,18 +6,30 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: "proposal.en.md"
 license: "CC-BY-4.0"
-summary: "依托京张铁路历史文化资源和沿线创新资源，构建一轴三廊三核空间结构，以双门控、七级项目闸门、三份实施台账和可执行织入契约贯通需求组织、测试验证与应用转化。"
+summary: "以不断线的普通公共服务为城市经线，以可准入、可阻断、可解编的AI服务为技术纬线，通过五态织入法、双独立门和G0—G6项目闸门，统筹京张沿线空间更新、创新协同和公共利益保障。"
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
-iteration: "v2.2"
+iteration: "v2.3"
 ---
 
 # 轨迹织城：百年京张 AI 创新带城市更新与协同转化方案
 
-“轨迹织城 / RailWeave Open City”以京张铁路历史脉络为基础，统筹科技创新、城市更新和公共治理三类工作逻辑。方案坚持存量提质、创新协同、审慎实施，提出“一轴三廊三核、三链协同”的总体思路，推动创新需求提出、技术测试验证、场景应用转化全过程衔接，建设开放共享、责任清晰、安全可控的百年京张 AI 创新带。
+“轨迹织城 / RailWeave Open City”以京张铁路历史脉络为基础，统筹科技创新、城市更新和公共治理。方案以“一轴三廊三核、三链协同”为总体框架，推动需求提出、测试验证和应用转化全过程衔接；同时把普通公共服务作为不断线的城市经线，把单项 AI 服务作为有期限、有责任、可退出的技术纬线，形成开放共享、审慎有序、责任清晰的百年京张 AI 创新带研究方案。
 
-### 评审首屏摘要：城市织体与可退出 AI 线程
+### 评审首屏：五态织入法与当前决定
 
-本方案的不可替换命题是：**以京张公共空间和普通公共服务构成持续可用的“城市织体”，以单项 AI 服务构成可准入、可暂停、可解编的“技术线程”**。空间成熟不等于 AI 自动准入，算法测试通过也不等于场地可以实施；每项场景必须分别通过织体成熟门和线程准入门，并在退出后保留可用的人工、纸质、电话、固定导视或其他普通服务。
+本方案的核心命题是：**普通服务为经，AI 线程为纬；先织城，再织入，能阻断，可解编，有留存。** 京张公共空间、固定导视、纸质、电话、人工和连续通行共同构成不断线的城市经线；单项 AI 服务只作为有范围、有时限、有责任的技术纬线接入。空间成熟不等于 AI 自动准入，合成测试通过也不等于现场可以实施。
+
+| 状态 | 决策要求 | 退出后公共价值 |
+|---|---|---|
+| **F0 基织** | 先核验普通公共空间和普通服务能否连续使用 | 不依赖模型、账号或网络的基线能力 |
+| **F1 试织** | 织体成熟门与线程准入门分别签收后，方可限范围、限时段接入一条线程 | 人工终决、普通渠道和申诉继续运行 |
+| **F2 阻断** | 任一权利、安全、数据、人工或必要群体条件失效，立即失败关闭 | 不把错误、排斥或风险转嫁给公众 |
+| **F3 解编** | 撤销访问、处置数据、撤离设备、恢复场地和替代服务，并形成回执 | 恢复普通路径，不形成技术锁定 |
+| **F4 留织** | 仅保留经确认可维护的固定导视、纸质工具、人工渠道、失败档案和公共方法 | 公共投入在技术退出后仍可继续服务 |
+
+AI 辅助设计搜索在参与者设定的六项规则下比较三种空间织法：`SW-A` 单轴连续型因横向联动、三核分工和 AI 治理不足被阻断；`SW-B` 三核集聚型因易形成孤岛、普通服务经线不连续被阻断；`SW-C` 经纬协同型进入 L5 概念深化。该选择只说明方案在投稿阶段覆盖空间连续、结点分工、普通服务、双门治理和证据边界，不证明算法最优，也不产生规划审定或现场准入。完整记录见 `visual/assets/spatial_weave_options.json`。
+
+当前正式表达不是“已具备试点条件”，而是 **G0｜不得推进**。项目未获现场授权、未运行，现场绩效保持空值；场地权利、真实需求、普通服务基线、代表性用户参与、专业核验和依法任命的签收角色尚未闭合。只有上述证据形成可审计记录，并由有权角色分别通过两道门，方可另行作出限量试点决定。当前回执见 `visual/assets/readiness_decision_receipt.json`。
 
 | 评审维度 | 本方案回答 | 可核验交付 | 证据上限 |
 |---|---|---|---|
@@ -36,7 +48,7 @@ iteration: "v2.2"
 
 本方案现阶段定位为开放共创的城市设计研究成果。约 11.4 平方公里临时工作边界仅用于方案组织和技术校核；功能组件符号仅表达空间接口，不代表现状或拟建建筑；AI 生成概念图不作为现状、场地或工程证据；结构化自检与合成回归结果不替代法定规划、现场调查、合规审查和工程可行性论证。参与者原创设计内容按 CC BY 4.0 开放，第三方资料按照许可条件和适用范围引用。[source:SOURCE-REGISTRY]
 
-v2.2 将“轨迹织城”从空间概念进一步转化为项目执行规则。每项场景同时通过“织体成熟门”和“线程准入门”：前者核验空间、权利、专业条件、运维和资源，后者核验公共目的、数据边界、人工复核、普通服务等价、申诉和到期退出。任一门未通过，不因另一门条件成熟而进入部署。`visual/assets/weave_contracts.json` 对十二类场景逐项登记织入条件与解编触发，离线验证脚本使用合成案例检查规则一致性；其 PASS 只说明协议逻辑可复跑，不证明现场服务质量、技术安全或法律合规。
+v2.3 将空间比选、项目准备度和公共价值判断纳入同一条可追溯决定链。`visual/assets/weave_contracts.json` 对十二类场景逐项登记织入条件与解编触发；`visual/assets/project_delivery_ledger.json` 汇编三项重点项目的当前闸门、职责、成本取证、验收、停止和退出事项；`visual/assets/public_value_survival_register.json` 对十二类场景逐项设置必要群体否决，任何适用项为 `FAIL` 即不得推进，`UNKNOWN` 不得视为通过。离线验证脚本的 PASS 只说明协议逻辑可复跑，不证明现场服务质量、技术安全、公共价值或法律合规。
 
 ## 设计依据与资料清单
 
@@ -272,7 +284,7 @@ S01 至 S04 为产业测试验证模块，满足不少于三项产业验证场�
 
 ![三个实施准备度概念原型的服务蓝图、数据流与停止条件](assets/figures/ai-service-blueprints.png)
 
-v2.2 从十二类场景中选择 S01、S06 和 S11，形成可供专业团队受控验证的实施准备度概念原型规格，并不表示技术、场地或服务已可现场运行。每项原型交付服务蓝图、空间界面图、数据流图、责任矩阵、验收与停止条件五件套，并同步登记输入、输出、模型或设备版本、数据控制者、人工接管、失败模式和场地恢复。完整字段见 `visual/assets/scenario_prototypes.json`。
+本方案从十二类场景中选择 S01、S06 和 S11，形成可供专业团队受控验证的实施准备度概念原型规格，并不表示技术、场地或服务已可现场运行。每项原型交付服务蓝图、空间界面图、数据流图、责任矩阵、验收与停止条件五件套，并同步登记输入、输出、模型或设备版本、数据控制者、人工接管、失败模式和场地恢复。完整字段见 `visual/assets/scenario_prototypes.json`。
 
 | 原型 | 端侧、边缘、平台与人工复核架构 | 验收重点 | 停止条件 |
 |---|---|---|---|
@@ -324,7 +336,7 @@ S06 建议先开展 90 日实施切片：第 0 至 30 日完成普通服务、�
 
 ![受控测试园、共享首层、站前和滨水四类典型空间界面](assets/figures/section-family.png)
 
-v2.2 将五类深化对象嵌入仓库规定的规范图层：`geometry/roads.geojson` 增补 `AUD-V21-*` 核查分段和 `SEC-V21-*` 研究性剖切线，`geometry/public_space.geojson` 增补 `AN-V21-*` 无障碍核查节点和 `DC-V21-*` 可迁移组件，`geometry/phasing.geojson` 增补 `PC-V21-*` 组件级分期。全部对象均标注为 L5、`diagrammatic`、`official_boundary=false`、`NOT FOR CONSTRUCTION`，并以 `metric_inclusion=false` 排除于道路或建成量统计；未知开放、无障碍、权属、消防、运维和现状尺寸继续保持 `unknown`。典型剖面以变量 W 表达待实测宽度，不形成道路断面、建筑高度、河道蓝线或工程线位结论。
+本方案将五类深化对象嵌入仓库规定的规范图层：`geometry/roads.geojson` 增补 `AUD-V21-*` 核查分段和 `SEC-V21-*` 研究性剖切线，`geometry/public_space.geojson` 增补 `AN-V21-*` 无障碍核查节点和 `DC-V21-*` 可迁移组件，`geometry/phasing.geojson` 增补 `PC-V21-*` 组件级分期。全部对象均标注为 L5、`diagrammatic`、`official_boundary=false`、`NOT FOR CONSTRUCTION`，并以 `metric_inclusion=false` 排除于道路或建成量统计；未知开放、无障碍、权属、消防、运维和现状尺寸继续保持 `unknown`。典型剖面以变量 W 表达待实测宽度，不形成道路断面、建筑高度、河道蓝线或工程线位结论。
 
 ### 三处重点区的“证据状态—空间动作—责任验收”闭环
 
@@ -403,7 +415,7 @@ L5 提出纵轴与三条横向廊道的衔接完善建议。[data:geometry/green
 
 ![七级项目闸门、三份实施台账、RACI与五年运营账](assets/figures/implementation-ledger.png)
 
-围绕 AI 原点需求协同、众智园独立测试验证和大钟寺首用转化，v2.2 已分别填实 `RW-A01`、`RW-B01`、`RW-C01` 三份全生命周期项目台账。完整内容见 `visual/assets/implementation_register.json`。台账不是对场地、主体、资金或采购结果的确认，而是明确哪些条件未满足时项目不得转段。
+围绕 AI 原点需求协同、众智园独立测试验证和大钟寺首用转化，本方案已分别填实 `RW-A01`、`RW-B01`、`RW-C01` 三份全生命周期项目台账，并在 `visual/assets/project_delivery_ledger.json` 中汇总其当前 G0 状态。完整登记见 `visual/assets/implementation_register.json`。台账不是对场地、主体、资金或采购结果的确认，而是明确哪些条件未满足时项目不得转段。
 
 | 项目 | 主要输入 | 验收物 | 建议资金属性 | 暂停与退出 |
 |---|---|---|---|---|
@@ -516,7 +528,7 @@ L5 提出纵轴与三条横向廊道的衔接完善建议。[data:geometry/green
 
 ### 版权与开放
 
-正文、参与者原创 GeoJSON、信息设计、HTML、图册、验证脚本与合成案例按 CC BY 4.0 开放。v2.2 空间图件嵌入经筛选的 L4 OSM 矢量快照，并在每张相关图件内保留数据日期、`© OpenStreetMap contributors` 与 ODbL 1.0 署名；不使用商业地图瓦片。建筑轮廓仅作方位线索，具名京张公园多边形仅用于暴露临时范围错位，均不写入参与者正式 GeoJSON 或指标。三张重点片区体验图由 OpenAI 图像生成工具依据本方案原创提示生成，作为语言中性的概念表现使用；提示词、生成性质、使用边界和文件清单登记在 `report/copyright_statement.md`。项目不复制受限新闻图片、企业商标、同行方案文字、图件、schema或代码。机构名称仅用于来源或潜在主体类型，不代表其参与、授权、背书或承诺。[source:SOURCE-REGISTRY] [source:OSM-WORKING-DATA]
+正文、参与者原创 GeoJSON、信息设计、HTML、图册、验证脚本与合成案例按 CC BY 4.0 开放。v2.3 空间图件嵌入经筛选的 L4 OSM 矢量快照，并在每张相关图件内保留数据日期、`© OpenStreetMap contributors` 与 ODbL 1.0 署名；不使用商业地图瓦片。建筑轮廓仅作方位线索，具名京张公园多边形仅用于暴露临时范围错位，均不写入参与者正式 GeoJSON 或指标。三张重点片区体验图由 OpenAI 图像生成工具依据本方案原创提示生成，作为语言中性的概念表现使用；提示词、生成性质、使用边界和文件清单登记在 `report/copyright_statement.md`。项目不复制受限新闻图片、企业商标、同行方案文字、图件、schema或代码。机构名称仅用于来源或潜在主体类型，不代表其参与、授权、背书或承诺。[source:SOURCE-REGISTRY] [source:OSM-WORKING-DATA]
 
 ## 参考资料
 
@@ -540,7 +552,7 @@ L5 提出纵轴与三条横向廊道的衔接完善建议。[data:geometry/green
 
 - `brief/site-package/`、面向智能体任务书与来源注册表。[source:SITE-PACKAGE] [source:AGENT-TASKBOOK] [source:SOURCE-REGISTRY]
 - 项目公告、面向智能体任务书和城市设计管理要求构成任务及城市设计依据。[standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK] [standard:MOHURD-URBAN-DESIGN-MEASURES]
-- 控规、国土空间用地分类和建筑设计深度标准用于限定方案表达深度。[standard:MOHURD-CONTROL-DETAILED-PLANNING] [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [standard:MOHURD-ARCH-DESIGN-DEPTH-2016]
+**专业标准说明。** 控规、国土空间用地分类和建筑设计深度标准均为公开发布的专业依据，本方案只用其限定表达深度；发布机关、文件名称、文号、公开链接和适用边界已列入本方案专业标准矩阵。
 - Vector Institute、Mila 与 Station F 案例仅用于创新生态组织机制比较。[source:CASE-VECTOR-TORONTO] [source:CASE-MILA-MONTREAL] [source:CASE-STATION-F]
 - Maria 01 与 MaRS 案例仅用于空间运营和转化服务机制比较。[source:CASE-MARIA-01] [source:CASE-MARS-TORONTO]
 - 22@Barcelona 与 BLOXHUB 案例仅用于创新城区和公共价值机制比较。[source:CASE-22BARCELONA] [source:CASE-BLOXHUB]

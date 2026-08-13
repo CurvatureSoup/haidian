@@ -1,5 +1,29 @@
 # 方案迭代记录
 
+## v2.3 - 2026-08-12
+
+### 五态织入法与空间比选 / Five-state method and spatial option screen
+
+- 将“普通服务为经、AI线程为纬”固化为“基织—试织—阻断—解编—留织”五态织入法，并同步更新中英文正文、网页首屏、空间总图及A3/A0首版。
+- 新增 `visual/assets/spatial_weave_options.json`，在参与者设定的六项规则下记录三种AI辅助空间织法：`SW-A`与`SW-B`被阻断，`SW-C`仅进入L5概念深化。该记录不证明最优，不构成规划审定或现场准入。
+- 重制 `site-overview` 中英文图，将约束输入、地图、三案筛选、入选理由、413米资料冲突和五态织入法置于同一张评审首图。
+
+- Fixed “ordinary service as warp, AI as weft” as a five-state method: Base Fabric, Trial Weave, Block, Unweave, and Civic Residual, and carried it across both narratives, web first screens, the spatial overview, and the first A3/A0 pages.
+- Added `visual/assets/spatial_weave_options.json`, recording three AI-assisted spatial weaves against six participant-defined rules. `SW-A` and `SW-B` block; `SW-C` proceeds only to L5 concept development. The record proves neither optimality nor official or field admission.
+- Rebuilt both `site-overview` figures to place constraints, map, three-option screen, selected rationale, the 413 m source conflict, and the five-state method on one executive graphic.
+
+### 当前决定、项目总账与公共留存 / Current decision, delivery ledger, and public survival
+
+- 新增 `visual/assets/readiness_decision_receipt.json`：当前状态为未授权、未运行、现场绩效为空，决定为 `do_not_advance`，下一门为G0；技术供应方不得单方将决定改为推进。
+- 新增 `visual/assets/project_delivery_ledger.json`，汇总 `RW-A01/RW-B01/RW-C01` 的当前闸门、职责原型、成本取证、验收、停止和退出事项。三个项目均停留G0，主体、预算、价格、场地、采购与实施均未确认。
+- 新增 `visual/assets/public_value_survival_register.json`，对S01—S12逐场景登记普通基线、AI增量、失电/断网与解编测试、退出后非AI留存和必要群体否决。任一适用项 `FAIL` 即阻断；`UNKNOWN` 不得视为通过或由平均值抵消。
+- 重制 `metrics-evidence` 中英文图与A3/A0首版，明确区分“72个合成分支、1498条断言通过”和“现场不得推进”。
+
+- Added `visual/assets/readiness_decision_receipt.json`: current status is not authorised, not run, field performance null, decision `do_not_advance`, next gate G0; a technology supplier cannot unilaterally change the decision to advance.
+- Added `visual/assets/project_delivery_ledger.json`, compiling current gates, role archetypes, cost evidence, acceptance, stopping, and exit items for `RW-A01/RW-B01/RW-C01`. All remain at G0; entities, budget, prices, sites, procurement, and implementation are unconfirmed.
+- Added `visual/assets/public_value_survival_register.json`, recording ordinary baselines, AI increments, power/network-loss and unweaving tests, non-AI residuals, and necessary-group veto for S01–S12. Any applicable `FAIL` blocks; `UNKNOWN` is never a pass and cannot be averaged away.
+- Rebuilt both `metrics-evidence` figures and the first A3/A0 pages to distinguish the 72 synthetic branches and 1,498 passing assertions from the current field decision not to advance.
+
 ## v2.2 - 2026-08-12
 
 ### 评审可见性、空间证据链与实施接续 / Review visibility, spatial evidence chains, and delivery handoff

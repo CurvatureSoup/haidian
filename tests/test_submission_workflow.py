@@ -326,6 +326,40 @@ class GitHubApiResilienceTests(unittest.TestCase):
                     Path(temp_dir) / "asset.bin",
                 )
 
+    def test_download_network_error_retries_then_succeeds(self) -> None:
+        client = GitHubClient("token", "open-city-ai/haidian")
+        network_error = urllib.error.URLError(
+            "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed"
+        )
+        with tempfile.TemporaryDirectory() as temp_dir, patch(
+            "github_pr_validation.urllib.request.urlopen",
+            side_effect=[network_error, _Response(b"payload")],
+        ), patch("github_pr_validation.time.sleep") as sleep:
+            destination = Path(temp_dir) / "asset.bin"
+            client.download_content("fork/repo", "asset.bin", "head-sha", destination)
+            self.assertEqual(b"payload", destination.read_bytes())
+        sleep.assert_called_once_with(1.0)
+
+    def test_download_network_error_exhaustion_reports_path(self) -> None:
+        client = GitHubClient("token", "open-city-ai/haidian")
+        errors = [urllib.error.URLError("temporary resolver failure") for _ in range(4)]
+        with tempfile.TemporaryDirectory() as temp_dir, patch(
+            "github_pr_validation.urllib.request.urlopen",
+            side_effect=errors,
+        ), patch("github_pr_validation.time.sleep") as sleep:
+            with self.assertRaisesRegex(
+                RuntimeError,
+                r"GitHub API download submissions/alice/design/asset.bin failed after network error: "
+                r"temporary resolver failure",
+            ):
+                client.download_content(
+                    "fork/repo",
+                    "submissions/alice/design/asset.bin",
+                    "head-sha",
+                    Path(temp_dir) / "asset.bin",
+                )
+        self.assertEqual([call(1.0), call(2.0), call(4.0)], sleep.call_args_list)
+
 
 class PullRequestHeadGuardTests(unittest.TestCase):
     def test_head_guard_compares_event_sha_with_current_pr(self) -> None:
@@ -3215,11 +3249,61 @@ class SubmissionWorkflowTests(unittest.TestCase):
             self.update_json(
                 root,
                 f"{base}/design_depth_matrix.json",
-                lambda data: data["items"][0].update({"status": "data_gap"}),
+                lambda data: data["items"][0].update({"status": "incomplete"}),
             )
             report = validate_submission(root, "alice", changed)
             self.assertFalse(report.ok)
             self.assertIn("formal design depth item status must be complete", "\n".join(report.errors))
+
+    def test_data_gap_design_depth_remains_blocking(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            base = "submissions/alice/ai-urban-loop"
+            changed = self.write_minimal_ai_package(root, base)
+            self.update_json(
+                root,
+                f"{base}/design_depth_matrix.json",
+                lambda data: data["items"][0].update(
+                    {"status": "data_gap", "limited_by": ["site_area_sqm"]}
+                ),
+            )
+            report = validate_submission(root, "alice", changed)
+
+        self.assertFalse(report.ok)
+        self.assertIn("formal design depth item status must be complete", "\n".join(report.errors))
+
+    def test_completeness_limited_by_is_machine_readable_disclosure(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            base = "submissions/alice/ai-urban-loop"
+            changed = self.write_minimal_ai_package(root, base)
+            self.update_json(
+                root,
+                f"{base}/design_depth_matrix.json",
+                lambda data: data["items"][0].update(
+                    {"completeness_limited_by": ["floor_area_ratio"]}
+                ),
+            )
+            report = validate_submission(root, "alice", changed)
+
+        self.assertTrue(report.ok, report.errors)
+
+    def test_completeness_limited_by_rejects_non_string_array(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            base = "submissions/alice/ai-urban-loop"
+            changed = self.write_minimal_ai_package(root, base)
+            self.update_json(
+                root,
+                f"{base}/design_depth_matrix.json",
+                lambda data: data["items"][0].update(
+                    {"completeness_limited_by": ["", 7]}
+                ),
+            )
+            report = validate_submission(root, "alice", changed)
+
+        self.assertFalse(report.ok)
+        self.assertIn("completeness_limited_by must be a non-empty string array", "\n".join(report.errors))
 
     def test_proposal_missing_evidence_references_fails(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

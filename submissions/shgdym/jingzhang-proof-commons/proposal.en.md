@@ -1,5 +1,5 @@
 ---
-title: "JINGZHANG LEDGER LINE: A Civic AI Belt That Can Be Verified, Taken Over, and Restored"
+title: "X JINGZHANG: Every AI Cross-Checked in Public"
 author_github: "shgdym"
 language: "en"
 translation_file: "proposal.md"
@@ -13,17 +13,19 @@ scenarios: ["public-safety-operations-review", "robot-delivery-low-speed", "ai-t
 iteration: "v2.0"
 ---
 
-# JINGZHANG LEDGER LINE
+# X JINGZHANG
 
 ## Coordinated Research Area: Industry and Future City Research
 
-Jingzhang Ledger Line translates the railway's culture of engineering proof into a civic procedure for AI entering real urban settings. Every technology passes six gates: **source registration, bounded trial, informed public use, human takeover, independent review, and restorative exit**. The gates are both an operating protocol and a spatial language along the railway heritage park. They do not create a rail or road redline and do not turn testing into procurement, certification, or an implementation promise. [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]
+X JINGZHANG places a public cross-check before AI enters the city. `X = Crossing + Checkpoint`: every X is where AI capability and public rights cross-check one another. The corridor runs one memorable lifecycle: **TEST at Zhongzhi, RELEASE at AI Origin, USE at Dazhongsi, then RETURN to testing after stop and restoration**. The three stations issue a Test Receipt, Release Ticket and Public Verdict into one machine-readable X Receipt. This does not create a rail or road redline, nor turn a tabletop exercise or technical test into procurement, certification, a field pilot, or an implementation promise. [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK] [metric:x_checkpoint_count]
 
-The structure is one line, three stations, two wings, ten stitches, twelve scenes, and three readiness gates. One civic slow-mobility verification spine links differentiated stations at Zhongzhi Park, AI Origin, and Dazhongsi; two wings connect professional services and everyday-life feedback; ten east-west stitches repair access; twelve AI scenes can be stopped; three gates advance only when evidence matures. Every layer is derived from the same provisional envelope and is recomputable, but none is an official boundary, survey, ownership judgment, or approved regulatory plan. [data:geometry/site_boundary.geojson#SITE-001] [depth:overall_spatial_structure]
+The first reading layer contains only one X, three X stations, one X Receipt and the TEST-RELEASE-USE-RETURN loop. Two wings, ten stitches, fourteen spatial ledgers, twelve scenes and three delivery gates sit in the professional evidence layer, where they make space recomputable, responsibility signable and failure reversible. Every layer is derived from the same provisional envelope, but none is an official boundary, survey, ownership judgment, or approved regulatory plan. [data:geometry/site_boundary.geojson#SITE-001] [depth:overall_spatial_structure] [metric:machine_readable_x_receipt_protocol_count]
 
-![Overall structure, three scales and six verification gates](assets/figures/site-overview.en.png)
+![Overall structure, three scales and six verification gates](assets/figures/framework-overview.en.png)
 
 The rail civic spine, east-west stitches, adaptive building interfaces, blue-green walking loop and three station anchors in the aerial each point back to `roads.geojson`, `buildings.geojson`, `green_space.geojson` and `public_space.geojson`. The image explains intent rather than replacing plan evidence; concept layers, metrics and the station atlas remain authoritative for spatial review. [data:geometry/roads.geojson#ROAD-SPINE] [depth:overall_spatial_structure]
+
+![Overall aerial concept for the Jingzhang civic verification corridor](assets/figures/site-overview.png)
 
 ![Crosswalk between the overall aerial and five spatial moves](assets/figures/aerial-design-key.en.png)
 
@@ -77,6 +79,18 @@ Conceptual building interfaces are not an existing-building inventory. Courtyard
 
 ![Seven-band, two-wing spatial ledger](assets/figures/land-use-structure.en.png)
 
+The fourteen cells are independent design decisions, not repeated names applied to coloured zones. Each record stores a spatial move, proposed operating role, acceptance evidence, stop condition and restoration action. Full fields are in `visual/assets/review-evidence.json#spatial_ledgers`. This allows each spatial ledger to be signed off independently instead of using overall area and generic ratios as substitutes for delivery evidence.
+
+| Ledger | Lead function | Primary spatial move | Acceptance before opening | Civic use retained after failure |
+| --- | --- | --- | --- | --- |
+| 01W / 01E South Gateway | Railway provenance / equivalent arrival | Verification desk, staffed window, tactile map | 100% source traceability; offline service available | Arrival, walking and rest |
+| 02W / 02E Dazhongsi | Device trial / transit and consumption | Separate trial, appeal and non-AI service | Four rights channels complete; resident route uninterrupted | Ordinary retail and staffed service |
+| 03W / 03E Jimeng | Professional service / community feedback | Compliance front desk and civic problem table | Responsibility and deadlines complete; dissent traceable | Ordinary office and offline deliberation |
+| 04W / 04E Campus Link | Research translation / talent life | Open ground floor and quiet courts | Licence and retest complete; night boundary passes | Learning, living and non-commercial stay |
+| 05W / 05E AI Origin | Open interoperability / civic collaboration | Release desk, continuous ground floor and two stitches | Reproducibility, licence and public access pass | Collaboration, exhibition and ordinary courts |
+| 06W / 06E North Segment | Edge facilities / Xiaoyue ecology | Degradable loads and accessible green route | Energy, noise and route breaks recorded | Logistics and safe passage |
+| 07W / 07E Zhongzhi | Model assurance / embodied test | Staffed test loop, separate public route and restoration belt | Legal operator, safety approval, stop and restoration drills pass | Ordinary courts and open green space |
+
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
 Fourteen concept land-use cells express functional relationships rather than statutory controls. Sixty building interfaces compare adaptive retention, ground-floor retrofit, and reversible light additions; they are not an existing-building survey, demolition decision, floor-area schedule, or development intensity. FAR, height, gross floor area, and ownership remain `unknown` until official controls and existing-condition evidence trigger a rebuild. [data:geometry/land_use.geojson#LU-01-W] [data:geometry/buildings.geojson#BLDG-101] [metric:conceptual_building_interface_count]
@@ -107,6 +121,14 @@ The station atlas aligns plan, civic section, operating programme and failed res
 
 ![Aligned plans, sections, operations and restoration for three stations](assets/figures/station-design-atlas.en.png)
 
+The three key areas use distinct first-stage delivery packages instead of waiting for every engineering condition before acting. Full fields are in `visual/assets/review-evidence.json#station_delivery_packages`.
+
+| Key area | Unresolved condition | First stage only | Proposed acceptance | Does not yet enter |
+| --- | --- | --- | --- | --- |
+| Zhongzhi | Test/public boundary, energy, noise and demobilisation are unverified | Boundary signs, takeover points, removable enclosure and restoration drill | No uncontrolled path crossing; physical stop and restoration drill pass | Permanent test facilities and utility connection |
+| AI Origin | Release, public access, night work and residential quiet lack one interface | Release desk, civic problem table and two stitch markers | Rights ticket complete; public and resident routes uninterrupted | Permanent ground-floor works and additions |
+| Dazhongsi | Transit arrival, trial, retail and rights service require separation | Temporary trial, staffed desk and surface wayfinding | Notice, staff, appeal and non-AI entries operate together | Permanent station-city and vertical works |
+
 ## Transport, Rail, Municipal Infrastructure, and Public Services
 
 One north-south civic verification spine, ten east-west stitches, and two wing service routes form the concept network. Walking and cycling lead on the spine. Embodied devices operate only within key areas, limited times, low speeds, and staffed takeover routes. Each stitch needs field review of traffic, accessibility, underpass conditions, and ownership. `ROAD-SPINE` and `ROAD-X01`-`ROAD-X10` are concept centrelines, not rail or road redlines. [data:geometry/roads.geojson#ROAD-SPINE] [metric:east_west_stitch_count]
@@ -125,6 +147,12 @@ The three east-west stitch sections share one public route that cannot be interr
 
 ![Three stitch sections and the accessible continuity acceptance chain](assets/figures/sections-accessibility.en.png)
 
+### agent.5 Centennial X Jing-Zhang Cultural Route: 1909-2026-2126
+
+The cultural route is not a scatter of QR codes. It is one continuous six-stop, three-era public journey along `ROAD-SPINE`. South Gateway explains autonomous railway engineering in 1909; Dazhongsi X Station translates arrival into present-day rights of use; Jimen Stitch shows how the railway can reconnect neighbourhoods; AI Origin X Station discloses versions, licences and release responsibility in 2026; Xiaoyue River reads infrastructure memory together with climate adaptation; Zhongzhi X Station asks how urban technology should be tested and retired by 2126. Every stop provides an onsite panel, paper foldout, tactile abstract and staffed interpretation. AI may retrieve and organise only cleared source material; it cannot invent historical claims. [data:visual/assets/x-cultural-route.json] [metric:cultural_route_stop_count] [metric:cultural_narrative_era_count]
+
+Each published item records source, rights, version and human historical reviewer. Untraceable material stays out; disputed material displays its evidence status. Targets are 100% static-alternative availability and 100% source traceability for published content, while route continuity, stop locations and accessibility remain pending official geometry and field audit. AI improves retrieval without replacing human judgment over urban memory.
+
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
 | Scene | Type and anchor | Accountable / consulted | Data boundary | Human takeover and SLA | KPI, stop and restoration |
@@ -142,13 +170,30 @@ The three east-west stitch sections share one public route that cannot be interr
 | SC-11 Co-governed Night Safety | Civic service, AI Origin | Public-space operator / community, security | Non-identifying heat and human reports | Person confirms every alert; immediate response to incidents | False alert and complaint rate; tracking or glare removes equipment |
 | SC-12 Global Open Collaboration Week | Operations, full line | Annual committee / venue, rights, accessibility | Event plan, consented registration, aggregate feedback | Staffed sessions; complaint response in 2 hours | Joint tasks and issue closure; permit, safety or rights gap cancels the unit |
 
+### SC-03 hero scene: how the city sends a robot back
+
+SC-03 now uses an executable X Receipt instead of a generic embodied-AI label. Its proposed stack is a low-speed geofenced robot, lidar/depth sensing, odometry and local map, independent envelope monitoring, minimum-risk stop, and physical plus staffed remote emergency stops. Perception identifies movement classes such as person and wheelchair without face recognition; images are not retained and the system cannot expand its own operating envelope. Machine test pocket, observation buffer and permanent public path are spatially separated. Failure closes only the first two; the public route stays open. [data:visual/assets/x-receipt.schema.json] [data:visual/assets/example-sc03-x-receipt.json]
+
+This submission actually ran a **synthetic tabletop exercise**, not a field pilot. At 09:00 the robot entered TEST at Zhongzhi; at 09:17 an unexpected child/older-person crossing fixture fired; by 09:17:05 a human stop triggered RETURN; event records froze, equipment left, the ordinary court was restored, and the case returned to TEST. Ordinary pedestrian, wheelchair priority, unexpected crossing, and network/planner unavailable fixtures all behaved as specified: `4/4 fixtures` and `8/8 checks`. A field pilot remains `BLOCKED` until place, operator, platform parameters, insurance and approvals exist. [data:visual/assets/sc03-tabletop-evidence.json] [metric:sc03_tabletop_rehearsal_count] [metric:sc03_synthetic_fixture_count]
+
+![X lifecycle, SC-03 synthetic exercise and field-pilot blockers](assets/figures/x-lifecycle.en.png)
+
 Every scene uses the same RACI floor: an operator is accountable, a professional group approves, users and communities are consulted, and the public is informed. AI is never the accountable actor. Resources use S (existing space and staff), M (removable components and specialist service), and L (engineering or long-term operation requiring a separate case). SC-01-SC-04 are industrial test and validation scenes. [metric:scenario_card_count] [metric:industry_validation_scenario_count]
 
 ![Twelve scenes, accountability and stop logic](assets/figures/scenario-operations.en.png)
 
+Resources follow a four-plus-eight strategy: four flagship scenes receive design development while eight remain registered reserves. Each flagship adds 90-day and 180-day gates. Full RACI, data expiry and restoration duties are in `visual/assets/review-evidence.json#flagship_scenarios`.
+
+| Flagship scene | 90-day gate | 180-day gate | Immediate stop | Everyday state after restoration |
+| --- | --- | --- | --- | --- |
+| Model red-team and controlled robotics test | Three boundary, stop, demobilisation and public-route drills | Independent reproducibility; monthly takeover and complaint reporting | Boundary breach, collision, unauthorised data or takeover failure | Ordinary court and open green space |
+| Open release and enterprise translation | Complete licence, retest, version and withdrawal tickets | Traceable research-prototype-enterprise retest chain | Unclear rights, two failed retests or lock-in risk | Collaboration, learning and ordinary exhibition |
+| Public AI trial and appeal | Test notice comprehension, non-AI service and appeal access | Report cohort gaps, complaints and withdrawal execution | Identity tracking, absent staff or broken non-AI route | Ordinary retail, rest and staffed service |
+| Accessible mobility and ecological stewardship | Register route breaks, alternatives and manual inspection | Quarterly access, night, false-alert and closure reporting | Route break, extreme weather or unverified ecological risk | Paper and staffed navigation with safe passage |
+
 ### Identity, three landmarks and eight components
 
-The original mark combines two tracks and an open node: the heritage track gives direction, the evidence track records versions, and the unclosed node permits challenge, revision, and exit. Colours are ledger blue, civic green, human-judgment gold, warning coral, and night ink. The mark must not imply endorsement beside enterprise logos or enter uncleared merchandise and permanent signage.
+The original mark combines two crossing tracks, a human-review node and an open extension path. Blue and green tracks form a clear `X` for the three crossings of heritage and renewal, research and public life, and trial and human judgment. The central node makes consequential decisions reviewable by people; the unclosed gold path allows revision, extension or exit. Colours are evidence blue, civic green, human-judgment gold, warning coral, and night ink. The mark must not imply endorsement beside enterprise logos or enter uncleared merchandise and permanent signage.
 
 Three removable, low-glare, non-advertising landmarks are the Rail Evidence Gate at Zhongzhi, Open Contribution Ring at AI Origin, and Urban Trial Beacon at Dazhongsi. Eight components are source sign, test sign, staffed desk, offline service panel, movable seat, low-glare light, rain-garden sensor plinth, and tactile map. The contribution wall records verifiable public contributions, failures, and exits; it does not create a personal prestige ranking. [metric:pilgrimage_landmark_count] [metric:public_component_count]
 
@@ -156,7 +201,7 @@ Three removable, low-glare, non-advertising landmarks are the Rail Evidence Gate
 
 The executable VI standard fixes mark construction, minimum clearspace, minimum digital size, five functional colours, type hierarchy and three levels of public information. Every application shows scene status, rights information and staffed/non-AI action entry together. Mimicking an official seal, implying enterprise endorsement, permanent advertising and hiding pause or exit status are prohibited. Identity therefore becomes a consistent public interface for responsibility and choice rather than decoration. [source:AGENT-TASKBOOK] [metric:public_component_count]
 
-![Construction, colour, type, information hierarchy and misuse rules](assets/figures/identity-guidelines.en.png)
+![X JINGZHANG construction, colour, type, information hierarchy and misuse rules](assets/figures/identity-guidelines.en.png)
 
 ### Inclusion: equal service without an application
 
@@ -183,7 +228,9 @@ Equity measures include 100% non-digital service availability, 100% human takeov
 
 Gate one, evidence and low-impact prototypes, permits only research, audits, guidance, and removable components. Gate two, controlled testing at three stations, requires clear responsibility, place, safety, data, and public review. Gate three, assessed institutional translation, lets an independent review decide whether anything enters planning, engineering, procurement, or long-term operation. A pilot is not procurement, a display is not certification, and event participation is not permanent data permission. [data:geometry/phasing.geojson#PHASE-001] [metric:renewal_project_count]
 
-The annual cycle is Source and Open Week in spring, Controlled City Trial season in summer, Global Evidence Forum in autumn, and Public Evaluation and Archive month in winter. The developer community maintains a public roadmap; residents and target users define problems; professionals retain legal, safety, and stop authority; AI organises records, flags conflict, and tracks versions.
+Annual operation is a cancellable four-season loop rather than an event list. Spring ISSUE is led by the community secretariat and publishes problems and rights limits. Summer TEST is led by site operators and produces Test Receipts. Autumn RELEASE + USE is led by release and public-service teams and produces Release Tickets and Public Verdicts. Winter RETURN + REVIEW is led by independent reviewers and publishes continue, revise or stop decisions. Each season checks problem-response, fixture completion, rights-ticket completeness, complaint closure and restoration. Roles, outputs, KPIs and cancellation conditions are fixed in a machine-readable operations file. [data:visual/assets/x-operations-cycle.json] [metric:annual_operating_season_count]
+
+The cadence is weekly public issue triage, monthly scene-status register, quarterly public review and one annual public continue/revise/stop register. Developers maintain the open roadmap; residents and target users define problems; professionals retain legal, safety and stop authority; AI only organises records, flags conflict and tracks versions. Each scene must pass public issue, bounded test, rights review, limited public use and continue/return decision. Missing legal owner, venue permission, rights ticket, human takeover, non-AI equivalent service or restoration resources cancels the seasonal unit rather than defaulting it to approval. [metric:annual_public_decision_register_count]
 
 ![Projects, resources, annual operations and readiness gates](assets/figures/implementation-roadmap.en.png)
 

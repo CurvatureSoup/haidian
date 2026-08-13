@@ -128,6 +128,54 @@ scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safe
 
 本试点包的“成功”不是预设招商、效率或客流数字，而是完成五项可审计问题：服务能否在不扫码条件下获得、人工升级是否可用、交接是否及时、无障碍路线是否持续可用、问题是否得到可追溯处理。正式扩展前仍须补齐官方边界与专项条件，并由专业团队与参与者共同判断。
 
+### G1 现场核验清单（本地工作版）
+
+90 天试点进入任何安装或开放前，现场必须逐项完成范围与授权、消防与人身安全、无障碍连续路线、用电与设备隔离、当班责任与付费、告示/数据/申诉、撤场与事件预案七类核验。每一项均须对应可核验的证据、责任角色和“通过/暂停”结论；任何缺项或不通过即不安装、不开放。G1 只确认是否可以开始一个可逆试点，不替代审批、设计、消防、产权、劳动或无障碍专项结论 [standard:BARRIER-FREE-ENVIRONMENT-LAW] [metric:g1_verification_domain_count]。
+
+![众智园维护院 G1 现场核验清单](assets/figures/zhongzhiyuan-g1-checklist.png)
+
+### 付费共创工作坊包（本地工作版）
+
+共创不是无偿访谈。以维护技师、保洁/物业、AI 研发、无障碍/照护使用者、资产/运营五类角色为基本席位，通过边界与付费说明、共同走读、问题卡片、组件试摆、排序与交接五步，产出服务时段愿望单、人工协助与无障碍路线图、五组件清单、停用条件、G1 证据责任表和公开版纪要。具体报酬、工时归属、个人信息与录音规则在活动前书面确认；没有确认便不招募、不记录 [source:AGENT-TASKBOOK] [metric:codesign_participant_role_count]。
+
+![众智园维护院付费共创工作坊包](assets/figures/zhongzhiyuan-codesign-workshop.png)
+
+### 当班记录模板（本地工作版）
+
+当班表只记录启用条件、服务可达、人工交接、路线修复、问题/申诉、收班撤除与下一次复核，按角色和去标识事件汇总；不写入姓名、个人绩效、情绪、精确位置或生产性工单。每班都必须勾选人工入口、无扫码服务、连续无障碍路线、设备隔离和可撤场条件；出现任一停用红线即在表内标记暂停/撤场并进入独立复核 [standard:GENERATIVE-AI-INTERIM-MEASURES] [metric:shift_log_record_category_count]。
+
+![众智园维护院当班记录模板](assets/figures/zhongzhiyuan-shift-log.png)
+
+## 第三阶段深化：三处场景 × 一日行动剧本
+
+这组行动剧本把三处“同班场”放进同一日的四段节奏：06—10 抵达与晨间交接，10—18 共同工作、学习与照护，18—24 夜餐、交换与社区服务，00—06 恢复、应急与安全离开。它不是已确认的班表、客流预测、现场调查或实施授权，而是把既有角色、场景卡和空间原型组织为“人如何抵达—获得什么服务—在哪个空间交接—何时转向人工”的概念性工作流 [metric:daily_script_area_count] [metric:daily_script_shift_count]。
+
+![三处同班场 24 小时行动剧本总览](assets/figures/daily-script-overview.png)
+
+众智园维护院让维护技师、研发者和人工支持在公共首层交班：晨间分开设备到达与步行流线，白天共享维护台与学习桌，晚间由人工交接台回应求助与申诉，夜间清点可移动组件并恢复绿地。AI只处理授权设备状态或辅助文档检索，不能记录个人表现 [source:AGENT-TASKBOOK]。
+
+![众智园维护院一日行动剧本](assets/figures/zhongzhiyuan-daily-script.png)
+
+AI 原点交接院把学习者、照护者与低数字素养使用者放在同一服务链：近校抵达时使用视觉、语音和人工导视，白天连接学习桌、休息座和服务台，夜间保留无扫码夜餐、申诉入口和安静恢复空间。AI仅给出可解释的导向或服务辅助，不能替代照护判断、推断身份或情绪 [standard:BARRIER-FREE-ENVIRONMENT-LAW]。
+
+![AI 原点交接院一日行动剧本](assets/figures/ai-origin-daily-script.png)
+
+大钟寺交换院把骑手、小店经营者和夜班人员的换乘、短停和安全离开组织在一起：早间分开换乘、配送与步行，白天开放同班桌和小店协作界面，晚间以遮雨交接湾、夜餐和慢行线完成交接，夜间保留人工求助和申诉转介。AI仅发布聚合导向或在店主控制下辅助经营，不追踪个人路线、不自动惩罚或封禁 [standard:GENERATIVE-AI-INTERIM-MEASURES]。
+
+![大钟寺交换院一日行动剧本](assets/figures/dazhongsi-daily-script.png)
+
+无论哪一处、哪个时段，人工入口、无扫码服务、连续无障碍路线与公开责任信息都不得下线。人工入口缺失、无障碍路线阻断、隐蔽追踪、个人评分、自动惩罚或生产系统接入，任一情形均意味着暂停、不开放；这些剧本不替代真实场地、消防、产权、劳动或专业核验结论。
+
+## 第五阶段深化：三处场景 × 84 秒无障碍导览
+
+离线导览把上述四段行动剧本压缩为 84 秒的静音可理解序列：06—10 的众智园维护与人工交接，10—18 的 AI 原点学习、照护与无障碍导视，18—24 的大钟寺换乘、短停与求助，以及 00—06 的恢复和安全离开。视频只有既有概念场景、剧本图和抽象路径/服务图层；中文与英文各有字幕和完整文字稿，不需要旁白、音乐或扫码才可理解 [metric:accessibility_tour_duration_seconds] [metric:accessibility_tour_time_window_count]。
+
+![三处场景无障碍导览静态封面](assets/media/cover.webp)
+
+[在离线网页中播放导览](visual/index.html#accessible-tour) · [中文文字稿](assets/media/three-area-access-tour-zh.md) · [English transcript](assets/media/three-area-access-tour-en.md)
+
+导览仍是设计研究表达：它不确认真实点位、班表、客流、开放时段或实施授权。每段都以“AI仅辅助、人工入口、无扫码服务、连续无障碍路线”为前提；任何人工入口缺失、无障碍中断、隐蔽追踪、个人评分、自动惩罚或生产系统接入，均应暂停而非继续运行 [metric:accessibility_tour_silent_equivalence_count]。
+
 ## AI 创新生态、人才画像与 AI+ 场景
 
 八类画像把技术岗位与城市运行岗位放在同一张需求表中：

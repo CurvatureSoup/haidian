@@ -1,0 +1,18 @@
+.review-walk-shell{margin:2rem 0;padding:clamp(1rem,3vw,2rem);border:3px solid #18313f;border-radius:1rem;background:#f3f1ea;color:#172532}
+.review-walk-shell .review-step-nav{display:flex;gap:.5rem;overflow:auto;padding:.5rem 0;list-style:none}
+.review-walk-shell .review-step-nav a{display:block;white-space:nowrap;padding:.35rem .7rem;border:1px solid #47736e;border-radius:2rem;text-decoration:none}
+.review-walk-shell .review-step-nav a[aria-current=step]{background:#075a51;color:#fff}
+.review-walk-shell a:focus-visible,.review-walk-shell button:focus-visible,.review-walk-shell summary:focus-visible{outline:4px solid #f3a712;outline-offset:4px}
+.review-walk-shell .review-step{margin:1.5rem 0;padding:clamp(1rem,3vw,2rem);border-radius:.8rem;background:#fff;box-shadow:0 8px 24px #132b2420}
+.review-walk-shell .review-kicker{font-weight:800;color:#9a372d;letter-spacing:.05em}
+.review-walk-shell .review-step img{display:block;width:100%;height:auto;border:1px solid #b8c1bd}
+.review-walk-shell .review-limit{padding:.8rem 1rem;border-left:6px solid #d18b00;background:#fff3cf}
+.review-walk-shell .review-controls{display:flex;justify-content:space-between;gap:1rem;margin-top:1rem}
+.review-walk-shell button{font:inherit;font-weight:700;padding:.6rem 1rem;border:0;border-radius:.4rem;background:#075a51;color:#fff}
+.review-walk-shell button:disabled{background:#79827f}
+.review-walk-shell .review-live{display:inline-block;padding:.25rem .6rem;background:#172532;color:#fff}
+.review-walk-shell .review-boundary{padding:1rem;border-left:8px solid #b64235;background:#fff4ed;overflow-wrap:anywhere}
+.js .review-walk-shell .review-step[hidden]{display:none}
+@media(max-width:640px){html,body{max-width:100%;overflow-x:hidden}header,main{width:100%!important;max-width:100%!important;min-width:0!important}header h1,.review-walk-shell h2,.review-walk-shell h3{overflow-wrap:anywhere}.review-walk-shell{width:100%;max-width:100%;overflow:hidden}.review-walk-shell .review-step-nav{width:100%;max-width:100%}.review-walk-shell .review-controls{flex-direction:column}.review-walk-shell button{width:100%}}
+@media(prefers-reduced-motion:reduce){.review-walk-shell,.review-walk-shell *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+@media print{.review-walk-shell .review-step-nav,.review-walk-shell .review-controls,.review-walk-shell .review-live{display:none!important}.js .review-walk-shell .review-step[hidden]{display:block}.review-walk-shell .review-step{box-shadow:none;break-inside:avoid;border:1px solid #888}.review-walk-shell .review-step img{max-height:145mm;object-fit:contain}}

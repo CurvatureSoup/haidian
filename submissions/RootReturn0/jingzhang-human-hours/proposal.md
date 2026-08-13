@@ -26,7 +26,7 @@ iteration: "v0.7"
 
 ![证据状态、临时边界与提交包关系](assets/figures/site-overview.png)
 
-完成标准不是“看起来完整”，而是判断能回到来源，动作能回到空间对象，限制能回到假设与自检。`sources.json` 保存来源用途，`assumptions.json` 保存开放假设，六项公平指标以 unknown/null 进入 `metrics.json`；`METRIC-AVOIDABLE-TIME-BURDEN` 因正式 schema 不支持 `minutes_per_journey` 而继续留在模块 07 的阻断目录，不用 `none` 或 `ratio` 伪装。v0.7 在已提交的 v0.6 基线上新增公开事实证据账，并同步网页、五张双语主图及中英文 A3/A0；浏览器、PDF、双语和官方规则校验仍以机器检查与人工复核记录为准。v0.7 仍是未运行 finalizer 的本地审阅候选，尚未刷新 manifest、自检哈希或 ready_for_review 状态。官方范围文字、部分项目点、交通目录和一项特定运营角色得到核验，但精确 polygon、全域建筑、项目 OD、programme RACI 与公平绩效仍未获得证明。[source:SOURCE-REGISTRY] [metric:METRIC-EQUITY-BURDEN] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]
+完成标准不是“看起来完整”，而是判断能回到来源，动作能回到空间对象，限制能回到假设与自检。`sources.json` 保存来源用途，`assumptions.json` 保存开放假设，六项公平指标以 unknown/null 进入 `metrics.json`；`METRIC-AVOIDABLE-TIME-BURDEN` 因正式 schema 不支持 `minutes_per_journey` 而继续留在模块 07 的阻断目录，不用 `none` 或 `ratio` 伪装。v0.7 在已提交的 v0.6 基线上新增公开事实证据账，并同步网页、五张双语主图及中英文 A3/A0；浏览器、PDF、双语和官方规则校验仍以机器检查与人工复核记录为准。v0.7 已在用户人审后按当时最新官方流程刷新 manifest 和持久化 self-check；当前 exact head 的 `package_state=ready_for_review`、`validation_claim.self_checked=true`，deterministic、spatial、visual 和 professional 四门检查均为 PASS。该机器就绪状态只证明文档—清单—哈希的一致性与可审阅性，不升级任何证据：官方范围文字、部分项目点、交通目录和一项特定运营角色得到核验，但精确 polygon、全域建筑、项目 OD、programme RACI 与公平绩效仍未获得证明。[source:SOURCE-REGISTRY] [metric:METRIC-EQUITY-BURDEN] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]
 
 ## 三层范围工作框架
 

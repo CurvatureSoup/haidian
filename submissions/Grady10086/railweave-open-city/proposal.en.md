@@ -6,18 +6,30 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "CC-BY-4.0"
-summary: "Building on Jing-Zhang railway heritage and corridor innovation assets, the plan establishes one axis, three corridors and three hubs, using two independent gates, seven project gates, three implementation registers and executable weave-in contracts to connect demand, validation and application conversion."
+summary: "The plan treats uninterrupted ordinary public service as the urban warp and each admissible, blockable and withdrawable AI service as a technical weft, using a five-state method, two independent gates and G0–G6 project gates to coordinate spatial renewal, innovation and public-interest safeguards along Jing-Zhang."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
-iteration: "v2.2"
+iteration: "v2.3"
 ---
 
 # RailWeave: Urban Renewal and Coordinated Transformation Plan for the Centennial Jing-Zhang AI Innovation Belt
 
-“RailWeave Open City” takes the historical development of the Jing-Zhang Railway as its foundation and coordinates three fields of work: technological innovation, urban renewal, and public governance. Following the principles of improving existing assets, coordinating innovation, and proceeding prudently, the plan proposes an overall framework of “one axis, three corridors, three hubs, and three coordinated chains.” It connects the full process of identifying innovation needs, testing and validating technologies, and transforming applications into operational scenarios, with the aim of developing an open and shared Centennial Jing-Zhang AI Innovation Belt with clear responsibilities and controllable risks.
+“RailWeave Open City” takes Jing-Zhang railway history as its foundation and coordinates technological innovation, urban renewal, and public governance. Its overall framework is one axis, three lateral links, three hubs, and three coordinated project chains. Ordinary public service is the unbroken urban warp; each AI service enters only as a time-bounded, accountable, and withdrawable technical weft. The result is an open, prudent, and responsibility-led concept study for the Centennial Jing-Zhang AI Innovation Belt.
 
-### Executive Review Summary: Urban Fabric and Withdrawable AI Threads
+### Executive Review: Five-State Weaving and the Current Decision
 
-The proposal's distinctive proposition is to **treat the Jing-Zhang public realm and ordinary public services as a continuously usable urban fabric, while admitting each AI service as a thread that can be accepted, paused and unwoven**. Spatial readiness never creates automatic AI admission, and a passed algorithm test never proves that a site is ready. Every scenario must independently pass the Fabric Maturity Gate and Thread Admission Gate. After exit, staffed, paper, telephone, fixed-sign or another ordinary service remains available.
+RailWeave's core proposition is: **ordinary service is the warp and AI is the weft; build the fabric first, admit carefully, block on failure, unweave on exit, and retain civic value.** The Jing-Zhang public realm, fixed signs, paper, telephone, staffed service, and continuous passage form an urban warp that stays usable. Each AI service enters only as a bounded and accountable technical weft. Spatial readiness never creates automatic AI admission, and a passed synthetic test never proves that a site is field-ready.
+
+| State | Decision requirement | Public value after exit |
+|---|---|---|
+| **F0 Base Fabric** | Verify that ordinary public space and service remain continuously usable | A baseline that does not depend on a model, account, or network |
+| **F1 Trial Weave** | Admit one limited thread only after separate sign-off at the Fabric Maturity Gate and Thread Admission Gate | Human final decision, ordinary channels, and appeal stay operational |
+| **F2 Block** | Fail closed when any rights, safety, data, human, or necessary-group condition fails | Error, exclusion, and risk are not transferred to the public |
+| **F3 Unweave** | Revoke access, dispose of data, remove equipment, restore the site and alternative service, and issue a receipt | The ordinary route is restored without technical lock-in |
+| **F4 Civic Residual** | Retain only confirmed and maintainable fixed signs, paper tools, staffed channels, failure records, and civic methods | Public investment continues to serve after the technology leaves |
+
+Participant-directed AI-assisted design search compares three spatial weaves against six stated rules. `SW-A`, an axis-only option, is blocked for inadequate lateral linkage, hub differentiation, and AI governance. `SW-B`, a three-hub concentration, is blocked because it risks islands and a broken ordinary-service warp. `SW-C`, warp–weft integration, proceeds to L5 concept development. This means only that it covers spatial continuity, node roles, ordinary service, dual-gate governance, and evidence boundaries at submission stage; it proves neither algorithmic optimality nor official or field selection. The full record is `visual/assets/spatial_weave_options.json`.
+
+The current formal expression is not “pilot-ready” but **G0 | DO NOT ADVANCE**. The project is not authorised for field use, has not run, and retains a null field-performance value. Site rights, real demand, the ordinary-service baseline, representative-user participation, professional verification, and lawfully appointed sign-off roles remain open. A separate limited-pilot decision may be issued only after those records become auditable and authorised roles independently pass both gates. The current receipt is `visual/assets/readiness_decision_receipt.json`.
 
 | Review dimension | RailWeave response | Verifiable deliverable | Evidence ceiling |
 |---|---|---|---|
@@ -36,7 +48,7 @@ Official GIS data, parcel and property-right information, a building survey from
 
 At this stage, the plan is an urban-design study developed through open co-creation. The provisional working boundary of approximately 11.4 km² is used only to organise the plan and conduct technical checks. Functional-component symbols describe spatial interfaces and do not represent existing or proposed buildings. AI-generated concept images are not baseline, site or engineering evidence. Structured self-checks and synthetic regression tests do not replace statutory planning, field survey, compliance review or engineering-feasibility studies. Original design content produced by the participant is licensed under CC BY 4.0; third-party material is cited in accordance with its licence terms and permitted scope.[source:SOURCE-REGISTRY]
 
-Version 2.2 converts “RailWeave” from a spatial concept into a project rule set. Each scenario must pass two independent gates. The weave-readiness gate checks space, rights, professional inputs, operations and resources; the thread-admission gate checks public purpose, data boundaries, human review, equivalent ordinary service, appeal and time-limited exit. Passing one gate never compensates for failing the other. `visual/assets/weave_contracts.json` registers weave-in conditions and unweaving triggers for all twelve scenarios. An offline verifier replays synthetic cases to test rule consistency; a PASS proves only that the contract logic is reproducible, not that field performance, technical safety or legal compliance has been established.
+Version 2.3 brings spatial option screening, project readiness, and public-value judgement into one traceable decision chain. `visual/assets/weave_contracts.json` records weave-in conditions and unweaving triggers for all twelve scenarios. `visual/assets/project_delivery_ledger.json` compiles the current gate, duty, cost evidence, acceptance, stopping, and exit items for the three priority projects. `visual/assets/public_value_survival_register.json` applies necessary-group veto to all twelve scenarios: any applicable `FAIL` blocks advancement, and `UNKNOWN` is never counted as a pass. The offline verifier's PASS proves only that the protocol logic is reproducible; it does not prove field quality, technical safety, public value, or legal compliance.
 
 ## Design Basis and Source List
 
@@ -272,7 +284,7 @@ S01 through S04 are industrial Testing and Validation Scenarios and meet the req
 
 ![Service blueprints, data flows and stop conditions for three AI concept prototype specifications](assets/figures/ai-service-blueprints.en.png)
 
-Version 2.2 develops S01, S06 and S11 into concept prototype specifications for controlled professional validation; it does not indicate that the technology, site, or service is field-ready. Each provides a service blueprint, spatial interface, data-flow diagram, responsibility matrix, and acceptance and stop conditions. Inputs, outputs, model or device version, data controller, human takeover, failure modes and site restoration are registered in `visual/assets/scenario_prototypes.json`.
+The submission develops S01, S06 and S11 into concept prototype specifications for controlled professional validation; it does not indicate that the technology, site, or service is field-ready. Each provides a service blueprint, spatial interface, data-flow diagram, responsibility matrix, and acceptance and stop conditions. Inputs, outputs, model or device version, data controller, human takeover, failure modes and site restoration are registered in `visual/assets/scenario_prototypes.json`.
 
 | Prototype | Edge–platform–human-review architecture | Acceptance focus | Stop condition |
 |---|---|---|---|
@@ -324,7 +336,7 @@ Material for Lanjing Lijia applies only to the corresponding implementation unit
 
 ![Four typical interfaces: controlled testing, shared ground floor, station forecourt and waterfront](assets/figures/section-family.en.png)
 
-Version 2.2 embeds five detailed object groups in the repository's canonical layers. `geometry/roads.geojson` adds `AUD-V21-*` audit segments and `SEC-V21-*` study section lines; `geometry/public_space.geojson` adds `AN-V21-*` accessibility checkpoints and `DC-V21-*` movable components; and `geometry/phasing.geojson` adds `PC-V21-*` component-level phases. Every object is L5, `diagrammatic`, `official_boundary=false`, `NOT FOR CONSTRUCTION`, and excluded from road or built-quantity calculations through `metric_inclusion=false`. Unknown opening, accessibility, rights, fire, operating and existing-dimension fields remain `unknown`. Typical sections use variable W for width to be surveyed; they do not establish a road section, building height, river-control line or engineering alignment.
+The submission embeds five detailed object groups in the repository's canonical layers. `geometry/roads.geojson` adds `AUD-V21-*` audit segments and `SEC-V21-*` study section lines; `geometry/public_space.geojson` adds `AN-V21-*` accessibility checkpoints and `DC-V21-*` movable components; and `geometry/phasing.geojson` adds `PC-V21-*` component-level phases. Every object is L5, `diagrammatic`, `official_boundary=false`, `NOT FOR CONSTRUCTION`, and excluded from road or built-quantity calculations through `metric_inclusion=false`. Unknown opening, accessibility, rights, fire, operating and existing-dimension fields remain `unknown`. Typical sections use variable W for width to be surveyed; they do not establish a road section, building height, river-control line or engineering alignment.
 
 ### Closing the Evidence–Spatial Action–Responsibility–Acceptance Chain in Each Key Area
 
@@ -403,7 +415,7 @@ The phases are prioritised by evidence maturity, reversibility, and public benef
 
 ![Seven project gates, three implementation registers, RACI and five-year operating account](assets/figures/implementation-ledger.en.png)
 
-Version 2.2 completes three whole-life registers: `RW-A01` for demand coordination at AI Origin, `RW-B01` for independent validation at Zhongzhiyuan and `RW-C01` for first-use conversion at Dazhongsi. Full records are in `visual/assets/implementation_register.json`. A register does not confirm a site, entity, funding source or procurement outcome; it makes clear which unresolved conditions prevent progression.
+The submission completes three whole-life registers: `RW-A01` for demand coordination at AI Origin, `RW-B01` for independent validation at Zhongzhiyuan and `RW-C01` for first-use conversion at Dazhongsi; `visual/assets/project_delivery_ledger.json` compiles their current G0 status. Full records are in `visual/assets/implementation_register.json`. A register does not confirm a site, entity, funding source or procurement outcome; it makes clear which unresolved conditions prevent progression.
 
 | Project | Main inputs | Acceptance artifacts | Proposed funding character | Pause and exit |
 |---|---|---|---|---|
@@ -516,7 +528,7 @@ All public services shall retain human decisions and non-intelligent service cha
 
 ### Copyright and Open Licensing
 
-The main text, participant-generated GeoJSON, information design, HTML, booklets, verification script and synthetic cases are licensed under CC BY 4.0. The v2.2 spatial figures embed selected L4 OSM vector snapshots and retain the data date, `© OpenStreetMap contributors`, and ODbL 1.0 attribution on every relevant figure; no commercial map tiles are used. Building footprints are orientation leads only, and named Jing-Zhang park polygons are used only to expose the provisional-extent discrepancy; neither enters participant-generated formal GeoJSON or indicators. Three key-area experiential images were created with OpenAI image generation from original prompts for this proposal and are used as language-neutral concept images. Their prompts, generated status, limits of use and file list are recorded in `report/copyright_statement.md`. The project does not reproduce restricted news images, corporate marks, or peer-proposal text, figures, schemas or code. Institutional names identify sources or possible types of entity only and do not indicate participation, authorization, endorsement, or commitment.[source:SOURCE-REGISTRY] [source:OSM-WORKING-DATA]
+The main text, participant-generated GeoJSON, information design, HTML, booklets, verification script and synthetic cases are licensed under CC BY 4.0. The v2.3 spatial figures embed selected L4 OSM vector snapshots and retain the data date, `© OpenStreetMap contributors`, and ODbL 1.0 attribution on every relevant figure; no commercial map tiles are used. Building footprints are orientation leads only, and named Jing-Zhang park polygons are used only to expose the provisional-extent discrepancy; neither enters participant-generated formal GeoJSON or indicators. Three key-area experiential images were created with OpenAI image generation from original prompts for this proposal and are used as language-neutral concept images. Their prompts, generated status, limits of use and file list are recorded in `report/copyright_statement.md`. The project does not reproduce restricted news images, corporate marks, or peer-proposal text, figures, schemas or code. Institutional names identify sources or possible types of entity only and do not indicate participation, authorization, endorsement, or commitment.[source:SOURCE-REGISTRY] [source:OSM-WORKING-DATA]
 
 ## References
 

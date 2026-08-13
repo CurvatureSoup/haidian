@@ -158,6 +158,17 @@ iteration: "v0.9"
 | P5 学生家庭 | 13岁学生+家长 | AI教育、公共体验 | 京张遗址公园 |
 | P6 国际开发者/访客 | 30岁 | 开源社区、国际传播 | 开发者广场+原点 |
 
+### 6.1 联锁空间语法（v1.3 深化）
+
+为让"联锁"机制不再停留于隐喻，本方案把机制落成可校验空间图层 [data:geometry/land_use.geojson] [data:geometry/public_space.geojson]：
+
+- **道岔**：三组重点区（`key_areas.geojson`）——决定创新方向的决策节点；
+- **闭塞区间**：三个 `AI_SERVICE_ZONE`（众智园加速 / AI原点孵化 / 大钟寺落地，数据见 visual/assets/interlock-zones.json）——每个是最小治理单元，内含数据边界、人工复核与责任主体，**未过联锁表准入闸门不得运行**；
+- **信号**：12 个 `SCENARIO_NODE`（SN-T1~SN-E8，数据见 visual/assets/scenario-nodes.json）——即 12 张场景卡的空间锚点；
+- **换签点**：三处道岔广场（`public_space.geojson`）——承担权限交接与东西缝合接口。
+
+机制→图层→指标→正文四层闭环，任何场景上线都要经过"道岔确认→闭塞区间校验→信号开放→换签点交接"的联锁路径 [data:geometry/public_space.geojson#PUBLIC-001]。
+
 ### 6.2 AI场景卡（12张，其中4张为测试验证场景）
 
 **测试验证场景（T类）**：

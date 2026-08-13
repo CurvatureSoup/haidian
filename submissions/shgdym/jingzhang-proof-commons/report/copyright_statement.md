@@ -7,7 +7,8 @@
 | `proposal.md`, `proposal.en.md`, narrative | Produced for this submission by the declared AI agent from registered sources | Participant-generated, CC BY-SA 4.0; source claims retain their own rights |
 | `geometry/*.geojson` | Repository provisional constraints plus participant-generated design layers | Provisional constraints are not official redlines; design layers are conceptual |
 | Required and additional figures | Locally composed diagrams from submission GeoJSON, metrics and text | Participant-generated; no commercial basemap or third-party diagram |
-| `site-overview.png`, `.en.png` | Participant-supplied web-generated concept image on 2026-08-11; the exported PNG contains no provider or model metadata | Text-directed aerial concept illustration; not a survey, official masterplan, approval-grade geometry or construction promise |
+| `site-overview.png` | Participant-supplied web-generated concept image on 2026-08-11; the exported PNG contains no provider or model metadata | Language-neutral aerial concept illustration; not a survey, official masterplan, approval-grade geometry or construction promise |
+| `framework-overview.png`, `.en.png` | Local Pillow composition from submission geometry, metrics and operating rules | Bilingual auditable framework diagram; all geometry remains provisional |
 | `experience-zhongzhi.png` | Participant-supplied web-generated concept image on 2026-08-11; the exported PNG contains no provider or model metadata | Text-directed concept illustration; not a site photograph, survey, official rendering or construction promise |
 | `experience-ai-origin.png` | Participant-supplied web-generated concept image on 2026-08-11; the exported PNG contains no provider or model metadata | Text-directed concept illustration; not a site photograph, survey, official rendering or construction promise |
 | `experience-dazhongsi.png` | Participant-supplied web-generated concept image on 2026-08-11; the exported PNG contains no provider or model metadata | Text-directed concept illustration; not a site photograph, survey, official rendering or construction promise |
@@ -17,7 +18,7 @@
 | `sections-accessibility.png`, `.en.png` | Locally drawn public-realm sections and continuity acceptance sequence | Participant-generated technical diagram; dimensions are conceptual pending survey and engineering review |
 | `identity-guidelines.png`, `.en.png` | Locally drawn identity, color, type, sign and component-use rules | Participant-generated; no external logo, icon set or enterprise mark is reproduced |
 | `delivery-dashboard.png`, `.en.png` | Local rendering of the twelve-project responsibility, resource, acceptance and exit ledger | Participant-generated implementation evidence index |
-| Noto CJK fonts | Local Noto CJK installation | Used under SIL Open Font License 1.1; font files are not redistributed |
+| Noto Sans CJK SC | Local font installation used for raster and document rendering | Used under SIL Open Font License 1.1; font files are not redistributed in the submission package |
 | HTML and PDF | Generated locally from the submission package with PPT Master and LibreOffice | No CDN, remote map tile, external script, iframe, form, analytics or tracking; A3 and A0 outputs are exported at their stated physical sizes |
 | International cases | Official government, university or public-institution pages listed in `sources.json` | Background mechanisms only; pages and marks are not reproduced |
 

@@ -197,6 +197,15 @@ code {
 <h2>6. AI 创新生态、人才画像与 AI+ 场景</h2>
 <h3>6.1 人才与用户画像（≥5类）</h3>
 <div class="proposal-table"><table><thead><tr><th>画像</th><th>特征</th><th>核心需求</th><th>对应空间</th></tr></thead><tbody><tr><td>P1 初创AI工程师</td><td>27岁，创业团队核心</td><td>算力、中试、融资接口</td><td>众智园加速器</td></tr><tr><td>P2 高校研究生</td><td>24岁，博士在读</td><td>实验设备、导师、场景数据</td><td>原点社区孵化器</td></tr><tr><td>P3 中关村企业高管</td><td>40岁</td><td>商务洽谈、行业论坛</td><td>大钟寺商务带</td></tr><tr><td>P4 周边社区老人</td><td>68岁</td><td>无障碍、传统服务保留</td><td>主轨绿带+社区</td></tr><tr><td>P5 学生家庭</td><td>13岁学生+家长</td><td>AI教育、公共体验</td><td>京张遗址公园</td></tr><tr><td>P6 国际开发者/访客</td><td>30岁</td><td>开源社区、国际传播</td><td>开发者广场+原点</td></tr></tbody></table></div>
+<h3>6.1 联锁空间语法（v1.3 深化）</h3>
+<p>为让&quot;联锁&quot;机制不再停留于隐喻，本方案把机制落成可校验空间图层 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson" title="空间数据：geometry/land_use.geojson">空间数据</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/public_space.geojson" title="空间数据：geometry/public_space.geojson">空间数据</sup>：</p>
+<ul>
+<li><strong>道岔</strong>：三组重点区（<code>key_areas.geojson</code>）——决定创新方向的决策节点；</li>
+<li><strong>闭塞区间</strong>：三个 <code>AI_SERVICE_ZONE</code>（众智园加速 / AI原点孵化 / 大钟寺落地，数据见 visual/assets/interlock-zones.json）——每个是最小治理单元，内含数据边界、人工复核与责任主体，<strong>未过联锁表准入闸门不得运行</strong>；</li>
+<li><strong>信号</strong>：12 个 <code>SCENARIO_NODE</code>（SN-T1~SN-E8，数据见 visual/assets/scenario-nodes.json）——即 12 张场景卡的空间锚点；</li>
+<li><strong>换签点</strong>：三处道岔广场（<code>public_space.geojson</code>）——承担权限交接与东西缝合接口。</li>
+</ul>
+<p>机制→图层→指标→正文四层闭环，任何场景上线都要经过&quot;道岔确认→闭塞区间校验→信号开放→换签点交接&quot;的联锁路径 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/public_space.geojson#PUBLIC-001" title="空间数据：geometry/public_space.geojson#PUBLIC-001">空间数据</sup>。</p>
 <h3>6.2 AI场景卡（12张，其中4张为测试验证场景）</h3>
 <p><strong>测试验证场景（T类）</strong>：</p>
 <div class="proposal-table"><table><thead><tr><th>编号</th><th>场景</th><th>空间锚点</th><th>验证内容</th><th>人工复核/边界</th></tr></thead><tbody><tr><td>T1</td><td>轨道AI巡检示范</td><td>主轨绿带</td><td>视觉巡检模型</td><td>数据脱敏、人工抽检</td></tr><tr><td>T2</td><td>大模型医疗辅助门诊</td><td>众智园AI医疗验证区</td><td>分诊辅助</td><td>医师终审、隐私合规 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="GENERATIVE-AI-INTERIM-MEASURES" title="标准：GENERATIVE-AI-INTERIM-MEASURES">标准</sup></td></tr><tr><td>T3</td><td>自动驾驶接驳环线</td><td>众智园—原点段</td><td>接驳调度</td><td>安全员、限速、监管报备</td></tr><tr><td>T4</td><td>数据沙盒测试场</td><td>大钟寺商务带</td><td>联邦学习/隐私计算</td><td>数据不出域、审计留痕</td></tr></tbody></table></div>

@@ -24,6 +24,8 @@ iteration: "v0.4"
 
 <span style="color:#888">▶ 定位说明：这是对开源隐喻的补强而非替代。开源隐喻回答"怎么让城市更新公开、可回退、可审计"；双轨验证回答评审最关心的"AI 退场后城市还剩下什么、由谁负责"。两者合起来，主线才是一条可长期演进的、真正可实施的城市主线。</span>
 
+v0.5 把上述双轨验证从"概念表述"落地为一套**机器可复核的证据资产**：12 场景四段契约（`mainline-contracts.json`）、主线五段验收链（`mainline-pipeline.json`）、项目/场景双闸门（`mainline-gates.json`）、8 状态治理状态机（`mainline-state-machine.json`）、治理角色 RACI（`mainline-raci.json`）、合成推演（`mainline-tabletop.json`）与硬停止条件（`risk.json`）——每个都可由专业与运营团队直接读取、计数、复核，构成"可实施性"与"表达完整度"的可审计证据面 [metric:machine_evidence_asset_count] [metric:machine_contract_count]。
+
 ## 设计依据与资料清单
 
 本方案以北京市规划和自然资源委员会海淀分局《百年京张AI创新带城市设计国际方案征集资格预审公告》为主控依据，以《面向全球智能体开展"百年京张AI创新带城市设计开源征集"任务书摘录》为智能体任务依据，以 `brief/site-package/` 中的设计简报、允许设计空间、枚举、指标区间、schema 与临时粗略边界为机器可读依据 [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK] [source:SITE-PACKAGE]。方案引用的每一条来源、用途边界与限制均登记在 `sources.json`；其中公告与任务书为 formal-ready 来源，临时边界（`brief/site-package/geometry/provisional_boundaries.geojson`）仅可用于生成、展示与临时自检 [source:SOURCE-REGISTRY] [source:BOUNDARY-SOURCE]。
@@ -168,7 +170,7 @@ iteration: "v0.4"
 
 场景卡的空间位置、服务对象、运行数据、隐私边界、人工复核、运营主体与风险逐条写入 `compliance_matrix.json` 的 agent.3 条目；所有场景均为**概念建议或可供专业团队深化研究的参考方案**，不构成已确定的政府安排 [source:AGENT-TASKBOOK]。AI 场景遵守数据最小化、可解释与人工复核原则，参考生成式人工智能管理要求 [standard:GENERATIVE-AI-INTERIM-MEASURES]。
 
-每张场景卡按**四段可验证合同**补足可实施边界（概念）：`无 AI 基线`（AI 上线前普通服务怎样可用）→ `AI 增益`（AI 增加什么）→ `立即退场条件`（什么时候必须拔线）→ `退场红利`（拔线后留下什么、谁维护）。
+每张场景卡按**四段可验证合同**补足可实施边界（概念）：`无 AI 基线`（AI 上线前普通服务怎样可用）→ `AI 增益`（AI 增加什么）→ `立即退场条件`（什么时候必须拔线）→ `退场红利`（拔线后留下什么、谁维护）。全部契约已落地为机器可读资产 `visual/assets/mainline-contracts.json`（12 场景，每张含 baseline/boost/blackout/bequest 字段、允许/禁止数据、治理角色与拔线动作），供专业与运营团队直接对接复核 [data:visual/assets/mainline-contracts.json] [metric:machine_contract_count]。
 
 | 场景 | 无 AI 基线 | AI 增益 | 立即退场条件 | 退场红利（留存/维护） |
 | --- | --- | --- | --- | --- |
@@ -261,7 +263,11 @@ iteration: "v0.4"
 
 为把"概念清单"变成"可实施路径"，v0.4 引入两套独立闸门。**项目成熟度闸门（G0—G7）**判定一个项目能否承担空间、专业与长期运营责任：`G0 仅空间概念 → G1 官方边界与权属确认 → G2 现状与专项调查 → G3 专业方案 → G4 试点授权与预算 → G5 阶段性上架 → G6 稳定运营 → G7 复盘归档`。**场景准入闸门（C0—C7）**判定某一 AI 场景是否能进入试运行：`C0 提出问题 → C1 明确数据源与边界 → C2 通过无 AI 基线自检 → C3 通过合成/影子推演 → C4 可拔线方案评审 → C5 强制退场演练 → C6 灰度上线 → C7 红利留档`。
 
-一个项目成熟不等于其 AI 场景可上线；一个场景通过也不替其它场景背书。任何项目或场景在 `C2` 未证明可用的无 AI 普通路径之前，一律不进入灰度（concept no-merge gate）。每个项目表项增设"失败后的默认动作"：无法推进时默认保留现状、隔离风险、公开缺口，不以"继续建设"掩盖未决条件 [assumption:A-GATES-001]。
+一个项目成熟不等于其 AI 场景可上线；一个场景通过也不替其它场景背书。任何项目或场景在 `C2` 未证明可用的无 AI 普通路径之前，一律不进入灰度（concept no-merge gate）。每个项目表项增设"失败后的默认动作"：无法推进时默认保留现状、隔离风险、公开缺口，不以"继续建设"掩盖未决条件 [assumption:A-GATES-001] [data:visual/assets/mainline-gates.json]。
+
+### 主线五段验收链（开源 PR ↔ 可验证公共，双语义）
+
+v0.5 把双轨验证量化为一套贯穿 GitHub 协作语义的主线五段验收链，已落地为 `visual/assets/mainline-pipeline.json` [data:visual/assets/mainline-pipeline.json]：`COMMIT 提案 → MERGE 评审 → LIVE 灰度上线 → BLACKOUT 退场演练 → LEGACY 红利留档`。每一段同时给出**开源语义**（issue/PR/review/merge/revert/archive）与**可验证公共语义**（无 AI 基线、四段契约、退场演练、红利审计），让“可合回”既是一种治理承诺，也是一种可操作、可复核的验收步骤 [metric:pipeline_stage_count]。
 
 ### 可复现合成推演（概念证据，非现场绩效）
 
@@ -275,7 +281,7 @@ mainline-tabletop.json  （样例，合成数据）
 
 ### 治理状态机与审计独立（概念）
 
-场景在主线上的生命周期用 8 状态机表达：`proposed → reviewed → staged → live → degraded → blackout_drill → retained / removed_archived`，其中 `blackout_drill`（退场演练）与 `retained`（红利审计）不可跳过。**审计独立原则**：运营方不能为自己上线的红利自己签字；退场判断须由具名维护者、独立评估者与受影响公众共同复核。纸面、电话、有人柜台与现场可逆闸共同构成"停止通道"，确保任何一次拔线都不是单向的、由技术方单方面决定 [assumption:A-GOVERNANCE-001]。
+场景在主线上的生命周期用 8 状态机表达：`proposed → reviewed → staged → live → degraded → blackout_drill → retained / removed_archived`，其中 `blackout_drill`（退场演练）与 `retained`（红利审计）不可跳过。**审计独立原则**：运营方不能为自己上线的红利自己签字；退场判断须由具名维护者、独立评估者与受影响公众共同复核。纸面、电话、有人柜台与现场可逆闸共同构成"停止通道"，确保任何一次拔线都不是单向的、由技术方单方面决定 [assumption:A-GOVERNANCE-001]。状态机、转移条件与角色已落地为 `visual/assets/mainline-state-machine.json` [data:visual/assets/mainline-state-machine.json]；治理角色 RACI（主线守护人、现场运营、安全与退场权、数据隐私、无障碍、文保、交通、政务、教育、医护、社区、开源社区）见 `visual/assets/mainline-raci.json` [data:visual/assets/mainline-raci.json] [metric:governance_state_count] [metric:weak_presence_of_governance]。
 
 ### 分期框架与概念里程碑
 

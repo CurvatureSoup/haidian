@@ -302,5 +302,51 @@
  "status_note_zh": "全部场景当前状态为概念建议中的黄灯待试点，未授权运行；本协议为概念治理机制，供专业团队与运营主体深化，不构成合规认定或法定程序。",
  "status_note_en": "All scenarios are conceptual yellow-light pending pilots, not authorized to run; this protocol is a conceptual governance mechanism for professional teams and operators, not a compliance determination or statutory procedure.",
  "responsibility_matrix_note_zh": "责任矩阵为概念治理安排：每场景登记运营主体、许可类型、数据治理、KPI、人工复核与退出路径；KPI 阈值一律试点前由实测基线冻结，本包不编造数值。",
- "responsibility_matrix_note_en": "The responsibility matrix is a conceptual governance arrangement: each scenario registers operator, permit type, data governance, KPI, manual review and exit path; KPI thresholds are frozen from measured baselines before pilots, no values are fabricated."
+ "responsibility_matrix_note_en": "The responsibility matrix is a conceptual governance arrangement: each scenario registers operator, permit type, data governance, KPI, manual review and exit path; KPI thresholds are frozen from measured baselines before pilots, no values are fabricated.",
+ "service_gates": {
+  "note_zh": "服务全生命周期六道门，每道门由证据推进、不得越级；T4 的窗口即到期日——批准运行与设定退场是同一个动作，试点永久化在结构上不可能。",
+  "note_en": "Six gates across the full service lifecycle, each advanced by evidence; at T4 the window IS the expiry date — approving operation and scheduling exit are one action, making pilot permanence structurally impossible.",
+  "gates": [
+   {
+    "id": "T0",
+    "name_zh": "问题与场地",
+    "condition_zh": "公共问题真实、场地与权属边界核查",
+    "fail_zh": "不落位、不招募公众"
+   },
+   {
+    "id": "T1",
+    "name_zh": "数据与权限",
+    "condition_zh": "最小数据、保留期、删除与日志规则确认",
+    "fail_zh": "权限保持关闭"
+   },
+   {
+    "id": "T2",
+    "name_zh": "基准与人工路径",
+    "condition_zh": "人工基准建立、责任角色指派、非AI等价路径验收",
+    "fail_zh": "只提供纯人工服务"
+   },
+   {
+    "id": "T3",
+    "name_zh": "沙箱对时演练",
+    "condition_zh": "桌面与隔离环境复演降级全分支",
+    "fail_zh": "不进入公共空间"
+   },
+   {
+    "id": "T4",
+    "name_zh": "限时运行窗",
+    "condition_zh": "时刻表签发，窗口不超过180天（窗口即到期日）",
+    "fail_zh": "不开放"
+   },
+   {
+    "id": "T5",
+    "name_zh": "续期/降级/退役",
+    "condition_zh": "对时合格续期；超差或到期降级；退役走流程",
+    "fail_zh": "不得静默恢复或自动续期"
+   }
+  ]
+ },
+ "version_binding": {
+  "note_zh": "进化即失效：时刻表绑定服务版本哈希，任何自我进化（模型更新/提示词修改/依赖变更）使当前资格立即作废，退回沙箱重新对时；资格不继承，档案要继承。",
+  "note_en": "Evolution voids the licence: the timetable binds to the service version hash; any self-evolution voids the current qualification immediately and the service returns to the sandbox; qualification is not inherited, archives are."
+ }
 }

@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "把原型到公共服务、机器到人工、白天到夜间、建设到运营的每一次交接，设计成可见、可追责、可回退的城市接口。"
 tracks: ["civic-agent-governance", "ai-public-services", "ai-traffic-walkability"]
 scenarios: ["ai-cultural-guide", "ai-health-service-navigation", "ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review", "robot-delivery-low-speed"]
-iteration: "v0.2"
+iteration: "v0.3"
 ---
 
 # 京张交班 / HANDOVER JING-ZHANG
@@ -95,6 +95,12 @@ iteration: "v0.2"
 离线 `unplugged-runner.js` 固定跑 12 场景 × 7 分支 = 84 条合成桌面推演：12 条完整契约进入授权复核，60 条缺项或违规数据分支阻断，12 条 AI-OFF 分支进入公共遗产复核。输出明确声明零真实个人数据，`field_performance: null`，不把合成测试伪装成现场绩效。评分维度与正文、图件、GeoJSON、JSON 工件的对应关系见 `review-evidence-map.json`；隐私、安全、无障碍、文保、维护、版权、公众接受度和实施风险见 `risk.json`。[data:visual/assets/unplugged-tabletop-evidence.json] [metric:evidence_branch_count] [depth:handover_contract_system]
 
 展示媒体只承担状态叙事，不替代空间证据：`assets/media/handover-walkthrough.mp4` 为约 40 秒无声概念漫游，依次表达 BASE、BOOST、BLACKOUT、BEQUEST；封面、三处重点区体验图、VTT 字幕和双语文字稿均标注 `concept / presentation_only`，权利边界见 `report/copyright_statement.md`。
+
+### v0.3 现代化表达层
+
+本轮把表达层改为“公共设计底盘 + Neo-civic OS 控制台”：米白、轨蓝和遗产铜继续承担规划阅读；深海军蓝、青绿和橙色只用于状态、停止权和证据反馈。首屏按照 `BASE → BOOST → BLACKOUT → BEQUEST` 显示普通服务、受控 AI、人工停止和公共回报；状态芯片、节点脉冲和证据面板均回指契约、GeoJSON、metrics 或 84 条离线复演，不虚构实时数据。
+
+`visual/index.html` 与 `visual/index.en.html` 现在提供键盘可操作的状态切换、契约选择器、`SC-01`—`SC-09` 节点联动、84 条测试摘要、首 12 周时间线、人工窗口/AI-OFF 路径和 reduced-motion 支持。现代化视觉只改变解释层，不替代 A3/A0、专业图纸、结构化空间数据和正文判断。
 
 ## AI 创新生态、人才画像与 AI+ 场景
 

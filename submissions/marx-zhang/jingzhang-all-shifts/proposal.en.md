@@ -124,6 +124,54 @@ The pilot records only service access, completed staffed handovers, accessible-r
 
 Pilot “success” is not a pre-set investment, efficiency or footfall number. It is evidence for five auditable questions: can service be used without a scan; is human escalation available; is handover timely; does the accessible route remain usable; and are problems handled traceably? Official geometry and specialist conditions remain required before any expansion, with final judgment by professional teams and participants.
 
+### G1 site-verification checklist (local working edition)
+
+Before any installation or opening within the 90-day pilot, seven domains must be checked on site: scope and authorisation; fire and personal safety; a continuous accessible route; power and equipment isolation; duty and paid participation; notices/data/appeal; and removal/incident readiness. Each domain needs verifiable evidence, an accountable role and a pass/hold decision. Any missing or failed item means no installation and no opening. G1 only asks whether a reversible pilot may begin; it never substitutes for approvals or specialist conclusions on design, fire, title, labor or accessibility [standard:BARRIER-FREE-ENVIRONMENT-LAW] [metric:g1_verification_domain_count].
+
+![Zhongzhiyuan G1 site-verification checklist](assets/figures/zhongzhiyuan-g1-checklist.en.png)
+
+### Paid co-design workshop kit (local working edition)
+
+Co-design is not unpaid interviewing. Maintenance technicians, cleaning/property workers, AI R&D, access/care users and asset/operations form five baseline role types. A five-step session—boundary and payment, a shared walk, issue cards, kit arrangement, and prioritisation/handover—produces requested service windows, an access-and-staffed-help map, a five-component kit, stop conditions, a G1 evidence-owner sheet and a public note. Payment, work-time status, personal-data handling and recording rules must be agreed in writing before the session; without agreement there is no recruitment or recording [source:AGENT-TASKBOOK] [metric:codesign_participant_role_count].
+
+![Zhongzhiyuan paid co-design workshop kit](assets/figures/zhongzhiyuan-codesign-workshop.en.png)
+
+### Shift-log template (local working edition)
+
+The shift form records only activation conditions, service access, staffed handover, route repair, issue/appeal handling, closing/removal and next review, aggregated by role and de-identified event. It never records names, personal performance, emotion, precise location or production work orders. Each shift checks staffed access, no-scan service, continuous accessibility, equipment isolation and removability; any shutdown line is marked as pause/remove and receives independent review [standard:GENERATIVE-AI-INTERIM-MEASURES] [metric:shift_log_record_category_count].
+
+![Zhongzhiyuan shift-log template](assets/figures/zhongzhiyuan-shift-log.en.png)
+
+## Phase 3 Deepening: Three Areas × Daily Action Scripts
+
+These daily scripts place the three Shift Yards within four parts of one day: 06–10 arrival and morning handover; 10–18 shared work, learning and care; 18–24 late meals, exchange and community service; and 00–06 recovery, emergency and safe departure. They are not confirmed rosters, footfall forecasts, field surveys or implementation authorisation. They organize existing personas, scenario cards and spatial prototypes as a conceptual workflow: how someone arrives, gets a service, hands over in space and turns to a person [metric:daily_script_area_count] [metric:daily_script_shift_count].
+
+![Three Shift Yards 24-hour daily-script overview](assets/figures/daily-script-overview.en.png)
+
+The Zhongzhiyuan Maintenance Yard lets maintenance technicians, researchers and staffed support hand over in a public ground floor: morning separates equipment arrival from walking; daytime shares the maintenance bench and learning table; evening uses a staffed desk for help and appeal; night checks removable components and restores the garden. AI only handles authorised equipment state or document support; it never records personal performance [source:AGENT-TASKBOOK].
+
+![Zhongzhiyuan Maintenance Yard daily action script](assets/figures/zhongzhiyuan-daily-script.en.png)
+
+AI Origin Handover Yard puts learners, caregivers and low-digital-literacy users in one service chain: visual, audio and staffed guidance support near-campus arrival; learning tables, rest seating and a service desk connect by day; no-scan meals, appeal and quiet recovery remain through the evening. AI offers only explainable orientation or service assistance; it never replaces care judgment or infers identity or emotion [standard:BARRIER-FREE-ENVIRONMENT-LAW].
+
+![AI Origin Handover Yard daily action script](assets/figures/ai-origin-daily-script.en.png)
+
+Dazhongsi Exchange Yard organizes transfers, short rests and safe departure for couriers, small-shop operators and night workers: morning separates transfer, delivery and walking; daytime opens the Shift Table and small-shop interface; evening combines sheltered exchange, late meals and a walking route; night retains staffed help and appeal referral. AI only publishes aggregate orientation or assists shop operations with owner-controlled data; it never tracks personal routes, automatically punishes or blocks users [standard:GENERATIVE-AI-INTERIM-MEASURES].
+
+![Dazhongsi Exchange Yard daily action script](assets/figures/dazhongsi-daily-script.en.png)
+
+At every yard and hour, staffed access, no-scan service, a continuous accessible route and public duty information stay online. Missing staffed access, blocked accessibility, covert tracking, personal scoring, automated punishment or production-system connection means pause and do not open. The scripts do not substitute for real site, fire, title, labor or professional-verification conclusions.
+
+## Phase 5 Deepening: Three Areas × 84-Second Accessible Tour
+
+The offline tour condenses the four action-script windows into an 84-second mute-comprehensible sequence: Zhongzhiyuan maintenance and staffed handover at 06:00–10:00; AI Origin learning, care and accessible wayfinding at 10:00–18:00; Dazhongsi transfer, short rest and help at 18:00–24:00; and recovery with safe departure at 00:00–06:00. The video uses only existing conceptual scenes, script diagrams and abstract route/service overlays. Chinese and English each have captions and a full transcript; no narration, music or scan is needed to understand it [metric:accessibility_tour_duration_seconds] [metric:accessibility_tour_time_window_count].
+
+![Three Areas accessible-tour still cover](assets/media/cover.webp)
+
+[Play the tour in the offline visual](visual/index.en.html#accessible-tour) · [中文文字稿](assets/media/three-area-access-tour-zh.md) · [English transcript](assets/media/three-area-access-tour-en.md)
+
+The tour remains a design-research presentation: it does not confirm actual sites, rosters, footfall, opening hours or implementation authorisation. Every segment assumes AI assistance only, staffed access, no-scan service and a continuous accessible route. Missing staffed access, broken accessibility, covert tracking, personal scoring, automated punishment or production-system connection means pause rather than continue [metric:accessibility_tour_silent_equivalence_count].
+
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
 | Persona | Core needs |

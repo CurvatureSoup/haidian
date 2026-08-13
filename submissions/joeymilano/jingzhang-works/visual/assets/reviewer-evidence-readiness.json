@@ -1,0 +1,15 @@
+{
+  "validator_version": "1.6.0",
+  "index_sha256": "b57a2428900c72940e090db0b62a87c36911ab05307dd85227d065b81e888af2",
+  "drill_sha256": "a25d0a0badec9f72e574d8314a3df21c5a3deda6241a6d97f9be0ded21d74c68",
+  "summary": {
+    "rubric_questions": 7,
+    "taskbook_links": 6,
+    "operating_actions": 7,
+    "fault_cards": 6,
+    "errors": 0
+  },
+  "status": "review_navigation_ready",
+  "errors": [],
+  "claim_boundary": "This validator checks navigation and protocol structure only. It does not assign a score or prove execution."
+}

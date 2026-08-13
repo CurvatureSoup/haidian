@@ -242,6 +242,99 @@
       "confidence": "high",
       "assumptions": []
     },
+    "x_checkpoint_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "proposal.md",
+        "geometry/key_areas.geojson"
+      ],
+      "formula": "count(TEST_RELEASE_USE_station_gates)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "machine_readable_x_receipt_protocol_count": {
+      "status": "known",
+      "value": 1,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/x-receipt.schema.json"
+      ],
+      "formula": "count(versioned_x_receipt_schemas)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "sc03_tabletop_rehearsal_count": {
+      "status": "known",
+      "value": 1,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/sc03-tabletop-evidence.json"
+      ],
+      "formula": "count(persisted_synthetic_tabletop_runs)",
+      "confidence": "high",
+      "assumptions": [],
+      "precision_note": "Synthetic tabletop evidence only; no field pilot has been authorised or run."
+    },
+    "sc03_synthetic_fixture_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/sc03-tabletop-evidence.json"
+      ],
+      "formula": "count(executed_synthetic_fixtures)",
+      "confidence": "high",
+      "assumptions": [],
+      "precision_note": "Fixtures test protocol logic, not real-world robotic safety performance."
+    },
+    "cultural_route_stop_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/x-cultural-route.json"
+      ],
+      "formula": "count(cultural_route_stops)",
+      "confidence": "high",
+      "assumptions": [],
+      "precision_note": "Concept route stops; final positions require official geometry and field audit."
+    },
+    "cultural_narrative_era_count": {
+      "status": "known",
+      "value": 3,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/x-cultural-route.json"
+      ],
+      "formula": "count(distinct_narrative_eras)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "annual_operating_season_count": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/x-operations-cycle.json"
+      ],
+      "formula": "count(annual_operating_seasons)",
+      "confidence": "high",
+      "assumptions": []
+    },
+    "annual_public_decision_register_count": {
+      "status": "known",
+      "value": 1,
+      "unit": "count_per_year",
+      "source_files": [
+        "visual/assets/x-operations-cycle.json"
+      ],
+      "formula": "required_public_continue_revise_stop_registers_per_year",
+      "confidence": "high",
+      "assumptions": [],
+      "precision_note": "Proposed operating target, not evidence of an existing annual programme."
+    },
     "floor_area_ratio": {
       "status": "unknown",
       "value": null,

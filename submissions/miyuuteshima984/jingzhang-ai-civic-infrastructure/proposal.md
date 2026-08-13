@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "以城市完整度作为百年京张AI创新带的空间审查方法：居、学、护、行、绿、工、交七项普通城市能力先形成长期可用的日常底盘，AI作为可选增强层进入科研、社区、交通和商业。总体形成一条公共绿脊、六段完整度片区、六条东西缝合联系与三处重点区；爽粉堡垒仅作为AI原点社区中的社区命名彩蛋。"
 tracks: ["ai-origin-community", "ai-public-services", "ai-traffic-walkability"]
 scenarios: ["ai-traffic-walkability", "robot-delivery-low-speed", "enterprise-service-copilot", "ai-cultural-guide", "ai-health-service-navigation"]
-iteration: "v0.4"
+iteration: "v0.8"
 ---
 
 # 京张城市完整度 / JING-ZHANG CITY COMPLETENESS
@@ -52,7 +52,27 @@ iteration: "v0.4"
 
 这些案例不支撑京张的法定边界、高度或强度，只支撑组织与运营方法。[source:CASE-AISG-100E] [source:CASE-SEOUL-AI-HUB] [source:CASE-PUNGGOL]
 
+![全球 AI 创新生态案例对照：机制—京张转译—不复制边界](assets/figures/case-study-comparison.svg)
+
 本方案的 C7 城市完整度合同包括：**居 HOME、学 LEARN、护 CARE、行 MOVE、绿 GREEN、工 WORK、交 COMMON LIFE**。每个更新动作都要说明改善哪项能力、是否挤压另一项能力、谁承担非 AI 基线。**AI 不是第八项用地**，而是跨七项能力的可选增强层。[metric:city_completeness_dimension_count]
+
+### 三大定位—五大功能—三区两翼协同闭环
+
+v0.5 将任务书规定的结构从文字登记升级为显性设计闭环：**百年京张文化带、都市 AI 生活体验带、AI 融合创新带**三大定位，通过 **AI 全栈自主创新体系、世界级 AI 创新生态、AI+ 场景赋能新范式、智能化 AI 活力城市、AI 治理全球话语权**五大功能，落到 **AI 原点社区、众智园 AI 自主创新加速区、大钟寺 AI 产业集聚区、中关村科技服务翼、小月河场景赋能翼**五个城市接口。所有接口最终回到 C7 验收，不让产业或技术目标绕过普通城市能力。[source:AGENT-TASKBOOK]
+
+![三大定位、五大功能、三区两翼与 C7 反馈闭环](assets/figures/taskbook-coordination-loop.svg)
+
+八类要素不再作为“资源清单”平铺，而是进入同一条转化链：**土地、空间、产业、资金、人才、算力、数据、场景 → 研究 → 转译 → 测试 → 采用 → 长期生活 → C7 反馈**。资金、算力、机构合作和数据安排均保持“待真实主体确认”的概念状态，不把潜在接口写成既有承诺。[source:AGENT-TASKBOOK]
+
+![土地、空间、产业、资金、人才、算力、数据、场景全要素生态图谱](assets/figures/ai-ecosystem-map.svg)
+
+区域协同同样采用“潜在角色—交换要素—接口—数据边界—验证方式”的结构。北纬社区用于生活场景对照，未来科学城用于科研转译方法对照，怀柔科学城用于科研生态方法参考，北京经开区用于产业化与市场验证方法对照，京津冀用于跨区域人才/产业/治理研究尺度；上述均不代表对方已同意合作、已出资、已共享数据或已形成行政承诺。
+
+![区域协同验证矩阵](assets/figures/regional-collaboration-matrix.svg)
+
+品牌层不制作“官方赛事 Logo”，而提出投稿方案自身的 **C7 COMPLETE LOOP** 识别方向：开放环表示城市持续补齐，两条轨线回应京张线性记忆，七节点对应 C7。中英文同级，C7 图标始终配文字，不使用政府徽记、官方印章、未经授权机构 Logo 或“已经落地”的视觉暗示。
+
+![C7 品牌与 VI 概念方向](assets/figures/brand-vi-direction.svg)
 
 ## 总体设计范围城市更新与控规深度城市设计
 
@@ -74,17 +94,67 @@ iteration: "v0.4"
 
 三处重点区均配置可进入的公共交流空间：众智园开放交流场、AI 原点社区公共客厅与南段城市公共界面，首先解决日常使用，再承担传播功能。[data:geometry/public_space.geojson#PUBLIC-004] [metric:public_space_count]
 
+### v0.7 与海淀现行城市更新实施逻辑对齐
+
+城市完整度不是脱离现实政策的自造评价表。海淀区《城市更新导则（2025年版）》明确提出街区、校区、园区、社区“四区”融合，推动生活圈与创新圈融合，并把人工智能创新街区、轨道交通站点一体化、公共服务补充以及数智空间与城市功能融合作为重点方向。[source:HD-URBAN-RENEWAL-GUIDE-2025] 因此 C7 的作用，是把“产城融合”进一步翻译成居民、研究者、服务劳动者和访客每天能否完成 HOME / LEARN / CARE / MOVE / GREEN / WORK / COMMON LIFE，而不是另造一套法定规划指标。
+
+v0.7 同时把实施动作分成两条真实路径。**低扰动、可逆动作**——如遮阴/坐凳、实体导视、人工服务界面、受控测试边界标识、可拆换小型服务节点——仍需现场核验、权属/运营许可和安全检查，但概念阶段可以明确其“最小可用空间”和退出状态；**改变用地、建筑规模/高度、站城工程、市政容量或涉及公共利益/公共安全的重改造**，则必须进入真实项目生成、实施方案审查和后续行政许可路径，本包不越权预设。[source:HD-URBAN-RENEWAL-IMPLEMENTATION-2025]
+
+海淀公开的 2025 年四季度重点任务进展已把五道口 AI 原点社区和交通、教育、医疗、养老等“可感可及”场景列为现实工作语境。[source:HD-AI-DISTRICT-PROGRESS-2025Q4] 这只证明题目真实存在，不证明本方案的具体试点、位置、合作方、预算或许可已经获得确认。
+
 ![三处重点区域的 C7 缺口与补齐任务](assets/figures/key-areas.png)
+
+v0.7 的固定重点区核心图不再只是任务卡，而把三种不同的首层/公共空间关系并置画出：众智园是研发校园 + 与普通通行物理分离的测试口袋；AI 原点是家门—照护—休息—公共客厅连续的长期社区；大钟寺是固定双语导视—人工问询—无障碍换乘—普通商业—遗产公共界面组成的站城到达链。
 
 ## AI 创新生态、人才画像与 AI+ 场景
 
-五类设计画像分别是：长期居民与家庭；学生与科研人员；创业者与企业员工；国际开发者与访问学者；服务劳动者、通勤者与访客。这些画像用于检验空间是否排斥普通生活，不是人口统计结论。[metric:persona_count]
+v0.6 将原先 5 类合并画像拆解为 9 类显性设计测试人群：长期居民与家庭、老年居民、残障/行动或感知受限使用者、儿童与照护者、学生与科研人员、创业者与企业员工、服务劳动者与通勤者、访客与国际使用者，以及无智能手机/无账号/主动退出数字服务的使用者。这些画像用于检验受益、负担、排斥风险和人工兜底，不是人口统计结论。[metric:persona_count]
+
+![九类人群的受益—负担—非 AI 等价路径—申诉矩阵](assets/figures/inclusion-burden-matrix.svg)
 
 十个 AI+ 场景全部回答“谁、在哪里、现实问题、AI 做什么、非 AI 基线、责任主体、失败如何人工接管、如何评估”：①众智园低速机器人受控测试；②科研设备与算力共享；③高校成果—城市问题转译；④爽粉堡垒社区无障碍助手；⑤家庭机器人自愿测试；⑥社区共享空间调度；⑦京张遗产多语导览；⑧复杂换乘与步行辅助；⑨AI 原生商业限期试营；⑩C7 城市完整度巡检助手。[metric:ai_scenario_count] [metric:non_ai_baseline_coverage_ratio]
 
+v0.5 把这十项从一句清单展开成完整场景卡：每张同时给出地点/用户、现实问题、AI 增强、非 AI 基线与退出、以及用于决定是否扩围的证据方向。场景 KPI 是概念阶段的验证指标方向，不是已发生绩效或政府承诺。
+
+![10 张 AI+ 场景卡：问题—增强—基线—退出—验收](assets/figures/ai-scenario-cards.svg)
+
 其中 SCN-01、SCN-05、SCN-09 分别承担技术、生活环境与市场三类验证，强调“先小范围、可停止、可复盘，再讨论扩大”。[metric:industry_test_scenario_count] 三个公共荣誉/朝圣节点为 Open Test Yard、City Commons Hall 与 Jing-Zhang Civic Station，它们必须先有真实公共功能，不能仅靠造型成为地标。[metric:pilgrimage_landmark_count]
 
+v0.6 再从十个场景中抽出三个**旗舰试点协议**，让评审看到“怎样开始、怎样停、怎样留下收据”：众智园低速机器人受控测试、AI 原点无障碍/照护导航、大钟寺换乘/多语导览。三项都明确 non-AI baseline、概念数量基础、前置证据门、测试时间窗、KPI 方向、停止阈值、退出收据与责任结构；真实许可、合同、保险、货币预算和现场绩效在未验证前保持 UNKNOWN。[metric:flagship_pilot_count]
+
+![三个旗舰试点协议：前置条件—测试—收据—GO/REVISE/STOP](assets/figures/flagship-pilot-protocols.svg)
+
 场景治理遵守同一底线：不用 App 仍能通行与获得基本服务；不参加测试不会失去社区权益；高风险判断转人工；设备或模型退出后，基本城市功能仍在。这既是技术鲁棒性，也是公共空间的公平性要求。
+
+### v0.7 三条日常城市链：把协议重新变成空间
+
+v0.7 不再把“评审索引”当作第一视觉，而从三类真实日常路径重新组织重点区：众智园的研究者与服务劳动者从到达、研发、吃饭休息走到受控测试；AI 原点的老人、照护者与无手机使用者从家门、休息、照护走到公共客厅；大钟寺的通勤者、国际访客与服务劳动者从到达、换乘、普通商业走到京张遗产公共界面。每条路径都先要求物理空间完整，再允许 AI 作为可关闭的增强层。
+
+![三条日常城市链：普通城市基线—空间补齐—可选 AI—退出后仍可用](assets/figures/everyday-journey-sections.svg)
+
+### AI 如何改变城市形态，而不是只增加屏幕
+
+AI 对城市形态的影响被压缩为六类可逆空间原型：测试口袋、无障碍求助节点、连续站城到达界面、可替换小型服务节点、人优先的公共首层，以及“观察—小范围原型—公共/专业复核—合并或回退”的可回退空间版本链。这回答的是 AI 如何改变空间组织和规划方法，而不是如何给既有空间附加更多数字界面。
+
+![AI 如何改变城市形态：六类可逆物理接口](assets/figures/ai-urban-form-change.svg)
+
+<!-- V08-PROTOTYPE-START -->
+### v0.8｜把六类接口收束成一个 1:1 城市原型：C7 CIVIC STATION
+
+v0.8 是从 v0.7 exact head 分出的 **prototype-first 并行候选**。它不再增加新的评分索引，而把已有六类可逆接口收束成一个评委可在一页内读懂、专业团队可在未来按真实条件深化的 1:1 公共空间原型：**C7 CIVIC STATION / 城市完整度站**。它不是一座“AI 亭子”，而是一段普通城市先完整、AI 再进入的空间序列。[metric:flagship_physical_prototype_count]
+
+原型固定为五段：**①普通城市底座**（遮阴、坐凳、连续无障碍、实体双语导视、普通通行）→ **②人工服务层**（无账号窗口、纸质/电话入口、人工接手）→ **③可选 AI 层**（多语问答、路径辅助、服务匹配）→ **④受控测试口袋**（与公共通行物理分离，可封闭、可撤除）→ **⑤ AI-OFF 恢复状态**（设备停机后仍可通行、求助、停留并获得基本服务）。三种运行状态为 DAILY / CONTROLLED TEST / AI-OFF；任何测试不得以牺牲普通通行、无障碍或基本公共服务为代价。[metric:civic_station_operating_state_count]
+
+![C7 CIVIC STATION：一个可关闭、可恢复的 1:1 城市原型](assets/figures/c7-civic-station-prototype.svg)
+
+同一原型在三区采用不同嵌入方式：众智园侧重“研发日常 → 受控测试”，测试口袋必须与服务劳动者和访客的普通路径分离；AI 原点侧重“无手机/照护日常 → 人工服务 → 可选 AI”，拒绝账号不降低基本服务；大钟寺侧重“站城到达 → 实体双语导视 → 人工换乘 → 可选动态信息”，动态系统失效后回到固定路径与人工服务。固定 `key-areas.png` 因此改为直接展示同一原型在三种城市织体中的差异化落位。
+
+### v0.8｜15 个待测槽位：不填现场数值，先把未来验证工作定义清楚
+
+为避免“以后再测”成为空话，三区各预登记五类 observation slot：**到达连续性、无账号/人工等价、无障碍与停留、测试边界、停机恢复与维护**，共 15 个稳定 `observation_id`。[metric:preregistered_observation_slot_count] 当前全部为 `not_measured`，坐标、样本量、阈值、现场读数、许可和责任主体均保持待真实踏勘/专业确认；这是一份现场工作包，不是现场证据。详见 `visual/assets/field-observation-register.json`。
+
+每个槽位只回答四件事：未来要观察什么、由谁确认、什么情况必须停止解释、AI 退出后普通城市功能如何验收。任何未测字段都不得被图纸或指标自动补成“达标”。
+<!-- V08-PROTOTYPE-END -->
 
 ## 用地、建筑规模与拆改留方案
 
@@ -122,6 +192,10 @@ iteration: "v0.4"
 
 六个公共客厅坚持 `public_first_non_app_entry`，也就是没有账号、没有手机或不愿被画像的人仍可以进入和获得基本服务。公共空间的包内面积与比例用于概念比较，不是法定公共空间率。[metric:public_space_area_sqm] [metric:public_space_ratio] [depth:blue_green_public_space]
 
+v0.5 增加七类可复制公共空间组件：C7 方向柱、遮阴停留岛、机器人交接湾、人工服务台、社区共享桌、无障碍连续节点和京张记忆轨。导视采用三层结构：L1 永久物理信息保证无电/无网/无手机仍可通行求助；L2 运营层发布开放、封闭、活动和测试状态；L3 可选 AI 层才提供多语问答、个性化路径或预约辅助。关闭 L3 必须自动退回 L1/L2，不损失基本服务。
+
+![公共空间组件库与三层导视系统](assets/figures/public-space-components-wayfinding.svg)
+
 风貌不追求“AI 建筑长相”。科研、住宅、教育和商业可以有不同建筑性格，但共同遵守：公共首层可读、步行入口清楚、设备可维护、遗产界面不过度遮挡、夜间不过度依赖大屏。真正的科技感来自服务和空间组织，而不是把芯片纹样贴在立面上。
 
 ## 更新项目清单、实施政策与分期计划
@@ -131,6 +205,16 @@ iteration: "v0.4"
 `geometry/phasing.geojson` 将近期、中期、长期表示为概念研究范围，而不是政府已经确定的开工时间表。每一阶段都设置“数据到位—重新核对—再扩大”的前置条件；若 official polygon 或关键约束变化，分期边界、用地、指标、图件和 PDF 同步重算。[data:geometry/phasing.geojson#PHASE-001] [depth:phasing_implementation]
 
 运营层建议每年进行 C7 城市完整度公开走查、开发者开放周、受控机器人测试开放日、社区公共服务评议和京张技术史展。公开的不应只有“新增了什么 AI”，也应包括“哪项普通城市能力仍有缺口、哪些试点被停止或回退”。
+
+![三个公共荣誉节点、年度活动节奏与研究—测试—采用—长期服务转化路径](assets/figures/landmarks-events-conversion.svg)
+
+v0.5 将实施进一步工程化为“项目—空间—建议角色—前置条件—启动/停止阈值—维护责任—验收 KPI”。AI 层必须能独立停机；真实组织主体、预算、合同、活动与跨机构安排必须由现实责任方另行确认。
+
+![实施与长期运营矩阵](assets/figures/implementation-operations-matrix.svg)
+
+v0.6 在此基础上增加**资源数量基础 + RACI + 维护频率 + 启动证据门**。三个旗舰试点分别给出概念设备/界面数量级、A/R/C/I 责任类型、日/周/月维护节奏，以及许可、安全、保险、人工值守和数据治理等启动前核验项；统一形成 `PRECONDITION → TEST → RECEIPT → GO/REVISE/STOP` 决策链。这里的 S/M 仅是概念资源等级，不是货币预算；最终 FTE、采购、保险、合同和具名主体仍待现实责任方确认。
+
+![实施资源、RACI、维护频率与启动证据门](assets/figures/implementation-resource-raci.svg)
 
 ## 指标体系、面积复算与合规矩阵
 
@@ -168,6 +252,7 @@ iteration: "v0.4"
 | 设计画像数量 | [metric:persona_count] |
 | AI+ 场景数量 | [metric:ai_scenario_count] |
 | 产业测试场景数量 | [metric:industry_test_scenario_count] |
+| v0.6 旗舰试点协议数量 | [metric:flagship_pilot_count] |
 | 公共荣誉/朝圣节点数量 | [metric:pilgrimage_landmark_count] |
 | 非 AI 基线覆盖率 | [metric:non_ai_baseline_coverage_ratio] |
 
@@ -177,13 +262,19 @@ iteration: "v0.4"
 
 ![城市完整度指标与资料缺口](assets/figures/metrics-evidence.png)
 
+v0.7 将 v0.6 的 reviewer evidence dashboard / index 降为后部追溯附件，不再作为设计叙事或首屏主视觉；评分、gate 与设计内容继续分离。
+
 ## 风险、版权与合规说明
 
 第一类风险是**空间证据精度**：官方精确总体红线和三处重点区 polygon 尚未取得，大钟寺 provisional rectangle 还有已知定位风险。第二类是**专业资料缺口**：现状建筑、权属、控规、市政、消防、文保、交通断面与停车调查不完整。第三类是**技术治理风险**：AI 场景可能产生隐私、排斥、平台依赖、误判与维护成本，所以每个场景保留非 AI 基线、人工接管、退出与复盘路径。[depth:risk_missing_data]
 
+v0.5 把隐私原则下沉到场景级数据流：位置/路径、健康/照护、家庭环境、账号身份、行为使用、科研/企业六类数据分别规定目的限定、最小化、访问、保留/删除、人工复核与退出。拒绝被追踪不能成为失去通行、住房、基本服务或公共空间使用权的条件；一次场景授权不得自动扩展到另一场景。
+
+![AI 场景数据流与隐私治理表](assets/figures/privacy-data-governance.svg)
+
 当前 `constraints.geojson` 的空集是主动披露，不表示“没有约束”。法定 FAR、高度和道路面积保持 unknown，不用 schema sanity range 或概念模型去填补。图件使用本地生成图形和公开/清权资料，不嵌入商业地图瓦片、远程字体、未经许可图片或第三方商标。[data:geometry/constraints.geojson#metadata]
 
-版权与生成责任方面：AI 参与公开资料研究、同类方案扫描、结构化写作、GeoJSON、图件、HTML/PDF 与校验；提交者对概念方向、爽粉堡垒命名彩蛋及最终公开提交承担判断责任。后续任何真实实施仍需法定规划、专业设计、公众参与和主管部门程序，不能由本包替代。
+版权与生成责任方面：AI 参与公开资料研究、同类方案扫描、结构化写作、GeoJSON、图件、HTML/PDF 与校验；提交者对概念方向、爽粉堡垒命名彩蛋及最终公开提交承担判断责任。`report/copyright_statement.md` 已扩展为 v0.5/v0.6 逐资产权利与生成台账，覆盖核心 PNG、全部新增 SVG、HTML、PDF、GeoJSON、字体/图标/代码状态及 AI 参与方式；v0.6 的旗舰试点、包容矩阵、RACI、证据索引和首屏总表均为本方案原创/AI 辅助 SVG，不嵌入第三方 Logo、图片、地图或字体文件。六个国际案例在 `sources.json` 中保留访问日期、用途、复用状态、限制、采集和转换说明。后续任何真实实施仍需法定规划、专业设计、公众参与和主管部门程序，不能由本包替代。
 
 ## 参考资料
 
@@ -204,5 +295,11 @@ iteration: "v0.4"
 | 临时重点区边界 | [source:KEY-AREA-SOURCE] |
 | 官方征集公告 | [source:OFFICIAL-ANNOUNCEMENT] |
 | formal 提交指南 | [source:FORMAL-GUIDE] |
+| Vector Institute | [source:CASE-VECTOR] |
+| Mila | [source:CASE-MILA] |
+| Alan Turing Institute | [source:CASE-TURING] |
+| AI Singapore 100 Experiments | [source:CASE-AISG-100E] |
+| Seoul AI Hub | [source:CASE-SEOUL-AI-HUB] |
+| Punggol Digital District | [source:CASE-PUNGGOL] |
 
 专业深度响应并不把“有数据缺口”误写成“没完成响应”：设计深度矩阵中的 15 项都已经给出当前可回答内容、缺什么数据、后续如何核定；标准矩阵同样把强制标准的响应与数据状态分开。相关专业判断分别见上述章节及对应矩阵。[standard:MOHURD-URBAN-DESIGN-MEASURES] [depth:metrics_recalculation]

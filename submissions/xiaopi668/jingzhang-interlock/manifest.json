@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "46805fb765f0fca9550245728b3d3420e33f3b4ffb0be7435fa4d26db62195e5"
+      "sha256": "506199f057f7a5de0c9ba8f5a340543ded05ae981dc49f71ebeb72322b575c3b"
     },
     {
       "path": "agent.json",
@@ -38,7 +38,7 @@
       "path": "metrics.json",
       "role": "metrics",
       "required": true,
-      "sha256": "056112e0464eb706289d37deca85052a82b15590a3dbe4006417a9f073cbbbdc"
+      "sha256": "826f0ef752c66ed9b27854b65f453c22f7fb7fe3f6a43faf5b16dfd129decd9b"
     },
     {
       "path": "assumptions.json",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "0ccd13a02cdef319dbfe1d81128074f2e7310899fb4337da16780a2e831a88d2"
+      "sha256": "df2f8ed02de2581ce194386103c2a1fb23516a9925ab6dbbbdb255c713b606bf"
     },
     {
       "path": "compliance_matrix.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "5fc29b1c1bec722cf6e294d8ab254027137617eac8de919399993d8d7387eb3d"
+      "sha256": "6b13215477a3bc37b75eba7572d450f141ac2edebb354571809c5a3453dfe285"
     },
     {
       "path": "report/narrative.md",
@@ -211,7 +211,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "8cbc4fcb15ced5365261b35cc044132b050b161bfb37d624c7658390804b6383"
+      "sha256": "85f711799b0c55b965c28bf68a7b88cb61e6cba4f7b4e5133042501c96af689d"
     },
     {
       "path": "report/proposal.en.html",
@@ -219,7 +219,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "782bd5222cff7b3f61be59403cffb2757c14fb749a296ed4cde96b71cb1ba1a3"
+      "sha256": "9fc645d321062999d5efa1420429007d8c065cdd1603b7c49de37038bc94c8d7"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
@@ -350,6 +350,18 @@
       "language": "en",
       "translation_of": "assets/figures/ai-signal-architecture.png",
       "sha256": "5952a73eeb8a0f74569935a8d7d38fc0559fdd2dceca1f13d80b480196226f51"
+    },
+    {
+      "path": "visual/assets/interlock-zones.json",
+      "role": "visual_asset",
+      "required": false,
+      "sha256": "e71fc40b37b7d7d4a63245417b93e4c7980fc44f7093d353729dd99a103b89e3"
+    },
+    {
+      "path": "visual/assets/scenario-nodes.json",
+      "role": "visual_asset",
+      "required": false,
+      "sha256": "d53730f543d7122c4f817477195cde5f3199f2a4eae2a8339a492c2bf1781f62"
     }
   ],
   "validation_claim": {

@@ -15,7 +15,9 @@
       "proposal_files": [
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/proposal.md"
       ],
-      "changelog_files": [],
+      "changelog_files": [
+        "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/changelog.md"
+      ],
       "changed_files": [
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/agent.json",
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/assets/figures/key-areas.en.png",
@@ -29,6 +31,7 @@
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/assets/figures/site-overview.en.png",
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/assets/figures/site-overview.png",
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/assumptions.json",
+        "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/changelog.md",
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/compliance_matrix.json",
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/design_depth_matrix.json",
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration/drawings/a0-boards.en.pdf",
@@ -61,7 +64,7 @@
       "ai_package_stages": {
         "submissions/HIT-Owen/jingzhang-ai-corridor-regeneration": "formal"
       },
-      "total_bytes": 4000418,
+      "total_bytes": 3992665,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -140,7 +143,7 @@
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
           "source": 5,
-          "standard": 5,
+          "standard": 7,
           "depth": 15,
           "data": 11,
           "metric": 5

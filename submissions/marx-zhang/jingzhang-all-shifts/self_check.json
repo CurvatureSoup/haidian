@@ -20,8 +20,14 @@
       ],
       "changed_files": [
         "submissions/marx-zhang/jingzhang-all-shifts/agent.json",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/ai-origin-daily-script.en.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/ai-origin-daily-script.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/daily-script-overview.en.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/daily-script-overview.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/day-night-sequence.en.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/day-night-sequence.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/dazhongsi-daily-script.en.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/dazhongsi-daily-script.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/implementation-operations.en.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/implementation-operations.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/key-areas.en.png",
@@ -36,15 +42,28 @@
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/shift-station-prototype.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/site-overview.en.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/site-overview.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-codesign-workshop.en.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-codesign-workshop.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-daily-script.en.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-daily-script.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-g1-checklist.en.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-g1-checklist.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-pilot-audit.en.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-pilot-audit.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-pilot-schedule.en.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-pilot-schedule.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-pilot-space.en.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-pilot-space.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-shift-log.en.png",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/figures/zhongzhiyuan-shift-log.png",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/media/ai-origin-concept.webp",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/media/cover.webp",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/media/dazhongsi-concept.webp",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/media/three-area-access-tour-en.md",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/media/three-area-access-tour-en.vtt",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/media/three-area-access-tour-zh.md",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/media/three-area-access-tour-zh.vtt",
+        "submissions/marx-zhang/jingzhang-all-shifts/assets/media/three-area-access-tour.webm",
         "submissions/marx-zhang/jingzhang-all-shifts/assets/media/zhongzhiyuan-concept.webp",
         "submissions/marx-zhang/jingzhang-all-shifts/assumptions.json",
         "submissions/marx-zhang/jingzhang-all-shifts/changelog.md",
@@ -80,7 +99,7 @@
       "ai_package_stages": {
         "submissions/marx-zhang/jingzhang-all-shifts": "formal"
       },
-      "total_bytes": 27265070,
+      "total_bytes": 41288557,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -154,15 +173,15 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 15,
+        "known_metric_refs_required": 23,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
           "source": 6,
-          "standard": 6,
+          "standard": 7,
           "depth": 15,
           "data": 10,
-          "metric": 10
+          "metric": 18
         }
       }
     },

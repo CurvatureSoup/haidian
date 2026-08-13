@@ -8,7 +8,7 @@
     "disclosure_effect": "audit_ready_not_cleared"
   },
   "coverage": {
-    "source_record_count": 35,
+    "source_record_count": 50,
     "osm_element_count": 120,
     "completed_independent_file_level_clearance_audits": 0,
     "asset_ledger_ref": "rights-clearance-ledger.json#asset_records"
@@ -1340,7 +1340,7 @@
       "integrity": {
         "method": "git_object",
         "algorithm": "sha1",
-        "digest": "acea6ac7b49e477749b1666f7ec5c91a85d04282",
+        "digest": "1ab60915f77d072fa67c23ed335d1b47d9ca7c56",
         "digest_scope": "Git blob object for exact package file bytes at proposal.md in the Round 7–9 closure candidate.",
         "artifact_in_submission": true,
         "limitation": "The digest fixes the package-authored object only; it does not establish external authority, reusable licensing, professional approval, or rights clearance."
@@ -1466,7 +1466,7 @@
       "integrity": {
         "method": "git_object",
         "algorithm": "sha1",
-        "digest": "acea6ac7b49e477749b1666f7ec5c91a85d04282",
+        "digest": "1ab60915f77d072fa67c23ed335d1b47d9ca7c56",
         "digest_scope": "Git blob object for exact package file bytes at proposal.md in the Round 7–9 closure candidate.",
         "artifact_in_submission": true,
         "limitation": "The digest fixes the package-authored object only; it does not establish external authority, reusable licensing, professional approval, or rights clearance."
@@ -1482,6 +1482,645 @@
       "unresolved_item_ids": [
         "RIGHTS-OPEN-01",
         "RIGHTS-OPEN-02"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-CIVIC-OPERATIONS-G0-V1",
+      "source_id": "SOURCE-JZ-CIVIC-OPERATIONS-G0-V1",
+      "source_record_ref": "../../sources.json#SOURCE-JZ-CIVIC-OPERATIONS-G0-V1",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "visual/assets/civic-operations-contract.json"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-12",
+        "basis": "Package-authored repository object recorded for the Round 10 civic-operations integration; this is not an external publication or operating date."
+      },
+      "accessed_date": "2026-08-12",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "JSON operations-integration contract",
+        "media_type": "application/json",
+        "basis": "The format was observed directly from the package repository object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "3aa22b56c8f2fd690d9da34bc0d2c9da0abab313",
+        "digest_scope": "Git blob object for exact package file bytes at visual/assets/civic-operations-contract.json in the Round 10 candidate.",
+        "artifact_in_submission": true,
+        "limitation": "The digest fixes the package-authored object only; it establishes no real operation, external authority, reusable license, professional approval, partner, staffing, budget, result, or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only; complete terms and independent file-level audit unavailable",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-YEAR-ROUND-CIVIC-OPERATIONS-FIG",
+      "source_id": "SOURCE-YEAR-ROUND-CIVIC-OPERATIONS-FIGURE",
+      "source_record_ref": "../../sources.json#SOURCE-YEAR-ROUND-CIVIC-OPERATIONS-FIGURE",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "assets/figures/year-round-civic-operations.svg"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-12",
+        "basis": "Package-authored repository object recorded for the Round 10 civic-operations integration; this is not an external publication or operating date."
+      },
+      "accessed_date": "2026-08-12",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "SVG editable figure source",
+        "media_type": "image/svg+xml",
+        "basis": "The format was observed directly from the package repository object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "80dfb70fa651fd4dbff3d710af7ede705e369b89",
+        "digest_scope": "Git blob object for exact package file bytes at assets/figures/year-round-civic-operations.svg in the Round 10 candidate.",
+        "artifact_in_submission": true,
+        "limitation": "The digest fixes the package-authored object only; it establishes no real operation, external authority, reusable license, professional approval, partner, staffing, budget, result, or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only; complete terms and independent file-level audit unavailable",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-CIVIC-OPERATIONS-PROPOSAL",
+      "source_id": "SOURCE-CIVIC-OPERATIONS-PROPOSAL",
+      "source_record_ref": "../../sources.json#SOURCE-CIVIC-OPERATIONS-PROPOSAL",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "proposal.md#long-term-civic-operations-section"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-12",
+        "basis": "Package-authored repository object recorded for the Round 10 civic-operations integration; this is not an external publication or operating date."
+      },
+      "accessed_date": "2026-08-12",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "Markdown proposal narrative",
+        "media_type": "text/markdown",
+        "basis": "The format was observed directly from the package repository object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "1ab60915f77d072fa67c23ed335d1b47d9ca7c56",
+        "digest_scope": "Git blob object for exact package file bytes at proposal.md in the Round 10 candidate.",
+        "artifact_in_submission": true,
+        "limitation": "The digest fixes the package-authored object only; it establishes no real operation, external authority, reusable license, professional approval, partner, staffing, budget, result, or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only; complete terms and independent file-level audit unavailable",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-JZ-REVIEW-HANDOFF-V1",
+      "source_id": "SOURCE-JZ-REVIEW-HANDOFF-V1",
+      "source_record_ref": "../../sources.json#SOURCE-JZ-REVIEW-HANDOFF-V1",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "visual/assets/implementation-handoff-matrix.json"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-12",
+        "basis": "Package-authored repository object recorded for the Round 11 review synthesis and professional handoff; this is not an external publication, professional opinion or acceptance date."
+      },
+      "accessed_date": "2026-08-12",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "JSON review and professional-handoff matrix",
+        "media_type": "application/json",
+        "basis": "The format was observed directly from the package repository object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "2c2e169b34a6df4f5ea8ff86d00def7d3281f32d",
+        "digest_scope": "Git blob object for exact package file bytes at visual/assets/implementation-handoff-matrix.json in the Round 11 candidate.",
+        "artifact_in_submission": true,
+        "limitation": "The digest fixes the package-authored object only; it establishes no authoritative replacement material, professional acceptance, approval, field test, GO decision, implementation result, reusable license or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only; complete terms and independent file-level audit unavailable",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-REVIEW-PROFESSIONAL-HANDOFF-FIG",
+      "source_id": "SOURCE-REVIEW-PROFESSIONAL-HANDOFF-FIGURE",
+      "source_record_ref": "../../sources.json#SOURCE-REVIEW-PROFESSIONAL-HANDOFF-FIGURE",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "assets/figures/review-professional-handoff.svg"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-12",
+        "basis": "Package-authored repository object recorded for the Round 11 review synthesis and professional handoff; this is not an external publication, professional opinion or acceptance date."
+      },
+      "accessed_date": "2026-08-12",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "SVG editable figure source",
+        "media_type": "image/svg+xml",
+        "basis": "The format was observed directly from the package repository object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "9579ab4b992f568710ef47adc05275d22f1fae9f",
+        "digest_scope": "Git blob object for exact package file bytes at assets/figures/review-professional-handoff.svg in the Round 11 candidate.",
+        "artifact_in_submission": true,
+        "limitation": "The digest fixes the package-authored object only; it establishes no authoritative replacement material, professional acceptance, approval, field test, GO decision, implementation result, reusable license or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only; complete terms and independent file-level audit unavailable",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-REVIEW-HANDOFF-PROPOSAL",
+      "source_id": "SOURCE-REVIEW-HANDOFF-PROPOSAL",
+      "source_record_ref": "../../sources.json#SOURCE-REVIEW-HANDOFF-PROPOSAL",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "proposal.md#review-synthesis-professional-handoff"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-12",
+        "basis": "Package-authored repository object recorded for the Round 11 review synthesis and professional handoff; this is not an external publication, professional opinion or acceptance date."
+      },
+      "accessed_date": "2026-08-12",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "Markdown proposal narrative",
+        "media_type": "text/markdown",
+        "basis": "The format was observed directly from the package repository object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "1ab60915f77d072fa67c23ed335d1b47d9ca7c56",
+        "digest_scope": "Git blob object for exact package file bytes at proposal.md in the Round 11 candidate.",
+        "artifact_in_submission": true,
+        "limitation": "The digest fixes the package-authored object only; it establishes no authoritative replacement material, professional acceptance, approval, field test, GO decision, implementation result, reusable license or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only; complete terms and independent file-level audit unavailable",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-JZ-ORDINARY-LIFE-MEDIA-REGISTER-R12",
+      "source_id": "SOURCE-JZ-ORDINARY-LIFE-MEDIA-REGISTER-R12",
+      "source_record_ref": "../../sources.json#SOURCE-JZ-ORDINARY-LIFE-MEDIA-REGISTER-R12",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "visual/assets/ordinary-life-media-register.json"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-13",
+        "basis": "Package-authored Round 12 repository object; this is not a field observation, approval, operating result, professional opinion or public-release date."
+      },
+      "accessed_date": "2026-08-13",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "JSON conceptual media register",
+        "media_type": "application/json",
+        "basis": "The format was observed directly from the package repository object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "5f0974719048bb500d854d17b232dcd67422153b",
+        "digest_scope": "Git blob object for exact package file bytes at visual/assets/ordinary-life-media-register.json in the Round 12 candidate.",
+        "artifact_in_submission": true,
+        "limitation": "The digest fixes a package-authored G0 register only; it establishes no field fact, professional result, approval, maturity advancement, reusable licence or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only; complete terms and independent file-level audit unavailable",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02",
+        "RIGHTS-OPEN-04"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-ORDINARY-LIFE-MEDIA-R12",
+      "source_id": "SOURCE-ORDINARY-LIFE-MEDIA-R12",
+      "source_record_ref": "../../sources.json#SOURCE-ORDINARY-LIFE-MEDIA-R12",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "assets/media/ordinary-life-scenes.webp"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-13",
+        "basis": "Package-authored Round 12 repository object; this is not a field observation, approval, operating result, professional opinion or public-release date."
+      },
+      "accessed_date": "2026-08-13",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "Generated WebP conceptual visualization",
+        "media_type": "image/webp",
+        "basis": "The format was observed directly from the package repository object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "aca018336c68a9a70bffff458cd21399a7507c54",
+        "digest_scope": "Git blob object for exact package file bytes at assets/media/ordinary-life-scenes.webp in the Round 12 candidate.",
+        "artifact_in_submission": true,
+        "limitation": "The digest fixes generated pixels only; it establishes no site condition, real participation, approved design, model-output rights, reusable licence or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only; complete terms and independent file-level audit unavailable",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02",
+        "RIGHTS-OPEN-04"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-ORDINARY-LIFE-PROPOSAL-R12",
+      "source_id": "SOURCE-ORDINARY-LIFE-PROPOSAL-R12",
+      "source_record_ref": "../../sources.json#SOURCE-ORDINARY-LIFE-PROPOSAL-R12",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "proposal.md"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-13",
+        "basis": "Package-authored Round 12 repository object; this is not a field observation, approval, operating result, professional opinion or public-release date."
+      },
+      "accessed_date": "2026-08-13",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "Markdown proposal narrative",
+        "media_type": "text/markdown",
+        "basis": "The format was observed directly from the package repository object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "3f9aac7a7265984dfc8ebb5d7391a88d2df66b23",
+        "digest_scope": "Git blob object for exact package file bytes at proposal.md in the Round 12 candidate.",
+        "artifact_in_submission": true,
+        "limitation": "The digest fixes the package-authored bilingual narrative state only; it establishes no field observation, professional opinion, approval, implementation result, reusable licence or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only; complete terms and independent file-level audit unavailable",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02",
+        "RIGHTS-OPEN-04"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-JZ-REVERSIBLE-REGISTER-R13",
+      "source_id": "SOURCE-JZ-REVERSIBLE-REGISTER-R13",
+      "source_record_ref": "../../sources.json#SOURCE-JZ-REVERSIBLE-REGISTER-R13",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "visual/assets/reversible-component-restoration-register.json"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-13",
+        "basis": "Package-authored Round 13 object; not a field, engineering, approval, installation or acceptance date."
+      },
+      "accessed_date": "2026-08-13",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "JSON conceptual register",
+        "media_type": "application/json",
+        "basis": "Observed directly from the package object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "371218a1daced7cdf882f9d370be04b2ae586584",
+        "digest_scope": "Git blob object for exact bytes at visual/assets/reversible-component-restoration-register.json",
+        "artifact_in_submission": true,
+        "limitation": "Fixes package concept bytes only; establishes no real-world or rights-clearance result."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02",
+        "RIGHTS-OPEN-04"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-JZ-REVERSIBLE-FIGURE-R13",
+      "source_id": "SOURCE-JZ-REVERSIBLE-FIGURE-R13",
+      "source_record_ref": "../../sources.json#SOURCE-JZ-REVERSIBLE-FIGURE-R13",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "assets/figures/reversible-components.svg"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-13",
+        "basis": "Package-authored Round 13 object; not a field, engineering, approval, installation or acceptance date."
+      },
+      "accessed_date": "2026-08-13",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "SVG conceptual relationship drawing",
+        "media_type": "image/svg+xml",
+        "basis": "Observed directly from the package object."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "ccad2d03fd2b8fd53a903920f140fbd20dacc812",
+        "digest_scope": "Git blob object for exact bytes at assets/figures/reversible-components.svg",
+        "artifact_in_submission": true,
+        "limitation": "Fixes package concept bytes only; establishes no real-world or rights-clearance result."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02",
+        "RIGHTS-OPEN-04"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-JZ-REVIEW-WALK-R14",
+      "source_id": "SOURCE-JZ-REVIEW-WALK-R14",
+      "source_record_ref": "../../sources.json#SOURCE-JZ-REVIEW-WALK-R14",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "visual/assets/review-walkthrough.json"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-13",
+        "basis": "Package-authored Round 14 presentation object; not a field, approval, operation, accessibility-certification or rights-clearance date."
+      },
+      "accessed_date": "2026-08-13",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "JSON review route contract",
+        "media_type": "application/json",
+        "basis": "Observed directly from the package object."
+      },
+      "integrity": {
+        "method": "sha256",
+        "algorithm": "sha256",
+        "digest": "f240ae801769e7d0b4aafc6fd8f947225cdaf717aeafd5a269d2d8b2be86ce63",
+        "digest_scope": "Exact package bytes at visual/assets/review-walkthrough.json",
+        "artifact_in_submission": true,
+        "limitation": "Fixes presentation-contract bytes only; establishes no real-world or clearance result."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02",
+        "RIGHTS-OPEN-04"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-JZ-FIELD-INTAKE-CONTRACT-R15",
+      "source_id": "SOURCE-JZ-FIELD-INTAKE-CONTRACT-R15",
+      "source_record_ref": "../../sources.json#SOURCE-JZ-FIELD-INTAKE-CONTRACT-R15",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "visual/assets/field-evidence-intake-contract.json"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-13",
+        "basis": "Package-authored empty evidence contract; not a field, professional, approval or operating date."
+      },
+      "accessed_date": "2026-08-13",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "JSON empty field-evidence intake contract",
+        "media_type": "application/json",
+        "basis": "Observed directly from the package object."
+      },
+      "integrity": {
+        "method": "sha256",
+        "algorithm": "sha256",
+        "digest": "76164f013430569f8b6c438b6e259fe4b111e883816da08ea0049d50021b8a0d",
+        "digest_scope": "Exact package bytes at visual/assets/field-evidence-intake-contract.json before final manifest refresh",
+        "artifact_in_submission": true,
+        "limitation": "Fixes template bytes only and establishes no collected artifact, professional decision, approval or rights clearance."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02",
+        "RIGHTS-OPEN-04"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-JZ-FIELD-INTAKE-FIGURE-R15",
+      "source_id": "SOURCE-JZ-FIELD-INTAKE-FIGURE-R15",
+      "source_record_ref": "../../sources.json#SOURCE-JZ-FIELD-INTAKE-FIGURE-R15",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_path",
+        "value": "assets/figures/field-evidence-intake.svg"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-13",
+        "basis": "Package-authored Round 15 system figure; not field, approval, professional or rights evidence."
+      },
+      "accessed_date": "2026-08-13",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "SVG concept system figure",
+        "media_type": "image/svg+xml",
+        "basis": "Observed directly from the package object."
+      },
+      "integrity": {
+        "method": "sha256",
+        "algorithm": "sha256",
+        "digest": "1969c5bb2717ec83b77d8e51d4c93d014c2ba58628d445d259e6a936277e8866",
+        "digest_scope": "Exact package bytes at assets/figures/field-evidence-intake.svg before final manifest refresh",
+        "artifact_in_submission": true,
+        "limitation": "Fixes concept-figure bytes only and establishes no field or clearance result."
+      },
+      "rights_basis": {
+        "declared_basis": "package_author_statement_for_repository_review_only",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "repository_input"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02",
+        "RIGHTS-OPEN-04"
+      ]
+    },
+    {
+      "evidence_id": "SRC-RIGHTS-JZ-COMMONS-LOOP-METHOD-R15",
+      "source_id": "SOURCE-JZ-COMMONS-LOOP-METHOD-R15",
+      "source_record_ref": "../../sources.json#SOURCE-JZ-COMMONS-LOOP-METHOD-R15",
+      "publisher": "xyh202131",
+      "locator": {
+        "kind": "repository_commit_path",
+        "value": "8cd86936a434b532645c13932281a90417344bd7:submissions/xyh202131/jingzhang-commons-loop-v1/proposal.md"
+      },
+      "published_or_obtained": {
+        "status": "recorded",
+        "value": "2026-08-13",
+        "basis": "Merged repository proposal inspected for same-author method comparison only."
+      },
+      "accessed_date": "2026-08-13",
+      "original_format": {
+        "status": "observed_from_repository_object",
+        "label": "Markdown peer proposal",
+        "media_type": "text/markdown",
+        "basis": "Observed at the fixed merged repository commit."
+      },
+      "integrity": {
+        "method": "git_object",
+        "algorithm": "sha1",
+        "digest": "6d7b520b978c5cee2eeb9ce9c30e8e7f682172d8",
+        "digest_scope": "Git blob for the peer proposal at merged commit 8cd86936a434b532645c13932281a90417344bd7",
+        "artifact_in_submission": false,
+        "limitation": "Fixes the method-reading source only; no asset, geometry, metric or real-world claim is imported."
+      },
+      "rights_basis": {
+        "declared_basis": "same_author_method_comparison_and_citation_only",
+        "terms_locator": null,
+        "evidence_state": "source_record_statement_only",
+        "independent_review_status": "not_started",
+        "package_use_mode": "citation_only"
+      },
+      "downstream_asset_ref": "rights-clearance-ledger.json#asset_records",
+      "unresolved_item_ids": [
+        "RIGHTS-OPEN-01",
+        "RIGHTS-OPEN-02",
+        "RIGHTS-OPEN-04"
       ]
     }
   ],

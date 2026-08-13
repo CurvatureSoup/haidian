@@ -66,6 +66,7 @@
         "submissions/xiaopi668/jingzhang-interlock/sources.json",
         "submissions/xiaopi668/jingzhang-interlock/standard_matrix.json",
         "submissions/xiaopi668/jingzhang-interlock/visual/assets/governance-interlock.json",
+        "submissions/xiaopi668/jingzhang-interlock/visual/assets/interlock-zones.json",
         "submissions/xiaopi668/jingzhang-interlock/visual/assets/key-areas.en.png",
         "submissions/xiaopi668/jingzhang-interlock/visual/assets/key-areas.png",
         "submissions/xiaopi668/jingzhang-interlock/visual/assets/land-use-structure.en.png",
@@ -75,6 +76,7 @@
         "submissions/xiaopi668/jingzhang-interlock/visual/assets/mobility-bluegreen.en.png",
         "submissions/xiaopi668/jingzhang-interlock/visual/assets/mobility-bluegreen.png",
         "submissions/xiaopi668/jingzhang-interlock/visual/assets/scenario-cards.json",
+        "submissions/xiaopi668/jingzhang-interlock/visual/assets/scenario-nodes.json",
         "submissions/xiaopi668/jingzhang-interlock/visual/assets/site-overview.en.png",
         "submissions/xiaopi668/jingzhang-interlock/visual/assets/site-overview.png",
         "submissions/xiaopi668/jingzhang-interlock/visual/index.en.html",
@@ -83,7 +85,7 @@
       "ai_package_stages": {
         "submissions/xiaopi668/jingzhang-interlock": "formal"
       },
-      "total_bytes": 5891141,
+      "total_bytes": 5903213,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -157,14 +159,14 @@
       "summary": {
         "standard_matrix_items": 9,
         "design_depth_items": 15,
-        "known_metric_refs_required": 17,
+        "known_metric_refs_required": 19,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
           "source": 4,
           "standard": 7,
           "depth": 6,
-          "data": 18,
+          "data": 19,
           "metric": 10
         }
       }

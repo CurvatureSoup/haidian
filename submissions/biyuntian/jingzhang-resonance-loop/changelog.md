@@ -1,5 +1,12 @@
 # 方案迭代记录
 
+## v1.3 - 2026-08-12
+
+- Added six named, public-source global innovation cases and explicit mechanism-to-Haidian translations with non-transfer boundaries.
+- Added a bilingual “two lines in resonance” identity asset, three anchor project packages, public pilot KPIs and exit criteria.
+- Expanded ten AI scenes into service blueprints with staffed entry, minimum data/tool, accountable role, public evidence and stop condition.
+- Updated both offline visual indexes and registered the new case references in `sources.json`.
+
 ## v1.2 - 2026-08-11
 
 - Added the Resonance Protocol: three differentiated public-service segments and four public gates.

@@ -38,6 +38,7 @@
         "green_ratio",
         "public_space_ratio",
         "scenario_ready_count",
+        "complete_task_step_count",
         "field_observation_count"
       ],
       "source_ids": [
@@ -54,7 +55,11 @@
         "V11-COMPONENT-LIBRARY",
         "V11-IMPLEMENTATION-PLAYBOOK",
         "V11-FIELDWORK-KIT",
-        "V11-STRESS-TEST"
+        "V11-STRESS-TEST",
+        "V12-REVIEWER-EVIDENCE-INDEX",
+        "V12-DAY-ONE-DRILL",
+        "V13-COMPLETE-TASK-RECEIPT",
+        "V14-PHOTO-CREDITS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -67,10 +72,11 @@
         "KEY_AREAS_TRUST",
         "LAND_USE_TOPOLOGY",
         "USABILITY_COMPILER",
+        "COMPLETE_TASK_RECEIPT",
         "BILINGUAL_PARITY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本项由可读正文、双语 A3/A0、九个结构化空间图层、可复算指标、来源限制与自检共同支撑。"
+      "evidence_summary_zh": "任务范围、标称规模和成果深度来自正式公告，空间数值与临时几何的精度含义分开记录。"
     },
     {
       "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
@@ -109,6 +115,7 @@
         "green_ratio",
         "public_space_ratio",
         "scenario_ready_count",
+        "complete_task_step_count",
         "field_observation_count"
       ],
       "source_ids": [
@@ -125,7 +132,11 @@
         "V11-COMPONENT-LIBRARY",
         "V11-IMPLEMENTATION-PLAYBOOK",
         "V11-FIELDWORK-KIT",
-        "V11-STRESS-TEST"
+        "V11-STRESS-TEST",
+        "V12-REVIEWER-EVIDENCE-INDEX",
+        "V12-DAY-ONE-DRILL",
+        "V13-COMPLETE-TASK-RECEIPT",
+        "V14-PHOTO-CREDITS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -138,10 +149,11 @@
         "KEY_AREAS_TRUST",
         "LAND_USE_TOPOLOGY",
         "USABILITY_COMPILER",
+        "COMPLETE_TASK_RECEIPT",
         "BILINGUAL_PARITY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本项由可读正文、双语 A3/A0、九个结构化空间图层、可复算指标、来源限制与自检共同支撑。"
+      "evidence_summary_zh": "三大定位、五大功能、三区两翼和 agent.1 至 agent.6 均有正文、图件和结构化直达入口。"
     },
     {
       "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
@@ -180,6 +192,7 @@
         "green_ratio",
         "public_space_ratio",
         "scenario_ready_count",
+        "complete_task_step_count",
         "field_observation_count"
       ],
       "source_ids": [
@@ -196,7 +209,11 @@
         "V11-COMPONENT-LIBRARY",
         "V11-IMPLEMENTATION-PLAYBOOK",
         "V11-FIELDWORK-KIT",
-        "V11-STRESS-TEST"
+        "V11-STRESS-TEST",
+        "V12-REVIEWER-EVIDENCE-INDEX",
+        "V12-DAY-ONE-DRILL",
+        "V13-COMPLETE-TASK-RECEIPT",
+        "V14-PHOTO-CREDITS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -209,10 +226,11 @@
         "KEY_AREAS_TRUST",
         "LAND_USE_TOPOLOGY",
         "USABILITY_COMPILER",
+        "COMPLETE_TASK_RECEIPT",
         "BILINGUAL_PARITY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本项由可读正文、双语 A3/A0、九个结构化空间图层、可复算指标、来源限制与自检共同支撑。"
+      "evidence_summary_zh": "公共利益、城市风貌与可维护空间通过三座工场、连续任务路线和可撤回组件回应。"
     },
     {
       "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
@@ -251,6 +269,7 @@
         "green_ratio",
         "public_space_ratio",
         "scenario_ready_count",
+        "complete_task_step_count",
         "field_observation_count"
       ],
       "source_ids": [
@@ -267,7 +286,11 @@
         "V11-COMPONENT-LIBRARY",
         "V11-IMPLEMENTATION-PLAYBOOK",
         "V11-FIELDWORK-KIT",
-        "V11-STRESS-TEST"
+        "V11-STRESS-TEST",
+        "V12-REVIEWER-EVIDENCE-INDEX",
+        "V12-DAY-ONE-DRILL",
+        "V13-COMPLETE-TASK-RECEIPT",
+        "V14-PHOTO-CREDITS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -280,10 +303,11 @@
         "KEY_AREAS_TRUST",
         "LAND_USE_TOPOLOGY",
         "USABILITY_COMPILER",
+        "COMPLETE_TASK_RECEIPT",
         "BILINGUAL_PARITY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本项由可读正文、双语 A3/A0、九个结构化空间图层、可复算指标、来源限制与自检共同支撑。"
+      "evidence_summary_zh": "用地、道路、绿地、公共空间和分期形成概念统筹，法定控制指标继续等待正式资料。"
     },
     {
       "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
@@ -322,6 +346,7 @@
         "green_ratio",
         "public_space_ratio",
         "scenario_ready_count",
+        "complete_task_step_count",
         "field_observation_count"
       ],
       "source_ids": [
@@ -338,7 +363,11 @@
         "V11-COMPONENT-LIBRARY",
         "V11-IMPLEMENTATION-PLAYBOOK",
         "V11-FIELDWORK-KIT",
-        "V11-STRESS-TEST"
+        "V11-STRESS-TEST",
+        "V12-REVIEWER-EVIDENCE-INDEX",
+        "V12-DAY-ONE-DRILL",
+        "V13-COMPLETE-TASK-RECEIPT",
+        "V14-PHOTO-CREDITS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -351,10 +380,11 @@
         "KEY_AREAS_TRUST",
         "LAND_USE_TOPOLOGY",
         "USABILITY_COMPILER",
+        "COMPLETE_TASK_RECEIPT",
         "BILINGUAL_PARITY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本项由可读正文、双语 A3/A0、九个结构化空间图层、可复算指标、来源限制与自检共同支撑。"
+      "evidence_summary_zh": "六类概念用地使用指南类别表达功能优先级，同时声明不替代现状调查或法定分类。"
     },
     {
       "standard_id": "MOHURD-ARCH-DESIGN-DEPTH-2016",
@@ -393,6 +423,7 @@
         "green_ratio",
         "public_space_ratio",
         "scenario_ready_count",
+        "complete_task_step_count",
         "field_observation_count"
       ],
       "source_ids": [
@@ -409,7 +440,11 @@
         "V11-COMPONENT-LIBRARY",
         "V11-IMPLEMENTATION-PLAYBOOK",
         "V11-FIELDWORK-KIT",
-        "V11-STRESS-TEST"
+        "V11-STRESS-TEST",
+        "V12-REVIEWER-EVIDENCE-INDEX",
+        "V12-DAY-ONE-DRILL",
+        "V13-COMPLETE-TASK-RECEIPT",
+        "V14-PHOTO-CREDITS"
       ],
       "assumption_ids": [
         "A-BOUNDARY-001",
@@ -422,10 +457,11 @@
         "KEY_AREAS_TRUST",
         "LAND_USE_TOPOLOGY",
         "USABILITY_COMPILER",
+        "COMPLETE_TASK_RECEIPT",
         "BILINGUAL_PARITY",
         "VISUAL_STATIC"
       ],
-      "evidence_summary_zh": "本项由可读正文、双语 A3/A0、九个结构化空间图层、可复算指标、来源限制与自检共同支撑。"
+      "evidence_summary_zh": "建筑基底、公共界面、材料方向和待核专业条件支持后续设计，未越权给出施工级结论。"
     }
   ]
 }
