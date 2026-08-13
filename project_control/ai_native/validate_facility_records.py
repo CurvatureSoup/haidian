@@ -93,9 +93,25 @@ def validate_facility(f: dict[str, Any], evid_ids: set[str], ass_ids: set[str], 
     ats_known = component_known(ats_components, ("p", "f", "i", "u"))
     r_known = component_known(r_components, ("rq", "rt", "rc", "rd", "ro", "rl"))
     gates_known = all(g["status"] != "unknown" for g in f["gates"].values())
-    futures_known = all(x["status"] != "unknown" and x["safety"] != "unknown" and x["accessibility"] != "unknown" for x in f["futures"].values())
-    faults_known = all(x["status"] != "unknown" for x in f["operation_states"]["ai_degraded"].values())
-    complete = ats_known and r_known and gates_known and futures_known and faults_known and f["second_life"]["status"] == "known"
+    futures_known = all(
+        x["status"] != "unknown" and x["safety"] != "unknown" and x["accessibility"] != "unknown"
+        and x["required_capacity"] is not None and x["delivered_capacity"] is not None
+        and isinstance(x["service_floor_met"], bool)
+        for x in f["futures"].values()
+    )
+    faults_known = all(
+        x["status"] != "unknown" and x["max_duration_hours"] is not None
+        and all(str(x[key]).strip() for key in ("trigger", "service_floor", "control_authority", "safe_state", "recovery"))
+        for x in f["operation_states"]["ai_degraded"].values()
+    )
+    raw_complete = all(f["r_score"]["raw"][key] is not None for key in (
+        "retention_pct", "time_to_rto_ratio", "cost_to_crv_ratio",
+        "ai_dedicated_asset_ratio", "stranded_ai_asset_ratio",
+    ))
+    second_life_known = f["second_life"]["status"] == "known" and all(
+        path["status"] != "unknown" for path in f["second_life"]["paths"]
+    )
+    complete = ats_known and r_known and raw_complete and gates_known and futures_known and faults_known and second_life_known
     if assessed and not complete:
         issue(issues, "ASSESSMENT_STATUS_INCOMPLETE", fid, "assessed records must have known scores, gates, futures, degraded faults and Second Life")
     if not assessed and f["classification"]["declared_quadrant"] != "not_evaluable":
@@ -155,6 +171,11 @@ def validate_facility(f: dict[str, Any], evid_ids: set[str], ass_ids: set[str], 
     if assessed and not paths: issue(issues, "SECOND_LIFE_ASSET_RULE", fid, "assessed records require a Second Life path")
     if scope in {"fixed_or_long_lived", "mixed"} and f["second_life"]["status"] == "known" and not any(p["path_type"] == "alternate_use" for p in paths):
         issue(issues, "SECOND_LIFE_ASSET_RULE", fid, f"{scope} assets require alternate_use")
+    if assessed and r_components["rl"]["status"] == "known" and paths:
+        maturity = {"planned": 3, "tabletop_verified": 4, "prototype_verified": 4, "field_verified": 5, "unknown": 0}
+        expected_rl = max(maturity[path["status"]] for path in paths)
+        if r_components["rl"]["score"] != expected_rl:
+            issue(issues, "RL_MATURITY_MISMATCH", fid, f"rl must match Second Life maturity {expected_rl}", "/r_score/components/rl/score")
 
     actions = {a for user in f["users"]["ai_users"] for a in user["physical_actions"]}
     interventions = {x["kind"] for x in f["physical_change"]["interventions"]}

@@ -59,7 +59,7 @@
 
 ## 当前验证结论
 
-- 2026-08-12 已将最新官方规则 `upstream/main@905b8be6ed6b9eb9e84307ef2dbf565fe96dc6f0` 合入本地架构分支，合并提交为 `b84f1ca11cb27408e36d964f449fb273a2faaa9a`；旧规则 SHA 只保留为历史记录。
+- 2026-08-12 已将官方规则 `upstream/main@905b8be6ed6b9eb9e84307ef2dbf565fe96dc6f0` 合入架构分支并发布；远端合并提交为 `f1cecdd5d9d98c168df668cecef5500e95c4ac72`，AI-native v0.1 提交为 `4f1e397e81fddcf029cec573ce6eb3e865ba8401`。旧规则 SHA 只保留为历史记录。
 - 最新 manifest 契约为 0.2：未来投稿须严格校验哈希；ready 包改动后先 refresh manifest，再重新 self-check。AI-native 矩阵未来使用既有 `evidence_data` role，不修改中央 Schema。
 - AI-native v0.1 Schema、合法模板、合成 High–High 正例与负例突变均已通过独立契约测试，结果为 `SYNTHETIC_METHOD_CONTRACT_PASS`；这不代表真实方案或运行时模型验证。
 - `d28c1400..9051ca77` 的 10 个非投稿路径已完成影响复核：来源登记职责、模型披露、仿真一致性、符号链接拒绝和 provisional 背景核对均已回写；gallery 自动维护与生成快照不影响 Agent 架构。
